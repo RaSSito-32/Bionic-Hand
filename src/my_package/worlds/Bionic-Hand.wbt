@@ -1,0 +1,530 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/RectangleArena.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.12192830954197624 0.10369980181603121 0.9871068019396645 1.744844503767214
+  position 0.15425946428969578 -1.2481583865377583 0.5434904722341105
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+}
+Robot {
+  translation -0.0005400030099930369 0.0033536019838486556 0.10064923751097592
+  rotation 0.3172267102268766 -0.16145744947457 -0.9345045245090041 0.008353557882818493
+  children [
+    DEF THUMP HingeJoint {
+      jointParameters HingeJointParameters {
+        position 6.2185617238808e-05
+        axis 0 1 0
+        anchor 0.07 0 0.12
+      }
+      device [
+        RotationalMotor {
+          name "thump"
+        }
+      ]
+      endPoint Solid {
+        translation 0.06499834285417641 0.023 0.10300031099826724
+        rotation -2.09221438596702e-06 0.9999999999673194 7.809218898198278e-06 0.5236674927968189
+        children [
+          DEF PHALANX_13 HingeJoint {
+            jointParameters HingeJointParameters {
+              position 3.6265355790654485e-05
+              axis 0 1 0
+              anchor 0.004 0.11 0.004
+            }
+            device [
+              RotationalMotor {
+                name "phalanx13"
+              }
+            ]
+            endPoint Solid {
+              translation -0.02239916950599222 -0.0003999999999998588 0.026900957390333883
+              rotation 0.2516476971136266 -0.2595288394923662 -0.9323723601700953 1.6314158949852842
+              children [
+                DEF PHALANX_14 HingeJoint {
+                  jointParameters HingeJointParameters {
+                    position 0.0001335816464635986
+                    axis -1 0 0
+                    anchor 1 -0.01 0.01
+                  }
+                  device [
+                    RotationalMotor {
+                      name "phalanx14"
+                    }
+                  ]
+                  endPoint Solid {
+                    translation -4.123659995691753e-07 -0.03699906468758276 0.017003606641989594
+                    rotation 0.99999999997445 -3.385789780552811e-06 -6.295763074320428e-06 1.6480064183535381
+                    children [
+                      DEF PHALANX_15 HingeJoint {
+                        jointParameters HingeJointParameters {
+                          axis -1 0 0
+                          anchor 1 -0.015 0.01
+                        }
+                        device [
+                          RotationalMotor {
+                            name "phalanx15"
+                          }
+                        ]
+                        endPoint Solid {
+                          translation 2.511690022632962e-08 -0.02827510000000006 0.023575700000000074
+                          rotation 0.9999999999999769 -5.788319999999733e-08 2.070409999999908e-07 1.64815000000002
+                          children [
+                            DEF FORM Shape {
+                              appearance PBRAppearance {
+                                metalness 0
+                              }
+                              geometry Box {
+                                size 0.02 0.02 0.033
+                              }
+                            }
+                          ]
+                          boundingObject USE FORM
+                          physics Physics {
+                          }
+                        }
+                      }
+                      DEF FORM Shape {
+                        appearance PBRAppearance {
+                          metalness 0
+                        }
+                        geometry Box {
+                          size 0.02 0.02 0.055
+                        }
+                      }
+                    ]
+                    boundingObject USE FORM
+                    physics Physics {
+                    }
+                  }
+                }
+                DEF FORM Shape {
+                  appearance PBRAppearance {
+                    metalness 0
+                  }
+                  geometry Box {
+                    size 0.02 0.02 0.059
+                  }
+                }
+              ]
+              name "solid(4)"
+              boundingObject USE FORM
+              physics Physics {
+              }
+            }
+          }
+          DEF FORM Shape {
+            appearance PBRAppearance {
+              metalness 0
+            }
+            geometry Box {
+              size 0.02 0.02 0.04
+            }
+          }
+        ]
+        name "solid(5)"
+        boundingObject USE FORM
+        physics Physics {
+        }
+      }
+    }
+    DEF PHALANX_1 HingeJoint {
+      jointParameters HingeJointParameters {
+        position 0.00012512760528249345
+        axis -1 0 0
+        anchor -0.002 0.14 0.11
+      }
+      device [
+        RotationalMotor {
+          name "phalanx1"
+        }
+      ]
+      endPoint Solid {
+        translation -0.06 0.13216775286864502 0.13200098020255874
+        rotation -1 0 0 0.00012512760504919797
+        children [
+          DEF PHALANX_2 HingeJoint {
+            jointParameters HingeJointParameters {
+              position 0.00013398021258592685
+              axis -1 0 0
+              anchor 1 -0.01 0.01
+            }
+            device [
+              RotationalMotor {
+                name "phalanx2"
+              }
+            ]
+            endPoint Solid {
+              translation 2.3776298929689688e-08 -0.034295763260855906 0.019646116444582522
+              rotation 0.9999999999999984 1.3072160837736368e-08 5.500511159636234e-08 1.5700660197874097
+              children [
+                DEF PHALANX_3 HingeJoint {
+                  jointParameters HingeJointParameters {
+                    position 0.00015184681418056734
+                    axis -1 0 0
+                    anchor 1 -0.01 0.01
+                  }
+                  device [
+                    RotationalMotor {
+                      name "phalanx3"
+                    }
+                  ]
+                  endPoint Solid {
+                    translation 2.322670000776128e-08 -0.028998648344312962 0.01890288498685267
+                    rotation 0.9999999999999983 1.3072694533544287e-08 5.5005172880190936e-08 1.6479981531858232
+                    children [
+                      DEF FORM Shape {
+                        appearance PBRAppearance {
+                          metalness 0
+                        }
+                        geometry Box {
+                          size 0.02 0.02 0.03
+                        }
+                      }
+                    ]
+                    boundingObject USE FORM
+                    physics Physics {
+                    }
+                  }
+                }
+                DEF FORM Shape {
+                  appearance PBRAppearance {
+                    metalness 0
+                  }
+                  geometry Box {
+                    size 0.02 0.02 0.05
+                  }
+                }
+              ]
+              boundingObject USE FORM
+              physics Physics {
+              }
+            }
+          }
+          DEF FORM Shape {
+            appearance PBRAppearance {
+              metalness 0
+            }
+            geometry Box {
+              size 0.02 0.02 0.05
+            }
+          }
+        ]
+        boundingObject USE FORM
+        physics Physics {
+        }
+      }
+    }
+    DEF PHALANX_4 HingeJoint {
+      jointParameters HingeJointParameters {
+        position 0.00012512258898000894
+        axis -1 0 0
+        anchor -0.002 0.14 0.11
+      }
+      device [
+        RotationalMotor {
+          name "phalanx4"
+        }
+      ]
+      endPoint Solid {
+        translation -0.029999999999999548 0.13300337836468848 0.13700087564676908
+        rotation -1 0 0 0.00012512259008364644
+        children [
+          DEF PHALANX_5 HingeJoint {
+            jointParameters HingeJointParameters {
+              position 0.00013397600439191137
+              axis -1 0 0
+              anchor 1 -0.01 0.01
+            }
+            device [
+              RotationalMotor {
+                name "phalanx5"
+              }
+            ]
+            endPoint Solid {
+              translation -4.413270000558356e-07 -0.04025703096138156 0.020169913484980918
+              rotation 0.9999999999803448 -2.60865676020169e-06 -5.701337437502216e-06 1.570066023995602
+              children [
+                DEF PHALANX_6 HingeJoint {
+                  jointParameters HingeJointParameters {
+                    position 0.00015184631576348195
+                    axis -1 0 0
+                    anchor 1 -0.01 0.01
+                  }
+                  device [
+                    RotationalMotor {
+                      name "phalanx6"
+                    }
+                  ]
+                  endPoint Solid {
+                    translation 2.6018200038890882e-08 -0.030195583190604863 0.02156072203979319
+                    rotation 0.9999999999999768 -5.787154720687031e-08 2.0705994398977916e-07 1.647998153684254
+                    children [
+                      DEF FORM Shape {
+                        appearance PBRAppearance {
+                          metalness 0
+                        }
+                        geometry Box {
+                          size 0.02 0.02 0.034
+                        }
+                      }
+                    ]
+                    boundingObject USE FORM
+                    physics Physics {
+                    }
+                  }
+                }
+                DEF FORM Shape {
+                  appearance PBRAppearance {
+                    metalness 0
+                  }
+                  geometry Box {
+                    size 0.02 0.02 0.06
+                  }
+                }
+              ]
+              boundingObject USE FORM
+              physics Physics {
+              }
+            }
+          }
+          DEF FORM Shape {
+            appearance PBRAppearance {
+              metalness 0
+            }
+            geometry Box {
+              size 0.02 0.02 0.06
+            }
+          }
+        ]
+        name "solid(1)"
+        boundingObject USE FORM
+        physics Physics {
+        }
+      }
+    }
+    DEF PHALANX_7 HingeJoint {
+      jointParameters HingeJointParameters {
+        position 0.00012512375625717276
+        axis -1 0 0
+        anchor -0.002 0.14 0.11
+      }
+      device [
+        RotationalMotor {
+          name "phalanx7"
+        }
+      ]
+      endPoint Solid {
+        translation -1.2620113287731272e-16 0.1325166790724037 0.13940393657139463
+        rotation -1 0 0 0.00012512375777581366
+        children [
+          DEF PHALANX_8 HingeJoint {
+            jointParameters HingeJointParameters {
+              position 0.00013397755771205055
+              axis -1 0 0
+              anchor 1 -0.01 0.01
+            }
+            device [
+              RotationalMotor {
+                name "phalanx8"
+              }
+            ]
+            endPoint Solid {
+              translation -5.133449856309369e-07 -0.03899985530134992 0.018618384114829887
+              rotation 0.9999999999732351 -3.112643511444663e-06 -6.621277479721255e-06 1.5700660224408989
+              children [
+                DEF PHALANX_9 HingeJoint {
+                  jointParameters HingeJointParameters {
+                    position 0.0001518469387884469
+                    axis -1 0 0
+                    anchor 1 -0.01 0.01
+                  }
+                  device [
+                    RotationalMotor {
+                      name "phalanx9"
+                    }
+                  ]
+                  endPoint Solid {
+                    translation 9.645511056532996e-10 -0.02814267065415616 0.01758772044390277
+                    rotation 0.9999999999999974 4.548249088692744e-09 7.184860419073861e-08 1.6479981530612176
+                    children [
+                      DEF FORM Shape {
+                        appearance PBRAppearance {
+                          metalness 0
+                        }
+                        geometry Box {
+                          size 0.02 0.02 0.031
+                        }
+                      }
+                    ]
+                    boundingObject USE FORM
+                    physics Physics {
+                    }
+                  }
+                }
+                DEF FORM Shape {
+                  appearance PBRAppearance {
+                    metalness 0
+                  }
+                  geometry Box {
+                    size 0.02 0.02 0.06
+                  }
+                }
+              ]
+              boundingObject USE FORM
+              physics Physics {
+              }
+            }
+          }
+          DEF FORM Shape {
+            appearance PBRAppearance {
+              metalness 0
+            }
+            geometry Box {
+              size 0.02 0.02 0.07
+            }
+          }
+        ]
+        name "solid(2)"
+        boundingObject USE FORM
+        physics Physics {
+        }
+      }
+    }
+    DEF PHALANX_10 HingeJoint {
+      jointParameters HingeJointParameters {
+        position 0.00012512523019458932
+        axis -1 0 0
+        anchor -0.002 0.14 0.11
+      }
+      device [
+        RotationalMotor {
+          name "phalanx10"
+        }
+      ]
+      endPoint Solid {
+        translation 0.029999999999999964 0.13200325331860188 0.13600100079830674
+        rotation -1 0 0 0.00012512523068504173
+        children [
+          DEF PHALANX_11 HingeJoint {
+            jointParameters HingeJointParameters {
+              position 0.00013397878511489658
+              axis -1 0 0
+              anchor 1 -0.01 0.01
+            }
+            device [
+              RotationalMotor {
+                name "phalanx11"
+              }
+            ]
+            endPoint Solid {
+              translation -4.1735499878292615e-07 -0.03539827906081407 0.01982470168702457
+              rotation 0.9999999999745307 -3.3747574798938314e-06 -6.288835506826233e-06 1.5700660212148536
+              children [
+                DEF PHALANX_12 HingeJoint {
+                  jointParameters HingeJointParameters {
+                    position 0.00015184665256140484
+                    axis -1 0 0
+                    anchor 1 -0.01 0.01
+                  }
+                  device [
+                    RotationalMotor {
+                      name "phalanx12"
+                    }
+                  ]
+                  endPoint Solid {
+                    translation 2.5116906665623162e-08 -0.028385091107032544 0.019326758546575132
+                    rotation 0.9999999999999769 -5.787154718102945e-08 2.0705994403182592e-07 1.6479981533474621
+                    children [
+                      DEF FORM Shape {
+                        appearance PBRAppearance {
+                          metalness 0
+                        }
+                        geometry Box {
+                          size 0.02 0.02 0.033
+                        }
+                      }
+                    ]
+                    boundingObject USE FORM
+                    physics Physics {
+                    }
+                  }
+                }
+                DEF FORM Shape {
+                  appearance PBRAppearance {
+                    metalness 0
+                  }
+                  geometry Box {
+                    size 0.02 0.02 0.055
+                  }
+                }
+              ]
+              boundingObject USE FORM
+              physics Physics {
+              }
+            }
+          }
+          DEF FORM Shape {
+            appearance PBRAppearance {
+              metalness 0
+            }
+            geometry Box {
+              size 0.02 0.02 0.059
+            }
+          }
+        ]
+        name "solid(3)"
+        boundingObject USE FORM
+        physics Physics {
+        }
+      }
+    }
+    DEF STAND Solid {
+      translation 0.00011935438018114326 0.0012850773674955912 -0.0018790409268443359
+      rotation -0.995258591492755 0.09726423381578422 -6.985761368042685e-05 0.012541083210237891
+      children [
+        DEF PALM Solid {
+          translation 0 0.05 0.105
+          children [
+            DEF FORM Shape {
+              appearance PBRAppearance {
+                metalness 0
+              }
+              geometry Box {
+                size 0.14 0.18 0.01
+              }
+            }
+          ]
+          boundingObject USE FORM
+          physics Physics {
+          }
+        }
+        DEF FORM Shape {
+          appearance PBRAppearance {
+            metalness 0
+          }
+          geometry Box {
+            size 0.08 0.08 0.2
+          }
+        }
+      ]
+      name "stand"
+      boundingObject USE FORM
+      physics Physics {
+      }
+    }
+  ]
+  boundingObject USE FORM
+  physics Physics {
+  }
+  controller "basic_hand_controller"
+}
