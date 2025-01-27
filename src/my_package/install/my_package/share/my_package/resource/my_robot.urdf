@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<robot name="robo-hand">
+    <webots>
+        <plugin type="my_package.hand_driver.HandDriver" />
+    </webots>
+</robot>

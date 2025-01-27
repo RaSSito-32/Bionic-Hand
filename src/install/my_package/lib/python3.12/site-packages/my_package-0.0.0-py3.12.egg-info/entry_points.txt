@@ -1,0 +1,2 @@
+[console_scripts]
+hand_driver = my_package.hand_driver:main
