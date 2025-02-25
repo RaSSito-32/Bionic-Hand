@@ -1,0 +1,269 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-0788671c733d1c0c6215.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					]
+				},
+				{
+					"build" : "composition_interfaces__py",
+					"jsonFile" : "directory-composition_interfaces__py-57488c5a0a993b9d9cfd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/rassito/microros_ws/build/composition_interfaces/composition_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "composition_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_composition_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_composition_interfaces_egg-34ec3c970b13e1c0af56.json",
+					"name" : "ament_cmake_python_build_composition_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_composition_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_composition_interfaces-fe0e2f6d3b27e2bc4be1.json",
+					"name" : "ament_cmake_python_copy_composition_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "composition_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-composition_interfaces-ab8bca99ef8a777f9d55.json",
+					"name" : "composition_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "composition_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-composition_interfaces__cpp-168444ba7eb9a5e7872f.json",
+					"name" : "composition_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "composition_interfaces__py::@bc766f4604bfa521fef4",
+					"jsonFile" : "target-composition_interfaces__py-c14d30ce5b812ef0fa04.json",
+					"name" : "composition_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "composition_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-composition_interfaces__rosidl_generator_c-b599b0b95855d3c9b438.json",
+					"name" : "composition_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "composition_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-composition_interfaces__rosidl_generator_py-d15c7599890b75447d3e.json",
+					"name" : "composition_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "composition_interfaces__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-composition_interfaces__rosidl_generator_type_description-903cdfcc8c531a27b082.json",
+					"name" : "composition_interfaces__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "composition_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-composition_interfaces__rosidl_typesupport_c-73fb130c65e8e6750358.json",
+					"name" : "composition_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "composition_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-composition_interfaces__rosidl_typesupport_cpp-40c48e37c58a2aa8a866.json",
+					"name" : "composition_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "composition_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-composition_interfaces__rosidl_typesupport_fastrtps_c-4e4e0a648021f4c25788.json",
+					"name" : "composition_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "composition_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-composition_interfaces__rosidl_typesupport_fastrtps_cpp-73eaf75131bd1ca35f6b.json",
+					"name" : "composition_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "composition_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-composition_interfaces__rosidl_typesupport_introspection_c-c8acfcad6e86455727ee.json",
+					"name" : "composition_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "composition_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-composition_interfaces__rosidl_typesupport_introspection_cpp-0394bd007d53f7a99ddf.json",
+					"name" : "composition_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "composition_interfaces__rosidl_typesupport_microxrcedds_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-composition_interfaces__rosidl_typesupport_microxrcedds_c-07c7fdc1b0d3919cb3d4.json",
+					"name" : "composition_interfaces__rosidl_typesupport_microxrcedds_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "composition_interfaces__rosidl_typesupport_microxrcedds_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-composition_interfaces__rosidl_typesupport_microxrcedds_cpp-919b3d35d0040d6a7a73.json",
+					"name" : "composition_interfaces__rosidl_typesupport_microxrcedds_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "composition_interfaces_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-composition_interfaces_s__rosidl_typesupport_c-ba387400ae269be0edcd.json",
+					"name" : "composition_interfaces_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "composition_interfaces_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-composition_interfaces_s__rosidl_typesupport_fastrtps_c-9e21c35c0c887a694c8d.json",
+					"name" : "composition_interfaces_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "composition_interfaces_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-composition_interfaces_s__rosidl_typesupport_introspection_c-969cfd4fd5139171a8e1.json",
+					"name" : "composition_interfaces_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "composition_interfaces_s__rosidl_typesupport_microxrcedds_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-composition_interfaces_s__rosidl_typesupport_microxrcedds_c-abf04dbad4cdd82150d4.json",
+					"name" : "composition_interfaces_s__rosidl_typesupport_microxrcedds_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "composition_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-composition_interfaces_uninstall-afc04af01d2e4681fcde.json",
+					"name" : "composition_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-044f2bb0601a8518eeac.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rassito/microros_ws/build/composition_interfaces",
+		"source" : "/home/rassito/microros_ws/src/ros2/rcl_interfaces/composition_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

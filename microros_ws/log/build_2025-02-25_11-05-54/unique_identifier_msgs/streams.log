@@ -1,0 +1,183 @@
+[0.027s] Invoking command in '/home/rassito/microros_ws/build/unique_identifier_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rassito/microros_ws/src/ros2/unique_identifier_msgs -DCMAKE_INSTALL_PREFIX=/home/rassito/microros_ws/install/unique_identifier_msgs
+[0.045s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.063s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.136s] -- Found rosidl_core_generators: 0.2.0 (/opt/ros/jazzy/share/rosidl_core_generators/cmake)
+[0.141s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.175s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.207s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.430s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.496s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.587s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.588s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[0.797s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[0.815s] -- Configuring done (0.8s)
+[0.857s] -- Generating done (0.0s)
+[0.869s] -- Build files have been written to: /home/rassito/microros_ws/build/unique_identifier_msgs
+[0.887s] Invoked command in '/home/rassito/microros_ws/build/unique_identifier_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rassito/microros_ws/src/ros2/unique_identifier_msgs -DCMAKE_INSTALL_PREFIX=/home/rassito/microros_ws/install/unique_identifier_msgs
+[0.888s] Invoking command in '/home/rassito/microros_ws/build/unique_identifier_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rassito/microros_ws/build/unique_identifier_msgs -- -j16 -l16
+[0.918s] [  2%] Built target unique_identifier_msgs__rosidl_generator_type_description
+[0.928s] [  2%] Built target ament_cmake_python_copy_unique_identifier_msgs
+[0.935s] [  5%] Built target unique_identifier_msgs__cpp
+[0.937s] [ 20%] Built target unique_identifier_msgs__rosidl_generator_c
+[0.950s] [ 23%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[0.952s] [ 26%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[0.969s] [ 35%] Built target unique_identifier_msgs__rosidl_typesupport_introspection_cpp
+[0.972s] [ 44%] Built target unique_identifier_msgs__rosidl_typesupport_introspection_c
+[0.981s] [ 52%] Built target unique_identifier_msgs__rosidl_typesupport_fastrtps_cpp
+[0.985s] [ 61%] Built target unique_identifier_msgs__rosidl_typesupport_fastrtps_c
+[1.208s] running egg_info
+[1.232s] writing unique_identifier_msgs.egg-info/PKG-INFO
+[1.232s] writing dependency_links to unique_identifier_msgs.egg-info/dependency_links.txt
+[1.232s] writing top-level names to unique_identifier_msgs.egg-info/top_level.txt
+[1.269s] [ 64%] [32mBuilding CXX object CMakeFiles/unique_identifier_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/unique_identifier_msgs/msg/uuid__type_support.cpp.o[0m
+[1.271s] [ 67%] [32mBuilding CXX object CMakeFiles/unique_identifier_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unique_identifier_msgs/msg/uuid__type_support.cpp.o[0m
+[1.306s] reading manifest file 'unique_identifier_msgs.egg-info/SOURCES.txt'
+[1.307s] writing manifest file 'unique_identifier_msgs.egg-info/SOURCES.txt'
+[1.350s] [ 67%] Built target ament_cmake_python_build_unique_identifier_msgs_egg
+[1.416s] [ 70%] [32m[1mLinking CXX shared library libunique_identifier_msgs__rosidl_typesupport_c.so[0m
+[1.477s] [ 70%] Built target unique_identifier_msgs__rosidl_typesupport_c
+[1.689s] [ 73%] [32m[1mLinking CXX shared library libunique_identifier_msgs__rosidl_typesupport_cpp.so[0m
+[1.724s] [ 73%] Built target unique_identifier_msgs__rosidl_typesupport_cpp
+[1.737s] [ 73%] Built target unique_identifier_msgs
+[1.752s] [ 76%] Built target unique_identifier_msgs__py
+[1.771s] [ 79%] [32m[1mLinking C shared library libunique_identifier_msgs__rosidl_generator_py.so[0m
+[1.800s] [ 82%] Built target unique_identifier_msgs__rosidl_generator_py
+[1.821s] [ 85%] [32m[1mLinking C shared module rosidl_generator_py/unique_identifier_msgs/unique_identifier_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[1.822s] [ 88%] [32m[1mLinking C shared module rosidl_generator_py/unique_identifier_msgs/unique_identifier_msgs_s__rosidl_typesupport_c.so[0m
+[1.822s] [ 91%] [32m[1mLinking C shared module rosidl_generator_py/unique_identifier_msgs/unique_identifier_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[1.853s] [ 94%] Built target unique_identifier_msgs_s__rosidl_typesupport_c
+[1.853s] [ 97%] Built target unique_identifier_msgs_s__rosidl_typesupport_introspection_c
+[1.855s] [100%] Built target unique_identifier_msgs_s__rosidl_typesupport_fastrtps_c
+[1.867s] Invoked command in '/home/rassito/microros_ws/build/unique_identifier_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rassito/microros_ws/build/unique_identifier_msgs -- -j16 -l16
+[1.868s] Invoking command in '/home/rassito/microros_ws/build/unique_identifier_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rassito/microros_ws/build/unique_identifier_msgs
+[1.876s] -- Install configuration: ""
+[1.877s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/share/ament_index/resource_index/rosidl_interfaces/unique_identifier_msgs
+[1.877s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/msg/UUID.json
+[1.877s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs
+[1.877s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg
+[1.878s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/uuid.h
+[1.878s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail
+[1.878s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h
+[1.878s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__description.c
+[1.878s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__functions.h
+[1.878s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__functions.c
+[1.878s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__type_support.h
+[1.878s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__type_support.c
+[1.878s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.879s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/environment/library_path.sh
+[1.879s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/environment/library_path.dsv
+[1.879s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/lib/libunique_identifier_msgs__rosidl_generator_c.so
+[1.879s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs
+[1.879s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg
+[1.879s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.879s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail
+[1.879s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__rosidl_typesupport_fastrtps_c.h
+[1.879s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_c.so
+[1.880s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs
+[1.880s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg
+[1.880s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.880s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail
+[1.880s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__rosidl_typesupport_introspection_c.h
+[1.880s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__type_support.c
+[1.880s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_c.so
+[1.880s] -- Installing: /home/rassito/microros_ws/install/unique_identifier_msgs/lib/libunique_identifier_msgs__rosidl_typesupport_c.so
+[1.881s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/unique_identifier_msgs/lib/libunique_identifier_msgs__rosidl_typesupport_c.so" to ""
+[1.881s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs
+[1.881s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg
+[1.881s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.881s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/uuid.hpp
+[1.881s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail
+[1.881s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__builder.hpp
+[1.881s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__traits.hpp
+[1.881s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.hpp
+[1.881s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__type_support.hpp
+[1.882s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs
+[1.882s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg
+[1.882s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.882s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail
+[1.882s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__rosidl_typesupport_fastrtps_cpp.hpp
+[1.882s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/dds_fastrtps
+[1.882s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.882s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs
+[1.882s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg
+[1.882s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail
+[1.882s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__rosidl_typesupport_introspection_cpp.hpp
+[1.882s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__type_support.cpp
+[1.883s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_cpp.so
+[1.883s] -- Installing: /home/rassito/microros_ws/install/unique_identifier_msgs/lib/libunique_identifier_msgs__rosidl_typesupport_cpp.so
+[1.883s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/unique_identifier_msgs/lib/libunique_identifier_msgs__rosidl_typesupport_cpp.so" to ""
+[1.883s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/environment/pythonpath.sh
+[1.883s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/environment/pythonpath.dsv
+[1.883s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages/unique_identifier_msgs-2.5.0-py3.12.egg-info
+[1.883s] -- Installing: /home/rassito/microros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages/unique_identifier_msgs-2.5.0-py3.12.egg-info/top_level.txt
+[1.884s] -- Installing: /home/rassito/microros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages/unique_identifier_msgs-2.5.0-py3.12.egg-info/PKG-INFO
+[1.884s] -- Installing: /home/rassito/microros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages/unique_identifier_msgs-2.5.0-py3.12.egg-info/dependency_links.txt
+[1.884s] -- Installing: /home/rassito/microros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages/unique_identifier_msgs-2.5.0-py3.12.egg-info/SOURCES.txt
+[1.884s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages/unique_identifier_msgs
+[1.884s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages/unique_identifier_msgs/_unique_identifier_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.884s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages/unique_identifier_msgs/_unique_identifier_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c
+[1.884s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages/unique_identifier_msgs/unique_identifier_msgs_s__rosidl_typesupport_microxrcedds_c.so
+[1.884s] -- Installing: /home/rassito/microros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages/unique_identifier_msgs/unique_identifier_msgs_s__rosidl_typesupport_introspection_c.so
+[1.884s] -- Installing: /home/rassito/microros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages/unique_identifier_msgs/unique_identifier_msgs_s__rosidl_typesupport_fastrtps_c.so
+[1.884s] -- Installing: /home/rassito/microros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages/unique_identifier_msgs/unique_identifier_msgs_s__rosidl_typesupport_c.so
+[1.884s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages/unique_identifier_msgs/_unique_identifier_msgs_s.ep.rosidl_typesupport_c.c
+[1.884s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages/unique_identifier_msgs/msg
+[1.885s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages/unique_identifier_msgs/msg/_uuid.py
+[1.885s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages/unique_identifier_msgs/msg/_uuid_s.c
+[1.885s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages/unique_identifier_msgs/msg/__init__.py
+[1.885s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages/unique_identifier_msgs/_unique_identifier_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.885s] -- Installing: /home/rassito/microros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages/unique_identifier_msgs/__init__.py
+[1.921s] Listing '/home/rassito/microros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages/unique_identifier_msgs'...
+[1.921s] Compiling '/home/rassito/microros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages/unique_identifier_msgs/__init__.py'...
+[1.921s] Listing '/home/rassito/microros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages/unique_identifier_msgs/msg'...
+[1.928s] -- Installing: /home/rassito/microros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages/unique_identifier_msgs/unique_identifier_msgs_s__rosidl_typesupport_fastrtps_c.so
+[1.928s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages/unique_identifier_msgs/unique_identifier_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[1.928s] -- Installing: /home/rassito/microros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages/unique_identifier_msgs/unique_identifier_msgs_s__rosidl_typesupport_introspection_c.so
+[1.928s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages/unique_identifier_msgs/unique_identifier_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[1.929s] -- Installing: /home/rassito/microros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages/unique_identifier_msgs/unique_identifier_msgs_s__rosidl_typesupport_c.so
+[1.929s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages/unique_identifier_msgs/unique_identifier_msgs_s__rosidl_typesupport_c.so" to ""
+[1.929s] -- Installing: /home/rassito/microros_ws/install/unique_identifier_msgs/lib/libunique_identifier_msgs__rosidl_generator_py.so
+[1.930s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/unique_identifier_msgs/lib/libunique_identifier_msgs__rosidl_generator_py.so" to ""
+[1.930s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/msg/UUID.idl
+[1.930s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/msg/UUID.msg
+[1.930s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/share/ament_index/resource_index/package_run_dependencies/unique_identifier_msgs
+[1.930s] -- Installing: /home/rassito/microros_ws/install/unique_identifier_msgs/share/ament_index/resource_index/parent_prefix_path/unique_identifier_msgs
+[1.930s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/environment/ament_prefix_path.sh
+[1.930s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/environment/ament_prefix_path.dsv
+[1.930s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/environment/path.sh
+[1.931s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/environment/path.dsv
+[1.931s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/local_setup.bash
+[1.931s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/local_setup.sh
+[1.931s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/local_setup.zsh
+[1.931s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/local_setup.dsv
+[1.931s] -- Installing: /home/rassito/microros_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/package.dsv
+[1.931s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/share/ament_index/resource_index/packages/unique_identifier_msgs
+[1.931s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/export_unique_identifier_msgs__rosidl_generator_cExport.cmake
+[1.931s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/export_unique_identifier_msgs__rosidl_generator_cExport-noconfig.cmake
+[1.931s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/export_unique_identifier_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[1.932s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/export_unique_identifier_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.932s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/unique_identifier_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.932s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/unique_identifier_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.932s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/unique_identifier_msgs__rosidl_typesupport_cExport.cmake
+[1.932s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/unique_identifier_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[1.934s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/export_unique_identifier_msgs__rosidl_generator_cppExport.cmake
+[1.934s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/export_unique_identifier_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.934s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/export_unique_identifier_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.934s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/unique_identifier_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.934s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/unique_identifier_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.934s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/unique_identifier_msgs__rosidl_typesupport_cppExport.cmake
+[1.934s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/unique_identifier_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.935s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/export_unique_identifier_msgs__rosidl_generator_pyExport.cmake
+[1.935s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/export_unique_identifier_msgs__rosidl_generator_pyExport-noconfig.cmake
+[1.935s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/rosidl_cmake-extras.cmake
+[1.935s] -- Installing: /home/rassito/microros_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.935s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.935s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.935s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.935s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.935s] -- Installing: /home/rassito/microros_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.935s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/unique_identifier_msgsConfig.cmake
+[1.936s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/unique_identifier_msgsConfig-version.cmake
+[1.936s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/package.xml
+[1.936s] -- Up-to-date: /home/rassito/microros_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/mapping_rules.yaml
+[1.938s] Invoked command in '/home/rassito/microros_ws/build/unique_identifier_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rassito/microros_ws/build/unique_identifier_msgs

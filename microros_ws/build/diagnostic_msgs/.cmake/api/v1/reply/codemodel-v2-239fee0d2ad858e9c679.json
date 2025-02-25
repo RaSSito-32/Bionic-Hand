@@ -1,0 +1,269 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-78bbbd7375a2f3b211c2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					]
+				},
+				{
+					"build" : "diagnostic_msgs__py",
+					"jsonFile" : "directory-diagnostic_msgs__py-dcc7d73e1ab7c10d7262.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/rassito/microros_ws/build/diagnostic_msgs/diagnostic_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "diagnostic_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_diagnostic_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_diagnostic_msgs_egg-d8d19a0854616eb586d9.json",
+					"name" : "ament_cmake_python_build_diagnostic_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_diagnostic_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_diagnostic_msgs-64c3498c15f8be4eeaab.json",
+					"name" : "ament_cmake_python_copy_diagnostic_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "diagnostic_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-diagnostic_msgs-dc199389eeac15cadeeb.json",
+					"name" : "diagnostic_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "diagnostic_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-diagnostic_msgs__cpp-70b62247c85739f72924.json",
+					"name" : "diagnostic_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "diagnostic_msgs__py::@cd38cfcfa4a80c2a0d6a",
+					"jsonFile" : "target-diagnostic_msgs__py-4280f717c2dbeb9e412c.json",
+					"name" : "diagnostic_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "diagnostic_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-diagnostic_msgs__rosidl_generator_c-d802ee74379b8a3de26d.json",
+					"name" : "diagnostic_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "diagnostic_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-diagnostic_msgs__rosidl_generator_py-a13a61571805645d26b2.json",
+					"name" : "diagnostic_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "diagnostic_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-diagnostic_msgs__rosidl_generator_type_description-93102acdcb3e3b611ab2.json",
+					"name" : "diagnostic_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "diagnostic_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-diagnostic_msgs__rosidl_typesupport_c-10cef28694a27cec9613.json",
+					"name" : "diagnostic_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "diagnostic_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-diagnostic_msgs__rosidl_typesupport_cpp-a3d1983e6ed3a616f6fe.json",
+					"name" : "diagnostic_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "diagnostic_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-diagnostic_msgs__rosidl_typesupport_fastrtps_c-e1eadb67fdc532564500.json",
+					"name" : "diagnostic_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "diagnostic_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-diagnostic_msgs__rosidl_typesupport_fastrtps_cpp-0d53c4d83a4e05db83eb.json",
+					"name" : "diagnostic_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "diagnostic_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-diagnostic_msgs__rosidl_typesupport_introspection_c-af62f76fb62a8b99d976.json",
+					"name" : "diagnostic_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "diagnostic_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-diagnostic_msgs__rosidl_typesupport_introspection_cpp-ed35720e38925e703286.json",
+					"name" : "diagnostic_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "diagnostic_msgs__rosidl_typesupport_microxrcedds_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-diagnostic_msgs__rosidl_typesupport_microxrcedds_c-351f0be8cdc387d7b75c.json",
+					"name" : "diagnostic_msgs__rosidl_typesupport_microxrcedds_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "diagnostic_msgs__rosidl_typesupport_microxrcedds_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-diagnostic_msgs__rosidl_typesupport_microxrcedds_cpp-3cfd5755298fd294315f.json",
+					"name" : "diagnostic_msgs__rosidl_typesupport_microxrcedds_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "diagnostic_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-diagnostic_msgs_s__rosidl_typesupport_c-a80fa7531a24ebb0ddfe.json",
+					"name" : "diagnostic_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "diagnostic_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-diagnostic_msgs_s__rosidl_typesupport_fastrtps_c-7f3b83b52709e4e07eca.json",
+					"name" : "diagnostic_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "diagnostic_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-diagnostic_msgs_s__rosidl_typesupport_introspection_c-caf0b4bf2b60d1720c68.json",
+					"name" : "diagnostic_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "diagnostic_msgs_s__rosidl_typesupport_microxrcedds_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-diagnostic_msgs_s__rosidl_typesupport_microxrcedds_c-db0359ca9ace7245a3f4.json",
+					"name" : "diagnostic_msgs_s__rosidl_typesupport_microxrcedds_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "diagnostic_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-diagnostic_msgs_uninstall-37e822d1eb5641ab2461.json",
+					"name" : "diagnostic_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-13b74231b66e7ca029da.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rassito/microros_ws/build/diagnostic_msgs",
+		"source" : "/home/rassito/microros_ws/src/ros2/common_interfaces/diagnostic_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,958 @@
+[0.016s] Invoking command in '/home/rassito/microros_ws/build/geometry_msgs': AMENT_PREFIX_PATH=/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/std_msgs/lib:/home/rassito/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rassito/microros_ws/src/ros2/common_interfaces/geometry_msgs -DCMAKE_INSTALL_PREFIX=/home/rassito/microros_ws/install/geometry_msgs
+[0.034s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.063s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.169s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.172s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.219s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.258s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.260s] -- Found std_msgs: 5.3.5 (/home/rassito/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[0.630s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.746s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.915s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.916s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[1.122s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[1.160s] -- Configuring done (1.1s)
+[1.342s] -- Generating done (0.2s)
+[1.368s] -- Build files have been written to: /home/rassito/microros_ws/build/geometry_msgs
+[1.379s] Invoked command in '/home/rassito/microros_ws/build/geometry_msgs' returned '0': AMENT_PREFIX_PATH=/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/std_msgs/lib:/home/rassito/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rassito/microros_ws/src/ros2/common_interfaces/geometry_msgs -DCMAKE_INSTALL_PREFIX=/home/rassito/microros_ws/install/geometry_msgs
+[1.380s] Invoking command in '/home/rassito/microros_ws/build/geometry_msgs': AMENT_PREFIX_PATH=/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/std_msgs/lib:/home/rassito/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rassito/microros_ws/build/geometry_msgs -- -j16 -l16
+[1.438s] [  0%] Built target geometry_msgs__rosidl_generator_type_description
+[1.465s] [  0%] Built target geometry_msgs__cpp
+[1.471s] [  0%] Built target ament_cmake_python_copy_geometry_msgs
+[1.498s] [ 29%] Built target geometry_msgs__rosidl_generator_c
+[1.510s] [ 30%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.515s] [ 31%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.547s] [ 41%] Built target geometry_msgs__rosidl_typesupport_introspection_c
+[1.566s] [ 51%] Built target geometry_msgs__rosidl_typesupport_fastrtps_c
+[1.572s] [ 61%] Built target geometry_msgs__rosidl_typesupport_introspection_cpp
+[1.574s] [ 71%] Built target geometry_msgs__rosidl_typesupport_fastrtps_cpp
+[1.780s] running egg_info
+[1.811s] writing geometry_msgs.egg-info/PKG-INFO
+[1.811s] writing dependency_links to geometry_msgs.egg-info/dependency_links.txt
+[1.811s] writing top-level names to geometry_msgs.egg-info/top_level.txt
+[1.903s] reading manifest file 'geometry_msgs.egg-info/SOURCES.txt'
+[1.904s] writing manifest file 'geometry_msgs.egg-info/SOURCES.txt'
+[1.935s] [ 71%] Built target ament_cmake_python_build_geometry_msgs_egg
+[2.668s] [ 71%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/accel__type_support.cpp.o[0m
+[2.668s] [ 71%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/accel_stamped__type_support.cpp.o[0m
+[2.669s] [ 71%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/inertia__type_support.cpp.o[0m
+[2.669s] [ 72%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/accel_with_covariance__type_support.cpp.o[0m
+[2.669s] [ 72%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/accel_with_covariance_stamped__type_support.cpp.o[0m
+[2.669s] [ 73%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/point__type_support.cpp.o[0m
+[2.669s] [ 73%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/inertia_stamped__type_support.cpp.o[0m
+[2.670s] [ 73%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/point32__type_support.cpp.o[0m
+[2.670s] [ 73%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/point_stamped__type_support.cpp.o[0m
+[2.670s] [ 74%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/polygon__type_support.cpp.o[0m
+[2.670s] [ 74%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/polygon_instance__type_support.cpp.o[0m
+[2.670s] [ 74%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/polygon_instance_stamped__type_support.cpp.o[0m
+[2.671s] [ 74%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/polygon_stamped__type_support.cpp.o[0m
+[2.672s] [ 75%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/pose__type_support.cpp.o[0m
+[2.673s] [ 75%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/pose2_d__type_support.cpp.o[0m
+[2.697s] [ 75%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/accel__type_support.cpp.o[0m
+[2.748s] [ 75%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/accel_stamped__type_support.cpp.o[0m
+[2.799s] [ 76%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/accel_with_covariance__type_support.cpp.o[0m
+[2.852s] [ 76%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/accel_with_covariance_stamped__type_support.cpp.o[0m
+[2.907s] [ 76%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/inertia__type_support.cpp.o[0m
+[2.962s] [ 76%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/inertia_stamped__type_support.cpp.o[0m
+[3.015s] [ 77%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/point__type_support.cpp.o[0m
+[3.027s] [ 77%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/pose_array__type_support.cpp.o[0m
+[3.032s] [ 78%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/pose_stamped__type_support.cpp.o[0m
+[3.033s] [ 78%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/point32__type_support.cpp.o[0m
+[3.033s] [ 78%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/point_stamped__type_support.cpp.o[0m
+[3.033s] [ 78%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/pose_with_covariance__type_support.cpp.o[0m
+[3.039s] [ 79%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/pose_with_covariance_stamped__type_support.cpp.o[0m
+[3.039s] [ 79%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/quaternion__type_support.cpp.o[0m
+[3.039s] [ 79%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/polygon__type_support.cpp.o[0m
+[3.040s] [ 79%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/polygon_instance__type_support.cpp.o[0m
+[3.040s] [ 80%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/quaternion_stamped__type_support.cpp.o[0m
+[3.041s] [ 80%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/transform__type_support.cpp.o[0m
+[3.046s] [ 80%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/transform_stamped__type_support.cpp.o[0m
+[3.046s] [ 80%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/polygon_instance_stamped__type_support.cpp.o[0m
+[3.052s] [ 81%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/polygon_stamped__type_support.cpp.o[0m
+[3.060s] [ 82%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/twist__type_support.cpp.o[0m
+[3.066s] [ 82%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/twist_stamped__type_support.cpp.o[0m
+[3.084s] [ 82%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/pose__type_support.cpp.o[0m
+[3.084s] [ 82%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/twist_with_covariance__type_support.cpp.o[0m
+[3.086s] [ 82%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/pose2_d__type_support.cpp.o[0m
+[3.089s] [ 82%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/twist_with_covariance_stamped__type_support.cpp.o[0m
+[3.097s] [ 83%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/vector3__type_support.cpp.o[0m
+[3.103s] [ 83%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/pose_array__type_support.cpp.o[0m
+[3.134s] [ 83%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/vector3_stamped__type_support.cpp.o[0m
+[3.139s] [ 84%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/pose_stamped__type_support.cpp.o[0m
+[3.154s] [ 84%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/pose_with_covariance__type_support.cpp.o[0m
+[3.194s] [ 84%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/pose_with_covariance_stamped__type_support.cpp.o[0m
+[3.210s] [ 85%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/quaternion__type_support.cpp.o[0m
+[3.249s] [ 85%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/quaternion_stamped__type_support.cpp.o[0m
+[3.264s] [ 85%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/transform__type_support.cpp.o[0m
+[3.302s] [ 85%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/transform_stamped__type_support.cpp.o[0m
+[3.318s] [ 86%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/twist__type_support.cpp.o[0m
+[3.358s] [ 86%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/twist_stamped__type_support.cpp.o[0m
+[3.375s] [ 86%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/twist_with_covariance__type_support.cpp.o[0m
+[3.403s] [ 87%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/twist_with_covariance_stamped__type_support.cpp.o[0m
+[3.403s] [ 87%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/velocity_stamped__type_support.cpp.o[0m
+[3.404s] [ 87%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/vector3__type_support.cpp.o[0m
+[3.413s] [ 87%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/vector3_stamped__type_support.cpp.o[0m
+[3.413s] [ 87%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/velocity_stamped__type_support.cpp.o[0m
+[3.413s] [ 88%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/wrench__type_support.cpp.o[0m
+[3.413s] [ 89%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/wrench__type_support.cpp.o[0m
+[3.415s] [ 89%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/wrench_stamped__type_support.cpp.o[0m
+[3.420s] [ 89%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/wrench_stamped__type_support.cpp.o[0m
+[3.460s] [ 89%] [32m[1mLinking CXX shared library libgeometry_msgs__rosidl_typesupport_c.so[0m
+[3.491s] [ 89%] Built target geometry_msgs__rosidl_typesupport_c
+[3.620s] [ 89%] [32m[1mLinking CXX shared library libgeometry_msgs__rosidl_typesupport_cpp.so[0m
+[3.648s] [ 89%] Built target geometry_msgs__rosidl_typesupport_cpp
+[3.671s] [ 89%] Built target geometry_msgs
+[3.708s] [ 89%] Built target geometry_msgs__py
+[3.759s] [ 89%] [32m[1mLinking C shared library libgeometry_msgs__rosidl_generator_py.so[0m
+[3.805s] [ 98%] Built target geometry_msgs__rosidl_generator_py
+[3.826s] [ 99%] [32m[1mLinking C shared module rosidl_generator_py/geometry_msgs/geometry_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[3.827s] [ 99%] [32m[1mLinking C shared module rosidl_generator_py/geometry_msgs/geometry_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[3.827s] [ 99%] [32m[1mLinking C shared module rosidl_generator_py/geometry_msgs/geometry_msgs_s__rosidl_typesupport_c.so[0m
+[3.854s] [ 99%] Built target geometry_msgs_s__rosidl_typesupport_c
+[3.855s] [100%] Built target geometry_msgs_s__rosidl_typesupport_fastrtps_c
+[3.855s] [100%] Built target geometry_msgs_s__rosidl_typesupport_introspection_c
+[3.863s] Invoked command in '/home/rassito/microros_ws/build/geometry_msgs' returned '0': AMENT_PREFIX_PATH=/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/std_msgs/lib:/home/rassito/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rassito/microros_ws/build/geometry_msgs -- -j16 -l16
+[3.864s] Invoking command in '/home/rassito/microros_ws/build/geometry_msgs': AMENT_PREFIX_PATH=/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/std_msgs/lib:/home/rassito/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rassito/microros_ws/build/geometry_msgs
+[3.869s] -- Install configuration: ""
+[3.869s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/ament_index/resource_index/rosidl_interfaces/geometry_msgs
+[3.870s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Accel.json
+[3.870s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/AccelStamped.json
+[3.870s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/AccelWithCovariance.json
+[3.870s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/AccelWithCovarianceStamped.json
+[3.870s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Inertia.json
+[3.870s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/InertiaStamped.json
+[3.870s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Point.json
+[3.870s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Point32.json
+[3.870s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/PointStamped.json
+[3.870s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Polygon.json
+[3.871s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/PolygonInstance.json
+[3.871s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/PolygonInstanceStamped.json
+[3.871s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/PolygonStamped.json
+[3.871s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Pose.json
+[3.871s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Pose2D.json
+[3.871s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/PoseArray.json
+[3.871s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/PoseStamped.json
+[3.871s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/PoseWithCovariance.json
+[3.871s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/PoseWithCovarianceStamped.json
+[3.871s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Quaternion.json
+[3.871s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/QuaternionStamped.json
+[3.871s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Transform.json
+[3.871s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/TransformStamped.json
+[3.871s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Twist.json
+[3.872s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/TwistStamped.json
+[3.872s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/TwistWithCovariance.json
+[3.872s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/TwistWithCovarianceStamped.json
+[3.872s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Vector3.json
+[3.872s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Vector3Stamped.json
+[3.872s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/VelocityStamped.json
+[3.872s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Wrench.json
+[3.872s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/WrenchStamped.json
+[3.872s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs
+[3.872s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg
+[3.872s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/quaternion_stamped.h
+[3.872s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/twist_with_covariance.h
+[3.872s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/transform_stamped.h
+[3.873s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/inertia.h
+[3.873s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/accel.h
+[3.873s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/polygon_stamped.h
+[3.873s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/point.h
+[3.873s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/vector3.h
+[3.873s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/vector3_stamped.h
+[3.873s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/pose2_d.h
+[3.873s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/pose_with_covariance_stamped.h
+[3.873s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/accel_with_covariance.h
+[3.873s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/pose_with_covariance.h
+[3.873s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.h
+[3.873s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/twist_with_covariance_stamped.h
+[3.873s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/quaternion.h
+[3.874s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/pose_stamped.h
+[3.874s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/wrench_stamped.h
+[3.874s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/wrench.h
+[3.874s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/polygon_instance.h
+[3.874s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/point_stamped.h
+[3.874s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/pose_array.h
+[3.874s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/transform.h
+[3.874s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/inertia_stamped.h
+[3.874s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/pose.h
+[3.874s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/accel_stamped.h
+[3.874s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/polygon.h
+[3.874s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail
+[3.874s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__functions.c
+[3.874s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__description.c
+[3.874s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__functions.h
+[3.874s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon__functions.c
+[3.874s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia_stamped__functions.h
+[3.874s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose__type_support.h
+[3.874s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__description.c
+[3.874s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance_stamped__functions.h
+[3.874s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance_stamped__type_support.c
+[3.874s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__struct.h
+[3.874s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance_stamped__description.c
+[3.875s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_stamped__type_support.h
+[3.875s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point32__functions.h
+[3.875s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.h
+[3.875s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__functions.c
+[3.875s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__functions.c
+[3.875s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance__functions.c
+[3.875s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_instance__type_support.c
+[3.875s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__functions.c
+[3.875s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_instance_stamped__functions.c
+[3.875s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__type_support.h
+[3.875s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia_stamped__struct.h
+[3.875s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_instance__struct.h
+[3.875s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia_stamped__type_support.c
+[3.875s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__functions.c
+[3.875s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__description.c
+[3.875s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist__functions.h
+[3.875s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point32__description.c
+[3.875s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel__functions.h
+[3.875s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__type_support.h
+[3.875s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__type_support.c
+[3.875s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia__type_support.c
+[3.875s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_instance__functions.c
+[3.876s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__description.c
+[3.876s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia__functions.h
+[3.876s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__type_support.c
+[3.876s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose__type_support.c
+[3.876s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__description.c
+[3.876s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel__type_support.h
+[3.876s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose__functions.c
+[3.876s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform__type_support.h
+[3.876s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__description.c
+[3.876s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__functions.h
+[3.876s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_stamped__functions.h
+[3.876s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_instance__functions.h
+[3.876s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__struct.h
+[3.876s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__functions.c
+[3.876s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_stamped__description.c
+[3.876s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point__type_support.c
+[3.876s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__type_support.h
+[3.876s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__functions.h
+[3.876s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__struct.h
+[3.876s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__struct.h
+[3.876s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__type_support.c
+[3.876s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__type_support.c
+[3.876s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_instance_stamped__functions.h
+[3.877s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__functions.h
+[3.877s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__functions.h
+[3.877s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform__description.c
+[3.877s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.h
+[3.877s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance_stamped__description.c
+[3.877s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.h
+[3.877s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon__struct.h
+[3.877s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia_stamped__description.c
+[3.877s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__functions.c
+[3.877s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance__type_support.c
+[3.877s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__description.c
+[3.877s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon__description.c
+[3.877s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance__functions.h
+[3.877s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.h
+[3.877s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_instance__type_support.h
+[3.877s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point32__functions.c
+[3.877s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__type_support.c
+[3.877s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance_stamped__struct.h
+[3.877s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench__struct.h
+[3.877s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point32__type_support.c
+[3.877s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel__struct.h
+[3.877s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_instance_stamped__description.c
+[3.878s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h
+[3.878s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__type_support.c
+[3.878s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia__functions.c
+[3.878s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform__functions.c
+[3.878s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia__type_support.h
+[3.878s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance_stamped__type_support.c
+[3.878s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance_stamped__type_support.h
+[3.878s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance__description.c
+[3.878s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_instance_stamped__type_support.h
+[3.878s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__type_support.h
+[3.878s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__struct.h
+[3.878s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__struct.h
+[3.878s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__description.c
+[3.878s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__type_support.h
+[3.878s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point__type_support.h
+[3.878s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench__description.c
+[3.878s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench__functions.c
+[3.878s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform__type_support.c
+[3.878s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3__type_support.c
+[3.878s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench__functions.h
+[3.878s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel__functions.c
+[3.878s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__functions.h
+[3.878s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__functions.c
+[3.879s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance_stamped__functions.h
+[3.879s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__functions.h
+[3.879s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__type_support.h
+[3.879s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__struct.h
+[3.879s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon__functions.h
+[3.879s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__type_support.h
+[3.879s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__type_support.c
+[3.879s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__struct.h
+[3.879s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance__type_support.h
+[3.879s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__struct.h
+[3.879s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__functions.c
+[3.879s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon__type_support.c
+[3.879s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__type_support.c
+[3.879s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon__type_support.h
+[3.879s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance_stamped__type_support.h
+[3.879s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia__struct.h
+[3.879s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_instance_stamped__struct.h
+[3.879s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__struct.h
+[3.879s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_instance_stamped__type_support.c
+[3.879s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__functions.h
+[3.879s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel__description.c
+[3.880s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__type_support.h
+[3.880s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__type_support.h
+[3.880s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__functions.h
+[3.880s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__description.c
+[3.880s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__type_support.h
+[3.880s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__description.c
+[3.880s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_stamped__type_support.c
+[3.880s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point__functions.c
+[3.880s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__functions.c
+[3.880s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia_stamped__type_support.h
+[3.880s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__struct.h
+[3.880s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance_stamped__functions.c
+[3.880s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__type_support.h
+[3.880s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__description.c
+[3.880s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__type_support.c
+[3.880s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__functions.h
+[3.880s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__type_support.h
+[3.880s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_stamped__functions.c
+[3.880s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia_stamped__functions.c
+[3.880s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__functions.h
+[3.880s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point32__type_support.h
+[3.880s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3__type_support.h
+[3.880s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.h
+[3.881s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point__description.c
+[3.881s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist__type_support.c
+[3.881s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_instance__description.c
+[3.881s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__type_support.c
+[3.881s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3__functions.h
+[3.881s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__type_support.c
+[3.881s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__type_support.c
+[3.881s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel__type_support.c
+[3.881s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__functions.h
+[3.881s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist__functions.c
+[3.881s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose__description.c
+[3.881s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__description.c
+[3.881s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench__type_support.h
+[3.881s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance_stamped__struct.h
+[3.881s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point32__struct.h
+[3.881s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3__functions.c
+[3.881s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench__type_support.c
+[3.881s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__functions.h
+[3.881s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose__functions.h
+[3.881s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__functions.c
+[3.881s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance__struct.h
+[3.881s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__description.c
+[3.881s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__type_support.c
+[3.882s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__functions.h
+[3.882s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__functions.c
+[3.882s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__functions.h
+[3.882s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform__functions.h
+[3.882s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__type_support.h
+[3.882s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.h
+[3.882s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__type_support.h
+[3.882s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__functions.c
+[3.882s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.h
+[3.882s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3__description.c
+[3.882s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist__description.c
+[3.882s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__description.c
+[3.882s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__functions.c
+[3.882s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__type_support.c
+[3.882s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance_stamped__functions.c
+[3.882s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist__type_support.h
+[3.882s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__type_support.c
+[3.882s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__type_support.h
+[3.882s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__description.c
+[3.882s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia__description.c
+[3.882s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point__functions.h
+[3.882s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__functions.c
+[3.882s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__struct.h
+[3.883s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_stamped__struct.h
+[3.883s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_c__visibility_control.h
+[3.883s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/point32.h
+[3.883s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/polygon_instance_stamped.h
+[3.883s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/twist.h
+[3.883s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/accel_with_covariance_stamped.h
+[3.883s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/twist_stamped.h
+[3.883s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/environment/library_path.sh
+[3.883s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/environment/library_path.dsv
+[3.883s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/libgeometry_msgs__rosidl_generator_c.so
+[3.883s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs
+[3.883s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg
+[3.883s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.883s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail
+[3.883s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform__rosidl_typesupport_fastrtps_c.h
+[3.883s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon__rosidl_typesupport_fastrtps_c.h
+[3.883s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__rosidl_typesupport_fastrtps_c.h
+[3.883s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__rosidl_typesupport_fastrtps_c.h
+[3.883s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__rosidl_typesupport_fastrtps_c.h
+[3.883s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_stamped__rosidl_typesupport_fastrtps_c.h
+[3.883s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point32__rosidl_typesupport_fastrtps_c.h
+[3.883s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance__rosidl_typesupport_fastrtps_c.h
+[3.883s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_instance__rosidl_typesupport_fastrtps_c.h
+[3.884s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3__rosidl_typesupport_fastrtps_c.h
+[3.884s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia_stamped__rosidl_typesupport_fastrtps_c.h
+[3.884s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__rosidl_typesupport_fastrtps_c.h
+[3.884s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__rosidl_typesupport_fastrtps_c.h
+[3.884s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__rosidl_typesupport_fastrtps_c.h
+[3.884s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_instance_stamped__rosidl_typesupport_fastrtps_c.h
+[3.884s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__rosidl_typesupport_fastrtps_c.h
+[3.884s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point__rosidl_typesupport_fastrtps_c.h
+[3.884s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__rosidl_typesupport_fastrtps_c.h
+[3.884s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance_stamped__rosidl_typesupport_fastrtps_c.h
+[3.884s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia__rosidl_typesupport_fastrtps_c.h
+[3.884s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__rosidl_typesupport_fastrtps_c.h
+[3.884s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose__rosidl_typesupport_fastrtps_c.h
+[3.884s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench__rosidl_typesupport_fastrtps_c.h
+[3.884s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance_stamped__rosidl_typesupport_fastrtps_c.h
+[3.884s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__rosidl_typesupport_fastrtps_c.h
+[3.884s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__rosidl_typesupport_fastrtps_c.h
+[3.884s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel__rosidl_typesupport_fastrtps_c.h
+[3.884s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__rosidl_typesupport_fastrtps_c.h
+[3.884s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__rosidl_typesupport_fastrtps_c.h
+[3.884s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__rosidl_typesupport_fastrtps_c.h
+[3.884s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist__rosidl_typesupport_fastrtps_c.h
+[3.884s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__rosidl_typesupport_fastrtps_c.h
+[3.884s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
+[3.885s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs
+[3.885s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg
+[3.885s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.885s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail
+[3.885s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance_stamped__type_support.c
+[3.885s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_instance__type_support.c
+[3.885s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point32__rosidl_typesupport_introspection_c.h
+[3.885s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__rosidl_typesupport_introspection_c.h
+[3.885s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia_stamped__type_support.c
+[3.885s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__rosidl_typesupport_introspection_c.h
+[3.885s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__type_support.c
+[3.885s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform__rosidl_typesupport_introspection_c.h
+[3.886s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia__type_support.c
+[3.886s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__rosidl_typesupport_introspection_c.h
+[3.886s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__type_support.c
+[3.886s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose__type_support.c
+[3.886s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__rosidl_typesupport_introspection_c.h
+[3.886s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__rosidl_typesupport_introspection_c.h
+[3.886s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__rosidl_typesupport_introspection_c.h
+[3.886s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__rosidl_typesupport_introspection_c.h
+[3.886s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point__type_support.c
+[3.886s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__type_support.c
+[3.887s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__type_support.c
+[3.887s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia_stamped__rosidl_typesupport_introspection_c.h
+[3.887s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench__rosidl_typesupport_introspection_c.h
+[3.887s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance__type_support.c
+[3.887s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__rosidl_typesupport_introspection_c.h
+[3.887s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__type_support.c
+[3.887s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__rosidl_typesupport_introspection_c.h
+[3.887s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_instance__rosidl_typesupport_introspection_c.h
+[3.887s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point32__type_support.c
+[3.887s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__type_support.c
+[3.888s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance_stamped__type_support.c
+[3.888s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__rosidl_typesupport_introspection_c.h
+[3.888s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_instance_stamped__rosidl_typesupport_introspection_c.h
+[3.888s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon__rosidl_typesupport_introspection_c.h
+[3.888s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform__type_support.c
+[3.888s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point__rosidl_typesupport_introspection_c.h
+[3.888s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3__type_support.c
+[3.888s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__rosidl_typesupport_introspection_c.h
+[3.888s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__type_support.c
+[3.889s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__rosidl_typesupport_introspection_c.h
+[3.889s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon__type_support.c
+[3.889s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist__rosidl_typesupport_introspection_c.h
+[3.889s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__type_support.c
+[3.889s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia__rosidl_typesupport_introspection_c.h
+[3.889s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose__rosidl_typesupport_introspection_c.h
+[3.889s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_instance_stamped__type_support.c
+[3.889s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_stamped__type_support.c
+[3.889s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3__rosidl_typesupport_introspection_c.h
+[3.889s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__rosidl_typesupport_introspection_c.h
+[3.890s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance_stamped__rosidl_typesupport_introspection_c.h
+[3.890s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__type_support.c
+[3.890s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist__type_support.c
+[3.890s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__type_support.c
+[3.890s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__type_support.c
+[3.890s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__type_support.c
+[3.890s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel__rosidl_typesupport_introspection_c.h
+[3.890s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel__type_support.c
+[3.891s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__rosidl_typesupport_introspection_c.h
+[3.891s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__rosidl_typesupport_introspection_c.h
+[3.891s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench__type_support.c
+[3.891s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__type_support.c
+[3.891s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance__rosidl_typesupport_introspection_c.h
+[3.891s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__type_support.c
+[3.891s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_stamped__rosidl_typesupport_introspection_c.h
+[3.891s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__type_support.c
+[3.891s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance_stamped__rosidl_typesupport_introspection_c.h
+[3.892s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
+[3.892s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_c.so
+[3.892s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_c.so" to ""
+[3.892s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs
+[3.892s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg
+[3.892s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/pose.hpp
+[3.892s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp
+[3.893s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/quaternion.hpp
+[3.893s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.893s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/accel_with_covariance.hpp
+[3.893s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/point32.hpp
+[3.893s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp
+[3.893s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/pose2_d.hpp
+[3.893s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/accel_with_covariance_stamped.hpp
+[3.893s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/pose_array.hpp
+[3.893s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/wrench_stamped.hpp
+[3.893s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/polygon_instance.hpp
+[3.893s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/twist.hpp
+[3.893s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp
+[3.893s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp
+[3.893s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/inertia.hpp
+[3.893s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/inertia_stamped.hpp
+[3.893s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/wrench.hpp
+[3.893s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/pose_with_covariance_stamped.hpp
+[3.893s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/twist_stamped.hpp
+[3.893s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/polygon_stamped.hpp
+[3.893s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/twist_with_covariance_stamped.hpp
+[3.893s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/polygon_instance_stamped.hpp
+[3.893s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/quaternion_stamped.hpp
+[3.893s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/pose_with_covariance.hpp
+[3.894s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/vector3.hpp
+[3.894s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/accel.hpp
+[3.894s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/accel_stamped.hpp
+[3.894s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/transform.hpp
+[3.894s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/point.hpp
+[3.894s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/polygon.hpp
+[3.894s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/vector3_stamped.hpp
+[3.894s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/twist_with_covariance.hpp
+[3.894s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail
+[3.894s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench__struct.hpp
+[3.894s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__builder.hpp
+[3.894s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia_stamped__builder.hpp
+[3.894s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__traits.hpp
+[3.894s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point32__builder.hpp
+[3.894s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__builder.hpp
+[3.894s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__traits.hpp
+[3.894s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__struct.hpp
+[3.894s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench__traits.hpp
+[3.894s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_stamped__type_support.hpp
+[3.894s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__struct.hpp
+[3.894s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__struct.hpp
+[3.895s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp
+[3.895s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3__type_support.hpp
+[3.895s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__traits.hpp
+[3.895s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__type_support.hpp
+[3.895s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__traits.hpp
+[3.895s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__struct.hpp
+[3.895s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__builder.hpp
+[3.895s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance_stamped__builder.hpp
+[3.895s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon__struct.hpp
+[3.895s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance__traits.hpp
+[3.895s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point32__traits.hpp
+[3.895s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance_stamped__builder.hpp
+[3.895s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point32__struct.hpp
+[3.895s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__traits.hpp
+[3.895s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__type_support.hpp
+[3.895s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon__type_support.hpp
+[3.895s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose__builder.hpp
+[3.895s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__builder.hpp
+[3.895s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel__builder.hpp
+[3.895s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_instance__builder.hpp
+[3.895s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_stamped__builder.hpp
+[3.896s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp
+[3.896s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__builder.hpp
+[3.896s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance_stamped__struct.hpp
+[3.896s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__type_support.hpp
+[3.896s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp
+[3.896s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__traits.hpp
+[3.896s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp
+[3.896s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp
+[3.896s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__builder.hpp
+[3.896s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.hpp
+[3.896s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__type_support.hpp
+[3.896s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench__builder.hpp
+[3.896s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__struct.hpp
+[3.896s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia__type_support.hpp
+[3.896s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__type_support.hpp
+[3.896s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__type_support.hpp
+[3.896s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform__type_support.hpp
+[3.896s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3__builder.hpp
+[3.896s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia_stamped__struct.hpp
+[3.896s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__type_support.hpp
+[3.896s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp
+[3.896s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia__struct.hpp
+[3.896s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__type_support.hpp
+[3.897s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__traits.hpp
+[3.897s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp
+[3.897s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__struct.hpp
+[3.897s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__traits.hpp
+[3.897s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__traits.hpp
+[3.897s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__struct.hpp
+[3.897s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform__builder.hpp
+[3.897s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__builder.hpp
+[3.897s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist__builder.hpp
+[3.897s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__type_support.hpp
+[3.897s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__builder.hpp
+[3.897s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__traits.hpp
+[3.897s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_instance_stamped__struct.hpp
+[3.897s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__type_support.hpp
+[3.897s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_instance_stamped__type_support.hpp
+[3.897s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_instance_stamped__traits.hpp
+[3.897s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_stamped__struct.hpp
+[3.897s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__type_support.hpp
+[3.897s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp
+[3.897s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_instance__struct.hpp
+[3.897s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__struct.hpp
+[3.897s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance__builder.hpp
+[3.898s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance__type_support.hpp
+[3.898s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__struct.hpp
+[3.898s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel__struct.hpp
+[3.898s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance_stamped__type_support.hpp
+[3.898s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp
+[3.898s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance_stamped__traits.hpp
+[3.898s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp
+[3.898s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel__type_support.hpp
+[3.898s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__builder.hpp
+[3.898s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_instance__traits.hpp
+[3.898s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__struct.hpp
+[3.898s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__builder.hpp
+[3.898s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__struct.hpp
+[3.898s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point32__type_support.hpp
+[3.898s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point__builder.hpp
+[3.898s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__traits.hpp
+[3.898s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform__traits.hpp
+[3.898s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia__traits.hpp
+[3.898s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__traits.hpp
+[3.898s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__traits.hpp
+[3.898s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench__type_support.hpp
+[3.898s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__type_support.hpp
+[3.898s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia_stamped__type_support.hpp
+[3.898s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia__builder.hpp
+[3.899s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__type_support.hpp
+[3.899s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__struct.hpp
+[3.899s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose__type_support.hpp
+[3.899s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp
+[3.899s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon__traits.hpp
+[3.899s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__builder.hpp
+[3.899s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp
+[3.899s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon__builder.hpp
+[3.899s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__type_support.hpp
+[3.899s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__builder.hpp
+[3.899s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp
+[3.899s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance_stamped__traits.hpp
+[3.899s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__builder.hpp
+[3.899s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia_stamped__traits.hpp
+[3.899s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_instance__type_support.hpp
+[3.899s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance_stamped__struct.hpp
+[3.899s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__type_support.hpp
+[3.899s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point__type_support.hpp
+[3.899s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_instance_stamped__builder.hpp
+[3.899s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance_stamped__type_support.hpp
+[3.899s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist__type_support.hpp
+[3.899s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance__struct.hpp
+[3.900s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_stamped__traits.hpp
+[3.900s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel__traits.hpp
+[3.900s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp
+[3.900s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__builder.hpp
+[3.900s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs
+[3.900s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg
+[3.900s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.900s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail
+[3.900s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[3.900s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__rosidl_typesupport_fastrtps_cpp.hpp
+[3.900s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform__rosidl_typesupport_fastrtps_cpp.hpp
+[3.900s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[3.900s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[3.900s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[3.900s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel__rosidl_typesupport_fastrtps_cpp.hpp
+[3.900s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[3.900s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[3.900s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[3.900s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__rosidl_typesupport_fastrtps_cpp.hpp
+[3.900s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia__rosidl_typesupport_fastrtps_cpp.hpp
+[3.900s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[3.900s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance__rosidl_typesupport_fastrtps_cpp.hpp
+[3.900s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[3.901s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[3.901s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[3.901s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[3.901s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3__rosidl_typesupport_fastrtps_cpp.hpp
+[3.901s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon__rosidl_typesupport_fastrtps_cpp.hpp
+[3.901s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point32__rosidl_typesupport_fastrtps_cpp.hpp
+[3.901s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point__rosidl_typesupport_fastrtps_cpp.hpp
+[3.901s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__rosidl_typesupport_fastrtps_cpp.hpp
+[3.901s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_instance_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[3.901s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_instance__rosidl_typesupport_fastrtps_cpp.hpp
+[3.901s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[3.901s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp
+[3.901s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench__rosidl_typesupport_fastrtps_cpp.hpp
+[3.901s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[3.901s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/dds_fastrtps
+[3.901s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[3.901s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__rosidl_typesupport_fastrtps_cpp.hpp
+[3.901s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist__rosidl_typesupport_fastrtps_cpp.hpp
+[3.901s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so
+[3.901s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs
+[3.901s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg
+[3.901s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail
+[3.901s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_instance_stamped__type_support.cpp
+[3.901s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__type_support.cpp
+[3.901s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point32__type_support.cpp
+[3.902s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point__type_support.cpp
+[3.902s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia_stamped__rosidl_typesupport_introspection_cpp.hpp
+[3.902s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__rosidl_typesupport_introspection_cpp.hpp
+[3.902s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist__rosidl_typesupport_introspection_cpp.hpp
+[3.902s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__rosidl_typesupport_introspection_cpp.hpp
+[3.902s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__type_support.cpp
+[3.902s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__type_support.cpp
+[3.902s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist__type_support.cpp
+[3.902s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__rosidl_typesupport_introspection_cpp.hpp
+[3.902s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance__rosidl_typesupport_introspection_cpp.hpp
+[3.902s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__type_support.cpp
+[3.902s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon__rosidl_typesupport_introspection_cpp.hpp
+[3.902s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__type_support.cpp
+[3.902s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia__type_support.cpp
+[3.902s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point__rosidl_typesupport_introspection_cpp.hpp
+[3.902s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench__rosidl_typesupport_introspection_cpp.hpp
+[3.902s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_instance__rosidl_typesupport_introspection_cpp.hpp
+[3.902s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__type_support.cpp
+[3.902s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__type_support.cpp
+[3.902s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__rosidl_typesupport_introspection_cpp.hpp
+[3.902s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__type_support.cpp
+[3.902s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose__type_support.cpp
+[3.902s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia_stamped__type_support.cpp
+[3.902s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__rosidl_typesupport_introspection_cpp.hpp
+[3.902s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel__rosidl_typesupport_introspection_cpp.hpp
+[3.903s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_stamped__rosidl_typesupport_introspection_cpp.hpp
+[3.903s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__rosidl_typesupport_introspection_cpp.hpp
+[3.903s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__rosidl_typesupport_introspection_cpp.hpp
+[3.903s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance_stamped__type_support.cpp
+[3.903s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon__type_support.cpp
+[3.903s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__type_support.cpp
+[3.903s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance_stamped__type_support.cpp
+[3.903s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__rosidl_typesupport_introspection_cpp.hpp
+[3.903s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp
+[3.903s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__rosidl_typesupport_introspection_cpp.hpp
+[3.903s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3__type_support.cpp
+[3.903s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_stamped__type_support.cpp
+[3.903s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance_stamped__rosidl_typesupport_introspection_cpp.hpp
+[3.903s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point32__rosidl_typesupport_introspection_cpp.hpp
+[3.903s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia__rosidl_typesupport_introspection_cpp.hpp
+[3.903s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__rosidl_typesupport_introspection_cpp.hpp
+[3.903s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance__type_support.cpp
+[3.903s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_instance_stamped__rosidl_typesupport_introspection_cpp.hpp
+[3.903s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__rosidl_typesupport_introspection_cpp.hpp
+[3.903s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__rosidl_typesupport_introspection_cpp.hpp
+[3.903s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__rosidl_typesupport_introspection_cpp.hpp
+[3.903s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench__type_support.cpp
+[3.903s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__type_support.cpp
+[3.903s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__rosidl_typesupport_introspection_cpp.hpp
+[3.903s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance_stamped__rosidl_typesupport_introspection_cpp.hpp
+[3.904s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__type_support.cpp
+[3.904s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform__type_support.cpp
+[3.904s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3__rosidl_typesupport_introspection_cpp.hpp
+[3.904s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__type_support.cpp
+[3.904s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel__type_support.cpp
+[3.904s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__rosidl_typesupport_introspection_cpp.hpp
+[3.904s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform__rosidl_typesupport_introspection_cpp.hpp
+[3.904s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__type_support.cpp
+[3.904s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_instance__type_support.cpp
+[3.904s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__type_support.cpp
+[3.904s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__type_support.cpp
+[3.904s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
+[3.904s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
+[3.904s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_cpp.so" to ""
+[3.904s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/environment/pythonpath.sh
+[3.904s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/environment/pythonpath.dsv
+[3.904s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs-5.3.5-py3.12.egg-info
+[3.904s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs-5.3.5-py3.12.egg-info/top_level.txt
+[3.904s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs-5.3.5-py3.12.egg-info/PKG-INFO
+[3.904s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs-5.3.5-py3.12.egg-info/dependency_links.txt
+[3.904s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs-5.3.5-py3.12.egg-info/SOURCES.txt
+[3.904s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs
+[3.904s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/_geometry_msgs_s.ep.rosidl_typesupport_c.c
+[3.904s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/_geometry_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c
+[3.904s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/geometry_msgs_s__rosidl_typesupport_c.so
+[3.905s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/geometry_msgs_s__rosidl_typesupport_introspection_c.so
+[3.905s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/geometry_msgs_s__rosidl_typesupport_fastrtps_c.so
+[3.905s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/geometry_msgs_s__rosidl_typesupport_microxrcedds_c.so
+[3.905s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/_geometry_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[3.905s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/_geometry_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.905s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg
+[3.905s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_quaternion_stamped_s.c
+[3.905s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_polygon_stamped.py
+[3.905s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_inertia_s.c
+[3.905s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_polygon.py
+[3.905s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_polygon_instance.py
+[3.905s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_accel_stamped.py
+[3.905s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_accel_s.c
+[3.905s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_polygon_instance_s.c
+[3.905s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_quaternion_stamped.py
+[3.905s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_pose_with_covariance.py
+[3.905s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_velocity_stamped_s.c
+[3.905s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_quaternion_s.c
+[3.905s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_accel_with_covariance.py
+[3.905s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_pose_s.c
+[3.905s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_wrench_stamped.py
+[3.905s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_point.py
+[3.905s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_pose_with_covariance_s.c
+[3.905s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_accel.py
+[3.905s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_twist_s.c
+[3.905s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_polygon_s.c
+[3.906s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_twist_stamped.py
+[3.906s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_accel_with_covariance_s.c
+[3.906s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_twist_with_covariance_stamped.py
+[3.906s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_vector3_stamped.py
+[3.906s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_quaternion.py
+[3.906s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_pose_stamped_s.c
+[3.906s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_pose_with_covariance_stamped_s.c
+[3.906s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_inertia_stamped.py
+[3.906s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_vector3.py
+[3.906s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_wrench.py
+[3.906s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_pose_array_s.c
+[3.906s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_polygon_instance_stamped_s.c
+[3.906s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_accel_with_covariance_stamped.py
+[3.906s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_transform_s.c
+[3.906s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_inertia_stamped_s.c
+[3.906s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_transform.py
+[3.906s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_transform_stamped.py
+[3.906s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_inertia.py
+[3.906s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_wrench_s.c
+[3.906s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_pose.py
+[3.906s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_point_stamped.py
+[3.906s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_twist_stamped_s.c
+[3.906s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_twist.py
+[3.906s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_twist_with_covariance_stamped_s.c
+[3.906s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_polygon_stamped_s.c
+[3.907s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_vector3_s.c
+[3.907s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_wrench_stamped_s.c
+[3.907s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_pose2_d.py
+[3.907s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_point_stamped_s.c
+[3.907s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_accel_stamped_s.c
+[3.907s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_transform_stamped_s.c
+[3.907s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_point_s.c
+[3.907s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_point32_s.c
+[3.907s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_pose_stamped.py
+[3.907s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_vector3_stamped_s.c
+[3.907s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_pose2_d_s.c
+[3.907s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_pose_array.py
+[3.907s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_twist_with_covariance.py
+[3.907s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_accel_with_covariance_stamped_s.c
+[3.907s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_velocity_stamped.py
+[3.907s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_pose_with_covariance_stamped.py
+[3.907s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_twist_with_covariance_s.c
+[3.907s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/__init__.py
+[3.907s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_point32.py
+[3.907s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg/_polygon_instance_stamped.py
+[3.907s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/__init__.py
+[3.929s] Listing '/home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs'...
+[3.929s] Compiling '/home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/__init__.py'...
+[3.929s] Listing '/home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/msg'...
+[3.932s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/geometry_msgs_s__rosidl_typesupport_fastrtps_c.so
+[3.932s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/geometry_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[3.932s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/geometry_msgs_s__rosidl_typesupport_introspection_c.so
+[3.933s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/geometry_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[3.933s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/geometry_msgs_s__rosidl_typesupport_c.so
+[3.933s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages/geometry_msgs/geometry_msgs_s__rosidl_typesupport_c.so" to ""
+[3.934s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/lib/libgeometry_msgs__rosidl_generator_py.so
+[3.934s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/geometry_msgs/lib/libgeometry_msgs__rosidl_generator_py.so" to ""
+[3.934s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Accel.idl
+[3.934s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/AccelStamped.idl
+[3.934s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/AccelWithCovariance.idl
+[3.934s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/AccelWithCovarianceStamped.idl
+[3.934s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Inertia.idl
+[3.934s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/InertiaStamped.idl
+[3.934s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Point.idl
+[3.934s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Point32.idl
+[3.934s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/PointStamped.idl
+[3.934s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Polygon.idl
+[3.934s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/PolygonInstance.idl
+[3.934s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/PolygonInstanceStamped.idl
+[3.934s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/PolygonStamped.idl
+[3.934s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Pose.idl
+[3.935s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Pose2D.idl
+[3.935s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/PoseArray.idl
+[3.935s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/PoseStamped.idl
+[3.935s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/PoseWithCovariance.idl
+[3.935s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/PoseWithCovarianceStamped.idl
+[3.935s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Quaternion.idl
+[3.935s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/QuaternionStamped.idl
+[3.935s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Transform.idl
+[3.935s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/TransformStamped.idl
+[3.935s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Twist.idl
+[3.935s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/TwistStamped.idl
+[3.935s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/TwistWithCovariance.idl
+[3.935s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/TwistWithCovarianceStamped.idl
+[3.935s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Vector3.idl
+[3.935s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Vector3Stamped.idl
+[3.935s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/VelocityStamped.idl
+[3.935s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Wrench.idl
+[3.935s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/WrenchStamped.idl
+[3.935s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Accel.msg
+[3.935s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/AccelStamped.msg
+[3.936s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/AccelWithCovariance.msg
+[3.936s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/AccelWithCovarianceStamped.msg
+[3.936s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Inertia.msg
+[3.936s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/InertiaStamped.msg
+[3.936s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Point.msg
+[3.936s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Point32.msg
+[3.936s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/PointStamped.msg
+[3.936s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Polygon.msg
+[3.936s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/PolygonInstance.msg
+[3.936s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/PolygonInstanceStamped.msg
+[3.936s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/PolygonStamped.msg
+[3.936s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Pose.msg
+[3.936s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Pose2D.msg
+[3.936s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/PoseArray.msg
+[3.936s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/PoseStamped.msg
+[3.936s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/PoseWithCovariance.msg
+[3.936s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/PoseWithCovarianceStamped.msg
+[3.936s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Quaternion.msg
+[3.936s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/QuaternionStamped.msg
+[3.936s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Transform.msg
+[3.937s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/TransformStamped.msg
+[3.937s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Twist.msg
+[3.937s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/TwistStamped.msg
+[3.937s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/TwistWithCovariance.msg
+[3.937s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/TwistWithCovarianceStamped.msg
+[3.937s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Vector3.msg
+[3.937s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Vector3Stamped.msg
+[3.937s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/VelocityStamped.msg
+[3.937s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Wrench.msg
+[3.937s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/WrenchStamped.msg
+[3.937s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/ament_index/resource_index/package_run_dependencies/geometry_msgs
+[3.937s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/share/ament_index/resource_index/parent_prefix_path/geometry_msgs
+[3.937s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/environment/ament_prefix_path.sh
+[3.937s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/environment/ament_prefix_path.dsv
+[3.938s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/environment/path.sh
+[3.938s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/environment/path.dsv
+[3.938s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/local_setup.bash
+[3.938s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/local_setup.sh
+[3.938s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/local_setup.zsh
+[3.938s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/local_setup.dsv
+[3.938s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/package.dsv
+[3.938s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/ament_index/resource_index/packages/geometry_msgs
+[3.939s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/export_geometry_msgs__rosidl_generator_cExport.cmake
+[3.939s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/export_geometry_msgs__rosidl_generator_cExport-noconfig.cmake
+[3.939s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/export_geometry_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[3.939s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/export_geometry_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.939s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/geometry_msgs__rosidl_typesupport_introspection_cExport.cmake
+[3.939s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/geometry_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.939s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/geometry_msgs__rosidl_typesupport_cExport.cmake
+[3.939s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/geometry_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[3.940s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/export_geometry_msgs__rosidl_generator_cppExport.cmake
+[3.940s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/export_geometry_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.940s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/export_geometry_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.940s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/geometry_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[3.940s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/geometry_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.941s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/geometry_msgs__rosidl_typesupport_cppExport.cmake
+[3.941s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/geometry_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[3.941s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/export_geometry_msgs__rosidl_generator_pyExport.cmake
+[3.941s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/export_geometry_msgs__rosidl_generator_pyExport-noconfig.cmake
+[3.941s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/rosidl_cmake-extras.cmake
+[3.941s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.941s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.941s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[3.941s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[3.941s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.941s] -- Installing: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.941s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/geometry_msgsConfig.cmake
+[3.941s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/geometry_msgsConfig-version.cmake
+[3.942s] -- Up-to-date: /home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/package.xml
+[3.943s] Invoked command in '/home/rassito/microros_ws/build/geometry_msgs' returned '0': AMENT_PREFIX_PATH=/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/std_msgs/lib:/home/rassito/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rassito/microros_ws/build/geometry_msgs

@@ -1,0 +1,87 @@
+[0.007s] Invoking command in '/home/rassito/microros_ws/build/rosidl_typesupport_microxrcedds_c': CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/microcdr:/home/rassito/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/microcdr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/rassito/microros_ws/src/uros/rosidl_typesupport_microxrcedds/rosidl_typesupport_microxrcedds_c -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c
+[0.048s] -- The C compiler identification is GNU 13.3.0
+[0.063s] -- Detecting C compiler ABI info
+[0.153s] -- Detecting C compiler ABI info - done
+[0.164s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.164s] -- Detecting C compile features
+[0.165s] -- Detecting C compile features - done
+[0.168s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.267s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.342s] -- Found rosidl_runtime_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_runtime_c/cmake)
+[0.485s] -- Configuring done (0.5s)
+[0.488s] -- Generating done (0.0s)
+[0.490s] -- Build files have been written to: /home/rassito/microros_ws/build/rosidl_typesupport_microxrcedds_c
+[0.493s] Invoked command in '/home/rassito/microros_ws/build/rosidl_typesupport_microxrcedds_c' returned '0': CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/microcdr:/home/rassito/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/microcdr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/rassito/microros_ws/src/uros/rosidl_typesupport_microxrcedds/rosidl_typesupport_microxrcedds_c -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c
+[0.494s] Invoking command in '/home/rassito/microros_ws/build/rosidl_typesupport_microxrcedds_c': CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/microcdr:/home/rassito/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/microcdr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/rassito/microros_ws/build/rosidl_typesupport_microxrcedds_c -- -j16 -l16
+[0.536s] [ 50%] [32mBuilding C object CMakeFiles/rosidl_typesupport_microxrcedds_c.dir/src/identifier.c.o[0m
+[0.543s] [ 50%] Built target ament_cmake_python_copy_rosidl_typesupport_microxrcedds_c
+[0.552s] [100%] [32m[1mLinking C shared library librosidl_typesupport_microxrcedds_c.so[0m
+[0.571s] [100%] Built target rosidl_typesupport_microxrcedds_c
+[0.691s] running egg_info
+[0.692s] creating rosidl_typesupport_microxrcedds_c.egg-info
+[0.704s] writing rosidl_typesupport_microxrcedds_c.egg-info/PKG-INFO
+[0.704s] writing dependency_links to rosidl_typesupport_microxrcedds_c.egg-info/dependency_links.txt
+[0.704s] writing top-level names to rosidl_typesupport_microxrcedds_c.egg-info/top_level.txt
+[0.704s] writing manifest file 'rosidl_typesupport_microxrcedds_c.egg-info/SOURCES.txt'
+[0.740s] reading manifest file 'rosidl_typesupport_microxrcedds_c.egg-info/SOURCES.txt'
+[0.741s] writing manifest file 'rosidl_typesupport_microxrcedds_c.egg-info/SOURCES.txt'
+[0.758s] [100%] Built target ament_cmake_python_build_rosidl_typesupport_microxrcedds_c_egg
+[0.764s] Invoked command in '/home/rassito/microros_ws/build/rosidl_typesupport_microxrcedds_c' returned '0': CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/microcdr:/home/rassito/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/microcdr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/rassito/microros_ws/build/rosidl_typesupport_microxrcedds_c -- -j16 -l16
+[0.765s] Invoking command in '/home/rassito/microros_ws/build/rosidl_typesupport_microxrcedds_c': CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/microcdr:/home/rassito/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/microcdr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/rassito/microros_ws/build/rosidl_typesupport_microxrcedds_c
+[0.769s] -- Install configuration: ""
+[0.770s] -- Installing: /home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/environment/pythonpath.sh
+[0.770s] -- Installing: /home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/environment/pythonpath.dsv
+[0.770s] -- Installing: /home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.12/site-packages/rosidl_typesupport_microxrcedds_c-5.0.1-py3.12.egg-info
+[0.770s] -- Installing: /home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.12/site-packages/rosidl_typesupport_microxrcedds_c-5.0.1-py3.12.egg-info/top_level.txt
+[0.770s] -- Installing: /home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.12/site-packages/rosidl_typesupport_microxrcedds_c-5.0.1-py3.12.egg-info/PKG-INFO
+[0.770s] -- Installing: /home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.12/site-packages/rosidl_typesupport_microxrcedds_c-5.0.1-py3.12.egg-info/dependency_links.txt
+[0.770s] -- Installing: /home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.12/site-packages/rosidl_typesupport_microxrcedds_c-5.0.1-py3.12.egg-info/SOURCES.txt
+[0.770s] -- Installing: /home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.12/site-packages/rosidl_typesupport_microxrcedds_c
+[0.770s] -- Installing: /home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.12/site-packages/rosidl_typesupport_microxrcedds_c/__init__.py
+[0.794s] Listing '/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.12/site-packages/rosidl_typesupport_microxrcedds_c'...
+[0.794s] Compiling '/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.12/site-packages/rosidl_typesupport_microxrcedds_c/__init__.py'...
+[0.797s] -- Installing: /home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/environment/library_path.sh
+[0.797s] -- Installing: /home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/environment/library_path.dsv
+[0.797s] -- Installing: /home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/ament_index/resource_index/rosidl_typesupport_c/rosidl_typesupport_microxrcedds_c
+[0.797s] -- Installing: /home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/ament_index/resource_index/package_run_dependencies/rosidl_typesupport_microxrcedds_c
+[0.797s] -- Installing: /home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/ament_index/resource_index/parent_prefix_path/rosidl_typesupport_microxrcedds_c
+[0.797s] -- Installing: /home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/environment/ament_prefix_path.sh
+[0.797s] -- Installing: /home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/environment/ament_prefix_path.dsv
+[0.798s] -- Installing: /home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/environment/path.sh
+[0.798s] -- Installing: /home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/environment/path.dsv
+[0.798s] -- Installing: /home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/local_setup.bash
+[0.798s] -- Installing: /home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/local_setup.sh
+[0.798s] -- Installing: /home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/local_setup.zsh
+[0.798s] -- Installing: /home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/local_setup.dsv
+[0.798s] -- Installing: /home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/package.dsv
+[0.798s] -- Installing: /home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/ament_index/resource_index/packages/rosidl_typesupport_microxrcedds_c
+[0.798s] -- Installing: /home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/rosidl_typesupport_microxrcedds_cExport.cmake
+[0.798s] -- Installing: /home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/rosidl_typesupport_microxrcedds_cExport-noconfig.cmake
+[0.798s] -- Installing: /home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/rosidl_typesupport_microxrcedds_c-extras.cmake
+[0.798s] -- Installing: /home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.798s] -- Installing: /home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.798s] -- Installing: /home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/ament_cmake_export_libraries-extras.cmake
+[0.798s] -- Installing: /home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/ament_cmake_export_targets-extras.cmake
+[0.798s] -- Installing: /home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/rosidl_typesupport_microxrcedds_cConfig.cmake
+[0.798s] -- Installing: /home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/rosidl_typesupport_microxrcedds_cConfig-version.cmake
+[0.798s] -- Installing: /home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/package.xml
+[0.798s] -- Installing: /home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib/rosidl_typesupport_microxrcedds_c/rosidl_typesupport_microxrcedds_c
+[0.799s] -- Up-to-date: /home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake
+[0.799s] -- Installing: /home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/rosidl_typesupport_microxrcedds_c_generate_interfaces.cmake
+[0.799s] -- Installing: /home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource
+[0.799s] -- Installing: /home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource/msg__rosidl_typesupport_microxrcedds_c.h.em
+[0.799s] -- Installing: /home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource/rosidl_typesupport_microxrcedds_c__visibility_control.h.in
+[0.799s] -- Installing: /home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource/srv__rosidl_typesupport_microxrcedds_c.h.em
+[0.799s] -- Installing: /home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource/srv__type_support_c.c.em
+[0.799s] -- Installing: /home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource/idl__rosidl_typesupport_microxrcedds_c.h.em
+[0.799s] -- Installing: /home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource/idl__type_support_c.c.em
+[0.799s] -- Installing: /home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource/msg__type_support_c.c.em
+[0.799s] -- Installing: /home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/include
+[0.799s] -- Installing: /home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/include/rosidl_typesupport_microxrcedds_c
+[0.799s] -- Installing: /home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/include/rosidl_typesupport_microxrcedds_c/service_type_support.h
+[0.799s] -- Installing: /home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/include/rosidl_typesupport_microxrcedds_c/visibility_control.h
+[0.799s] -- Installing: /home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/include/rosidl_typesupport_microxrcedds_c/message_type_support.h
+[0.799s] -- Installing: /home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/include/rosidl_typesupport_microxrcedds_c/identifier.h
+[0.799s] -- Installing: /home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib/librosidl_typesupport_microxrcedds_c.so
+[0.799s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib/librosidl_typesupport_microxrcedds_c.so" to ""
+[0.801s] Invoked command in '/home/rassito/microros_ws/build/rosidl_typesupport_microxrcedds_c' returned '0': CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/microcdr:/home/rassito/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/microcdr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/rassito/microros_ws/build/rosidl_typesupport_microxrcedds_c

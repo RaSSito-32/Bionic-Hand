@@ -1,0 +1,269 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-218400d7d6597082e4ad.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					]
+				},
+				{
+					"build" : "geometry_msgs__py",
+					"jsonFile" : "directory-geometry_msgs__py-595dab6e7dec867c2881.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/rassito/microros_ws/build/geometry_msgs/geometry_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "geometry_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_geometry_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_geometry_msgs_egg-bd8b3492a0a6f7a1f1c8.json",
+					"name" : "ament_cmake_python_build_geometry_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_geometry_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_geometry_msgs-b75d04a1b01b8bac1393.json",
+					"name" : "ament_cmake_python_copy_geometry_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "geometry_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-geometry_msgs-0109f93c169ce07b3ed4.json",
+					"name" : "geometry_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "geometry_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-geometry_msgs__cpp-bdb14373766ca74a33c5.json",
+					"name" : "geometry_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "geometry_msgs__py::@b0f52cc1ec7993d292c2",
+					"jsonFile" : "target-geometry_msgs__py-f28735b3bd8fa17b0329.json",
+					"name" : "geometry_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "geometry_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-geometry_msgs__rosidl_generator_c-cf7fe1e778167a62e64c.json",
+					"name" : "geometry_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "geometry_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-geometry_msgs__rosidl_generator_py-bd863b3f4a91db0b737d.json",
+					"name" : "geometry_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "geometry_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-geometry_msgs__rosidl_generator_type_description-79b63d48c4886d2ecf0e.json",
+					"name" : "geometry_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "geometry_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-geometry_msgs__rosidl_typesupport_c-018f57df08e59936825f.json",
+					"name" : "geometry_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "geometry_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-geometry_msgs__rosidl_typesupport_cpp-3cae4d030008f915c34d.json",
+					"name" : "geometry_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "geometry_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-geometry_msgs__rosidl_typesupport_fastrtps_c-834dfad307ac5f315577.json",
+					"name" : "geometry_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "geometry_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-geometry_msgs__rosidl_typesupport_fastrtps_cpp-40163fdda8f4c7215518.json",
+					"name" : "geometry_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "geometry_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-geometry_msgs__rosidl_typesupport_introspection_c-a74d626e9359d8a9ca07.json",
+					"name" : "geometry_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "geometry_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-geometry_msgs__rosidl_typesupport_introspection_cpp-506619d4d76c3e96c720.json",
+					"name" : "geometry_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "geometry_msgs__rosidl_typesupport_microxrcedds_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-geometry_msgs__rosidl_typesupport_microxrcedds_c-4da4a517371a6b06fa27.json",
+					"name" : "geometry_msgs__rosidl_typesupport_microxrcedds_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "geometry_msgs__rosidl_typesupport_microxrcedds_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-geometry_msgs__rosidl_typesupport_microxrcedds_cpp-06062f6d554299c30484.json",
+					"name" : "geometry_msgs__rosidl_typesupport_microxrcedds_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "geometry_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-geometry_msgs_s__rosidl_typesupport_c-7f0a238bcdca067ee52e.json",
+					"name" : "geometry_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "geometry_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-geometry_msgs_s__rosidl_typesupport_fastrtps_c-992eaf631581f41d49e9.json",
+					"name" : "geometry_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "geometry_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-geometry_msgs_s__rosidl_typesupport_introspection_c-81e601691f3d116f9f72.json",
+					"name" : "geometry_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "geometry_msgs_s__rosidl_typesupport_microxrcedds_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-geometry_msgs_s__rosidl_typesupport_microxrcedds_c-13f739eccfb5ef44e93a.json",
+					"name" : "geometry_msgs_s__rosidl_typesupport_microxrcedds_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "geometry_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-geometry_msgs_uninstall-87fb1b6e3cdeeeedec4d.json",
+					"name" : "geometry_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-73ed3f3eac1983178254.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rassito/microros_ws/build/geometry_msgs",
+		"source" : "/home/rassito/microros_ws/src/ros2/common_interfaces/geometry_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

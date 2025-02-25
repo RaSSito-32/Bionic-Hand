@@ -1,0 +1,272 @@
+[0.037s] Invoking command in '/home/rassito/microros_ws/build/service_msgs': AMENT_PREFIX_PATH=/home/rassito/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/builtin_interfaces:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/rassito/microros_ws/install/microcdr:/home/rassito/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rassito/microros_ws/src/ros2/rcl_interfaces/service_msgs -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/rassito/microros_ws/install/service_msgs
+[0.145s] -- The C compiler identification is GNU 13.3.0
+[0.265s] -- The CXX compiler identification is GNU 13.3.0
+[0.284s] -- Detecting C compiler ABI info
+[0.422s] -- Detecting C compiler ABI info - done
+[0.442s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.442s] -- Detecting C compile features
+[0.443s] -- Detecting C compile features - done
+[0.457s] -- Detecting CXX compiler ABI info
+[0.606s] -- Detecting CXX compiler ABI info - done
+[0.635s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.635s] -- Detecting CXX compile features
+[0.635s] -- Detecting CXX compile features - done
+[0.643s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.923s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.201s] -- Found builtin_interfaces: 2.0.2 (/home/rassito/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake)
+[1.351s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.425s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.479s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.501s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.571s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.607s] -- Found rosidl_core_generators: 0.2.0 (/opt/ros/jazzy/share/rosidl_core_generators/cmake)
+[3.281s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[4.630s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.307s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.312s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[5.489s] -- Found PythonExtra: /usr/bin/python3  
+[6.083s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[6.172s] -- Configuring done (6.1s)
+[6.240s] -- Generating done (0.1s)
+[6.256s] -- Build files have been written to: /home/rassito/microros_ws/build/service_msgs
+[6.270s] Invoked command in '/home/rassito/microros_ws/build/service_msgs' returned '0': AMENT_PREFIX_PATH=/home/rassito/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/builtin_interfaces:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/rassito/microros_ws/install/microcdr:/home/rassito/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rassito/microros_ws/src/ros2/rcl_interfaces/service_msgs -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/rassito/microros_ws/install/service_msgs
+[6.270s] Invoking command in '/home/rassito/microros_ws/build/service_msgs': AMENT_PREFIX_PATH=/home/rassito/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/builtin_interfaces:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/rassito/microros_ws/install/microcdr:/home/rassito/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rassito/microros_ws/build/service_msgs -- -j16 -l16
+[6.410s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[6.425s] [  2%] Built target ament_cmake_python_copy_service_msgs
+[6.967s] [  2%] Built target service_msgs__rosidl_generator_type_description
+[6.999s] [  4%] [34m[1mGenerating C code for ROS interfaces[0m
+[7.029s] [  7%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[7.139s] running egg_info
+[7.139s] creating service_msgs.egg-info
+[7.203s] writing service_msgs.egg-info/PKG-INFO
+[7.203s] writing dependency_links to service_msgs.egg-info/dependency_links.txt
+[7.203s] writing top-level names to service_msgs.egg-info/top_level.txt
+[7.203s] writing manifest file 'service_msgs.egg-info/SOURCES.txt'
+[7.396s] reading manifest file 'service_msgs.egg-info/SOURCES.txt'
+[7.396s] writing manifest file 'service_msgs.egg-info/SOURCES.txt'
+[7.497s] [  7%] Built target ament_cmake_python_build_service_msgs_egg
+[7.968s] [  7%] Built target service_msgs__cpp
+[7.997s] [  9%] [34m[1mGenerating C++ type support for eProsima Micro XRCE-DDS[0m
+[8.104s] [ 11%] [32mBuilding C object CMakeFiles/service_msgs__rosidl_generator_c.dir/rosidl_generator_c/service_msgs/msg/detail/service_event_info__description.c.o[0m
+[8.104s] [ 14%] [32mBuilding C object CMakeFiles/service_msgs__rosidl_generator_c.dir/rosidl_generator_c/service_msgs/msg/detail/service_event_info__functions.c.o[0m
+[8.104s] [ 16%] [32mBuilding C object CMakeFiles/service_msgs__rosidl_generator_c.dir/rosidl_generator_c/service_msgs/msg/detail/service_event_info__type_support.c.o[0m
+[8.111s] /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_cmake/__init__.py:19: UserWarning: The 'rosidl_cmake' Python module is deprecated. Use 'rosidl_pycommon' instead.
+[8.111s]   warnings.warn(
+[8.262s] [ 19%] [32m[1mLinking C shared library libservice_msgs__rosidl_generator_c.so[0m
+[8.353s] [ 19%] Built target service_msgs__rosidl_generator_c
+[8.389s] [ 21%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[8.397s] [ 23%] [34m[1mGenerating C type support for eProsima Micro XRCE-DDS[0m
+[8.409s] [ 26%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[8.438s] [ 30%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[8.438s] [ 30%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[8.438s] [ 33%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[8.442s] [ 35%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[8.512s] [ 38%] [32mBuilding CXX object CMakeFiles/service_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/service_msgs/msg/detail/microxrcedds/service_event_info__type_support_cpp.cpp.o[0m
+[8.624s] /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_cmake/__init__.py:19: UserWarning: The 'rosidl_cmake' Python module is deprecated. Use 'rosidl_pycommon' instead.
+[8.624s]   warnings.warn(
+[9.294s] [ 40%] [32mBuilding C object CMakeFiles/service_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/service_msgs/msg/detail/microxrcedds/service_event_info__type_support_c.c.o[0m
+[9.312s] [01m[Kcc1:[m[K [01;35m[Kwarning: [m[Kcommand-line option ‘[01m[K-Wnon-virtual-dtor[m[K’ is valid for C++/ObjC++ but not for C
+[9.312s] [01m[Kcc1:[m[K [01;35m[Kwarning: [m[Kcommand-line option ‘[01m[K-Woverloaded-virtual=2[m[K’ is valid for C++/ObjC++ but not for C
+[9.465s] [ 42%] [32mBuilding CXX object CMakeFiles/service_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/service_msgs/msg/detail/service_event_info__type_support_c.cpp.o[0m
+[9.517s] [ 45%] [32m[1mLinking C shared library libservice_msgs__rosidl_typesupport_microxrcedds_c.so[0m
+[9.532s] [ 47%] [32mBuilding CXX object CMakeFiles/service_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/service_msgs/msg/service_event_info__type_support.cpp.o[0m
+[9.534s] [01m[K/home/rassito/microros_ws/build/service_msgs/rosidl_typesupport_microxrcedds_cpp/service_msgs/msg/detail/microxrcedds/service_event_info__type_support_cpp.cpp:232:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.534s]   232 | [01;35m[K}[m[K;
+[9.534s]       | [01;35m[K^[m[K
+[9.534s] [01m[K/home/rassito/microros_ws/build/service_msgs/rosidl_typesupport_microxrcedds_cpp/service_msgs/msg/detail/microxrcedds/service_event_info__type_support_cpp.cpp:232:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.534s] [01m[K/home/rassito/microros_ws/build/service_msgs/rosidl_typesupport_microxrcedds_cpp/service_msgs/msg/detail/microxrcedds/service_event_info__type_support_cpp.cpp:232:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.627s] [ 47%] Built target service_msgs__rosidl_typesupport_microxrcedds_c
+[9.688s] [ 50%] [32mBuilding CXX object CMakeFiles/service_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/service_msgs/msg/detail/service_event_info__type_support.cpp.o[0m
+[9.729s] [ 52%] [32m[1mLinking CXX shared library libservice_msgs__rosidl_typesupport_c.so[0m
+[9.730s] [ 54%] [32m[1mLinking CXX shared library libservice_msgs__rosidl_typesupport_microxrcedds_cpp.so[0m
+[9.816s] [ 54%] Built target service_msgs__rosidl_typesupport_c
+[9.884s] [ 54%] Built target service_msgs__rosidl_typesupport_microxrcedds_cpp
+[9.956s] [ 57%] [32mBuilding CXX object CMakeFiles/service_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/service_msgs/msg/service_event_info__type_support.cpp.o[0m
+[10.001s] [ 59%] [32mBuilding C object CMakeFiles/service_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/service_msgs/msg/detail/service_event_info__type_support.c.o[0m
+[10.093s] [ 61%] [32m[1mLinking C shared library libservice_msgs__rosidl_typesupport_introspection_c.so[0m
+[10.112s] [ 64%] [32mBuilding CXX object CMakeFiles/service_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/service_msgs/msg/detail/dds_fastrtps/service_event_info__type_support.cpp.o[0m
+[10.213s] [ 64%] Built target service_msgs__rosidl_typesupport_introspection_c
+[10.980s] [ 66%] [32m[1mLinking CXX shared library libservice_msgs__rosidl_typesupport_cpp.so[0m
+[10.998s] [ 69%] [32m[1mLinking CXX shared library libservice_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[11.095s] [ 69%] Built target service_msgs__rosidl_typesupport_cpp
+[11.169s] [ 69%] Built target service_msgs__rosidl_typesupport_introspection_cpp
+[11.371s] [ 71%] [32m[1mLinking CXX shared library libservice_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[11.514s] [ 71%] Built target service_msgs__rosidl_typesupport_fastrtps_c
+[12.073s] [ 73%] [32m[1mLinking CXX shared library libservice_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[12.333s] [ 73%] Built target service_msgs__rosidl_typesupport_fastrtps_cpp
+[12.405s] [ 73%] Built target service_msgs
+[12.449s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[13.323s] [ 76%] Built target service_msgs__py
+[13.398s] [ 78%] [32mBuilding C object CMakeFiles/service_msgs__rosidl_generator_py.dir/rosidl_generator_py/service_msgs/msg/_service_event_info_s.c.o[0m
+[13.766s] [ 80%] [32m[1mLinking C shared library libservice_msgs__rosidl_generator_py.so[0m
+[13.869s] [ 80%] Built target service_msgs__rosidl_generator_py
+[13.929s] [ 83%] [32mBuilding C object CMakeFiles/service_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/service_msgs/_service_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[13.929s] [ 85%] [32mBuilding C object CMakeFiles/service_msgs_s__rosidl_typesupport_microxrcedds_c.dir/rosidl_generator_py/service_msgs/_service_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c.o[0m
+[13.931s] [ 88%] [32mBuilding C object CMakeFiles/service_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/service_msgs/_service_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[13.932s] [ 90%] [32mBuilding C object CMakeFiles/service_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/service_msgs/_service_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[14.159s] [ 92%] [32m[1mLinking C shared module rosidl_generator_py/service_msgs/service_msgs_s__rosidl_typesupport_c.so[0m
+[14.172s] [ 95%] [32m[1mLinking C shared module rosidl_generator_py/service_msgs/service_msgs_s__rosidl_typesupport_microxrcedds_c.so[0m
+[14.234s] [ 95%] Built target service_msgs_s__rosidl_typesupport_c
+[14.243s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/service_msgs/service_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[14.251s] [ 97%] Built target service_msgs_s__rosidl_typesupport_microxrcedds_c
+[14.254s] [100%] [32m[1mLinking C shared module rosidl_generator_py/service_msgs/service_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[14.326s] [100%] Built target service_msgs_s__rosidl_typesupport_introspection_c
+[14.327s] [100%] Built target service_msgs_s__rosidl_typesupport_fastrtps_c
+[14.356s] Invoked command in '/home/rassito/microros_ws/build/service_msgs' returned '0': AMENT_PREFIX_PATH=/home/rassito/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/builtin_interfaces:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/rassito/microros_ws/install/microcdr:/home/rassito/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rassito/microros_ws/build/service_msgs -- -j16 -l16
+[14.356s] Invoking command in '/home/rassito/microros_ws/build/service_msgs': AMENT_PREFIX_PATH=/home/rassito/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/builtin_interfaces:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/rassito/microros_ws/install/microcdr:/home/rassito/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rassito/microros_ws/build/service_msgs
+[14.376s] -- Install configuration: ""
+[14.376s] -- Installing: /home/rassito/microros_ws/install/service_msgs/share/ament_index/resource_index/rosidl_interfaces/service_msgs
+[14.377s] -- Installing: /home/rassito/microros_ws/install/service_msgs/share/service_msgs/msg/ServiceEventInfo.json
+[14.377s] -- Installing: /home/rassito/microros_ws/install/service_msgs/include/service_msgs/service_msgs
+[14.377s] -- Installing: /home/rassito/microros_ws/install/service_msgs/include/service_msgs/service_msgs/msg
+[14.377s] -- Installing: /home/rassito/microros_ws/install/service_msgs/include/service_msgs/service_msgs/msg/service_event_info.h
+[14.377s] -- Installing: /home/rassito/microros_ws/install/service_msgs/include/service_msgs/service_msgs/msg/detail
+[14.377s] -- Installing: /home/rassito/microros_ws/install/service_msgs/include/service_msgs/service_msgs/msg/detail/service_event_info__type_support.c
+[14.378s] -- Installing: /home/rassito/microros_ws/install/service_msgs/include/service_msgs/service_msgs/msg/detail/service_event_info__functions.c
+[14.378s] -- Installing: /home/rassito/microros_ws/install/service_msgs/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.h
+[14.378s] -- Installing: /home/rassito/microros_ws/install/service_msgs/include/service_msgs/service_msgs/msg/detail/service_event_info__description.c
+[14.378s] -- Installing: /home/rassito/microros_ws/install/service_msgs/include/service_msgs/service_msgs/msg/detail/service_event_info__functions.h
+[14.379s] -- Installing: /home/rassito/microros_ws/install/service_msgs/include/service_msgs/service_msgs/msg/detail/service_event_info__type_support.h
+[14.379s] -- Installing: /home/rassito/microros_ws/install/service_msgs/include/service_msgs/service_msgs/msg/rosidl_generator_c__visibility_control.h
+[14.379s] -- Installing: /home/rassito/microros_ws/install/service_msgs/share/service_msgs/environment/library_path.sh
+[14.379s] -- Installing: /home/rassito/microros_ws/install/service_msgs/share/service_msgs/environment/library_path.dsv
+[14.380s] -- Installing: /home/rassito/microros_ws/install/service_msgs/lib/libservice_msgs__rosidl_generator_c.so
+[14.384s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/service_msgs/lib/libservice_msgs__rosidl_generator_c.so" to ""
+[14.385s] -- Up-to-date: /home/rassito/microros_ws/install/service_msgs/include/service_msgs/service_msgs
+[14.385s] -- Up-to-date: /home/rassito/microros_ws/install/service_msgs/include/service_msgs/service_msgs/msg
+[14.385s] -- Installing: /home/rassito/microros_ws/install/service_msgs/include/service_msgs/service_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[14.385s] -- Up-to-date: /home/rassito/microros_ws/install/service_msgs/include/service_msgs/service_msgs/msg/detail
+[14.386s] -- Installing: /home/rassito/microros_ws/install/service_msgs/include/service_msgs/service_msgs/msg/detail/service_event_info__rosidl_typesupport_fastrtps_c.h
+[14.386s] -- Installing: /home/rassito/microros_ws/install/service_msgs/lib/libservice_msgs__rosidl_typesupport_fastrtps_c.so
+[14.386s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/service_msgs/lib/libservice_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[14.386s] -- Up-to-date: /home/rassito/microros_ws/install/service_msgs/include/service_msgs/service_msgs
+[14.386s] -- Up-to-date: /home/rassito/microros_ws/install/service_msgs/include/service_msgs/service_msgs/msg
+[14.386s] -- Installing: /home/rassito/microros_ws/install/service_msgs/include/service_msgs/service_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[14.386s] -- Installing: /home/rassito/microros_ws/install/service_msgs/include/service_msgs/service_msgs/msg/service_event_info.hpp
+[14.386s] -- Up-to-date: /home/rassito/microros_ws/install/service_msgs/include/service_msgs/service_msgs/msg/detail
+[14.386s] -- Installing: /home/rassito/microros_ws/install/service_msgs/include/service_msgs/service_msgs/msg/detail/service_event_info__traits.hpp
+[14.387s] -- Installing: /home/rassito/microros_ws/install/service_msgs/include/service_msgs/service_msgs/msg/detail/service_event_info__type_support.hpp
+[14.387s] -- Installing: /home/rassito/microros_ws/install/service_msgs/include/service_msgs/service_msgs/msg/detail/service_event_info__builder.hpp
+[14.387s] -- Installing: /home/rassito/microros_ws/install/service_msgs/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.hpp
+[14.395s] -- Up-to-date: /home/rassito/microros_ws/install/service_msgs/include/service_msgs/service_msgs
+[14.395s] -- Up-to-date: /home/rassito/microros_ws/install/service_msgs/include/service_msgs/service_msgs/msg
+[14.395s] -- Installing: /home/rassito/microros_ws/install/service_msgs/include/service_msgs/service_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[14.395s] -- Up-to-date: /home/rassito/microros_ws/install/service_msgs/include/service_msgs/service_msgs/msg/detail
+[14.395s] -- Installing: /home/rassito/microros_ws/install/service_msgs/include/service_msgs/service_msgs/msg/detail/service_event_info__rosidl_typesupport_fastrtps_cpp.hpp
+[14.395s] -- Installing: /home/rassito/microros_ws/install/service_msgs/include/service_msgs/service_msgs/msg/detail/dds_fastrtps
+[14.395s] -- Installing: /home/rassito/microros_ws/install/service_msgs/lib/libservice_msgs__rosidl_typesupport_fastrtps_cpp.so
+[14.395s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/service_msgs/lib/libservice_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[14.396s] -- Up-to-date: /home/rassito/microros_ws/install/service_msgs/include/service_msgs
+[14.397s] -- Installing: /home/rassito/microros_ws/install/service_msgs/include/service_msgs/msg
+[14.398s] -- Installing: /home/rassito/microros_ws/install/service_msgs/include/service_msgs/msg/detail
+[14.398s] -- Installing: /home/rassito/microros_ws/install/service_msgs/include/service_msgs/msg/detail/microxrcedds
+[14.398s] -- Installing: /home/rassito/microros_ws/install/service_msgs/include/service_msgs/msg/detail/service_event_info__rosidl_typesupport_microxrcedds_c.h
+[14.398s] -- Installing: /home/rassito/microros_ws/install/service_msgs/include/service_msgs/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+[14.398s] -- Installing: /home/rassito/microros_ws/install/service_msgs/lib/libservice_msgs__rosidl_typesupport_microxrcedds_c.so
+[14.398s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/service_msgs/lib/libservice_msgs__rosidl_typesupport_microxrcedds_c.so" to ""
+[14.398s] -- Up-to-date: /home/rassito/microros_ws/install/service_msgs/include/service_msgs/service_msgs
+[14.398s] -- Up-to-date: /home/rassito/microros_ws/install/service_msgs/include/service_msgs/service_msgs/msg
+[14.399s] -- Installing: /home/rassito/microros_ws/install/service_msgs/include/service_msgs/service_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[14.399s] -- Up-to-date: /home/rassito/microros_ws/install/service_msgs/include/service_msgs/service_msgs/msg/detail
+[14.399s] -- Installing: /home/rassito/microros_ws/install/service_msgs/include/service_msgs/service_msgs/msg/detail/service_event_info__type_support.c
+[14.399s] -- Installing: /home/rassito/microros_ws/install/service_msgs/include/service_msgs/service_msgs/msg/detail/service_event_info__rosidl_typesupport_introspection_c.h
+[14.400s] -- Installing: /home/rassito/microros_ws/install/service_msgs/lib/libservice_msgs__rosidl_typesupport_introspection_c.so
+[14.400s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/service_msgs/lib/libservice_msgs__rosidl_typesupport_introspection_c.so" to ""
+[14.400s] -- Installing: /home/rassito/microros_ws/install/service_msgs/lib/libservice_msgs__rosidl_typesupport_c.so
+[14.400s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/service_msgs/lib/libservice_msgs__rosidl_typesupport_c.so" to ""
+[14.401s] -- Up-to-date: /home/rassito/microros_ws/install/service_msgs/include/service_msgs
+[14.401s] -- Up-to-date: /home/rassito/microros_ws/install/service_msgs/include/service_msgs/msg
+[14.401s] -- Installing: /home/rassito/microros_ws/install/service_msgs/include/service_msgs/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+[14.401s] -- Up-to-date: /home/rassito/microros_ws/install/service_msgs/include/service_msgs/msg/detail
+[14.401s] -- Up-to-date: /home/rassito/microros_ws/install/service_msgs/include/service_msgs/msg/detail/microxrcedds
+[14.401s] -- Installing: /home/rassito/microros_ws/install/service_msgs/include/service_msgs/msg/detail/microxrcedds/service_event_info__type_support_cpp.cpp
+[14.401s] -- Installing: /home/rassito/microros_ws/install/service_msgs/include/service_msgs/msg/detail/service_event_info__rosidl_typesupport_microxrcedds_cpp.hpp
+[14.401s] -- Installing: /home/rassito/microros_ws/install/service_msgs/lib/libservice_msgs__rosidl_typesupport_microxrcedds_cpp.so
+[14.401s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/service_msgs/lib/libservice_msgs__rosidl_typesupport_microxrcedds_cpp.so" to ""
+[14.402s] -- Up-to-date: /home/rassito/microros_ws/install/service_msgs/include/service_msgs/service_msgs
+[14.402s] -- Up-to-date: /home/rassito/microros_ws/install/service_msgs/include/service_msgs/service_msgs/msg
+[14.402s] -- Up-to-date: /home/rassito/microros_ws/install/service_msgs/include/service_msgs/service_msgs/msg/detail
+[14.402s] -- Installing: /home/rassito/microros_ws/install/service_msgs/include/service_msgs/service_msgs/msg/detail/service_event_info__rosidl_typesupport_introspection_cpp.hpp
+[14.402s] -- Installing: /home/rassito/microros_ws/install/service_msgs/include/service_msgs/service_msgs/msg/detail/service_event_info__type_support.cpp
+[14.402s] -- Installing: /home/rassito/microros_ws/install/service_msgs/lib/libservice_msgs__rosidl_typesupport_introspection_cpp.so
+[14.402s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/service_msgs/lib/libservice_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[14.402s] -- Installing: /home/rassito/microros_ws/install/service_msgs/lib/libservice_msgs__rosidl_typesupport_cpp.so
+[14.409s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/service_msgs/lib/libservice_msgs__rosidl_typesupport_cpp.so" to ""
+[14.409s] -- Installing: /home/rassito/microros_ws/install/service_msgs/share/service_msgs/environment/pythonpath.sh
+[14.410s] -- Installing: /home/rassito/microros_ws/install/service_msgs/share/service_msgs/environment/pythonpath.dsv
+[14.410s] -- Installing: /home/rassito/microros_ws/install/service_msgs/lib/python3.12/site-packages/service_msgs-2.0.2-py3.12.egg-info
+[14.410s] -- Installing: /home/rassito/microros_ws/install/service_msgs/lib/python3.12/site-packages/service_msgs-2.0.2-py3.12.egg-info/top_level.txt
+[14.410s] -- Installing: /home/rassito/microros_ws/install/service_msgs/lib/python3.12/site-packages/service_msgs-2.0.2-py3.12.egg-info/PKG-INFO
+[14.410s] -- Installing: /home/rassito/microros_ws/install/service_msgs/lib/python3.12/site-packages/service_msgs-2.0.2-py3.12.egg-info/dependency_links.txt
+[14.410s] -- Installing: /home/rassito/microros_ws/install/service_msgs/lib/python3.12/site-packages/service_msgs-2.0.2-py3.12.egg-info/SOURCES.txt
+[14.410s] -- Installing: /home/rassito/microros_ws/install/service_msgs/lib/python3.12/site-packages/service_msgs
+[14.410s] -- Installing: /home/rassito/microros_ws/install/service_msgs/lib/python3.12/site-packages/service_msgs/service_msgs_s__rosidl_typesupport_c.so
+[14.412s] -- Installing: /home/rassito/microros_ws/install/service_msgs/lib/python3.12/site-packages/service_msgs/service_msgs_s__rosidl_typesupport_introspection_c.so
+[14.412s] -- Installing: /home/rassito/microros_ws/install/service_msgs/lib/python3.12/site-packages/service_msgs/_service_msgs_s.ep.rosidl_typesupport_c.c
+[14.412s] -- Installing: /home/rassito/microros_ws/install/service_msgs/lib/python3.12/site-packages/service_msgs/_service_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c
+[14.412s] -- Installing: /home/rassito/microros_ws/install/service_msgs/lib/python3.12/site-packages/service_msgs/service_msgs_s__rosidl_typesupport_fastrtps_c.so
+[14.412s] -- Installing: /home/rassito/microros_ws/install/service_msgs/lib/python3.12/site-packages/service_msgs/_service_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[14.412s] -- Installing: /home/rassito/microros_ws/install/service_msgs/lib/python3.12/site-packages/service_msgs/msg
+[14.413s] -- Installing: /home/rassito/microros_ws/install/service_msgs/lib/python3.12/site-packages/service_msgs/msg/_service_event_info_s.c
+[14.417s] -- Installing: /home/rassito/microros_ws/install/service_msgs/lib/python3.12/site-packages/service_msgs/msg/_service_event_info.py
+[14.417s] -- Installing: /home/rassito/microros_ws/install/service_msgs/lib/python3.12/site-packages/service_msgs/msg/__init__.py
+[14.417s] -- Installing: /home/rassito/microros_ws/install/service_msgs/lib/python3.12/site-packages/service_msgs/_service_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[14.417s] -- Installing: /home/rassito/microros_ws/install/service_msgs/lib/python3.12/site-packages/service_msgs/__init__.py
+[14.418s] -- Installing: /home/rassito/microros_ws/install/service_msgs/lib/python3.12/site-packages/service_msgs/service_msgs_s__rosidl_typesupport_microxrcedds_c.so
+[14.513s] Listing '/home/rassito/microros_ws/install/service_msgs/lib/python3.12/site-packages/service_msgs'...
+[14.513s] Compiling '/home/rassito/microros_ws/install/service_msgs/lib/python3.12/site-packages/service_msgs/__init__.py'...
+[14.513s] Listing '/home/rassito/microros_ws/install/service_msgs/lib/python3.12/site-packages/service_msgs/msg'...
+[14.513s] Compiling '/home/rassito/microros_ws/install/service_msgs/lib/python3.12/site-packages/service_msgs/msg/__init__.py'...
+[14.513s] Compiling '/home/rassito/microros_ws/install/service_msgs/lib/python3.12/site-packages/service_msgs/msg/_service_event_info.py'...
+[14.524s] -- Installing: /home/rassito/microros_ws/install/service_msgs/lib/python3.12/site-packages/service_msgs/service_msgs_s__rosidl_typesupport_microxrcedds_c.so
+[14.524s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/service_msgs/lib/python3.12/site-packages/service_msgs/service_msgs_s__rosidl_typesupport_microxrcedds_c.so" to ""
+[14.525s] -- Installing: /home/rassito/microros_ws/install/service_msgs/lib/python3.12/site-packages/service_msgs/service_msgs_s__rosidl_typesupport_fastrtps_c.so
+[14.525s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/service_msgs/lib/python3.12/site-packages/service_msgs/service_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[14.525s] -- Installing: /home/rassito/microros_ws/install/service_msgs/lib/python3.12/site-packages/service_msgs/service_msgs_s__rosidl_typesupport_introspection_c.so
+[14.525s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/service_msgs/lib/python3.12/site-packages/service_msgs/service_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[14.525s] -- Installing: /home/rassito/microros_ws/install/service_msgs/lib/python3.12/site-packages/service_msgs/service_msgs_s__rosidl_typesupport_c.so
+[14.529s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/service_msgs/lib/python3.12/site-packages/service_msgs/service_msgs_s__rosidl_typesupport_c.so" to ""
+[14.529s] -- Installing: /home/rassito/microros_ws/install/service_msgs/lib/libservice_msgs__rosidl_generator_py.so
+[14.529s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/service_msgs/lib/libservice_msgs__rosidl_generator_py.so" to ""
+[14.529s] -- Installing: /home/rassito/microros_ws/install/service_msgs/share/service_msgs/msg/ServiceEventInfo.idl
+[14.530s] -- Installing: /home/rassito/microros_ws/install/service_msgs/share/service_msgs/msg/ServiceEventInfo.msg
+[14.530s] -- Installing: /home/rassito/microros_ws/install/service_msgs/share/ament_index/resource_index/package_run_dependencies/service_msgs
+[14.530s] -- Installing: /home/rassito/microros_ws/install/service_msgs/share/ament_index/resource_index/parent_prefix_path/service_msgs
+[14.530s] -- Installing: /home/rassito/microros_ws/install/service_msgs/share/service_msgs/environment/ament_prefix_path.sh
+[14.530s] -- Installing: /home/rassito/microros_ws/install/service_msgs/share/service_msgs/environment/ament_prefix_path.dsv
+[14.530s] -- Installing: /home/rassito/microros_ws/install/service_msgs/share/service_msgs/environment/path.sh
+[14.530s] -- Installing: /home/rassito/microros_ws/install/service_msgs/share/service_msgs/environment/path.dsv
+[14.530s] -- Installing: /home/rassito/microros_ws/install/service_msgs/share/service_msgs/local_setup.bash
+[14.531s] -- Installing: /home/rassito/microros_ws/install/service_msgs/share/service_msgs/local_setup.sh
+[14.531s] -- Installing: /home/rassito/microros_ws/install/service_msgs/share/service_msgs/local_setup.zsh
+[14.531s] -- Installing: /home/rassito/microros_ws/install/service_msgs/share/service_msgs/local_setup.dsv
+[14.531s] -- Installing: /home/rassito/microros_ws/install/service_msgs/share/service_msgs/package.dsv
+[14.534s] -- Installing: /home/rassito/microros_ws/install/service_msgs/share/ament_index/resource_index/packages/service_msgs
+[14.534s] -- Installing: /home/rassito/microros_ws/install/service_msgs/share/service_msgs/cmake/export_service_msgs__rosidl_generator_cExport.cmake
+[14.534s] -- Installing: /home/rassito/microros_ws/install/service_msgs/share/service_msgs/cmake/export_service_msgs__rosidl_generator_cExport-noconfig.cmake
+[14.534s] -- Installing: /home/rassito/microros_ws/install/service_msgs/share/service_msgs/cmake/export_service_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[14.534s] -- Installing: /home/rassito/microros_ws/install/service_msgs/share/service_msgs/cmake/export_service_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[14.535s] -- Installing: /home/rassito/microros_ws/install/service_msgs/share/service_msgs/cmake/export_service_msgs__rosidl_generator_cppExport.cmake
+[14.535s] -- Installing: /home/rassito/microros_ws/install/service_msgs/share/service_msgs/cmake/export_service_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[14.535s] -- Installing: /home/rassito/microros_ws/install/service_msgs/share/service_msgs/cmake/export_service_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[14.535s] -- Installing: /home/rassito/microros_ws/install/service_msgs/share/service_msgs/cmake/service_msgs__rosidl_typesupport_introspection_cExport.cmake
+[14.536s] -- Installing: /home/rassito/microros_ws/install/service_msgs/share/service_msgs/cmake/service_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[14.536s] -- Installing: /home/rassito/microros_ws/install/service_msgs/share/service_msgs/cmake/service_msgs__rosidl_typesupport_cExport.cmake
+[14.536s] -- Installing: /home/rassito/microros_ws/install/service_msgs/share/service_msgs/cmake/service_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[14.536s] -- Installing: /home/rassito/microros_ws/install/service_msgs/share/service_msgs/cmake/service_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[14.536s] -- Installing: /home/rassito/microros_ws/install/service_msgs/share/service_msgs/cmake/service_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[14.540s] -- Installing: /home/rassito/microros_ws/install/service_msgs/share/service_msgs/cmake/service_msgs__rosidl_typesupport_cppExport.cmake
+[14.540s] -- Installing: /home/rassito/microros_ws/install/service_msgs/share/service_msgs/cmake/service_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[14.540s] -- Installing: /home/rassito/microros_ws/install/service_msgs/share/service_msgs/cmake/export_service_msgs__rosidl_generator_pyExport.cmake
+[14.540s] -- Installing: /home/rassito/microros_ws/install/service_msgs/share/service_msgs/cmake/export_service_msgs__rosidl_generator_pyExport-noconfig.cmake
+[14.540s] -- Installing: /home/rassito/microros_ws/install/service_msgs/share/service_msgs/cmake/rosidl_cmake-extras.cmake
+[14.541s] -- Installing: /home/rassito/microros_ws/install/service_msgs/share/service_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.541s] -- Installing: /home/rassito/microros_ws/install/service_msgs/share/service_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.541s] -- Installing: /home/rassito/microros_ws/install/service_msgs/share/service_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[14.541s] -- Installing: /home/rassito/microros_ws/install/service_msgs/share/service_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[14.541s] -- Installing: /home/rassito/microros_ws/install/service_msgs/share/service_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[14.541s] -- Installing: /home/rassito/microros_ws/install/service_msgs/share/service_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[14.541s] -- Installing: /home/rassito/microros_ws/install/service_msgs/share/service_msgs/cmake/service_msgsConfig.cmake
+[14.542s] -- Installing: /home/rassito/microros_ws/install/service_msgs/share/service_msgs/cmake/service_msgsConfig-version.cmake
+[14.542s] -- Installing: /home/rassito/microros_ws/install/service_msgs/share/service_msgs/package.xml
+[14.549s] Invoked command in '/home/rassito/microros_ws/build/service_msgs' returned '0': AMENT_PREFIX_PATH=/home/rassito/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/builtin_interfaces:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/rassito/microros_ws/install/microcdr:/home/rassito/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rassito/microros_ws/build/service_msgs

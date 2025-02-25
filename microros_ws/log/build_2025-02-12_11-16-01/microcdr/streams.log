@@ -1,0 +1,17 @@
+[0.057s] Invoking command in '/home/rassito/microros_ws/build/microcdr': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rassito/microros_ws/build/microcdr -- -j16 -l16
+[0.121s] [100%] Built target microcdr
+[0.135s] Invoked command in '/home/rassito/microros_ws/build/microcdr' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rassito/microros_ws/build/microcdr -- -j16 -l16
+[0.151s] Invoking command in '/home/rassito/microros_ws/build/microcdr': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rassito/microros_ws/build/microcdr
+[0.165s] -- Install configuration: "Release"
+[0.165s] -- Up-to-date: /home/rassito/microros_ws/install/microcdr/lib/libmicrocdr.so.2.0.1
+[0.165s] -- Up-to-date: /home/rassito/microros_ws/install/microcdr/lib/libmicrocdr.so.2.0
+[0.165s] -- Up-to-date: /home/rassito/microros_ws/install/microcdr/lib/libmicrocdr.so
+[0.165s] -- Up-to-date: /home/rassito/microros_ws/install/microcdr/include/ucdr
+[0.166s] -- Up-to-date: /home/rassito/microros_ws/install/microcdr/include/ucdr/visibility.h
+[0.166s] -- Up-to-date: /home/rassito/microros_ws/install/microcdr/include/ucdr/microcdr.h
+[0.166s] -- Up-to-date: /home/rassito/microros_ws/install/microcdr/include/ucdr/config.h
+[0.166s] -- Up-to-date: /home/rassito/microros_ws/install/microcdr/share/microcdr/cmake/microcdrTargets.cmake
+[0.166s] -- Up-to-date: /home/rassito/microros_ws/install/microcdr/share/microcdr/cmake/microcdrTargets-release.cmake
+[0.166s] -- Up-to-date: /home/rassito/microros_ws/install/microcdr/share/microcdr/cmake/microcdrConfig.cmake
+[0.166s] -- Up-to-date: /home/rassito/microros_ws/install/microcdr/share/microcdr/cmake/microcdrConfigVersion.cmake
+[0.168s] Invoked command in '/home/rassito/microros_ws/build/microcdr' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rassito/microros_ws/build/microcdr

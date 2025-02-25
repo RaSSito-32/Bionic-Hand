@@ -1,0 +1,269 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-2cbc1a1e632da83192f3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					]
+				},
+				{
+					"build" : "drive_base_msgs__py",
+					"jsonFile" : "directory-drive_base_msgs__py-7f03a40099e803092d13.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/rassito/microros_ws/build/drive_base_msgs/drive_base_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "drive_base_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_drive_base_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_drive_base_msgs_egg-9ae3adb0dc03d1f9073d.json",
+					"name" : "ament_cmake_python_build_drive_base_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_drive_base_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_drive_base_msgs-1ee6782a18275f8c965a.json",
+					"name" : "ament_cmake_python_copy_drive_base_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "drive_base_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drive_base_msgs-2fc5ef5d191737c6e0ff.json",
+					"name" : "drive_base_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "drive_base_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drive_base_msgs__cpp-8a38b73686bfe322b7c2.json",
+					"name" : "drive_base_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "drive_base_msgs__py::@a7b11c69a8f866d1b5b1",
+					"jsonFile" : "target-drive_base_msgs__py-91f20ea2de8a4b045e3a.json",
+					"name" : "drive_base_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "drive_base_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drive_base_msgs__rosidl_generator_c-f5168b6c849f675a81a9.json",
+					"name" : "drive_base_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "drive_base_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drive_base_msgs__rosidl_generator_py-418695efc5271c36b852.json",
+					"name" : "drive_base_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "drive_base_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drive_base_msgs__rosidl_generator_type_description-6e5b08f5e5fc155bd0bf.json",
+					"name" : "drive_base_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "drive_base_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drive_base_msgs__rosidl_typesupport_c-cf78bcb220f69545846a.json",
+					"name" : "drive_base_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "drive_base_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drive_base_msgs__rosidl_typesupport_cpp-56e66923a34312b1e66b.json",
+					"name" : "drive_base_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "drive_base_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drive_base_msgs__rosidl_typesupport_fastrtps_c-601d49f85b1cb4e53950.json",
+					"name" : "drive_base_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "drive_base_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drive_base_msgs__rosidl_typesupport_fastrtps_cpp-9a35771f19dab0fd49a8.json",
+					"name" : "drive_base_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "drive_base_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drive_base_msgs__rosidl_typesupport_introspection_c-e7393ef79f2f417601f0.json",
+					"name" : "drive_base_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "drive_base_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drive_base_msgs__rosidl_typesupport_introspection_cpp-7f843ae8925403e15382.json",
+					"name" : "drive_base_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "drive_base_msgs__rosidl_typesupport_microxrcedds_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drive_base_msgs__rosidl_typesupport_microxrcedds_c-036bcf287ba7b2b2e7ab.json",
+					"name" : "drive_base_msgs__rosidl_typesupport_microxrcedds_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "drive_base_msgs__rosidl_typesupport_microxrcedds_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drive_base_msgs__rosidl_typesupport_microxrcedds_cpp-046300a6d82c4fdf7b5d.json",
+					"name" : "drive_base_msgs__rosidl_typesupport_microxrcedds_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "drive_base_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drive_base_msgs_s__rosidl_typesupport_c-4fb9f539f4f480547834.json",
+					"name" : "drive_base_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "drive_base_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drive_base_msgs_s__rosidl_typesupport_fastrtps_c-44073f16c8b89c26c498.json",
+					"name" : "drive_base_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "drive_base_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drive_base_msgs_s__rosidl_typesupport_introspection_c-6eb5e9ae564b0066e750.json",
+					"name" : "drive_base_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "drive_base_msgs_s__rosidl_typesupport_microxrcedds_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drive_base_msgs_s__rosidl_typesupport_microxrcedds_c-1209b0f704a79066dbfd.json",
+					"name" : "drive_base_msgs_s__rosidl_typesupport_microxrcedds_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "drive_base_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drive_base_msgs_uninstall-4e17db80e806e0bb510a.json",
+					"name" : "drive_base_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-51cd31b832645668ae32.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rassito/microros_ws/build/drive_base_msgs",
+		"source" : "/home/rassito/microros_ws/src/uros/drive_base/drive_base_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

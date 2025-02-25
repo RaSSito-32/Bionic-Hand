@@ -1,0 +1,359 @@
+[0.011s] Invoking command in '/home/rassito/microros_ws/build/actionlib_msgs': AMENT_PREFIX_PATH=/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/rassito/microros_ws/install/microcdr:/home/rassito/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/std_msgs/lib:/home/rassito/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rassito/microros_ws/src/ros2/common_interfaces/actionlib_msgs -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/rassito/microros_ws/install/actionlib_msgs
+[0.054s] -- The C compiler identification is GNU 13.3.0
+[0.102s] -- The CXX compiler identification is GNU 13.3.0
+[0.115s] -- Detecting C compiler ABI info
+[0.193s] -- Detecting C compiler ABI info - done
+[0.206s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.206s] -- Detecting C compile features
+[0.207s] -- Detecting C compile features - done
+[0.216s] -- Detecting CXX compiler ABI info
+[0.295s] -- Detecting CXX compiler ABI info - done
+[0.307s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.308s] -- Detecting CXX compile features
+[0.308s] -- Detecting CXX compile features - done
+[0.312s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.477s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.607s] -- Found builtin_interfaces: 2.0.2 (/home/rassito/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake)
+[0.657s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.677s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.701s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.710s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.736s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.753s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.763s] -- Found std_msgs: 5.3.5 (/home/rassito/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[1.373s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.135s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.539s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.543s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.657s] -- Found PythonExtra: /usr/bin/python3  
+[3.113s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[3.167s] -- Configuring done (3.1s)
+[3.206s] -- Generating done (0.0s)
+[3.217s] -- Build files have been written to: /home/rassito/microros_ws/build/actionlib_msgs
+[3.226s] Invoked command in '/home/rassito/microros_ws/build/actionlib_msgs' returned '0': AMENT_PREFIX_PATH=/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/rassito/microros_ws/install/microcdr:/home/rassito/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/std_msgs/lib:/home/rassito/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rassito/microros_ws/src/ros2/common_interfaces/actionlib_msgs -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/rassito/microros_ws/install/actionlib_msgs
+[3.227s] Invoking command in '/home/rassito/microros_ws/build/actionlib_msgs': AMENT_PREFIX_PATH=/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/rassito/microros_ws/install/microcdr:/home/rassito/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/std_msgs/lib:/home/rassito/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rassito/microros_ws/build/actionlib_msgs -- -j16 -l16
+[3.265s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[3.271s] [  1%] Built target ament_cmake_python_copy_actionlib_msgs
+[3.454s] running egg_info
+[3.455s] creating actionlib_msgs.egg-info
+[3.471s] writing actionlib_msgs.egg-info/PKG-INFO
+[3.471s] writing dependency_links to actionlib_msgs.egg-info/dependency_links.txt
+[3.471s] writing top-level names to actionlib_msgs.egg-info/top_level.txt
+[3.472s] writing manifest file 'actionlib_msgs.egg-info/SOURCES.txt'
+[3.544s] reading manifest file 'actionlib_msgs.egg-info/SOURCES.txt'
+[3.545s] writing manifest file 'actionlib_msgs.egg-info/SOURCES.txt'
+[3.581s] [  1%] Built target ament_cmake_python_build_actionlib_msgs_egg
+[3.588s] [  1%] Built target actionlib_msgs__rosidl_generator_type_description
+[3.600s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.612s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.076s] [ 10%] [32mBuilding C object CMakeFiles/actionlib_msgs__rosidl_generator_c.dir/rosidl_generator_c/actionlib_msgs/msg/detail/goal_id__functions.c.o[0m
+[4.077s] [ 10%] [32mBuilding C object CMakeFiles/actionlib_msgs__rosidl_generator_c.dir/rosidl_generator_c/actionlib_msgs/msg/detail/goal_status__description.c.o[0m
+[4.077s] [ 10%] [32mBuilding C object CMakeFiles/actionlib_msgs__rosidl_generator_c.dir/rosidl_generator_c/actionlib_msgs/msg/detail/goal_id__type_support.c.o[0m
+[4.077s] [ 10%] [32mBuilding C object CMakeFiles/actionlib_msgs__rosidl_generator_c.dir/rosidl_generator_c/actionlib_msgs/msg/detail/goal_id__description.c.o[0m
+[4.103s] [ 12%] [32mBuilding C object CMakeFiles/actionlib_msgs__rosidl_generator_c.dir/rosidl_generator_c/actionlib_msgs/msg/detail/goal_status_array__type_support.c.o[0m
+[4.122s] [ 15%] [32mBuilding C object CMakeFiles/actionlib_msgs__rosidl_generator_c.dir/rosidl_generator_c/actionlib_msgs/msg/detail/goal_status_array__functions.c.o[0m
+[4.122s] [ 15%] [32mBuilding C object CMakeFiles/actionlib_msgs__rosidl_generator_c.dir/rosidl_generator_c/actionlib_msgs/msg/detail/goal_status_array__description.c.o[0m
+[4.133s] [ 16%] [32mBuilding C object CMakeFiles/actionlib_msgs__rosidl_generator_c.dir/rosidl_generator_c/actionlib_msgs/msg/detail/goal_status__type_support.c.o[0m
+[4.135s] [ 18%] [32mBuilding C object CMakeFiles/actionlib_msgs__rosidl_generator_c.dir/rosidl_generator_c/actionlib_msgs/msg/detail/goal_status__functions.c.o[0m
+[4.178s] [ 19%] [32m[1mLinking C shared library libactionlib_msgs__rosidl_generator_c.so[0m
+[4.185s] [ 19%] Built target actionlib_msgs__cpp
+[4.193s] [ 21%] [34m[1mGenerating C++ type support for eProsima Micro XRCE-DDS[0m
+[4.209s] [ 21%] Built target actionlib_msgs__rosidl_generator_c
+[4.216s] [ 22%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.219s] [ 24%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.264s] /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_cmake/__init__.py:19: UserWarning: The 'rosidl_cmake' Python module is deprecated. Use 'rosidl_pycommon' instead.
+[4.265s]   warnings.warn(
+[4.556s] [ 25%] [32mBuilding CXX object CMakeFiles/actionlib_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/actionlib_msgs/msg/detail/microxrcedds/goal_id__type_support_cpp.cpp.o[0m
+[4.557s] [ 27%] [32mBuilding CXX object CMakeFiles/actionlib_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/actionlib_msgs/msg/detail/microxrcedds/goal_status__type_support_cpp.cpp.o[0m
+[4.557s] [ 28%] [32mBuilding CXX object CMakeFiles/actionlib_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/actionlib_msgs/msg/detail/microxrcedds/goal_status_array__type_support_cpp.cpp.o[0m
+[4.653s] [ 30%] [32mBuilding CXX object CMakeFiles/actionlib_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/actionlib_msgs/msg/goal_id__type_support.cpp.o[0m
+[4.653s] [ 33%] [32mBuilding CXX object CMakeFiles/actionlib_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/actionlib_msgs/msg/goal_status__type_support.cpp.o[0m
+[4.653s] [ 33%] [32mBuilding CXX object CMakeFiles/actionlib_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/actionlib_msgs/msg/goal_status_array__type_support.cpp.o[0m
+[4.685s] [ 37%] [32mBuilding CXX object CMakeFiles/actionlib_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/actionlib_msgs/msg/detail/goal_status_array__type_support.cpp.o[0m
+[4.685s] [ 37%] [32mBuilding CXX object CMakeFiles/actionlib_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/actionlib_msgs/msg/detail/goal_id__type_support.cpp.o[0m
+[4.685s] [ 37%] [32mBuilding CXX object CMakeFiles/actionlib_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/actionlib_msgs/msg/detail/goal_status__type_support.cpp.o[0m
+[4.912s] [01m[K/home/rassito/microros_ws/build/actionlib_msgs/rosidl_typesupport_microxrcedds_cpp/actionlib_msgs/msg/detail/microxrcedds/goal_status__type_support_cpp.cpp:213:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[4.912s]   213 | [01;35m[K}[m[K;
+[4.912s]       | [01;35m[K^[m[K
+[4.912s] [01m[K/home/rassito/microros_ws/build/actionlib_msgs/rosidl_typesupport_microxrcedds_cpp/actionlib_msgs/msg/detail/microxrcedds/goal_status__type_support_cpp.cpp:213:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[4.913s] [01m[K/home/rassito/microros_ws/build/actionlib_msgs/rosidl_typesupport_microxrcedds_cpp/actionlib_msgs/msg/detail/microxrcedds/goal_status__type_support_cpp.cpp:213:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[4.917s] [01m[K/home/rassito/microros_ws/build/actionlib_msgs/rosidl_typesupport_microxrcedds_cpp/actionlib_msgs/msg/detail/microxrcedds/goal_status_array__type_support_cpp.cpp:259:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[4.917s]   259 | [01;35m[K}[m[K;
+[4.917s]       | [01;35m[K^[m[K
+[4.917s] [01m[K/home/rassito/microros_ws/build/actionlib_msgs/rosidl_typesupport_microxrcedds_cpp/actionlib_msgs/msg/detail/microxrcedds/goal_status_array__type_support_cpp.cpp:259:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[4.918s] [01m[K/home/rassito/microros_ws/build/actionlib_msgs/rosidl_typesupport_microxrcedds_cpp/actionlib_msgs/msg/detail/microxrcedds/goal_status_array__type_support_cpp.cpp:259:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[4.926s] [01m[K/home/rassito/microros_ws/build/actionlib_msgs/rosidl_typesupport_microxrcedds_cpp/actionlib_msgs/msg/detail/microxrcedds/goal_id__type_support_cpp.cpp:202:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[4.927s]   202 | [01;35m[K}[m[K;
+[4.927s]       | [01;35m[K^[m[K
+[4.927s] [01m[K/home/rassito/microros_ws/build/actionlib_msgs/rosidl_typesupport_microxrcedds_cpp/actionlib_msgs/msg/detail/microxrcedds/goal_id__type_support_cpp.cpp:202:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[4.927s] [01m[K/home/rassito/microros_ws/build/actionlib_msgs/rosidl_typesupport_microxrcedds_cpp/actionlib_msgs/msg/detail/microxrcedds/goal_id__type_support_cpp.cpp:202:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[5.014s] [ 39%] [32m[1mLinking CXX shared library libactionlib_msgs__rosidl_typesupport_microxrcedds_cpp.so[0m
+[5.029s] [ 40%] [32m[1mLinking CXX shared library libactionlib_msgs__rosidl_typesupport_cpp.so[0m
+[5.071s] [ 40%] Built target actionlib_msgs__rosidl_typesupport_cpp
+[5.077s] [ 40%] Built target actionlib_msgs__rosidl_typesupport_microxrcedds_cpp
+[5.078s] [ 42%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.081s] [ 43%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.085s] [ 45%] [34m[1mGenerating C type support for eProsima Micro XRCE-DDS[0m
+[5.127s] [ 46%] [32m[1mLinking CXX shared library libactionlib_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[5.147s] /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_cmake/__init__.py:19: UserWarning: The 'rosidl_cmake' Python module is deprecated. Use 'rosidl_pycommon' instead.
+[5.147s]   warnings.warn(
+[5.210s] [ 46%] Built target actionlib_msgs__rosidl_typesupport_introspection_cpp
+[5.221s] [ 48%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.656s] [ 50%] [32mBuilding C object CMakeFiles/actionlib_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/actionlib_msgs/msg/detail/microxrcedds/goal_id__type_support_c.c.o[0m
+[5.656s] [ 51%] [32mBuilding C object CMakeFiles/actionlib_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/actionlib_msgs/msg/detail/microxrcedds/goal_status_array__type_support_c.c.o[0m
+[5.658s] [ 53%] [32mBuilding C object CMakeFiles/actionlib_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/actionlib_msgs/msg/detail/microxrcedds/goal_status__type_support_c.c.o[0m
+[5.691s] [ 54%] [32mBuilding CXX object CMakeFiles/actionlib_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/actionlib_msgs/msg/goal_status__type_support.cpp.o[0m
+[5.691s] [ 56%] [32mBuilding CXX object CMakeFiles/actionlib_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/actionlib_msgs/msg/goal_status_array__type_support.cpp.o[0m
+[5.692s] [ 57%] [32mBuilding CXX object CMakeFiles/actionlib_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/actionlib_msgs/msg/goal_id__type_support.cpp.o[0m
+[5.735s] [ 59%] [32m[1mLinking C shared library libactionlib_msgs__rosidl_typesupport_microxrcedds_c.so[0m
+[5.758s] [ 60%] [32mBuilding C object CMakeFiles/actionlib_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/actionlib_msgs/msg/detail/goal_status__type_support.c.o[0m
+[5.760s] [ 62%] [32mBuilding C object CMakeFiles/actionlib_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/actionlib_msgs/msg/detail/goal_id__type_support.c.o[0m
+[5.764s] [ 63%] [32mBuilding C object CMakeFiles/actionlib_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/actionlib_msgs/msg/detail/goal_status_array__type_support.c.o[0m
+[5.776s] [ 65%] [32m[1mLinking CXX shared library libactionlib_msgs__rosidl_typesupport_c.so[0m
+[5.790s] [ 65%] Built target actionlib_msgs__rosidl_typesupport_microxrcedds_c
+[5.804s] [ 66%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.827s] [ 68%] [32m[1mLinking C shared library libactionlib_msgs__rosidl_typesupport_introspection_c.so[0m
+[5.832s] [ 68%] Built target actionlib_msgs__rosidl_typesupport_c
+[5.856s] [ 68%] Built target actionlib_msgs__rosidl_typesupport_introspection_c
+[5.924s] [ 69%] [32mBuilding CXX object CMakeFiles/actionlib_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/actionlib_msgs/msg/detail/dds_fastrtps/goal_id__type_support.cpp.o[0m
+[5.928s] [ 71%] [32mBuilding CXX object CMakeFiles/actionlib_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/actionlib_msgs/msg/detail/dds_fastrtps/goal_status_array__type_support.cpp.o[0m
+[5.928s] [ 72%] [32mBuilding CXX object CMakeFiles/actionlib_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/actionlib_msgs/msg/detail/dds_fastrtps/goal_status__type_support.cpp.o[0m
+[6.480s] [ 74%] [32mBuilding CXX object CMakeFiles/actionlib_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/actionlib_msgs/msg/detail/goal_status_array__type_support_c.cpp.o[0m
+[6.480s] [ 75%] [32mBuilding CXX object CMakeFiles/actionlib_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/actionlib_msgs/msg/detail/goal_status__type_support_c.cpp.o[0m
+[6.486s] [ 77%] [32mBuilding CXX object CMakeFiles/actionlib_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/actionlib_msgs/msg/detail/goal_id__type_support_c.cpp.o[0m
+[6.588s] [ 78%] [32m[1mLinking CXX shared library libactionlib_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.692s] [ 78%] Built target actionlib_msgs__rosidl_typesupport_fastrtps_cpp
+[7.065s] [ 80%] [32m[1mLinking CXX shared library libactionlib_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[7.154s] [ 80%] Built target actionlib_msgs__rosidl_typesupport_fastrtps_c
+[7.177s] [ 80%] Built target actionlib_msgs
+[7.198s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[7.987s] [ 81%] Built target actionlib_msgs__py
+[8.011s] [ 83%] [32mBuilding C object CMakeFiles/actionlib_msgs__rosidl_generator_py.dir/rosidl_generator_py/actionlib_msgs/msg/_goal_status_s.c.o[0m
+[8.011s] [ 84%] [32mBuilding C object CMakeFiles/actionlib_msgs__rosidl_generator_py.dir/rosidl_generator_py/actionlib_msgs/msg/_goal_id_s.c.o[0m
+[8.134s] [ 86%] [32mBuilding C object CMakeFiles/actionlib_msgs__rosidl_generator_py.dir/rosidl_generator_py/actionlib_msgs/msg/_goal_status_array_s.c.o[0m
+[8.247s] [ 87%] [32m[1mLinking C shared library libactionlib_msgs__rosidl_generator_py.so[0m
+[8.301s] [ 87%] Built target actionlib_msgs__rosidl_generator_py
+[8.324s] [ 89%] [32mBuilding C object CMakeFiles/actionlib_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/actionlib_msgs/_actionlib_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[8.324s] [ 90%] [32mBuilding C object CMakeFiles/actionlib_msgs_s__rosidl_typesupport_microxrcedds_c.dir/rosidl_generator_py/actionlib_msgs/_actionlib_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c.o[0m
+[8.443s] [ 92%] [32m[1mLinking C shared module rosidl_generator_py/actionlib_msgs/actionlib_msgs_s__rosidl_typesupport_microxrcedds_c.so[0m
+[8.446s] [ 93%] [32m[1mLinking C shared module rosidl_generator_py/actionlib_msgs/actionlib_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[8.481s] [ 93%] Built target actionlib_msgs_s__rosidl_typesupport_fastrtps_c
+[8.481s] [ 93%] Built target actionlib_msgs_s__rosidl_typesupport_microxrcedds_c
+[8.499s] [ 95%] [32mBuilding C object CMakeFiles/actionlib_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/actionlib_msgs/_actionlib_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[8.637s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/actionlib_msgs/actionlib_msgs_s__rosidl_typesupport_c.so[0m
+[8.658s] [ 96%] Built target actionlib_msgs_s__rosidl_typesupport_c
+[8.671s] [ 98%] [32mBuilding C object CMakeFiles/actionlib_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/actionlib_msgs/_actionlib_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[8.753s] [100%] [32m[1mLinking C shared module rosidl_generator_py/actionlib_msgs/actionlib_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[8.776s] [100%] Built target actionlib_msgs_s__rosidl_typesupport_introspection_c
+[8.786s] Invoked command in '/home/rassito/microros_ws/build/actionlib_msgs' returned '0': AMENT_PREFIX_PATH=/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/rassito/microros_ws/install/microcdr:/home/rassito/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/std_msgs/lib:/home/rassito/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rassito/microros_ws/build/actionlib_msgs -- -j16 -l16
+[8.787s] Invoking command in '/home/rassito/microros_ws/build/actionlib_msgs': AMENT_PREFIX_PATH=/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/rassito/microros_ws/install/microcdr:/home/rassito/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/std_msgs/lib:/home/rassito/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rassito/microros_ws/build/actionlib_msgs
+[8.793s] -- Install configuration: ""
+[8.793s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/share/ament_index/resource_index/rosidl_interfaces/actionlib_msgs
+[8.793s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/share/actionlib_msgs/msg/GoalID.json
+[8.793s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/share/actionlib_msgs/msg/GoalStatus.json
+[8.793s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/share/actionlib_msgs/msg/GoalStatusArray.json
+[8.793s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs
+[8.794s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg
+[8.794s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/goal_id.h
+[8.794s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/detail
+[8.794s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/detail/goal_status_array__description.c
+[8.794s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/detail/goal_status__functions.h
+[8.794s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/detail/goal_id__type_support.c
+[8.794s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/detail/goal_id__struct.h
+[8.794s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/detail/goal_id__functions.c
+[8.794s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/detail/goal_status_array__type_support.h
+[8.794s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/detail/goal_id__functions.h
+[8.795s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/detail/goal_status__type_support.h
+[8.795s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/detail/goal_id__type_support.h
+[8.795s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/detail/goal_status_array__functions.c
+[8.795s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/detail/goal_status_array__functions.h
+[8.795s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/detail/goal_id__description.c
+[8.795s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/detail/goal_status__description.c
+[8.795s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/detail/goal_status__type_support.c
+[8.795s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/detail/goal_status__functions.c
+[8.795s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/detail/goal_status_array__type_support.c
+[8.795s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/detail/goal_status__struct.h
+[8.796s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/detail/goal_status_array__struct.h
+[8.796s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/goal_status_array.h
+[8.796s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/goal_status.h
+[8.796s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/rosidl_generator_c__visibility_control.h
+[8.796s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/share/actionlib_msgs/environment/library_path.sh
+[8.796s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/share/actionlib_msgs/environment/library_path.dsv
+[8.796s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/lib/libactionlib_msgs__rosidl_generator_c.so
+[8.796s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/actionlib_msgs/lib/libactionlib_msgs__rosidl_generator_c.so" to ""
+[8.796s] -- Up-to-date: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs
+[8.796s] -- Up-to-date: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg
+[8.797s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[8.797s] -- Up-to-date: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/detail
+[8.797s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/detail/goal_id__rosidl_typesupport_fastrtps_c.h
+[8.797s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/detail/goal_status_array__rosidl_typesupport_fastrtps_c.h
+[8.797s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/detail/goal_status__rosidl_typesupport_fastrtps_c.h
+[8.797s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/lib/libactionlib_msgs__rosidl_typesupport_fastrtps_c.so
+[8.797s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/actionlib_msgs/lib/libactionlib_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[8.797s] -- Up-to-date: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs
+[8.797s] -- Up-to-date: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg
+[8.798s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[8.798s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/goal_id.hpp
+[8.798s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/goal_status_array.hpp
+[8.798s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/goal_status.hpp
+[8.798s] -- Up-to-date: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/detail
+[8.798s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/detail/goal_status_array__traits.hpp
+[8.798s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/detail/goal_id__builder.hpp
+[8.798s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/detail/goal_id__traits.hpp
+[8.798s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/detail/goal_status_array__struct.hpp
+[8.798s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/detail/goal_id__struct.hpp
+[8.799s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/detail/goal_status__builder.hpp
+[8.799s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/detail/goal_status__traits.hpp
+[8.799s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/detail/goal_status__type_support.hpp
+[8.799s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/detail/goal_status_array__builder.hpp
+[8.799s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/detail/goal_status_array__type_support.hpp
+[8.799s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/detail/goal_id__type_support.hpp
+[8.799s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/detail/goal_status__struct.hpp
+[8.799s] -- Up-to-date: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs
+[8.799s] -- Up-to-date: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg
+[8.799s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.800s] -- Up-to-date: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/detail
+[8.800s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/detail/goal_id__rosidl_typesupport_fastrtps_cpp.hpp
+[8.800s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/detail/goal_status_array__rosidl_typesupport_fastrtps_cpp.hpp
+[8.800s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/detail/goal_status__rosidl_typesupport_fastrtps_cpp.hpp
+[8.800s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/detail/dds_fastrtps
+[8.800s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/lib/libactionlib_msgs__rosidl_typesupport_fastrtps_cpp.so
+[8.800s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/actionlib_msgs/lib/libactionlib_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[8.800s] -- Up-to-date: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs
+[8.800s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/msg
+[8.801s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail
+[8.801s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/microxrcedds
+[8.801s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/goal_status__rosidl_typesupport_microxrcedds_c.h
+[8.801s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/goal_status_array__rosidl_typesupport_microxrcedds_c.h
+[8.801s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/goal_id__rosidl_typesupport_microxrcedds_c.h
+[8.801s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+[8.801s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/lib/libactionlib_msgs__rosidl_typesupport_microxrcedds_c.so
+[8.801s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/actionlib_msgs/lib/libactionlib_msgs__rosidl_typesupport_microxrcedds_c.so" to ""
+[8.801s] -- Up-to-date: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs
+[8.801s] -- Up-to-date: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg
+[8.802s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.802s] -- Up-to-date: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/detail
+[8.802s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/detail/goal_status__rosidl_typesupport_introspection_c.h
+[8.802s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/detail/goal_id__type_support.c
+[8.802s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/detail/goal_id__rosidl_typesupport_introspection_c.h
+[8.802s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/detail/goal_status__type_support.c
+[8.802s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/detail/goal_status_array__rosidl_typesupport_introspection_c.h
+[8.802s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/detail/goal_status_array__type_support.c
+[8.802s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/lib/libactionlib_msgs__rosidl_typesupport_introspection_c.so
+[8.802s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/actionlib_msgs/lib/libactionlib_msgs__rosidl_typesupport_introspection_c.so" to ""
+[8.802s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/lib/libactionlib_msgs__rosidl_typesupport_c.so
+[8.803s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/actionlib_msgs/lib/libactionlib_msgs__rosidl_typesupport_c.so" to ""
+[8.803s] -- Up-to-date: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs
+[8.803s] -- Up-to-date: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/msg
+[8.803s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+[8.803s] -- Up-to-date: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail
+[8.803s] -- Up-to-date: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/microxrcedds
+[8.803s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/microxrcedds/goal_status_array__type_support_cpp.cpp
+[8.803s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/microxrcedds/goal_id__type_support_cpp.cpp
+[8.803s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/microxrcedds/goal_status__type_support_cpp.cpp
+[8.803s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/goal_status__rosidl_typesupport_microxrcedds_cpp.hpp
+[8.803s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/goal_id__rosidl_typesupport_microxrcedds_cpp.hpp
+[8.803s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/goal_status_array__rosidl_typesupport_microxrcedds_cpp.hpp
+[8.804s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/lib/libactionlib_msgs__rosidl_typesupport_microxrcedds_cpp.so
+[8.804s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/actionlib_msgs/lib/libactionlib_msgs__rosidl_typesupport_microxrcedds_cpp.so" to ""
+[8.804s] -- Up-to-date: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs
+[8.804s] -- Up-to-date: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg
+[8.804s] -- Up-to-date: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/detail
+[8.804s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/detail/goal_status_array__rosidl_typesupport_introspection_cpp.hpp
+[8.804s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/detail/goal_id__rosidl_typesupport_introspection_cpp.hpp
+[8.804s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/detail/goal_status_array__type_support.cpp
+[8.804s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/detail/goal_status__rosidl_typesupport_introspection_cpp.hpp
+[8.804s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/detail/goal_status__type_support.cpp
+[8.804s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/include/actionlib_msgs/actionlib_msgs/msg/detail/goal_id__type_support.cpp
+[8.805s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/lib/libactionlib_msgs__rosidl_typesupport_introspection_cpp.so
+[8.805s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/actionlib_msgs/lib/libactionlib_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[8.805s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/lib/libactionlib_msgs__rosidl_typesupport_cpp.so
+[8.805s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/actionlib_msgs/lib/libactionlib_msgs__rosidl_typesupport_cpp.so" to ""
+[8.805s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/share/actionlib_msgs/environment/pythonpath.sh
+[8.805s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/share/actionlib_msgs/environment/pythonpath.dsv
+[8.805s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/lib/python3.12/site-packages/actionlib_msgs-5.3.5-py3.12.egg-info
+[8.805s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/lib/python3.12/site-packages/actionlib_msgs-5.3.5-py3.12.egg-info/top_level.txt
+[8.805s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/lib/python3.12/site-packages/actionlib_msgs-5.3.5-py3.12.egg-info/PKG-INFO
+[8.805s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/lib/python3.12/site-packages/actionlib_msgs-5.3.5-py3.12.egg-info/dependency_links.txt
+[8.805s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/lib/python3.12/site-packages/actionlib_msgs-5.3.5-py3.12.egg-info/SOURCES.txt
+[8.805s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/lib/python3.12/site-packages/actionlib_msgs
+[8.806s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/lib/python3.12/site-packages/actionlib_msgs/_actionlib_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[8.806s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/lib/python3.12/site-packages/actionlib_msgs/actionlib_msgs_s__rosidl_typesupport_microxrcedds_c.so
+[8.806s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/lib/python3.12/site-packages/actionlib_msgs/_actionlib_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[8.806s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/lib/python3.12/site-packages/actionlib_msgs/actionlib_msgs_s__rosidl_typesupport_fastrtps_c.so
+[8.806s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/lib/python3.12/site-packages/actionlib_msgs/_actionlib_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c
+[8.806s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/lib/python3.12/site-packages/actionlib_msgs/_actionlib_msgs_s.ep.rosidl_typesupport_c.c
+[8.806s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/lib/python3.12/site-packages/actionlib_msgs/actionlib_msgs_s__rosidl_typesupport_introspection_c.so
+[8.806s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/lib/python3.12/site-packages/actionlib_msgs/actionlib_msgs_s__rosidl_typesupport_c.so
+[8.806s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/lib/python3.12/site-packages/actionlib_msgs/msg
+[8.806s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/lib/python3.12/site-packages/actionlib_msgs/msg/_goal_id.py
+[8.806s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/lib/python3.12/site-packages/actionlib_msgs/msg/_goal_status_s.c
+[8.807s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/lib/python3.12/site-packages/actionlib_msgs/msg/_goal_status_array_s.c
+[8.807s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/lib/python3.12/site-packages/actionlib_msgs/msg/_goal_status.py
+[8.807s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/lib/python3.12/site-packages/actionlib_msgs/msg/_goal_status_array.py
+[8.807s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/lib/python3.12/site-packages/actionlib_msgs/msg/_goal_id_s.c
+[8.807s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/lib/python3.12/site-packages/actionlib_msgs/msg/__init__.py
+[8.807s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/lib/python3.12/site-packages/actionlib_msgs/__init__.py
+[8.834s] Listing '/home/rassito/microros_ws/install/actionlib_msgs/lib/python3.12/site-packages/actionlib_msgs'...
+[8.834s] Compiling '/home/rassito/microros_ws/install/actionlib_msgs/lib/python3.12/site-packages/actionlib_msgs/__init__.py'...
+[8.834s] Listing '/home/rassito/microros_ws/install/actionlib_msgs/lib/python3.12/site-packages/actionlib_msgs/msg'...
+[8.834s] Compiling '/home/rassito/microros_ws/install/actionlib_msgs/lib/python3.12/site-packages/actionlib_msgs/msg/__init__.py'...
+[8.835s] Compiling '/home/rassito/microros_ws/install/actionlib_msgs/lib/python3.12/site-packages/actionlib_msgs/msg/_goal_id.py'...
+[8.835s] Compiling '/home/rassito/microros_ws/install/actionlib_msgs/lib/python3.12/site-packages/actionlib_msgs/msg/_goal_status.py'...
+[8.835s] Compiling '/home/rassito/microros_ws/install/actionlib_msgs/lib/python3.12/site-packages/actionlib_msgs/msg/_goal_status_array.py'...
+[8.839s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/lib/python3.12/site-packages/actionlib_msgs/actionlib_msgs_s__rosidl_typesupport_microxrcedds_c.so
+[8.839s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/actionlib_msgs/lib/python3.12/site-packages/actionlib_msgs/actionlib_msgs_s__rosidl_typesupport_microxrcedds_c.so" to ""
+[8.839s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/lib/python3.12/site-packages/actionlib_msgs/actionlib_msgs_s__rosidl_typesupport_fastrtps_c.so
+[8.839s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/actionlib_msgs/lib/python3.12/site-packages/actionlib_msgs/actionlib_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[8.839s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/lib/python3.12/site-packages/actionlib_msgs/actionlib_msgs_s__rosidl_typesupport_introspection_c.so
+[8.839s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/actionlib_msgs/lib/python3.12/site-packages/actionlib_msgs/actionlib_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[8.840s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/lib/python3.12/site-packages/actionlib_msgs/actionlib_msgs_s__rosidl_typesupport_c.so
+[8.840s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/actionlib_msgs/lib/python3.12/site-packages/actionlib_msgs/actionlib_msgs_s__rosidl_typesupport_c.so" to ""
+[8.840s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/lib/libactionlib_msgs__rosidl_generator_py.so
+[8.840s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/actionlib_msgs/lib/libactionlib_msgs__rosidl_generator_py.so" to ""
+[8.840s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/share/actionlib_msgs/msg/GoalID.idl
+[8.840s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/share/actionlib_msgs/msg/GoalStatus.idl
+[8.840s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/share/actionlib_msgs/msg/GoalStatusArray.idl
+[8.840s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/share/actionlib_msgs/msg/GoalID.msg
+[8.840s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/share/actionlib_msgs/msg/GoalStatus.msg
+[8.841s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/share/actionlib_msgs/msg/GoalStatusArray.msg
+[8.841s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/share/ament_index/resource_index/package_run_dependencies/actionlib_msgs
+[8.841s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/share/ament_index/resource_index/parent_prefix_path/actionlib_msgs
+[8.841s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/share/actionlib_msgs/environment/ament_prefix_path.sh
+[8.841s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/share/actionlib_msgs/environment/ament_prefix_path.dsv
+[8.841s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/share/actionlib_msgs/environment/path.sh
+[8.841s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/share/actionlib_msgs/environment/path.dsv
+[8.841s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/share/actionlib_msgs/local_setup.bash
+[8.841s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/share/actionlib_msgs/local_setup.sh
+[8.841s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/share/actionlib_msgs/local_setup.zsh
+[8.841s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/share/actionlib_msgs/local_setup.dsv
+[8.842s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/share/actionlib_msgs/package.dsv
+[8.842s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/share/ament_index/resource_index/packages/actionlib_msgs
+[8.842s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/share/actionlib_msgs/cmake/export_actionlib_msgs__rosidl_generator_cExport.cmake
+[8.842s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/share/actionlib_msgs/cmake/export_actionlib_msgs__rosidl_generator_cExport-noconfig.cmake
+[8.842s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/share/actionlib_msgs/cmake/export_actionlib_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[8.842s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/share/actionlib_msgs/cmake/export_actionlib_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[8.842s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/share/actionlib_msgs/cmake/export_actionlib_msgs__rosidl_generator_cppExport.cmake
+[8.842s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/share/actionlib_msgs/cmake/export_actionlib_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[8.842s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/share/actionlib_msgs/cmake/export_actionlib_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[8.842s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/share/actionlib_msgs/cmake/actionlib_msgs__rosidl_typesupport_introspection_cExport.cmake
+[8.842s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/share/actionlib_msgs/cmake/actionlib_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[8.843s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/share/actionlib_msgs/cmake/actionlib_msgs__rosidl_typesupport_cExport.cmake
+[8.843s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/share/actionlib_msgs/cmake/actionlib_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[8.843s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/share/actionlib_msgs/cmake/actionlib_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[8.843s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/share/actionlib_msgs/cmake/actionlib_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[8.843s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/share/actionlib_msgs/cmake/actionlib_msgs__rosidl_typesupport_cppExport.cmake
+[8.843s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/share/actionlib_msgs/cmake/actionlib_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[8.843s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/share/actionlib_msgs/cmake/export_actionlib_msgs__rosidl_generator_pyExport.cmake
+[8.843s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/share/actionlib_msgs/cmake/export_actionlib_msgs__rosidl_generator_pyExport-noconfig.cmake
+[8.843s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/share/actionlib_msgs/cmake/rosidl_cmake-extras.cmake
+[8.843s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/share/actionlib_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.843s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/share/actionlib_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.844s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/share/actionlib_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[8.844s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/share/actionlib_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[8.844s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/share/actionlib_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[8.844s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/share/actionlib_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[8.844s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/share/actionlib_msgs/cmake/actionlib_msgsConfig.cmake
+[8.844s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/share/actionlib_msgs/cmake/actionlib_msgsConfig-version.cmake
+[8.844s] -- Installing: /home/rassito/microros_ws/install/actionlib_msgs/share/actionlib_msgs/package.xml
+[8.845s] Invoked command in '/home/rassito/microros_ws/build/actionlib_msgs' returned '0': AMENT_PREFIX_PATH=/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/rassito/microros_ws/install/microcdr:/home/rassito/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/std_msgs/lib:/home/rassito/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rassito/microros_ws/build/actionlib_msgs

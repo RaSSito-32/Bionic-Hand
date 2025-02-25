@@ -1,0 +1,403 @@
+[0.010s] Invoking command in '/home/rassito/microros_ws/build/trajectory_msgs': AMENT_PREFIX_PATH=/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/rassito/microros_ws/install/microcdr:/home/rassito/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/geometry_msgs/lib:/home/rassito/microros_ws/install/std_msgs/lib:/home/rassito/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rassito/microros_ws/src/ros2/common_interfaces/trajectory_msgs -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/rassito/microros_ws/install/trajectory_msgs
+[0.044s] -- The C compiler identification is GNU 13.3.0
+[0.081s] -- The CXX compiler identification is GNU 13.3.0
+[0.092s] -- Detecting C compiler ABI info
+[0.149s] -- Detecting C compiler ABI info - done
+[0.156s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.156s] -- Detecting C compile features
+[0.156s] -- Detecting C compile features - done
+[0.161s] -- Detecting CXX compiler ABI info
+[0.225s] -- Detecting CXX compiler ABI info - done
+[0.232s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.232s] -- Detecting CXX compile features
+[0.233s] -- Detecting CXX compile features - done
+[0.234s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.340s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.417s] -- Found builtin_interfaces: 2.0.2 (/home/rassito/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake)
+[0.444s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.455s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.467s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.472s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.489s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.504s] -- Found geometry_msgs: 5.3.5 (/home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake)
+[0.530s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.019s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.752s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.118s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.120s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.219s] -- Found PythonExtra: /usr/bin/python3  
+[2.542s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.605s] -- Configuring done (2.6s)
+[2.648s] -- Generating done (0.0s)
+[2.659s] -- Build files have been written to: /home/rassito/microros_ws/build/trajectory_msgs
+[2.668s] Invoked command in '/home/rassito/microros_ws/build/trajectory_msgs' returned '0': AMENT_PREFIX_PATH=/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/rassito/microros_ws/install/microcdr:/home/rassito/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/geometry_msgs/lib:/home/rassito/microros_ws/install/std_msgs/lib:/home/rassito/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rassito/microros_ws/src/ros2/common_interfaces/trajectory_msgs -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/rassito/microros_ws/install/trajectory_msgs
+[2.669s] Invoking command in '/home/rassito/microros_ws/build/trajectory_msgs': AMENT_PREFIX_PATH=/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/rassito/microros_ws/install/microcdr:/home/rassito/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/geometry_msgs/lib:/home/rassito/microros_ws/install/std_msgs/lib:/home/rassito/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rassito/microros_ws/build/trajectory_msgs -- -j16 -l16
+[2.703s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[2.709s] [  1%] Built target ament_cmake_python_copy_trajectory_msgs
+[2.878s] running egg_info
+[2.879s] creating trajectory_msgs.egg-info
+[2.893s] writing trajectory_msgs.egg-info/PKG-INFO
+[2.894s] writing dependency_links to trajectory_msgs.egg-info/dependency_links.txt
+[2.894s] writing top-level names to trajectory_msgs.egg-info/top_level.txt
+[2.894s] writing manifest file 'trajectory_msgs.egg-info/SOURCES.txt'
+[2.939s] reading manifest file 'trajectory_msgs.egg-info/SOURCES.txt'
+[2.940s] writing manifest file 'trajectory_msgs.egg-info/SOURCES.txt'
+[2.962s] [  1%] Built target ament_cmake_python_build_trajectory_msgs_egg
+[2.999s] [  1%] Built target trajectory_msgs__rosidl_generator_type_description
+[3.007s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.015s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.545s] [  3%] Built target trajectory_msgs__cpp
+[3.562s] [  5%] [34m[1mGenerating C++ type support for eProsima Micro XRCE-DDS[0m
+[3.574s] [  8%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/joint_trajectory__type_support.c.o[0m
+[3.575s] [  8%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/joint_trajectory__functions.c.o[0m
+[3.575s] [ 10%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/joint_trajectory_point__description.c.o[0m
+[3.576s] [  8%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/joint_trajectory__description.c.o[0m
+[3.577s] [ 11%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/joint_trajectory_point__functions.c.o[0m
+[3.583s] [ 12%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__description.c.o[0m
+[3.583s] [ 14%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.c.o[0m
+[3.584s] [ 15%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__functions.c.o[0m
+[3.593s] [ 16%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__description.c.o[0m
+[3.600s] [ 17%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.c.o[0m
+[3.616s] [ 19%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__functions.c.o[0m
+[3.631s] [ 20%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.c.o[0m
+[3.682s] /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_cmake/__init__.py:19: UserWarning: The 'rosidl_cmake' Python module is deprecated. Use 'rosidl_pycommon' instead.
+[3.682s]   warnings.warn(
+[3.683s] [ 21%] [32m[1mLinking C shared library libtrajectory_msgs__rosidl_generator_c.so[0m
+[3.722s] [ 21%] Built target trajectory_msgs__rosidl_generator_c
+[3.731s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.746s] [ 24%] [34m[1mGenerating C type support for eProsima Micro XRCE-DDS[0m
+[3.746s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.746s] [ 28%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.746s] [ 26%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.748s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.749s] [ 30%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.852s] /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_cmake/__init__.py:19: UserWarning: The 'rosidl_cmake' Python module is deprecated. Use 'rosidl_pycommon' instead.
+[3.852s]   warnings.warn(
+[4.500s] [ 32%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/trajectory_msgs/msg/joint_trajectory__type_support.cpp.o[0m
+[4.500s] [ 33%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/trajectory_msgs/msg/multi_dof_joint_trajectory__type_support.cpp.o[0m
+[4.503s] [ 34%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/trajectory_msgs/msg/joint_trajectory_point__type_support.cpp.o[0m
+[4.507s] [ 35%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/trajectory_msgs/msg/multi_dof_joint_trajectory_point__type_support.cpp.o[0m
+[4.675s] [ 37%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/trajectory_msgs/msg/detail/microxrcedds/joint_trajectory__type_support_c.c.o[0m
+[4.682s] [ 38%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/trajectory_msgs/msg/detail/microxrcedds/multi_dof_joint_trajectory__type_support_c.c.o[0m
+[4.684s] [ 39%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/trajectory_msgs/msg/detail/microxrcedds/multi_dof_joint_trajectory_point__type_support_c.c.o[0m
+[4.692s] [ 41%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/trajectory_msgs/msg/detail/microxrcedds/joint_trajectory_point__type_support_c.c.o[0m
+[4.742s] [ 42%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/trajectory_msgs/msg/joint_trajectory_point__type_support.cpp.o[0m
+[4.742s] [ 43%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/trajectory_msgs/msg/joint_trajectory__type_support.cpp.o[0m
+[4.744s] [ 44%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/trajectory_msgs/msg/multi_dof_joint_trajectory__type_support.cpp.o[0m
+[4.775s] [ 46%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/trajectory_msgs/msg/multi_dof_joint_trajectory_point__type_support.cpp.o[0m
+[4.887s] [ 47%] [32m[1mLinking C shared library libtrajectory_msgs__rosidl_typesupport_microxrcedds_c.so[0m
+[4.948s] [ 48%] [32m[1mLinking CXX shared library libtrajectory_msgs__rosidl_typesupport_c.so[0m
+[5.017s] [ 50%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.cpp.o[0m
+[5.026s] [ 51%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/detail/joint_trajectory__type_support.cpp.o[0m
+[5.026s] [ 53%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.cpp.o[0m
+[5.027s] [ 52%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.cpp.o[0m
+[5.035s] [ 55%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/trajectory_msgs/msg/detail/microxrcedds/joint_trajectory__type_support_cpp.cpp.o[0m
+[5.041s] [ 56%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/trajectory_msgs/msg/detail/microxrcedds/multi_dof_joint_trajectory__type_support_cpp.cpp.o[0m
+[5.043s] [ 57%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/trajectory_msgs/msg/detail/microxrcedds/joint_trajectory_point__type_support_cpp.cpp.o[0m
+[5.055s] [ 57%] Built target trajectory_msgs__rosidl_typesupport_microxrcedds_c
+[5.080s] [ 57%] Built target trajectory_msgs__rosidl_typesupport_c
+[5.081s] [ 58%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/trajectory_msgs/msg/detail/microxrcedds/multi_dof_joint_trajectory_point__type_support_cpp.cpp.o[0m
+[5.270s] [ 60%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/trajectory_msgs/msg/detail/dds_fastrtps/joint_trajectory__type_support.cpp.o[0m
+[5.280s] [ 61%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/trajectory_msgs/msg/detail/dds_fastrtps/joint_trajectory_point__type_support.cpp.o[0m
+[5.331s] [ 62%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/trajectory_msgs/msg/detail/dds_fastrtps/multi_dof_joint_trajectory__type_support.cpp.o[0m
+[5.382s] [ 64%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/trajectory_msgs/msg/detail/dds_fastrtps/multi_dof_joint_trajectory_point__type_support.cpp.o[0m
+[5.420s] [ 65%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/trajectory_msgs/msg/detail/joint_trajectory__type_support.c.o[0m
+[5.482s] [ 66%] [32m[1mLinking CXX shared library libtrajectory_msgs__rosidl_typesupport_cpp.so[0m
+[5.493s] [ 67%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.c.o[0m
+[5.555s] [ 69%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/trajectory_msgs/msg/detail/joint_trajectory_point__type_support_c.cpp.o[0m
+[5.564s] [ 70%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/trajectory_msgs/msg/detail/joint_trajectory__type_support_c.cpp.o[0m
+[5.593s] [ 70%] Built target trajectory_msgs__rosidl_typesupport_cpp
+[5.594s] [ 71%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.c.o[0m
+[5.637s] [ 73%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support_c.cpp.o[0m
+[5.804s] [ 74%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.c.o[0m
+[5.911s] [ 75%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support_c.cpp.o[0m
+[6.003s] [ 76%] [32m[1mLinking C shared library libtrajectory_msgs__rosidl_typesupport_introspection_c.so[0m
+[6.139s] [ 76%] Built target trajectory_msgs__rosidl_typesupport_introspection_c
+[6.165s] [01m[K/home/rassito/microros_ws/build/trajectory_msgs/rosidl_typesupport_microxrcedds_cpp/trajectory_msgs/msg/detail/microxrcedds/multi_dof_joint_trajectory__type_support_cpp.cpp:305:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[6.166s]   305 | [01;35m[K}[m[K;
+[6.166s]       | [01;35m[K^[m[K
+[6.166s] [01m[K/home/rassito/microros_ws/build/trajectory_msgs/rosidl_typesupport_microxrcedds_cpp/trajectory_msgs/msg/detail/microxrcedds/multi_dof_joint_trajectory__type_support_cpp.cpp:305:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[6.166s] [01m[K/home/rassito/microros_ws/build/trajectory_msgs/rosidl_typesupport_microxrcedds_cpp/trajectory_msgs/msg/detail/microxrcedds/multi_dof_joint_trajectory__type_support_cpp.cpp:305:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[6.203s] [01m[K/home/rassito/microros_ws/build/trajectory_msgs/rosidl_typesupport_microxrcedds_cpp/trajectory_msgs/msg/detail/microxrcedds/joint_trajectory__type_support_cpp.cpp:305:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[6.203s]   305 | [01;35m[K}[m[K;
+[6.204s]       | [01;35m[K^[m[K
+[6.204s] [01m[K/home/rassito/microros_ws/build/trajectory_msgs/rosidl_typesupport_microxrcedds_cpp/trajectory_msgs/msg/detail/microxrcedds/joint_trajectory__type_support_cpp.cpp:305:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[6.204s] [01m[K/home/rassito/microros_ws/build/trajectory_msgs/rosidl_typesupport_microxrcedds_cpp/trajectory_msgs/msg/detail/microxrcedds/joint_trajectory__type_support_cpp.cpp:305:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[6.319s] [01m[K/home/rassito/microros_ws/build/trajectory_msgs/rosidl_typesupport_microxrcedds_cpp/trajectory_msgs/msg/detail/microxrcedds/joint_trajectory_point__type_support_cpp.cpp:297:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[6.319s]   297 | [01;35m[K}[m[K;
+[6.319s]       | [01;35m[K^[m[K
+[6.328s] [01m[K/home/rassito/microros_ws/build/trajectory_msgs/rosidl_typesupport_microxrcedds_cpp/trajectory_msgs/msg/detail/microxrcedds/joint_trajectory_point__type_support_cpp.cpp:297:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[6.328s] [01m[K/home/rassito/microros_ws/build/trajectory_msgs/rosidl_typesupport_microxrcedds_cpp/trajectory_msgs/msg/detail/microxrcedds/joint_trajectory_point__type_support_cpp.cpp:297:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[6.764s] [01m[K/home/rassito/microros_ws/build/trajectory_msgs/rosidl_typesupport_microxrcedds_cpp/trajectory_msgs/msg/detail/microxrcedds/multi_dof_joint_trajectory_point__type_support_cpp.cpp:399:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[6.764s]   399 | [01;35m[K}[m[K;
+[6.764s]       | [01;35m[K^[m[K
+[6.764s] [01m[K/home/rassito/microros_ws/build/trajectory_msgs/rosidl_typesupport_microxrcedds_cpp/trajectory_msgs/msg/detail/microxrcedds/multi_dof_joint_trajectory_point__type_support_cpp.cpp:399:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[6.764s] [01m[K/home/rassito/microros_ws/build/trajectory_msgs/rosidl_typesupport_microxrcedds_cpp/trajectory_msgs/msg/detail/microxrcedds/multi_dof_joint_trajectory_point__type_support_cpp.cpp:399:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[7.166s] [ 78%] [32m[1mLinking CXX shared library libtrajectory_msgs__rosidl_typesupport_microxrcedds_cpp.so[0m
+[7.277s] [ 79%] [32m[1mLinking CXX shared library libtrajectory_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[7.297s] [ 79%] Built target trajectory_msgs__rosidl_typesupport_microxrcedds_cpp
+[7.313s] [ 80%] [32m[1mLinking CXX shared library libtrajectory_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[7.371s] [ 80%] Built target trajectory_msgs__rosidl_typesupport_introspection_cpp
+[7.392s] [ 80%] Built target trajectory_msgs__rosidl_typesupport_fastrtps_c
+[7.394s] [ 82%] [32m[1mLinking CXX shared library libtrajectory_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.455s] [ 82%] Built target trajectory_msgs__rosidl_typesupport_fastrtps_cpp
+[7.470s] [ 82%] Built target trajectory_msgs
+[7.485s] [ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[8.186s] [ 83%] Built target trajectory_msgs__py
+[8.204s] [ 84%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_py.dir/rosidl_generator_py/trajectory_msgs/msg/_joint_trajectory_s.c.o[0m
+[8.304s] [ 85%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_py.dir/rosidl_generator_py/trajectory_msgs/msg/_multi_dof_joint_trajectory_point_s.c.o[0m
+[8.408s] [ 87%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_py.dir/rosidl_generator_py/trajectory_msgs/msg/_multi_dof_joint_trajectory_s.c.o[0m
+[8.508s] [ 88%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_py.dir/rosidl_generator_py/trajectory_msgs/msg/_joint_trajectory_point_s.c.o[0m
+[8.635s] [ 89%] [32m[1mLinking C shared library libtrajectory_msgs__rosidl_generator_py.so[0m
+[8.669s] [ 89%] Built target trajectory_msgs__rosidl_generator_py
+[8.682s] [ 91%] [32mBuilding C object CMakeFiles/trajectory_msgs_s__rosidl_typesupport_microxrcedds_c.dir/rosidl_generator_py/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c.o[0m
+[8.769s] [ 92%] [32m[1mLinking C shared module rosidl_generator_py/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_microxrcedds_c.so[0m
+[8.796s] [ 92%] Built target trajectory_msgs_s__rosidl_typesupport_microxrcedds_c
+[8.810s] [ 93%] [32mBuilding C object CMakeFiles/trajectory_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[8.889s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_c.so[0m
+[8.912s] [ 94%] Built target trajectory_msgs_s__rosidl_typesupport_c
+[8.926s] [ 96%] [32mBuilding C object CMakeFiles/trajectory_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[9.004s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[9.027s] [ 97%] Built target trajectory_msgs_s__rosidl_typesupport_introspection_c
+[9.043s] [ 98%] [32mBuilding C object CMakeFiles/trajectory_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[9.129s] [100%] [32m[1mLinking C shared module rosidl_generator_py/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[9.151s] [100%] Built target trajectory_msgs_s__rosidl_typesupport_fastrtps_c
+[9.160s] Invoked command in '/home/rassito/microros_ws/build/trajectory_msgs' returned '0': AMENT_PREFIX_PATH=/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/rassito/microros_ws/install/microcdr:/home/rassito/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/geometry_msgs/lib:/home/rassito/microros_ws/install/std_msgs/lib:/home/rassito/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rassito/microros_ws/build/trajectory_msgs -- -j16 -l16
+[9.161s] Invoking command in '/home/rassito/microros_ws/build/trajectory_msgs': AMENT_PREFIX_PATH=/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/rassito/microros_ws/install/microcdr:/home/rassito/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/geometry_msgs/lib:/home/rassito/microros_ws/install/std_msgs/lib:/home/rassito/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rassito/microros_ws/build/trajectory_msgs
+[9.167s] -- Install configuration: ""
+[9.167s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/share/ament_index/resource_index/rosidl_interfaces/trajectory_msgs
+[9.167s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/share/trajectory_msgs/msg/JointTrajectory.json
+[9.167s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/share/trajectory_msgs/msg/JointTrajectoryPoint.json
+[9.167s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/share/trajectory_msgs/msg/MultiDOFJointTrajectory.json
+[9.167s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/share/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.json
+[9.167s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs
+[9.167s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg
+[9.167s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory_point.h
+[9.167s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/multi_dof_joint_trajectory_point.h
+[9.167s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory.h
+[9.168s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/multi_dof_joint_trajectory.h
+[9.168s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail
+[9.168s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__functions.c
+[9.168s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__struct.h
+[9.168s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__description.c
+[9.168s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__functions.c
+[9.168s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.h
+[9.168s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__functions.c
+[9.168s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__struct.h
+[9.168s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.c
+[9.168s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.h
+[9.168s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.c
+[9.168s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.h
+[9.168s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__description.c
+[9.168s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__struct.h
+[9.168s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__functions.h
+[9.168s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__functions.h
+[9.168s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__functions.h
+[9.168s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__type_support.h
+[9.169s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__description.c
+[9.169s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__functions.h
+[9.169s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__functions.c
+[9.169s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__struct.h
+[9.169s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__description.c
+[9.169s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.c
+[9.169s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__type_support.c
+[9.169s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/rosidl_generator_c__visibility_control.h
+[9.169s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/share/trajectory_msgs/environment/library_path.sh
+[9.169s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/share/trajectory_msgs/environment/library_path.dsv
+[9.169s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_generator_c.so
+[9.169s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_generator_c.so" to ""
+[9.169s] -- Up-to-date: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs
+[9.169s] -- Up-to-date: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg
+[9.169s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.169s] -- Up-to-date: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail
+[9.169s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__rosidl_typesupport_fastrtps_c.h
+[9.169s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__rosidl_typesupport_fastrtps_c.h
+[9.169s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__rosidl_typesupport_fastrtps_c.h
+[9.170s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__rosidl_typesupport_fastrtps_c.h
+[9.170s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_fastrtps_c.so
+[9.170s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[9.170s] -- Up-to-date: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs
+[9.170s] -- Up-to-date: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg
+[9.170s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[9.170s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/multi_dof_joint_trajectory.hpp
+[9.170s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/multi_dof_joint_trajectory_point.hpp
+[9.170s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory_point.hpp
+[9.170s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory.hpp
+[9.170s] -- Up-to-date: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail
+[9.170s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__builder.hpp
+[9.170s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.hpp
+[9.170s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__struct.hpp
+[9.170s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__builder.hpp
+[9.170s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__traits.hpp
+[9.170s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__traits.hpp
+[9.170s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__builder.hpp
+[9.171s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.hpp
+[9.171s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.hpp
+[9.171s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__traits.hpp
+[9.171s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__struct.hpp
+[9.171s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__builder.hpp
+[9.171s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__type_support.hpp
+[9.171s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__struct.hpp
+[9.171s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__traits.hpp
+[9.171s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__struct.hpp
+[9.171s] -- Up-to-date: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs
+[9.171s] -- Up-to-date: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg
+[9.171s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[9.171s] -- Up-to-date: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail
+[9.171s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__rosidl_typesupport_fastrtps_cpp.hpp
+[9.171s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[9.171s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__rosidl_typesupport_fastrtps_cpp.hpp
+[9.171s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[9.171s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/dds_fastrtps
+[9.171s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_fastrtps_cpp.so
+[9.172s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[9.172s] -- Up-to-date: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs
+[9.172s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/msg
+[9.172s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail
+[9.172s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/microxrcedds
+[9.172s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__rosidl_typesupport_microxrcedds_c.h
+[9.172s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__rosidl_typesupport_microxrcedds_c.h
+[9.172s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/joint_trajectory__rosidl_typesupport_microxrcedds_c.h
+[9.172s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/joint_trajectory_point__rosidl_typesupport_microxrcedds_c.h
+[9.172s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+[9.172s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_microxrcedds_c.so
+[9.172s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_microxrcedds_c.so" to ""
+[9.172s] -- Up-to-date: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs
+[9.173s] -- Up-to-date: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg
+[9.173s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.173s] -- Up-to-date: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail
+[9.173s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__rosidl_typesupport_introspection_c.h
+[9.173s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.c
+[9.173s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.c
+[9.173s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__rosidl_typesupport_introspection_c.h
+[9.173s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__rosidl_typesupport_introspection_c.h
+[9.173s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__rosidl_typesupport_introspection_c.h
+[9.173s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.c
+[9.173s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__type_support.c
+[9.173s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_introspection_c.so
+[9.173s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_introspection_c.so" to ""
+[9.173s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_c.so
+[9.173s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_c.so" to ""
+[9.173s] -- Up-to-date: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs
+[9.174s] -- Up-to-date: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/msg
+[9.174s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+[9.174s] -- Up-to-date: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail
+[9.174s] -- Up-to-date: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/microxrcedds
+[9.174s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/microxrcedds/joint_trajectory_point__type_support_cpp.cpp
+[9.174s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/microxrcedds/joint_trajectory__type_support_cpp.cpp
+[9.174s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/microxrcedds/multi_dof_joint_trajectory_point__type_support_cpp.cpp
+[9.174s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/microxrcedds/multi_dof_joint_trajectory__type_support_cpp.cpp
+[9.174s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/joint_trajectory_point__rosidl_typesupport_microxrcedds_cpp.hpp
+[9.174s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__rosidl_typesupport_microxrcedds_cpp.hpp
+[9.174s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/joint_trajectory__rosidl_typesupport_microxrcedds_cpp.hpp
+[9.174s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__rosidl_typesupport_microxrcedds_cpp.hpp
+[9.174s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_microxrcedds_cpp.so
+[9.174s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_microxrcedds_cpp.so" to ""
+[9.174s] -- Up-to-date: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs
+[9.174s] -- Up-to-date: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg
+[9.174s] -- Up-to-date: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail
+[9.174s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.cpp
+[9.175s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[9.175s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.cpp
+[9.175s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[9.175s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.cpp
+[9.175s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__type_support.cpp
+[9.175s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__rosidl_typesupport_introspection_cpp.hpp
+[9.175s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__rosidl_typesupport_introspection_cpp.hpp
+[9.175s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_introspection_cpp.so
+[9.175s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[9.175s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_cpp.so
+[9.175s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_cpp.so" to ""
+[9.175s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/share/trajectory_msgs/environment/pythonpath.sh
+[9.175s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/share/trajectory_msgs/environment/pythonpath.dsv
+[9.175s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs-5.3.5-py3.12.egg-info
+[9.176s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs-5.3.5-py3.12.egg-info/top_level.txt
+[9.176s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs-5.3.5-py3.12.egg-info/PKG-INFO
+[9.176s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs-5.3.5-py3.12.egg-info/dependency_links.txt
+[9.176s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs-5.3.5-py3.12.egg-info/SOURCES.txt
+[9.176s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs
+[9.176s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_c.so
+[9.176s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c
+[9.176s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_c.c
+[9.176s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_fastrtps_c.so
+[9.176s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[9.176s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_introspection_c.so
+[9.176s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[9.176s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_microxrcedds_c.so
+[9.176s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg
+[9.176s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg/_joint_trajectory_s.c
+[9.176s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory.py
+[9.177s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory_point.py
+[9.177s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg/_joint_trajectory_point.py
+[9.177s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory_point_s.c
+[9.177s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg/_joint_trajectory.py
+[9.177s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory_s.c
+[9.177s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg/_joint_trajectory_point_s.c
+[9.177s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg/__init__.py
+[9.177s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/__init__.py
+[9.212s] Listing '/home/rassito/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs'...
+[9.212s] Compiling '/home/rassito/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/__init__.py'...
+[9.212s] Listing '/home/rassito/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg'...
+[9.212s] Compiling '/home/rassito/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg/__init__.py'...
+[9.212s] Compiling '/home/rassito/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg/_joint_trajectory.py'...
+[9.212s] Compiling '/home/rassito/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg/_joint_trajectory_point.py'...
+[9.212s] Compiling '/home/rassito/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory.py'...
+[9.212s] Compiling '/home/rassito/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory_point.py'...
+[9.216s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_microxrcedds_c.so
+[9.216s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_microxrcedds_c.so" to ""
+[9.217s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_fastrtps_c.so
+[9.217s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[9.217s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_introspection_c.so
+[9.217s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[9.217s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_c.so
+[9.217s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_c.so" to ""
+[9.217s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_generator_py.so
+[9.218s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_generator_py.so" to ""
+[9.218s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/share/trajectory_msgs/msg/JointTrajectory.idl
+[9.218s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/share/trajectory_msgs/msg/JointTrajectoryPoint.idl
+[9.218s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/share/trajectory_msgs/msg/MultiDOFJointTrajectory.idl
+[9.218s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/share/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.idl
+[9.218s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/share/trajectory_msgs/msg/JointTrajectory.msg
+[9.218s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/share/trajectory_msgs/msg/JointTrajectoryPoint.msg
+[9.218s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/share/trajectory_msgs/msg/MultiDOFJointTrajectory.msg
+[9.218s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/share/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.msg
+[9.218s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/share/ament_index/resource_index/package_run_dependencies/trajectory_msgs
+[9.218s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/share/ament_index/resource_index/parent_prefix_path/trajectory_msgs
+[9.218s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/share/trajectory_msgs/environment/ament_prefix_path.sh
+[9.218s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/share/trajectory_msgs/environment/ament_prefix_path.dsv
+[9.218s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/share/trajectory_msgs/environment/path.sh
+[9.218s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/share/trajectory_msgs/environment/path.dsv
+[9.218s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/share/trajectory_msgs/local_setup.bash
+[9.219s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/share/trajectory_msgs/local_setup.sh
+[9.219s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/share/trajectory_msgs/local_setup.zsh
+[9.219s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/share/trajectory_msgs/local_setup.dsv
+[9.219s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/share/trajectory_msgs/package.dsv
+[9.219s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/share/ament_index/resource_index/packages/trajectory_msgs
+[9.219s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_generator_cExport.cmake
+[9.219s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_generator_cExport-noconfig.cmake
+[9.219s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[9.219s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[9.219s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_generator_cppExport.cmake
+[9.219s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[9.219s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[9.219s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_introspection_cExport.cmake
+[9.219s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[9.220s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_cExport.cmake
+[9.220s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[9.220s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[9.220s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[9.220s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_cppExport.cmake
+[9.220s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[9.220s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_generator_pyExport.cmake
+[9.220s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_generator_pyExport-noconfig.cmake
+[9.220s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/rosidl_cmake-extras.cmake
+[9.220s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.220s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.220s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[9.220s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[9.220s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.220s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.221s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgsConfig.cmake
+[9.221s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgsConfig-version.cmake
+[9.221s] -- Installing: /home/rassito/microros_ws/install/trajectory_msgs/share/trajectory_msgs/package.xml
+[9.223s] Invoked command in '/home/rassito/microros_ws/build/trajectory_msgs' returned '0': AMENT_PREFIX_PATH=/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/rassito/microros_ws/install/microcdr:/home/rassito/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/geometry_msgs/lib:/home/rassito/microros_ws/install/std_msgs/lib:/home/rassito/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rassito/microros_ws/build/trajectory_msgs

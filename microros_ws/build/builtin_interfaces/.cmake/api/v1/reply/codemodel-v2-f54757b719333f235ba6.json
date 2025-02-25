@@ -1,0 +1,269 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-dada04cbc42f1f685c1c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					]
+				},
+				{
+					"build" : "builtin_interfaces__py",
+					"jsonFile" : "directory-builtin_interfaces__py-290f5a8e6dc3ed16271e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/rassito/microros_ws/build/builtin_interfaces/builtin_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "builtin_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_builtin_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_builtin_interfaces_egg-864378b3485b0cbba02d.json",
+					"name" : "ament_cmake_python_build_builtin_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_builtin_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_builtin_interfaces-102d56893d0c4d21be8d.json",
+					"name" : "ament_cmake_python_copy_builtin_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "builtin_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-builtin_interfaces-8cc755fa27bd748943c9.json",
+					"name" : "builtin_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "builtin_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-builtin_interfaces__cpp-ba89df8eb8f8a1450397.json",
+					"name" : "builtin_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "builtin_interfaces__py::@9869342174ea89b0961b",
+					"jsonFile" : "target-builtin_interfaces__py-0f870c42b5af7dd077cf.json",
+					"name" : "builtin_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "builtin_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-builtin_interfaces__rosidl_generator_c-60e2e42ac06f887a8396.json",
+					"name" : "builtin_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "builtin_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-builtin_interfaces__rosidl_generator_py-4917f1c998bc647a54c4.json",
+					"name" : "builtin_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "builtin_interfaces__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-builtin_interfaces__rosidl_generator_type_description-1bed1015b4eee189739b.json",
+					"name" : "builtin_interfaces__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "builtin_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-builtin_interfaces__rosidl_typesupport_c-7f8705f86036d99134f7.json",
+					"name" : "builtin_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "builtin_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-builtin_interfaces__rosidl_typesupport_cpp-cc16386bc22b16bec110.json",
+					"name" : "builtin_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "builtin_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-builtin_interfaces__rosidl_typesupport_fastrtps_c-96927deb659d4d11ec4d.json",
+					"name" : "builtin_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "builtin_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-builtin_interfaces__rosidl_typesupport_fastrtps_cpp-0d42873e87ba3c00f078.json",
+					"name" : "builtin_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "builtin_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-builtin_interfaces__rosidl_typesupport_introspection_c-40571504ace07c199954.json",
+					"name" : "builtin_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "builtin_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-builtin_interfaces__rosidl_typesupport_introspection_cpp-6c94bf246e5c6da7458a.json",
+					"name" : "builtin_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "builtin_interfaces__rosidl_typesupport_microxrcedds_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-builtin_interfaces__rosidl_typesupport_microxrcedds_c-b26c25bfd9282d397547.json",
+					"name" : "builtin_interfaces__rosidl_typesupport_microxrcedds_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "builtin_interfaces__rosidl_typesupport_microxrcedds_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-builtin_interfaces__rosidl_typesupport_microxrcedds_cpp-feb810e9697e895a3b8c.json",
+					"name" : "builtin_interfaces__rosidl_typesupport_microxrcedds_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "builtin_interfaces_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-builtin_interfaces_s__rosidl_typesupport_c-bca955f6969b08d174df.json",
+					"name" : "builtin_interfaces_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "builtin_interfaces_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-builtin_interfaces_s__rosidl_typesupport_fastrtps_c-26f86f5c923530fa1acb.json",
+					"name" : "builtin_interfaces_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "builtin_interfaces_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-builtin_interfaces_s__rosidl_typesupport_introspection_c-8333a79a2c4081419d12.json",
+					"name" : "builtin_interfaces_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "builtin_interfaces_s__rosidl_typesupport_microxrcedds_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-builtin_interfaces_s__rosidl_typesupport_microxrcedds_c-9d48ecdb7a2dcf378c1b.json",
+					"name" : "builtin_interfaces_s__rosidl_typesupport_microxrcedds_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "builtin_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-builtin_interfaces_uninstall-0f76bcd19fd4e60fd9d6.json",
+					"name" : "builtin_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-0b1840f3eac2a7b246de.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rassito/microros_ws/build/builtin_interfaces",
+		"source" : "/home/rassito/microros_ws/src/ros2/rcl_interfaces/builtin_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

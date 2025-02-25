@@ -1,0 +1,269 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-c4ade3596245b65d9bb0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					]
+				},
+				{
+					"build" : "lifecycle_msgs__py",
+					"jsonFile" : "directory-lifecycle_msgs__py-1ed1362ac35f814c1943.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/rassito/microros_ws/build/lifecycle_msgs/lifecycle_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "lifecycle_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_lifecycle_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_lifecycle_msgs_egg-9f9b6636ce932b0e6be4.json",
+					"name" : "ament_cmake_python_build_lifecycle_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_lifecycle_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_lifecycle_msgs-676f78970dda10019819.json",
+					"name" : "ament_cmake_python_copy_lifecycle_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lifecycle_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lifecycle_msgs-680c826185f10e32a33c.json",
+					"name" : "lifecycle_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lifecycle_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lifecycle_msgs__cpp-0ebba5c27fa248b44f09.json",
+					"name" : "lifecycle_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "lifecycle_msgs__py::@f0f0e69fddc4ccdd07ae",
+					"jsonFile" : "target-lifecycle_msgs__py-6cf05e4297f4a33abddd.json",
+					"name" : "lifecycle_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lifecycle_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lifecycle_msgs__rosidl_generator_c-8a3abd595bbbc09d0c93.json",
+					"name" : "lifecycle_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lifecycle_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lifecycle_msgs__rosidl_generator_py-bd0100e9f92e6fb26e2d.json",
+					"name" : "lifecycle_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lifecycle_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lifecycle_msgs__rosidl_generator_type_description-0c2d96977a6a239a1daf.json",
+					"name" : "lifecycle_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lifecycle_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lifecycle_msgs__rosidl_typesupport_c-dd04b69f6884bfced3b9.json",
+					"name" : "lifecycle_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lifecycle_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lifecycle_msgs__rosidl_typesupport_cpp-a6d00e423cacd5410c82.json",
+					"name" : "lifecycle_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lifecycle_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lifecycle_msgs__rosidl_typesupport_fastrtps_c-d7ad84bf154f82cfc019.json",
+					"name" : "lifecycle_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lifecycle_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lifecycle_msgs__rosidl_typesupport_fastrtps_cpp-d97510d81a45ff6c2128.json",
+					"name" : "lifecycle_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lifecycle_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lifecycle_msgs__rosidl_typesupport_introspection_c-3dea6b9b73ee41942c6a.json",
+					"name" : "lifecycle_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lifecycle_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lifecycle_msgs__rosidl_typesupport_introspection_cpp-793d3eca5d66799d488d.json",
+					"name" : "lifecycle_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lifecycle_msgs__rosidl_typesupport_microxrcedds_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lifecycle_msgs__rosidl_typesupport_microxrcedds_c-88dde999afa6f57a8388.json",
+					"name" : "lifecycle_msgs__rosidl_typesupport_microxrcedds_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lifecycle_msgs__rosidl_typesupport_microxrcedds_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lifecycle_msgs__rosidl_typesupport_microxrcedds_cpp-17871ad711cd634fad45.json",
+					"name" : "lifecycle_msgs__rosidl_typesupport_microxrcedds_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lifecycle_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lifecycle_msgs_s__rosidl_typesupport_c-973ea0f9371a3723014b.json",
+					"name" : "lifecycle_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lifecycle_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lifecycle_msgs_s__rosidl_typesupport_fastrtps_c-819feae4109c6edab451.json",
+					"name" : "lifecycle_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lifecycle_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lifecycle_msgs_s__rosidl_typesupport_introspection_c-f3e04f7ac7b2743952c0.json",
+					"name" : "lifecycle_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lifecycle_msgs_s__rosidl_typesupport_microxrcedds_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lifecycle_msgs_s__rosidl_typesupport_microxrcedds_c-e3905eb62312b379a2c7.json",
+					"name" : "lifecycle_msgs_s__rosidl_typesupport_microxrcedds_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lifecycle_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lifecycle_msgs_uninstall-69fff05be0294d23ce59.json",
+					"name" : "lifecycle_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-82406ee1e0d2ca490bf9.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rassito/microros_ws/build/lifecycle_msgs",
+		"source" : "/home/rassito/microros_ws/src/ros2/rcl_interfaces/lifecycle_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

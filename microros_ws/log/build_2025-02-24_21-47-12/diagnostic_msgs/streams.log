@@ -1,0 +1,299 @@
+[0.016s] Invoking command in '/home/rassito/microros_ws/build/diagnostic_msgs': AMENT_PREFIX_PATH=/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/geometry_msgs/lib:/home/rassito/microros_ws/install/std_msgs/lib:/home/rassito/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rassito/microros_ws/src/ros2/common_interfaces/diagnostic_msgs -DCMAKE_INSTALL_PREFIX=/home/rassito/microros_ws/install/diagnostic_msgs
+[0.025s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.044s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.106s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.110s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.133s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.152s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.153s] -- Found std_msgs: 5.3.5 (/home/rassito/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[0.402s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.497s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.627s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.628s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[0.819s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[0.844s] -- Configuring done (0.8s)
+[0.894s] -- Generating done (0.0s)
+[0.904s] -- Build files have been written to: /home/rassito/microros_ws/build/diagnostic_msgs
+[0.910s] Invoked command in '/home/rassito/microros_ws/build/diagnostic_msgs' returned '0': AMENT_PREFIX_PATH=/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/geometry_msgs/lib:/home/rassito/microros_ws/install/std_msgs/lib:/home/rassito/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rassito/microros_ws/src/ros2/common_interfaces/diagnostic_msgs -DCMAKE_INSTALL_PREFIX=/home/rassito/microros_ws/install/diagnostic_msgs
+[0.911s] Invoking command in '/home/rassito/microros_ws/build/diagnostic_msgs': AMENT_PREFIX_PATH=/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/geometry_msgs/lib:/home/rassito/microros_ws/install/std_msgs/lib:/home/rassito/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rassito/microros_ws/build/diagnostic_msgs -- -j16 -l16
+[0.945s] [  1%] Built target diagnostic_msgs__rosidl_generator_type_description
+[0.957s] [  1%] Built target ament_cmake_python_copy_diagnostic_msgs
+[0.959s] [  2%] Built target diagnostic_msgs__cpp
+[0.966s] [ 25%] Built target diagnostic_msgs__rosidl_generator_c
+[0.973s] [ 27%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[0.974s] [ 28%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[0.984s] [ 37%] Built target diagnostic_msgs__rosidl_typesupport_introspection_c
+[0.988s] [ 47%] Built target diagnostic_msgs__rosidl_typesupport_fastrtps_cpp
+[0.988s] [ 56%] Built target diagnostic_msgs__rosidl_typesupport_fastrtps_c
+[0.990s] [ 66%] Built target diagnostic_msgs__rosidl_typesupport_introspection_cpp
+[1.135s] running egg_info
+[1.155s] writing diagnostic_msgs.egg-info/PKG-INFO
+[1.155s] writing dependency_links to diagnostic_msgs.egg-info/dependency_links.txt
+[1.155s] writing top-level names to diagnostic_msgs.egg-info/top_level.txt
+[1.234s] reading manifest file 'diagnostic_msgs.egg-info/SOURCES.txt'
+[1.235s] writing manifest file 'diagnostic_msgs.egg-info/SOURCES.txt'
+[1.269s] [ 66%] Built target ament_cmake_python_build_diagnostic_msgs_egg
+[1.448s] [ 67%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/diagnostic_msgs/msg/diagnostic_array__type_support.cpp.o[0m
+[1.448s] [ 68%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/diagnostic_msgs/msg/diagnostic_status__type_support.cpp.o[0m
+[1.448s] [ 71%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/diagnostic_msgs/srv/add_diagnostics__type_support.cpp.o[0m
+[1.449s] [ 71%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/diagnostic_msgs/msg/key_value__type_support.cpp.o[0m
+[1.449s] [ 72%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/diagnostic_msgs/srv/self_test__type_support.cpp.o[0m
+[1.505s] [ 74%] [32m[1mLinking CXX shared library libdiagnostic_msgs__rosidl_typesupport_c.so[0m
+[1.535s] [ 74%] Built target diagnostic_msgs__rosidl_typesupport_c
+[1.582s] [ 77%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/diagnostic_msgs/msg/key_value__type_support.cpp.o[0m
+[1.582s] [ 77%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/diagnostic_msgs/msg/diagnostic_status__type_support.cpp.o[0m
+[1.586s] [ 78%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/diagnostic_msgs/srv/add_diagnostics__type_support.cpp.o[0m
+[1.586s] [ 79%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/diagnostic_msgs/msg/diagnostic_array__type_support.cpp.o[0m
+[1.591s] [ 81%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/diagnostic_msgs/srv/self_test__type_support.cpp.o[0m
+[2.128s] [ 82%] [32m[1mLinking CXX shared library libdiagnostic_msgs__rosidl_typesupport_cpp.so[0m
+[2.233s] [ 82%] Built target diagnostic_msgs__rosidl_typesupport_cpp
+[2.264s] [ 82%] Built target diagnostic_msgs
+[2.285s] [ 83%] Built target diagnostic_msgs__py
+[2.321s] [ 85%] [32m[1mLinking C shared library libdiagnostic_msgs__rosidl_generator_py.so[0m
+[2.394s] [ 91%] Built target diagnostic_msgs__rosidl_generator_py
+[2.450s] [ 93%] [32m[1mLinking C shared module rosidl_generator_py/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[2.454s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[2.458s] [ 95%] [32m[1mLinking C shared module rosidl_generator_py/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_c.so[0m
+[2.537s] [ 97%] Built target diagnostic_msgs_s__rosidl_typesupport_fastrtps_c
+[2.541s] [ 98%] Built target diagnostic_msgs_s__rosidl_typesupport_introspection_c
+[2.545s] [100%] Built target diagnostic_msgs_s__rosidl_typesupport_c
+[2.563s] Invoked command in '/home/rassito/microros_ws/build/diagnostic_msgs' returned '0': AMENT_PREFIX_PATH=/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/geometry_msgs/lib:/home/rassito/microros_ws/install/std_msgs/lib:/home/rassito/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rassito/microros_ws/build/diagnostic_msgs -- -j16 -l16
+[2.564s] Invoking command in '/home/rassito/microros_ws/build/diagnostic_msgs': AMENT_PREFIX_PATH=/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/geometry_msgs/lib:/home/rassito/microros_ws/install/std_msgs/lib:/home/rassito/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rassito/microros_ws/build/diagnostic_msgs
+[2.576s] -- Install configuration: ""
+[2.578s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/share/ament_index/resource_index/rosidl_interfaces/diagnostic_msgs
+[2.578s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/msg/DiagnosticArray.json
+[2.579s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/msg/DiagnosticStatus.json
+[2.579s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/msg/KeyValue.json
+[2.579s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/srv/AddDiagnostics.json
+[2.579s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/srv/SelfTest.json
+[2.579s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs
+[2.579s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv
+[2.580s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/add_diagnostics.h
+[2.580s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/self_test.h
+[2.580s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail
+[2.580s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__functions.h
+[2.580s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__struct.h
+[2.580s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__type_support.h
+[2.580s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__description.c
+[2.581s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__functions.h
+[2.581s] -- Installing: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__type_support.c
+[2.581s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__type_support.h
+[2.581s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__functions.c
+[2.581s] -- Installing: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__type_support.c
+[2.581s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__functions.c
+[2.581s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__struct.h
+[2.581s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__description.c
+[2.582s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg
+[2.582s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/diagnostic_status.h
+[2.582s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/diagnostic_array.h
+[2.582s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/key_value.h
+[2.582s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail
+[2.582s] -- Installing: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__type_support.c
+[2.582s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__functions.h
+[2.582s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__functions.h
+[2.582s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__functions.c
+[2.583s] -- Installing: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__type_support.c
+[2.583s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__type_support.h
+[2.583s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__functions.c
+[2.583s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__description.c
+[2.583s] -- Installing: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__type_support.c
+[2.583s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.h
+[2.584s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__struct.h
+[2.584s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__functions.h
+[2.584s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__description.c
+[2.584s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__description.c
+[2.584s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__type_support.h
+[2.584s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__type_support.h
+[2.584s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__struct.h
+[2.584s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__functions.c
+[2.585s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.585s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/environment/library_path.sh
+[2.585s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/environment/library_path.dsv
+[2.585s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_generator_c.so
+[2.585s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs
+[2.585s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv
+[2.585s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail
+[2.585s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__rosidl_typesupport_fastrtps_c.h
+[2.586s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__rosidl_typesupport_fastrtps_c.h
+[2.586s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg
+[2.586s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.586s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail
+[2.586s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__rosidl_typesupport_fastrtps_c.h
+[2.586s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__rosidl_typesupport_fastrtps_c.h
+[2.586s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__rosidl_typesupport_fastrtps_c.h
+[2.586s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_fastrtps_c.so
+[2.586s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs
+[2.586s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv
+[2.587s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail
+[2.587s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__rosidl_typesupport_introspection_c.h
+[2.587s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__rosidl_typesupport_introspection_c.h
+[2.587s] -- Installing: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__type_support.c
+[2.588s] -- Installing: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__type_support.c
+[2.588s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg
+[2.589s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.589s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail
+[2.589s] -- Installing: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__type_support.c
+[2.589s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__rosidl_typesupport_introspection_c.h
+[2.589s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__rosidl_typesupport_introspection_c.h
+[2.589s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__rosidl_typesupport_introspection_c.h
+[2.589s] -- Installing: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__type_support.c
+[2.590s] -- Installing: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__type_support.c
+[2.591s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_introspection_c.so
+[2.592s] -- Installing: /home/rassito/microros_ws/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_c.so
+[2.592s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_c.so" to ""
+[2.592s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs
+[2.593s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv
+[2.593s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/self_test.hpp
+[2.593s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/add_diagnostics.hpp
+[2.593s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail
+[2.594s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__struct.hpp
+[2.594s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__type_support.hpp
+[2.594s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__traits.hpp
+[2.594s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__builder.hpp
+[2.594s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__struct.hpp
+[2.594s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__type_support.hpp
+[2.594s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__traits.hpp
+[2.594s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__builder.hpp
+[2.594s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg
+[2.594s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/diagnostic_status.hpp
+[2.595s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.595s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/diagnostic_array.hpp
+[2.595s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/key_value.hpp
+[2.595s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail
+[2.595s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__type_support.hpp
+[2.595s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__type_support.hpp
+[2.595s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__traits.hpp
+[2.595s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__struct.hpp
+[2.595s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__traits.hpp
+[2.595s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__type_support.hpp
+[2.596s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp
+[2.596s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__builder.hpp
+[2.596s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__builder.hpp
+[2.596s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__builder.hpp
+[2.596s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__struct.hpp
+[2.596s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__traits.hpp
+[2.596s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs
+[2.596s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv
+[2.596s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail
+[2.597s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__rosidl_typesupport_fastrtps_cpp.hpp
+[2.597s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__rosidl_typesupport_fastrtps_cpp.hpp
+[2.597s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/dds_fastrtps
+[2.597s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg
+[2.597s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.597s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail
+[2.597s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__rosidl_typesupport_fastrtps_cpp.hpp
+[2.597s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__rosidl_typesupport_fastrtps_cpp.hpp
+[2.597s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__rosidl_typesupport_fastrtps_cpp.hpp
+[2.597s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/dds_fastrtps
+[2.598s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.598s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs
+[2.598s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv
+[2.598s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail
+[2.598s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__type_support.cpp
+[2.598s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__type_support.cpp
+[2.598s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__rosidl_typesupport_introspection_cpp.hpp
+[2.598s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__rosidl_typesupport_introspection_cpp.hpp
+[2.599s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg
+[2.599s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail
+[2.599s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__type_support.cpp
+[2.599s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__rosidl_typesupport_introspection_cpp.hpp
+[2.599s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__type_support.cpp
+[2.599s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__rosidl_typesupport_introspection_cpp.hpp
+[2.599s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__rosidl_typesupport_introspection_cpp.hpp
+[2.599s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__type_support.cpp
+[2.599s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_introspection_cpp.so
+[2.599s] -- Installing: /home/rassito/microros_ws/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_cpp.so
+[2.599s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_cpp.so" to ""
+[2.600s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/environment/pythonpath.sh
+[2.600s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/environment/pythonpath.dsv
+[2.600s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs-5.3.5-py3.12.egg-info
+[2.600s] -- Installing: /home/rassito/microros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs-5.3.5-py3.12.egg-info/top_level.txt
+[2.600s] -- Installing: /home/rassito/microros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs-5.3.5-py3.12.egg-info/PKG-INFO
+[2.600s] -- Installing: /home/rassito/microros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs-5.3.5-py3.12.egg-info/dependency_links.txt
+[2.600s] -- Installing: /home/rassito/microros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs-5.3.5-py3.12.egg-info/SOURCES.txt
+[2.600s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs
+[2.600s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/_diagnostic_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.600s] -- Installing: /home/rassito/microros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_introspection_c.so
+[2.601s] -- Installing: /home/rassito/microros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_c.so
+[2.601s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/_diagnostic_msgs_s.ep.rosidl_typesupport_c.c
+[2.601s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/_diagnostic_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c
+[2.601s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/srv
+[2.601s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/srv/_self_test.py
+[2.601s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/srv/_self_test_s.c
+[2.601s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/srv/_add_diagnostics.py
+[2.601s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/srv/_add_diagnostics_s.c
+[2.601s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/srv/__init__.py
+[2.601s] -- Installing: /home/rassito/microros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_fastrtps_c.so
+[2.601s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/_diagnostic_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[2.602s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/msg
+[2.602s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/msg/_diagnostic_array.py
+[2.602s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/msg/_key_value.py
+[2.602s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/msg/_diagnostic_status_s.c
+[2.602s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/msg/_key_value_s.c
+[2.602s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/msg/_diagnostic_status.py
+[2.602s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/msg/_diagnostic_array_s.c
+[2.602s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/msg/__init__.py
+[2.602s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_microxrcedds_c.so
+[2.602s] -- Installing: /home/rassito/microros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/__init__.py
+[2.645s] Listing '/home/rassito/microros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs'...
+[2.645s] Compiling '/home/rassito/microros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/__init__.py'...
+[2.645s] Listing '/home/rassito/microros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/msg'...
+[2.645s] Listing '/home/rassito/microros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/srv'...
+[2.651s] -- Installing: /home/rassito/microros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_fastrtps_c.so
+[2.651s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[2.651s] -- Installing: /home/rassito/microros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_introspection_c.so
+[2.652s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[2.652s] -- Installing: /home/rassito/microros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_c.so
+[2.652s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_c.so" to ""
+[2.653s] -- Installing: /home/rassito/microros_ws/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_generator_py.so
+[2.654s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_generator_py.so" to ""
+[2.654s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/msg/DiagnosticArray.idl
+[2.654s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/msg/DiagnosticStatus.idl
+[2.654s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/msg/KeyValue.idl
+[2.654s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/srv/AddDiagnostics.idl
+[2.654s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/srv/SelfTest.idl
+[2.654s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/msg/DiagnosticArray.msg
+[2.654s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/msg/DiagnosticStatus.msg
+[2.655s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/msg/KeyValue.msg
+[2.655s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/srv/AddDiagnostics.srv
+[2.655s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/srv/SelfTest.srv
+[2.655s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/share/ament_index/resource_index/package_run_dependencies/diagnostic_msgs
+[2.655s] -- Installing: /home/rassito/microros_ws/install/diagnostic_msgs/share/ament_index/resource_index/parent_prefix_path/diagnostic_msgs
+[2.655s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/environment/ament_prefix_path.sh
+[2.656s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/environment/ament_prefix_path.dsv
+[2.656s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/environment/path.sh
+[2.656s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/environment/path.dsv
+[2.656s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/local_setup.bash
+[2.656s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/local_setup.sh
+[2.656s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/local_setup.zsh
+[2.656s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/local_setup.dsv
+[2.656s] -- Installing: /home/rassito/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/package.dsv
+[2.657s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/share/ament_index/resource_index/packages/diagnostic_msgs
+[2.657s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_generator_cExport.cmake
+[2.657s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_generator_cExport-noconfig.cmake
+[2.658s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.658s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.658s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.658s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.659s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_cExport.cmake
+[2.659s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[2.659s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_generator_cppExport.cmake
+[2.659s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.659s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.660s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.660s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.660s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_cppExport.cmake
+[2.660s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.660s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_generator_pyExport.cmake
+[2.660s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_generator_pyExport-noconfig.cmake
+[2.660s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/rosidl_cmake-extras.cmake
+[2.660s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.660s] -- Installing: /home/rassito/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.661s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.661s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.661s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.661s] -- Installing: /home/rassito/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.661s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgsConfig.cmake
+[2.661s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgsConfig-version.cmake
+[2.661s] -- Up-to-date: /home/rassito/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/package.xml
+[2.663s] Invoked command in '/home/rassito/microros_ws/build/diagnostic_msgs' returned '0': AMENT_PREFIX_PATH=/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/geometry_msgs/lib:/home/rassito/microros_ws/install/std_msgs/lib:/home/rassito/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rassito/microros_ws/build/diagnostic_msgs

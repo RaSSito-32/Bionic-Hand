@@ -1,0 +1,269 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-1b9f2d5ef99bbd94917e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					]
+				},
+				{
+					"build" : "std_srvs__py",
+					"jsonFile" : "directory-std_srvs__py-8d1af156106382c85f75.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/rassito/microros_ws/build/std_srvs/std_srvs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "std_srvs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_std_srvs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_std_srvs_egg-8b052aade4e9ecb38386.json",
+					"name" : "ament_cmake_python_build_std_srvs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_std_srvs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_std_srvs-5d14255d77639480d395.json",
+					"name" : "ament_cmake_python_copy_std_srvs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "std_srvs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-std_srvs-ee9bc6a3b32bde33875d.json",
+					"name" : "std_srvs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "std_srvs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-std_srvs__cpp-9e9f5ab3fd4924e51e87.json",
+					"name" : "std_srvs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "std_srvs__py::@95623544135d7c853d6d",
+					"jsonFile" : "target-std_srvs__py-4621dfb3eb2377a27d1c.json",
+					"name" : "std_srvs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "std_srvs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-std_srvs__rosidl_generator_c-00148e6d21fdc044e0b1.json",
+					"name" : "std_srvs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "std_srvs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-std_srvs__rosidl_generator_py-d420726a11569e70b3ce.json",
+					"name" : "std_srvs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "std_srvs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-std_srvs__rosidl_generator_type_description-3d419a0a976fdb9c3738.json",
+					"name" : "std_srvs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "std_srvs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-std_srvs__rosidl_typesupport_c-5db56f864fe6517637ce.json",
+					"name" : "std_srvs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "std_srvs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-std_srvs__rosidl_typesupport_cpp-5c28ebb15286b017f72a.json",
+					"name" : "std_srvs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "std_srvs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-std_srvs__rosidl_typesupport_fastrtps_c-122d4cbfd7ac1b348679.json",
+					"name" : "std_srvs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "std_srvs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-std_srvs__rosidl_typesupport_fastrtps_cpp-bdeafc884c904d6314c6.json",
+					"name" : "std_srvs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "std_srvs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-std_srvs__rosidl_typesupport_introspection_c-0c39dda1bbc20d3fd3cf.json",
+					"name" : "std_srvs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "std_srvs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-std_srvs__rosidl_typesupport_introspection_cpp-7a2c471175e98257c8ee.json",
+					"name" : "std_srvs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "std_srvs__rosidl_typesupport_microxrcedds_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-std_srvs__rosidl_typesupport_microxrcedds_c-58b2a5e874171e6a2862.json",
+					"name" : "std_srvs__rosidl_typesupport_microxrcedds_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "std_srvs__rosidl_typesupport_microxrcedds_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-std_srvs__rosidl_typesupport_microxrcedds_cpp-f87f48d91e48f4799146.json",
+					"name" : "std_srvs__rosidl_typesupport_microxrcedds_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "std_srvs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-std_srvs_s__rosidl_typesupport_c-f00c46c7694a830f4376.json",
+					"name" : "std_srvs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "std_srvs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-std_srvs_s__rosidl_typesupport_fastrtps_c-13917d291288cb96292b.json",
+					"name" : "std_srvs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "std_srvs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-std_srvs_s__rosidl_typesupport_introspection_c-5b102edf8d249f74d06a.json",
+					"name" : "std_srvs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "std_srvs_s__rosidl_typesupport_microxrcedds_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-std_srvs_s__rosidl_typesupport_microxrcedds_c-97421df6b90f0f2cb334.json",
+					"name" : "std_srvs_s__rosidl_typesupport_microxrcedds_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "std_srvs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-std_srvs_uninstall-698eb0976be2ee51733b.json",
+					"name" : "std_srvs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-01266f85e09123fab2ac.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rassito/microros_ws/build/std_srvs",
+		"source" : "/home/rassito/microros_ws/src/ros2/common_interfaces/std_srvs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,402 @@
+[0.015s] Invoking command in '/home/rassito/microros_ws/build/nav_msgs': AMENT_PREFIX_PATH=/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/geometry_msgs/lib:/home/rassito/microros_ws/install/std_msgs/lib:/home/rassito/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rassito/microros_ws/src/ros2/common_interfaces/nav_msgs -DCMAKE_INSTALL_PREFIX=/home/rassito/microros_ws/install/nav_msgs
+[0.024s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.043s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.101s] -- Found builtin_interfaces: 2.0.2 (/home/rassito/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake)
+[0.118s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.124s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.134s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.143s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.151s] -- Found geometry_msgs: 5.3.5 (/home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake)
+[0.172s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.177s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.442s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.661s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.747s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.748s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[0.943s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[0.987s] -- Configuring done (1.0s)
+[1.060s] -- Generating done (0.1s)
+[1.079s] -- Build files have been written to: /home/rassito/microros_ws/build/nav_msgs
+[1.087s] Invoked command in '/home/rassito/microros_ws/build/nav_msgs' returned '0': AMENT_PREFIX_PATH=/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/geometry_msgs/lib:/home/rassito/microros_ws/install/std_msgs/lib:/home/rassito/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rassito/microros_ws/src/ros2/common_interfaces/nav_msgs -DCMAKE_INSTALL_PREFIX=/home/rassito/microros_ws/install/nav_msgs
+[1.088s] Invoking command in '/home/rassito/microros_ws/build/nav_msgs': AMENT_PREFIX_PATH=/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/geometry_msgs/lib:/home/rassito/microros_ws/install/std_msgs/lib:/home/rassito/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rassito/microros_ws/build/nav_msgs -- -j16 -l16
+[1.132s] [  1%] Built target nav_msgs__rosidl_generator_type_description
+[1.153s] [  1%] Built target nav_msgs__cpp
+[1.154s] [  1%] Built target ament_cmake_python_copy_nav_msgs
+[1.171s] [ 27%] Built target nav_msgs__rosidl_generator_c
+[1.189s] [ 28%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.195s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.219s] [ 39%] Built target nav_msgs__rosidl_typesupport_introspection_c
+[1.233s] [ 48%] Built target nav_msgs__rosidl_typesupport_introspection_cpp
+[1.238s] [ 58%] Built target nav_msgs__rosidl_typesupport_fastrtps_cpp
+[1.239s] [ 67%] Built target nav_msgs__rosidl_typesupport_fastrtps_c
+[1.371s] running egg_info
+[1.389s] writing nav_msgs.egg-info/PKG-INFO
+[1.389s] writing dependency_links to nav_msgs.egg-info/dependency_links.txt
+[1.389s] writing top-level names to nav_msgs.egg-info/top_level.txt
+[1.450s] reading manifest file 'nav_msgs.egg-info/SOURCES.txt'
+[1.452s] writing manifest file 'nav_msgs.egg-info/SOURCES.txt'
+[1.491s] [ 67%] Built target ament_cmake_python_build_nav_msgs_egg
+[2.138s] [ 68%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/msg/odometry__type_support.cpp.o[0m
+[2.139s] [ 69%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/srv/get_map__type_support.cpp.o[0m
+[2.139s] [ 70%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/msg/grid_cells__type_support.cpp.o[0m
+[2.140s] [ 70%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/msg/path__type_support.cpp.o[0m
+[2.140s] [ 71%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/msg/occupancy_grid__type_support.cpp.o[0m
+[2.140s] [ 72%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/msg/map_meta_data__type_support.cpp.o[0m
+[2.140s] [ 73%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/srv/load_map__type_support.cpp.o[0m
+[2.141s] [ 74%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/srv/get_plan__type_support.cpp.o[0m
+[2.145s] [ 75%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/srv/set_map__type_support.cpp.o[0m
+[2.414s] [ 77%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/msg/path__type_support.cpp.o[0m
+[2.415s] [ 78%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/msg/occupancy_grid__type_support.cpp.o[0m
+[2.415s] [ 78%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/msg/grid_cells__type_support.cpp.o[0m
+[2.420s] [ 79%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/msg/odometry__type_support.cpp.o[0m
+[2.422s] [ 80%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/msg/map_meta_data__type_support.cpp.o[0m
+[2.423s] [ 80%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/srv/get_map__type_support.cpp.o[0m
+[2.425s] [ 81%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/srv/get_plan__type_support.cpp.o[0m
+[2.525s] [ 82%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/srv/set_map__type_support.cpp.o[0m
+[2.528s] [ 83%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/srv/load_map__type_support.cpp.o[0m
+[2.603s] [ 84%] [32m[1mLinking CXX shared library libnav_msgs__rosidl_typesupport_c.so[0m
+[2.654s] [ 84%] Built target nav_msgs__rosidl_typesupport_c
+[2.763s] [ 85%] [32m[1mLinking CXX shared library libnav_msgs__rosidl_typesupport_cpp.so[0m
+[2.817s] [ 85%] Built target nav_msgs__rosidl_typesupport_cpp
+[2.831s] [ 85%] Built target nav_msgs
+[2.846s] [ 86%] Built target nav_msgs__py
+[2.868s] [ 86%] [32m[1mLinking C shared library libnav_msgs__rosidl_generator_py.so[0m
+[2.902s] [ 94%] Built target nav_msgs__rosidl_generator_py
+[2.917s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/nav_msgs/nav_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[2.917s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/nav_msgs/nav_msgs_s__rosidl_typesupport_c.so[0m
+[2.917s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/nav_msgs/nav_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[2.939s] [ 99%] Built target nav_msgs_s__rosidl_typesupport_c
+[2.939s] [ 99%] Built target nav_msgs_s__rosidl_typesupport_introspection_c
+[2.940s] [100%] Built target nav_msgs_s__rosidl_typesupport_fastrtps_c
+[2.947s] Invoked command in '/home/rassito/microros_ws/build/nav_msgs' returned '0': AMENT_PREFIX_PATH=/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/geometry_msgs/lib:/home/rassito/microros_ws/install/std_msgs/lib:/home/rassito/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rassito/microros_ws/build/nav_msgs -- -j16 -l16
+[2.948s] Invoking command in '/home/rassito/microros_ws/build/nav_msgs': AMENT_PREFIX_PATH=/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/geometry_msgs/lib:/home/rassito/microros_ws/install/std_msgs/lib:/home/rassito/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rassito/microros_ws/build/nav_msgs
+[2.953s] -- Install configuration: ""
+[2.954s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/ament_index/resource_index/rosidl_interfaces/nav_msgs
+[2.954s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/msg/GridCells.json
+[2.954s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/msg/MapMetaData.json
+[2.954s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/msg/OccupancyGrid.json
+[2.954s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/msg/Odometry.json
+[2.954s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/msg/Path.json
+[2.954s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/srv/GetMap.json
+[2.954s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/srv/GetPlan.json
+[2.954s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/srv/LoadMap.json
+[2.954s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/srv/SetMap.json
+[2.954s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs
+[2.954s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv
+[2.955s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/get_map.h
+[2.955s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/load_map.h
+[2.955s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/get_plan.h
+[2.955s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail
+[2.955s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__description.c
+[2.955s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__functions.c
+[2.955s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__type_support.h
+[2.955s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__struct.h
+[2.955s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__struct.h
+[2.955s] -- Installing: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__type_support.c
+[2.955s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__description.c
+[2.955s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__struct.h
+[2.955s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__struct.h
+[2.955s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__type_support.h
+[2.955s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__type_support.h
+[2.955s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__description.c
+[2.955s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__functions.c
+[2.955s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__functions.h
+[2.955s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__functions.h
+[2.956s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__description.c
+[2.956s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__functions.h
+[2.956s] -- Installing: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__type_support.c
+[2.956s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__functions.h
+[2.956s] -- Installing: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__type_support.c
+[2.956s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__functions.c
+[2.956s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__type_support.h
+[2.956s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__functions.c
+[2.956s] -- Installing: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__type_support.c
+[2.956s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/set_map.h
+[2.956s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg
+[2.956s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/occupancy_grid.h
+[2.956s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/path.h
+[2.956s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/grid_cells.h
+[2.956s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/odometry.h
+[2.956s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/map_meta_data.h
+[2.957s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail
+[2.957s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__struct.h
+[2.957s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__struct.h
+[2.957s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__struct.h
+[2.957s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__functions.c
+[2.957s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__type_support.h
+[2.957s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__functions.c
+[2.957s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__struct.h
+[2.957s] -- Installing: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__type_support.c
+[2.957s] -- Installing: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__type_support.c
+[2.957s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__functions.h
+[2.957s] -- Installing: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__type_support.c
+[2.958s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.h
+[2.958s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__description.c
+[2.958s] -- Installing: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__type_support.c
+[2.958s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__description.c
+[2.958s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__type_support.h
+[2.958s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__type_support.h
+[2.958s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__functions.h
+[2.958s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__functions.h
+[2.958s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__type_support.h
+[2.958s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__functions.h
+[2.958s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__functions.c
+[2.958s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__functions.c
+[2.958s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__description.c
+[2.958s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__functions.h
+[2.958s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__functions.c
+[2.958s] -- Installing: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__type_support.c
+[2.958s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__type_support.h
+[2.958s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__description.c
+[2.959s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__description.c
+[2.959s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.959s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/environment/library_path.sh
+[2.959s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/environment/library_path.dsv
+[2.959s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_generator_c.so
+[2.960s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs
+[2.960s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv
+[2.960s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail
+[2.960s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__rosidl_typesupport_fastrtps_c.h
+[2.960s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__rosidl_typesupport_fastrtps_c.h
+[2.960s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__rosidl_typesupport_fastrtps_c.h
+[2.960s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__rosidl_typesupport_fastrtps_c.h
+[2.960s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg
+[2.960s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.960s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail
+[2.960s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__rosidl_typesupport_fastrtps_c.h
+[2.960s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__rosidl_typesupport_fastrtps_c.h
+[2.961s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__rosidl_typesupport_fastrtps_c.h
+[2.961s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__rosidl_typesupport_fastrtps_c.h
+[2.961s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__rosidl_typesupport_fastrtps_c.h
+[2.961s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_fastrtps_c.so
+[2.961s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs
+[2.961s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv
+[2.961s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/load_map.hpp
+[2.961s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/set_map.hpp
+[2.961s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/get_map.hpp
+[2.961s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/get_plan.hpp
+[2.961s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail
+[2.961s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__struct.hpp
+[2.961s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__traits.hpp
+[2.961s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__builder.hpp
+[2.961s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__type_support.hpp
+[2.961s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__builder.hpp
+[2.961s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__builder.hpp
+[2.961s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__struct.hpp
+[2.961s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__traits.hpp
+[2.961s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__type_support.hpp
+[2.961s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__type_support.hpp
+[2.962s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__builder.hpp
+[2.962s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__struct.hpp
+[2.962s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__traits.hpp
+[2.962s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__type_support.hpp
+[2.962s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__traits.hpp
+[2.962s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__struct.hpp
+[2.962s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg
+[2.962s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.962s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/path.hpp
+[2.962s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/odometry.hpp
+[2.962s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/occupancy_grid.hpp
+[2.962s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/grid_cells.hpp
+[2.962s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/map_meta_data.hpp
+[2.962s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail
+[2.962s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__builder.hpp
+[2.962s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__traits.hpp
+[2.963s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__struct.hpp
+[2.963s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__builder.hpp
+[2.963s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__type_support.hpp
+[2.963s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__traits.hpp
+[2.963s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__builder.hpp
+[2.963s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp
+[2.963s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__traits.hpp
+[2.963s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__traits.hpp
+[2.963s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__type_support.hpp
+[2.963s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp
+[2.963s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__builder.hpp
+[2.963s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__builder.hpp
+[2.963s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__type_support.hpp
+[2.963s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__traits.hpp
+[2.963s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__type_support.hpp
+[2.963s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__type_support.hpp
+[2.963s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__struct.hpp
+[2.963s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__struct.hpp
+[2.963s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs
+[2.964s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv
+[2.964s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail
+[2.964s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__rosidl_typesupport_fastrtps_cpp.hpp
+[2.964s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__rosidl_typesupport_fastrtps_cpp.hpp
+[2.964s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__rosidl_typesupport_fastrtps_cpp.hpp
+[2.964s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__rosidl_typesupport_fastrtps_cpp.hpp
+[2.964s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/dds_fastrtps
+[2.964s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg
+[2.964s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.964s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail
+[2.965s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__rosidl_typesupport_fastrtps_cpp.hpp
+[2.965s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__rosidl_typesupport_fastrtps_cpp.hpp
+[2.965s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__rosidl_typesupport_fastrtps_cpp.hpp
+[2.965s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__rosidl_typesupport_fastrtps_cpp.hpp
+[2.965s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__rosidl_typesupport_fastrtps_cpp.hpp
+[2.965s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/dds_fastrtps
+[2.965s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.965s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs
+[2.965s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv
+[2.965s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail
+[2.965s] -- Installing: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__type_support.c
+[2.965s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__rosidl_typesupport_introspection_c.h
+[2.965s] -- Installing: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__type_support.c
+[2.965s] -- Installing: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__type_support.c
+[2.965s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__rosidl_typesupport_introspection_c.h
+[2.965s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__rosidl_typesupport_introspection_c.h
+[2.965s] -- Installing: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__type_support.c
+[2.966s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__rosidl_typesupport_introspection_c.h
+[2.966s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg
+[2.966s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.966s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail
+[2.966s] -- Installing: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__type_support.c
+[2.966s] -- Installing: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__type_support.c
+[2.966s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__rosidl_typesupport_introspection_c.h
+[2.966s] -- Installing: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__type_support.c
+[2.966s] -- Installing: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__type_support.c
+[2.966s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__rosidl_typesupport_introspection_c.h
+[2.966s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__rosidl_typesupport_introspection_c.h
+[2.966s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__rosidl_typesupport_introspection_c.h
+[2.966s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__rosidl_typesupport_introspection_c.h
+[2.966s] -- Installing: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__type_support.c
+[2.966s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_introspection_c.so
+[2.966s] -- Installing: /home/rassito/microros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_c.so
+[2.966s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_c.so" to ""
+[2.967s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs
+[2.967s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv
+[2.967s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail
+[2.967s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__type_support.cpp
+[2.967s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__type_support.cpp
+[2.967s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__rosidl_typesupport_introspection_cpp.hpp
+[2.967s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__rosidl_typesupport_introspection_cpp.hpp
+[2.967s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__rosidl_typesupport_introspection_cpp.hpp
+[2.967s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__type_support.cpp
+[2.967s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__rosidl_typesupport_introspection_cpp.hpp
+[2.967s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__type_support.cpp
+[2.967s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg
+[2.967s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail
+[2.967s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__rosidl_typesupport_introspection_cpp.hpp
+[2.967s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__type_support.cpp
+[2.967s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__rosidl_typesupport_introspection_cpp.hpp
+[2.967s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__type_support.cpp
+[2.968s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__type_support.cpp
+[2.968s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__rosidl_typesupport_introspection_cpp.hpp
+[2.968s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__rosidl_typesupport_introspection_cpp.hpp
+[2.968s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__rosidl_typesupport_introspection_cpp.hpp
+[2.968s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__type_support.cpp
+[2.968s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__type_support.cpp
+[2.968s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_introspection_cpp.so
+[2.968s] -- Installing: /home/rassito/microros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_cpp.so
+[2.968s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_cpp.so" to ""
+[2.968s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/environment/pythonpath.sh
+[2.968s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/environment/pythonpath.dsv
+[2.968s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs-5.3.5-py3.12.egg-info
+[2.968s] -- Installing: /home/rassito/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs-5.3.5-py3.12.egg-info/top_level.txt
+[2.968s] -- Installing: /home/rassito/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs-5.3.5-py3.12.egg-info/PKG-INFO
+[2.968s] -- Installing: /home/rassito/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs-5.3.5-py3.12.egg-info/dependency_links.txt
+[2.968s] -- Installing: /home/rassito/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs-5.3.5-py3.12.egg-info/SOURCES.txt
+[2.968s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs
+[2.969s] -- Installing: /home/rassito/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_fastrtps_c.so
+[2.969s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/_nav_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c
+[2.969s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/_nav_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.969s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/_nav_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[2.969s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_microxrcedds_c.so
+[2.969s] -- Installing: /home/rassito/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_introspection_c.so
+[2.969s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/_nav_msgs_s.ep.rosidl_typesupport_c.c
+[2.969s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/srv
+[2.969s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/srv/_get_plan_s.c
+[2.969s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/srv/_set_map_s.c
+[2.969s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/srv/_get_map.py
+[2.969s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/srv/_load_map.py
+[2.969s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/srv/_get_map_s.c
+[2.969s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/srv/_set_map.py
+[2.969s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/srv/_load_map_s.c
+[2.969s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/srv/_get_plan.py
+[2.969s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/srv/__init__.py
+[2.969s] -- Installing: /home/rassito/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_c.so
+[2.969s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg
+[2.969s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/_path.py
+[2.969s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/_map_meta_data.py
+[2.969s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/_occupancy_grid_s.c
+[2.969s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/_grid_cells_s.c
+[2.970s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/_path_s.c
+[2.970s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/_odometry.py
+[2.970s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/_odometry_s.c
+[2.970s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/_occupancy_grid.py
+[2.970s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/_map_meta_data_s.c
+[2.970s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/_grid_cells.py
+[2.970s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/__init__.py
+[2.970s] -- Installing: /home/rassito/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/__init__.py
+[2.995s] Listing '/home/rassito/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs'...
+[2.995s] Compiling '/home/rassito/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/__init__.py'...
+[2.995s] Listing '/home/rassito/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg'...
+[2.995s] Listing '/home/rassito/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/srv'...
+[2.999s] -- Installing: /home/rassito/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_fastrtps_c.so
+[2.999s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[2.999s] -- Installing: /home/rassito/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_introspection_c.so
+[2.999s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[2.999s] -- Installing: /home/rassito/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_c.so
+[2.999s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_c.so" to ""
+[3.000s] -- Installing: /home/rassito/microros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_generator_py.so
+[3.000s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_generator_py.so" to ""
+[3.000s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/msg/GridCells.idl
+[3.000s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/msg/MapMetaData.idl
+[3.000s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/msg/OccupancyGrid.idl
+[3.000s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/msg/Odometry.idl
+[3.001s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/msg/Path.idl
+[3.001s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/srv/GetMap.idl
+[3.001s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/srv/GetPlan.idl
+[3.001s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/srv/LoadMap.idl
+[3.001s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/srv/SetMap.idl
+[3.001s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/msg/GridCells.msg
+[3.001s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/msg/MapMetaData.msg
+[3.001s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/msg/OccupancyGrid.msg
+[3.001s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/msg/Odometry.msg
+[3.001s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/msg/Path.msg
+[3.001s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/srv/GetMap.srv
+[3.001s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/srv/GetPlan.srv
+[3.001s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/srv/LoadMap.srv
+[3.001s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/srv/SetMap.srv
+[3.001s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/ament_index/resource_index/package_run_dependencies/nav_msgs
+[3.001s] -- Installing: /home/rassito/microros_ws/install/nav_msgs/share/ament_index/resource_index/parent_prefix_path/nav_msgs
+[3.001s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/environment/ament_prefix_path.sh
+[3.001s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/environment/ament_prefix_path.dsv
+[3.001s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/environment/path.sh
+[3.001s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/environment/path.dsv
+[3.002s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/local_setup.bash
+[3.002s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/local_setup.sh
+[3.002s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/local_setup.zsh
+[3.002s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/local_setup.dsv
+[3.002s] -- Installing: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/package.dsv
+[3.002s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/ament_index/resource_index/packages/nav_msgs
+[3.002s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_generator_cExport.cmake
+[3.002s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_generator_cExport-noconfig.cmake
+[3.002s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[3.002s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.002s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_generator_cppExport.cmake
+[3.002s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.002s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.003s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_introspection_cExport.cmake
+[3.003s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.003s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_cExport.cmake
+[3.003s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[3.003s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[3.003s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.003s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_cppExport.cmake
+[3.003s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[3.003s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_generator_pyExport.cmake
+[3.003s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_generator_pyExport-noconfig.cmake
+[3.003s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/cmake/rosidl_cmake-extras.cmake
+[3.004s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.004s] -- Installing: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.004s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[3.004s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[3.004s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.004s] -- Installing: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.004s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/cmake/nav_msgsConfig.cmake
+[3.004s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/cmake/nav_msgsConfig-version.cmake
+[3.004s] -- Up-to-date: /home/rassito/microros_ws/install/nav_msgs/share/nav_msgs/package.xml
+[3.006s] Invoked command in '/home/rassito/microros_ws/build/nav_msgs' returned '0': AMENT_PREFIX_PATH=/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/geometry_msgs/lib:/home/rassito/microros_ws/install/std_msgs/lib:/home/rassito/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rassito/microros_ws/build/nav_msgs

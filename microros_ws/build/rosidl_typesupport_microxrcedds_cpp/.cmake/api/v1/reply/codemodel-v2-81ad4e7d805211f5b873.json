@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-a844c9b13e047ec61a8f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rosidl_typesupport_microxrcedds_cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_rosidl_typesupport_microxrcedds_cpp_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_rosidl_typesupport_microxrcedds_cpp_egg-ad2f275ad6cef2510538.json",
+					"name" : "ament_cmake_python_build_rosidl_typesupport_microxrcedds_cpp_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_rosidl_typesupport_microxrcedds_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_rosidl_typesupport_microxrcedds_cpp-5888a363494923f1b107.json",
+					"name" : "ament_cmake_python_copy_rosidl_typesupport_microxrcedds_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosidl_typesupport_microxrcedds_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosidl_typesupport_microxrcedds_cpp-d0912ab7d188f0ede851.json",
+					"name" : "rosidl_typesupport_microxrcedds_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosidl_typesupport_microxrcedds_cpp_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosidl_typesupport_microxrcedds_cpp_uninstall-999f6c98be7863bd4054.json",
+					"name" : "rosidl_typesupport_microxrcedds_cpp_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-d1596b3ec5ec829906a4.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rassito/microros_ws/build/rosidl_typesupport_microxrcedds_cpp",
+		"source" : "/home/rassito/microros_ws/src/uros/rosidl_typesupport_microxrcedds/rosidl_typesupport_microxrcedds_cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,269 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ce3261479d1a12a76d72.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					]
+				},
+				{
+					"build" : "rosgraph_msgs__py",
+					"jsonFile" : "directory-rosgraph_msgs__py-8586d026c66d1a07160b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/rassito/microros_ws/build/rosgraph_msgs/rosgraph_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "rosgraph_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_rosgraph_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_rosgraph_msgs_egg-677c339af10b8639dab4.json",
+					"name" : "ament_cmake_python_build_rosgraph_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_rosgraph_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_rosgraph_msgs-f4bc285607ce61bb642f.json",
+					"name" : "ament_cmake_python_copy_rosgraph_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosgraph_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosgraph_msgs-cddb30ebd36f04c8a14f.json",
+					"name" : "rosgraph_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosgraph_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosgraph_msgs__cpp-bf8bc4f932b6d14500d4.json",
+					"name" : "rosgraph_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "rosgraph_msgs__py::@430f2eb5ba8af4bd12df",
+					"jsonFile" : "target-rosgraph_msgs__py-51e706e32ffef63f2fab.json",
+					"name" : "rosgraph_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosgraph_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosgraph_msgs__rosidl_generator_c-11565e214c2eebf58fdb.json",
+					"name" : "rosgraph_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosgraph_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosgraph_msgs__rosidl_generator_py-2ca985f38a48874172f9.json",
+					"name" : "rosgraph_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosgraph_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosgraph_msgs__rosidl_generator_type_description-9525d70a433b1df1e6bf.json",
+					"name" : "rosgraph_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosgraph_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosgraph_msgs__rosidl_typesupport_c-02236f2278c2a80c72b5.json",
+					"name" : "rosgraph_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosgraph_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosgraph_msgs__rosidl_typesupport_cpp-b0357dec933f4a3fce6c.json",
+					"name" : "rosgraph_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosgraph_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosgraph_msgs__rosidl_typesupport_fastrtps_c-192a9521432277826d97.json",
+					"name" : "rosgraph_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosgraph_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosgraph_msgs__rosidl_typesupport_fastrtps_cpp-410f1b1f082360485c21.json",
+					"name" : "rosgraph_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosgraph_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosgraph_msgs__rosidl_typesupport_introspection_c-d838b78cb204cbeaf0d6.json",
+					"name" : "rosgraph_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosgraph_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosgraph_msgs__rosidl_typesupport_introspection_cpp-bd5322e8ceca5ff83b27.json",
+					"name" : "rosgraph_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosgraph_msgs__rosidl_typesupport_microxrcedds_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosgraph_msgs__rosidl_typesupport_microxrcedds_c-40746011568c8dff318a.json",
+					"name" : "rosgraph_msgs__rosidl_typesupport_microxrcedds_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosgraph_msgs__rosidl_typesupport_microxrcedds_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosgraph_msgs__rosidl_typesupport_microxrcedds_cpp-70a1a9ad753a8b5c1e99.json",
+					"name" : "rosgraph_msgs__rosidl_typesupport_microxrcedds_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosgraph_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosgraph_msgs_s__rosidl_typesupport_c-161d59fbd16dfc0fe895.json",
+					"name" : "rosgraph_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosgraph_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosgraph_msgs_s__rosidl_typesupport_fastrtps_c-aae8ef9a4fc65bb3637f.json",
+					"name" : "rosgraph_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosgraph_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosgraph_msgs_s__rosidl_typesupport_introspection_c-7a0913355c2c28e688ff.json",
+					"name" : "rosgraph_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosgraph_msgs_s__rosidl_typesupport_microxrcedds_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosgraph_msgs_s__rosidl_typesupport_microxrcedds_c-0b511286ff02d33f38ed.json",
+					"name" : "rosgraph_msgs_s__rosidl_typesupport_microxrcedds_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosgraph_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosgraph_msgs_uninstall-dbb8378648d327aab8e3.json",
+					"name" : "rosgraph_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-ac4e8bc027b3e05cc5e8.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rassito/microros_ws/build/rosgraph_msgs",
+		"source" : "/home/rassito/microros_ws/src/ros2/rcl_interfaces/rosgraph_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

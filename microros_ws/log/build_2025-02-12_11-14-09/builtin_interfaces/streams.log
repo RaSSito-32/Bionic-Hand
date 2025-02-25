@@ -1,0 +1,211 @@
+[0.078s] Invoking command in '/home/rassito/microros_ws/build/builtin_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rassito/microros_ws/install/sensor_msgs_py:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rassito/microros_ws/src/ros2/rcl_interfaces/builtin_interfaces -DCMAKE_INSTALL_PREFIX=/home/rassito/microros_ws/install/builtin_interfaces
+[0.120s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.151s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.291s] -- Found rosidl_core_generators: 0.2.0 (/opt/ros/jazzy/share/rosidl_core_generators/cmake)
+[0.302s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.328s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.354s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.748s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.922s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.142s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.143s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[1.474s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[1.510s] -- Configuring done (1.4s)
+[1.592s] -- Generating done (0.1s)
+[1.613s] -- Build files have been written to: /home/rassito/microros_ws/build/builtin_interfaces
+[1.622s] Invoked command in '/home/rassito/microros_ws/build/builtin_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rassito/microros_ws/install/sensor_msgs_py:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rassito/microros_ws/src/ros2/rcl_interfaces/builtin_interfaces -DCMAKE_INSTALL_PREFIX=/home/rassito/microros_ws/install/builtin_interfaces
+[1.623s] Invoking command in '/home/rassito/microros_ws/build/builtin_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rassito/microros_ws/install/sensor_msgs_py:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rassito/microros_ws/build/builtin_interfaces -- -j16 -l16
+[1.690s] [  1%] Built target builtin_interfaces__rosidl_generator_type_description
+[1.706s] [  1%] Built target ament_cmake_python_copy_builtin_interfaces
+[1.729s] [  3%] Built target builtin_interfaces__cpp
+[1.738s] [ 18%] Built target builtin_interfaces__rosidl_generator_c
+[1.803s] [ 25%] Built target builtin_interfaces__rosidl_typesupport_microxrcedds_cpp
+[1.810s] [ 33%] Built target builtin_interfaces__rosidl_typesupport_c
+[1.812s] [ 40%] Built target builtin_interfaces__rosidl_typesupport_microxrcedds_c
+[1.815s] [ 48%] Built target builtin_interfaces__rosidl_typesupport_cpp
+[1.819s] [ 55%] Built target builtin_interfaces__rosidl_typesupport_introspection_c
+[1.821s] [ 62%] Built target builtin_interfaces__rosidl_typesupport_fastrtps_c
+[1.830s] [ 70%] Built target builtin_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.831s] [ 77%] Built target builtin_interfaces__rosidl_typesupport_introspection_cpp
+[1.885s] [ 77%] Built target builtin_interfaces
+[1.920s] [ 79%] Built target builtin_interfaces__py
+[1.957s] [ 85%] Built target builtin_interfaces__rosidl_generator_py
+[1.994s] [ 88%] Built target builtin_interfaces_s__rosidl_typesupport_introspection_c
+[1.994s] [ 92%] Built target builtin_interfaces_s__rosidl_typesupport_fastrtps_c
+[1.994s] [ 96%] Built target builtin_interfaces_s__rosidl_typesupport_microxrcedds_c
+[1.995s] [100%] Built target builtin_interfaces_s__rosidl_typesupport_c
+[2.075s] running egg_info
+[2.095s] writing builtin_interfaces.egg-info/PKG-INFO
+[2.095s] writing dependency_links to builtin_interfaces.egg-info/dependency_links.txt
+[2.095s] writing top-level names to builtin_interfaces.egg-info/top_level.txt
+[2.156s] reading manifest file 'builtin_interfaces.egg-info/SOURCES.txt'
+[2.156s] writing manifest file 'builtin_interfaces.egg-info/SOURCES.txt'
+[2.186s] [100%] Built target ament_cmake_python_build_builtin_interfaces_egg
+[2.199s] Invoked command in '/home/rassito/microros_ws/build/builtin_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rassito/microros_ws/install/sensor_msgs_py:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rassito/microros_ws/build/builtin_interfaces -- -j16 -l16
+[2.200s] Invoking command in '/home/rassito/microros_ws/build/builtin_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rassito/microros_ws/install/sensor_msgs_py:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rassito/microros_ws/build/builtin_interfaces
+[2.210s] -- Install configuration: ""
+[2.210s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/share/ament_index/resource_index/rosidl_interfaces/builtin_interfaces
+[2.210s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.json
+[2.210s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/share/builtin_interfaces/msg/Time.json
+[2.210s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces
+[2.210s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg
+[2.211s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/time.h
+[2.211s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail
+[2.211s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__functions.c
+[2.211s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__functions.h
+[2.211s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.c
+[2.211s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__description.c
+[2.211s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.h
+[2.211s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__functions.c
+[2.212s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__description.c
+[2.212s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__functions.h
+[2.212s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.h
+[2.212s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h
+[2.212s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.h
+[2.212s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.c
+[2.212s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/duration.h
+[2.212s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.213s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/share/builtin_interfaces/environment/library_path.sh
+[2.213s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/share/builtin_interfaces/environment/library_path.dsv
+[2.213s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_generator_c.so
+[2.213s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces
+[2.213s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg
+[2.213s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail
+[2.213s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/microxrcedds
+[2.213s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/time__rosidl_typesupport_microxrcedds_c.h
+[2.214s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/duration__rosidl_typesupport_microxrcedds_c.h
+[2.214s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+[2.214s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_microxrcedds_c.so
+[2.214s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces
+[2.214s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg
+[2.214s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.215s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail
+[2.215s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__rosidl_typesupport_fastrtps_c.h
+[2.215s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__rosidl_typesupport_fastrtps_c.h
+[2.215s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.215s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces
+[2.216s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg
+[2.216s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.216s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail
+[2.216s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.c
+[2.216s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__rosidl_typesupport_introspection_c.h
+[2.216s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__rosidl_typesupport_introspection_c.h
+[2.216s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.c
+[2.216s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
+[2.217s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
+[2.217s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces
+[2.217s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg
+[2.218s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.218s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/time.hpp
+[2.218s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp
+[2.218s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail
+[2.218s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp
+[2.218s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp
+[2.218s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp
+[2.219s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp
+[2.219s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.hpp
+[2.219s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp
+[2.219s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.hpp
+[2.219s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp
+[2.219s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces
+[2.219s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg
+[2.220s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+[2.220s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail
+[2.220s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/microxrcedds
+[2.220s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/microxrcedds/duration__type_support_cpp.cpp
+[2.220s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/microxrcedds/time__type_support_cpp.cpp
+[2.220s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/duration__rosidl_typesupport_microxrcedds_cpp.hpp
+[2.220s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/time__rosidl_typesupport_microxrcedds_cpp.hpp
+[2.221s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_microxrcedds_cpp.so
+[2.221s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces
+[2.221s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg
+[2.221s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.221s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail
+[2.222s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__rosidl_typesupport_fastrtps_cpp.hpp
+[2.222s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__rosidl_typesupport_fastrtps_cpp.hpp
+[2.222s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/dds_fastrtps
+[2.223s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.223s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces
+[2.223s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg
+[2.224s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail
+[2.224s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__rosidl_typesupport_introspection_cpp.hpp
+[2.224s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.cpp
+[2.224s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.cpp
+[2.224s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__rosidl_typesupport_introspection_cpp.hpp
+[2.224s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.224s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
+[2.224s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/share/builtin_interfaces/environment/pythonpath.sh
+[2.224s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/share/builtin_interfaces/environment/pythonpath.dsv
+[2.225s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces-2.0.2-py3.12.egg-info
+[2.225s] -- Installing: /home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces-2.0.2-py3.12.egg-info/top_level.txt
+[2.225s] -- Installing: /home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces-2.0.2-py3.12.egg-info/PKG-INFO
+[2.225s] -- Installing: /home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces-2.0.2-py3.12.egg-info/dependency_links.txt
+[2.225s] -- Installing: /home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces-2.0.2-py3.12.egg-info/SOURCES.txt
+[2.225s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces
+[2.225s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.226s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_microxrcedds_c.c
+[2.226s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.226s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_c.c
+[2.226s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_c.so
+[2.226s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_introspection_c.so
+[2.226s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[2.226s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/msg
+[2.226s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/msg/_time.py
+[2.227s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/msg/_time_s.c
+[2.227s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/msg/_duration.py
+[2.227s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/msg/_duration_s.c
+[2.227s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/msg/__init__.py
+[2.227s] -- Installing: /home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/__init__.py
+[2.227s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_microxrcedds_c.so
+[2.265s] Listing '/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces'...
+[2.265s] Compiling '/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/__init__.py'...
+[2.265s] Listing '/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/msg'...
+[2.271s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_microxrcedds_c.so
+[2.271s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[2.271s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_introspection_c.so
+[2.272s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_c.so
+[2.273s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_generator_py.so
+[2.273s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.idl
+[2.273s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/share/builtin_interfaces/msg/Time.idl
+[2.273s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.msg
+[2.274s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/share/builtin_interfaces/msg/Time.msg
+[2.274s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/share/ament_index/resource_index/package_run_dependencies/builtin_interfaces
+[2.274s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/share/ament_index/resource_index/parent_prefix_path/builtin_interfaces
+[2.274s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/share/builtin_interfaces/environment/ament_prefix_path.sh
+[2.274s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/share/builtin_interfaces/environment/ament_prefix_path.dsv
+[2.274s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/share/builtin_interfaces/environment/path.sh
+[2.274s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/share/builtin_interfaces/environment/path.dsv
+[2.275s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/share/builtin_interfaces/local_setup.bash
+[2.275s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/share/builtin_interfaces/local_setup.sh
+[2.275s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/share/builtin_interfaces/local_setup.zsh
+[2.275s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/share/builtin_interfaces/local_setup.dsv
+[2.275s] -- Installing: /home/rassito/microros_ws/install/builtin_interfaces/share/builtin_interfaces/package.dsv
+[2.276s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/share/ament_index/resource_index/packages/builtin_interfaces
+[2.276s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_generator_cExport.cmake
+[2.276s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.276s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[2.276s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.276s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.276s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.276s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_cExport.cmake
+[2.277s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.277s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_generator_cppExport.cmake
+[2.277s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.277s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.277s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.277s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.277s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_cppExport.cmake
+[2.277s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.277s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_generator_pyExport.cmake
+[2.278s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[2.278s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.278s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.278s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.278s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.278s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.279s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.279s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.279s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake
+[2.279s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfacesConfig-version.cmake
+[2.279s] -- Up-to-date: /home/rassito/microros_ws/install/builtin_interfaces/share/builtin_interfaces/package.xml
+[2.291s] Invoked command in '/home/rassito/microros_ws/build/builtin_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rassito/microros_ws/install/sensor_msgs_py:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rassito/microros_ws/build/builtin_interfaces

@@ -1,0 +1,973 @@
+[0.042s] Invoking command in '/home/rassito/microros_ws/build/std_msgs': AMENT_PREFIX_PATH=/home/rassito/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/builtin_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rassito/microros_ws/src/ros2/common_interfaces/std_msgs -DCMAKE_INSTALL_PREFIX=/home/rassito/microros_ws/install/std_msgs
+[0.059s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.086s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.184s] -- Found builtin_interfaces: 2.0.2 (/home/rassito/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake)
+[0.208s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.221s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.241s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.257s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.277s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.285s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.918s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.078s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.150s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.152s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[1.477s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[1.526s] -- Configuring done (1.5s)
+[1.825s] -- Generating done (0.3s)
+[1.878s] -- Build files have been written to: /home/rassito/microros_ws/build/std_msgs
+[1.900s] Invoked command in '/home/rassito/microros_ws/build/std_msgs' returned '0': AMENT_PREFIX_PATH=/home/rassito/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/builtin_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rassito/microros_ws/src/ros2/common_interfaces/std_msgs -DCMAKE_INSTALL_PREFIX=/home/rassito/microros_ws/install/std_msgs
+[1.901s] Invoking command in '/home/rassito/microros_ws/build/std_msgs': AMENT_PREFIX_PATH=/home/rassito/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/builtin_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rassito/microros_ws/build/std_msgs -- -j16 -l16
+[2.084s] [  0%] Built target std_msgs__rosidl_generator_type_description
+[2.120s] [  0%] Built target ament_cmake_python_copy_std_msgs
+[2.139s] [  0%] Built target std_msgs__cpp
+[2.292s] [ 29%] Built target std_msgs__rosidl_generator_c
+[2.315s] [ 30%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.338s] [ 31%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.420s] [ 41%] Built target std_msgs__rosidl_typesupport_introspection_c
+[2.456s] [ 51%] Built target std_msgs__rosidl_typesupport_introspection_cpp
+[2.470s] [ 61%] Built target std_msgs__rosidl_typesupport_fastrtps_c
+[2.500s] [ 71%] Built target std_msgs__rosidl_typesupport_fastrtps_cpp
+[2.579s] running egg_info
+[2.674s] writing std_msgs.egg-info/PKG-INFO
+[2.674s] writing dependency_links to std_msgs.egg-info/dependency_links.txt
+[2.675s] writing top-level names to std_msgs.egg-info/top_level.txt
+[2.942s] reading manifest file 'std_msgs.egg-info/SOURCES.txt'
+[2.942s] writing manifest file 'std_msgs.egg-info/SOURCES.txt'
+[3.026s] [ 71%] Built target ament_cmake_python_build_std_msgs_egg
+[4.493s] [ 71%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_msgs/msg/bool__type_support.cpp.o[0m
+[4.494s] [ 72%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_msgs/msg/byte_multi_array__type_support.cpp.o[0m
+[4.494s] [ 72%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_msgs/msg/byte__type_support.cpp.o[0m
+[4.495s] [ 72%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_msgs/msg/char__type_support.cpp.o[0m
+[4.496s] [ 72%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_msgs/msg/color_rgba__type_support.cpp.o[0m
+[4.496s] [ 73%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_msgs/msg/empty__type_support.cpp.o[0m
+[4.502s] [ 73%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_msgs/msg/float32_multi_array__type_support.cpp.o[0m
+[4.503s] [ 73%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_msgs/msg/float32__type_support.cpp.o[0m
+[4.503s] [ 73%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_msgs/msg/float64__type_support.cpp.o[0m
+[4.510s] [ 73%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_msgs/msg/int16__type_support.cpp.o[0m
+[4.510s] [ 73%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_msgs/msg/header__type_support.cpp.o[0m
+[4.511s] [ 74%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_msgs/msg/int16_multi_array__type_support.cpp.o[0m
+[4.517s] [ 75%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_msgs/msg/float64_multi_array__type_support.cpp.o[0m
+[4.519s] [ 75%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_msgs/msg/int32__type_support.cpp.o[0m
+[4.524s] [ 75%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_msgs/msg/int32_multi_array__type_support.cpp.o[0m
+[4.551s] [ 76%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_msgs/msg/int64__type_support.cpp.o[0m
+[4.553s] [ 76%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_msgs/msg/int64_multi_array__type_support.cpp.o[0m
+[4.566s] [ 77%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_msgs/msg/int8_multi_array__type_support.cpp.o[0m
+[4.567s] [ 77%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_msgs/msg/int8__type_support.cpp.o[0m
+[4.574s] [ 77%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_msgs/msg/multi_array_dimension__type_support.cpp.o[0m
+[4.575s] [ 77%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_msgs/msg/string__type_support.cpp.o[0m
+[4.575s] [ 77%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/bool__type_support.cpp.o[0m
+[4.577s] [ 77%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_msgs/msg/multi_array_layout__type_support.cpp.o[0m
+[4.577s] [ 77%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_msgs/msg/u_int16_multi_array__type_support.cpp.o[0m
+[4.581s] [ 78%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/byte_multi_array__type_support.cpp.o[0m
+[4.581s] [ 78%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/byte__type_support.cpp.o[0m
+[4.584s] [ 79%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_msgs/msg/u_int16__type_support.cpp.o[0m
+[4.584s] [ 79%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_msgs/msg/u_int32__type_support.cpp.o[0m
+[4.604s] [ 79%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/char__type_support.cpp.o[0m
+[4.605s] [ 80%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_msgs/msg/u_int32_multi_array__type_support.cpp.o[0m
+[4.614s] [ 80%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/color_rgba__type_support.cpp.o[0m
+[4.615s] [ 80%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_msgs/msg/u_int64__type_support.cpp.o[0m
+[4.634s] [ 80%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/empty__type_support.cpp.o[0m
+[4.635s] [ 80%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/float32_multi_array__type_support.cpp.o[0m
+[4.638s] [ 81%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/float32__type_support.cpp.o[0m
+[4.647s] [ 81%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_msgs/msg/u_int64_multi_array__type_support.cpp.o[0m
+[4.652s] [ 82%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_msgs/msg/u_int8__type_support.cpp.o[0m
+[4.661s] [ 82%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/float64__type_support.cpp.o[0m
+[4.665s] [ 82%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/header__type_support.cpp.o[0m
+[4.666s] [ 83%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/float64_multi_array__type_support.cpp.o[0m
+[4.682s] [ 83%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/int16__type_support.cpp.o[0m
+[4.700s] [ 84%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/int16_multi_array__type_support.cpp.o[0m
+[4.711s] [ 84%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_msgs/msg/u_int8_multi_array__type_support.cpp.o[0m
+[4.738s] [ 84%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/int32__type_support.cpp.o[0m
+[4.741s] [ 84%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/int32_multi_array__type_support.cpp.o[0m
+[4.817s] [ 84%] [32m[1mLinking CXX shared library libstd_msgs__rosidl_typesupport_c.so[0m
+[4.955s] [ 84%] Built target std_msgs__rosidl_typesupport_c
+[4.967s] [ 85%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/int64__type_support.cpp.o[0m
+[5.019s] [ 85%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/int64_multi_array__type_support.cpp.o[0m
+[5.052s] [ 85%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/int8__type_support.cpp.o[0m
+[5.082s] [ 85%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/int8_multi_array__type_support.cpp.o[0m
+[5.147s] [ 86%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/multi_array_dimension__type_support.cpp.o[0m
+[5.221s] [ 86%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/multi_array_layout__type_support.cpp.o[0m
+[5.229s] [ 86%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/string__type_support.cpp.o[0m
+[5.255s] [ 87%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/u_int16__type_support.cpp.o[0m
+[5.333s] [ 87%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/u_int16_multi_array__type_support.cpp.o[0m
+[5.347s] [ 87%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/u_int32__type_support.cpp.o[0m
+[5.430s] [ 88%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/u_int32_multi_array__type_support.cpp.o[0m
+[5.436s] [ 88%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/u_int64__type_support.cpp.o[0m
+[5.446s] [ 88%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/u_int64_multi_array__type_support.cpp.o[0m
+[5.497s] [ 89%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/u_int8__type_support.cpp.o[0m
+[5.551s] [ 89%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/u_int8_multi_array__type_support.cpp.o[0m
+[6.371s] [ 89%] [32m[1mLinking CXX shared library libstd_msgs__rosidl_typesupport_cpp.so[0m
+[6.425s] [ 89%] Built target std_msgs__rosidl_typesupport_cpp
+[6.446s] [ 89%] Built target std_msgs
+[6.631s] [ 89%] Built target std_msgs__py
+[6.722s] [ 89%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_py.dir/rosidl_generator_py/std_msgs/msg/_bool_s.c.o[0m
+[6.724s] [ 89%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_py.dir/rosidl_generator_py/std_msgs/msg/_byte_s.c.o[0m
+[6.727s] [ 89%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_py.dir/rosidl_generator_py/std_msgs/msg/_byte_multi_array_s.c.o[0m
+[6.738s] [ 90%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_py.dir/rosidl_generator_py/std_msgs/msg/_char_s.c.o[0m
+[6.743s] [ 90%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_py.dir/rosidl_generator_py/std_msgs/msg/_color_rgba_s.c.o[0m
+[6.763s] [ 91%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_py.dir/rosidl_generator_py/std_msgs/msg/_float32_s.c.o[0m
+[6.763s] [ 91%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_py.dir/rosidl_generator_py/std_msgs/msg/_empty_s.c.o[0m
+[6.770s] [ 91%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_py.dir/rosidl_generator_py/std_msgs/msg/_float32_multi_array_s.c.o[0m
+[6.770s] [ 91%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_py.dir/rosidl_generator_py/std_msgs/msg/_float64_s.c.o[0m
+[6.772s] [ 92%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_py.dir/rosidl_generator_py/std_msgs/msg/_int16_multi_array_s.c.o[0m
+[6.773s] [ 92%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_py.dir/rosidl_generator_py/std_msgs/msg/_header_s.c.o[0m
+[6.774s] [ 93%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_py.dir/rosidl_generator_py/std_msgs/msg/_float64_multi_array_s.c.o[0m
+[6.776s] [ 93%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_py.dir/rosidl_generator_py/std_msgs/msg/_int16_s.c.o[0m
+[6.780s] [ 93%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_py.dir/rosidl_generator_py/std_msgs/msg/_int32_s.c.o[0m
+[6.794s] [ 93%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_py.dir/rosidl_generator_py/std_msgs/msg/_int32_multi_array_s.c.o[0m
+[6.835s] [ 93%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_py.dir/rosidl_generator_py/std_msgs/msg/_int64_s.c.o[0m
+[7.003s] [ 94%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_py.dir/rosidl_generator_py/std_msgs/msg/_int64_multi_array_s.c.o[0m
+[7.035s] [ 94%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_py.dir/rosidl_generator_py/std_msgs/msg/_int8_multi_array_s.c.o[0m
+[7.037s] [ 94%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_py.dir/rosidl_generator_py/std_msgs/msg/_int8_s.c.o[0m
+[7.059s] [ 95%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_py.dir/rosidl_generator_py/std_msgs/msg/_multi_array_layout_s.c.o[0m
+[7.059s] [ 95%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_py.dir/rosidl_generator_py/std_msgs/msg/_multi_array_dimension_s.c.o[0m
+[7.074s] [ 95%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_py.dir/rosidl_generator_py/std_msgs/msg/_string_s.c.o[0m
+[7.098s] [ 96%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_py.dir/rosidl_generator_py/std_msgs/msg/_u_int16_s.c.o[0m
+[7.118s] [ 96%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_py.dir/rosidl_generator_py/std_msgs/msg/_u_int16_multi_array_s.c.o[0m
+[7.188s] [ 96%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_py.dir/rosidl_generator_py/std_msgs/msg/_u_int32_s.c.o[0m
+[7.216s] [ 97%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_py.dir/rosidl_generator_py/std_msgs/msg/_u_int32_multi_array_s.c.o[0m
+[7.224s] [ 97%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_py.dir/rosidl_generator_py/std_msgs/msg/_u_int64_s.c.o[0m
+[7.251s] [ 97%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_py.dir/rosidl_generator_py/std_msgs/msg/_u_int64_multi_array_s.c.o[0m
+[7.263s] [ 97%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_py.dir/rosidl_generator_py/std_msgs/msg/_u_int8_s.c.o[0m
+[7.264s] [ 98%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_py.dir/rosidl_generator_py/std_msgs/msg/_u_int8_multi_array_s.c.o[0m
+[7.616s] [ 98%] [32m[1mLinking C shared library libstd_msgs__rosidl_generator_py.so[0m
+[7.694s] [ 98%] Built target std_msgs__rosidl_generator_py
+[7.730s] [ 98%] [32mBuilding C object CMakeFiles/std_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/std_msgs/_std_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.738s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/std_msgs/std_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[7.738s] [ 98%] [32mBuilding C object CMakeFiles/std_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/std_msgs/_std_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[7.772s] [ 99%] Built target std_msgs_s__rosidl_typesupport_fastrtps_c
+[7.899s] [ 99%] [32m[1mLinking C shared module rosidl_generator_py/std_msgs/std_msgs_s__rosidl_typesupport_c.so[0m
+[7.901s] [100%] [32m[1mLinking C shared module rosidl_generator_py/std_msgs/std_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[7.922s] [100%] Built target std_msgs_s__rosidl_typesupport_c
+[7.923s] [100%] Built target std_msgs_s__rosidl_typesupport_introspection_c
+[7.931s] Invoked command in '/home/rassito/microros_ws/build/std_msgs' returned '0': AMENT_PREFIX_PATH=/home/rassito/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/builtin_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rassito/microros_ws/build/std_msgs -- -j16 -l16
+[7.932s] Invoking command in '/home/rassito/microros_ws/build/std_msgs': AMENT_PREFIX_PATH=/home/rassito/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/builtin_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rassito/microros_ws/build/std_msgs
+[7.938s] -- Install configuration: ""
+[7.938s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/ament_index/resource_index/rosidl_interfaces/std_msgs
+[7.938s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/Bool.json
+[7.939s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/Byte.json
+[7.939s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/ByteMultiArray.json
+[7.939s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/Char.json
+[7.939s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/ColorRGBA.json
+[7.939s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/Empty.json
+[7.939s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/Float32.json
+[7.939s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/Float32MultiArray.json
+[7.939s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/Float64.json
+[7.939s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/Float64MultiArray.json
+[7.939s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/Header.json
+[7.939s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/Int16.json
+[7.940s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/Int16MultiArray.json
+[7.940s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/Int32.json
+[7.940s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/Int32MultiArray.json
+[7.940s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/Int64.json
+[7.940s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/Int64MultiArray.json
+[7.940s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/Int8.json
+[7.940s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/Int8MultiArray.json
+[7.940s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/MultiArrayDimension.json
+[7.940s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/MultiArrayLayout.json
+[7.940s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/String.json
+[7.940s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/UInt16.json
+[7.941s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/UInt16MultiArray.json
+[7.941s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/UInt32.json
+[7.941s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/UInt32MultiArray.json
+[7.941s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/UInt64.json
+[7.941s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/UInt64MultiArray.json
+[7.941s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/UInt8.json
+[7.941s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/UInt8MultiArray.json
+[7.941s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs
+[7.941s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg
+[7.941s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/bool.h
+[7.941s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/float32_multi_array.h
+[7.942s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/color_rgba.h
+[7.942s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/u_int8.h
+[7.942s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/header.h
+[7.942s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/int64.h
+[7.942s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/byte.h
+[7.942s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/u_int16.h
+[7.942s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/byte_multi_array.h
+[7.942s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/float32.h
+[7.942s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/int32.h
+[7.942s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/int32_multi_array.h
+[7.943s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/u_int32_multi_array.h
+[7.943s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/u_int64_multi_array.h
+[7.943s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/empty.h
+[7.943s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/char.h
+[7.943s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/float64_multi_array.h
+[7.943s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/u_int16_multi_array.h
+[7.943s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/multi_array_dimension.h
+[7.943s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/int16.h
+[7.943s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/float64.h
+[7.943s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/string.h
+[7.943s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/int64_multi_array.h
+[7.943s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/u_int8_multi_array.h
+[7.944s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/int16_multi_array.h
+[7.944s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/int8_multi_array.h
+[7.944s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/u_int64.h
+[7.944s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail
+[7.944s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/bool__struct.h
+[7.944s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int8_multi_array__struct.h
+[7.944s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float32__description.c
+[7.944s] -- Installing: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float64__type_support.c
+[7.944s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float64_multi_array__functions.c
+[7.944s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int16_multi_array__functions.h
+[7.945s] -- Installing: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float64_multi_array__type_support.c
+[7.945s] -- Installing: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int32_multi_array__type_support.c
+[7.945s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int32_multi_array__description.c
+[7.945s] -- Installing: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/bool__type_support.c
+[7.945s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/byte_multi_array__functions.h
+[7.945s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float32_multi_array__functions.c
+[7.945s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int32_multi_array__type_support.h
+[7.945s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int64__struct.h
+[7.945s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/empty__functions.c
+[7.945s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/string__description.c
+[7.946s] -- Installing: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int8_multi_array__type_support.c
+[7.946s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int16__functions.c
+[7.946s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int8_multi_array__description.c
+[7.946s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/multi_array_dimension__functions.h
+[7.946s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/color_rgba__struct.h
+[7.946s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float64_multi_array__struct.h
+[7.946s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int32__struct.h
+[7.946s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int32__functions.c
+[7.946s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/bool__type_support.h
+[7.946s] -- Installing: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/multi_array_dimension__type_support.c
+[7.947s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int64_multi_array__functions.h
+[7.947s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int8__functions.c
+[7.947s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int64_multi_array__functions.h
+[7.947s] -- Installing: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/header__type_support.c
+[7.947s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/byte_multi_array__type_support.h
+[7.947s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int16_multi_array__functions.c
+[7.947s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int8__type_support.h
+[7.947s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/byte__type_support.h
+[7.947s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float64__description.c
+[7.947s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/multi_array_layout__struct.h
+[7.948s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int16__functions.c
+[7.948s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int64_multi_array__struct.h
+[7.948s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/header__functions.c
+[7.948s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/header__type_support.h
+[7.948s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int32__struct.h
+[7.948s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/string__functions.h
+[7.948s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/bool__functions.h
+[7.948s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int64_multi_array__functions.c
+[7.948s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int32__description.c
+[7.948s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/empty__functions.h
+[7.948s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float64_multi_array__type_support.h
+[7.949s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int8_multi_array__description.c
+[7.949s] -- Installing: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int32__type_support.c
+[7.949s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float32__functions.c
+[7.949s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int8_multi_array__type_support.h
+[7.949s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int32__type_support.h
+[7.949s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int32_multi_array__description.c
+[7.949s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int64__functions.c
+[7.949s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int32_multi_array__functions.h
+[7.949s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float64_multi_array__functions.h
+[7.949s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int16__description.c
+[7.950s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int8__type_support.h
+[7.950s] -- Installing: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int64_multi_array__type_support.c
+[7.950s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/string__type_support.h
+[7.950s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int32__type_support.h
+[7.950s] -- Installing: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int8__type_support.c
+[7.950s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/multi_array_layout__functions.h
+[7.950s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int32_multi_array__struct.h
+[7.950s] -- Installing: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/char__type_support.c
+[7.950s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/byte__functions.c
+[7.950s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int8_multi_array__functions.c
+[7.951s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int8_multi_array__type_support.h
+[7.951s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/multi_array_dimension__functions.c
+[7.951s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float32__struct.h
+[7.951s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int32_multi_array__functions.c
+[7.951s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/string__struct.h
+[7.951s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/multi_array_dimension__description.c
+[7.951s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/byte_multi_array__description.c
+[7.951s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/header__struct.h
+[7.951s] -- Installing: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int32__type_support.c
+[7.952s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/bool__functions.c
+[7.952s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float64__functions.h
+[7.952s] -- Installing: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int16__type_support.c
+[7.952s] -- Installing: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int8_multi_array__type_support.c
+[7.952s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int8__functions.h
+[7.952s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int8__struct.h
+[7.952s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int32_multi_array__struct.h
+[7.952s] -- Installing: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int8__type_support.c
+[7.952s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float32_multi_array__functions.h
+[7.953s] -- Installing: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int64__type_support.c
+[7.953s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int64_multi_array__description.c
+[7.953s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int8__description.c
+[7.953s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/header__description.c
+[7.953s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/byte__struct.h
+[7.953s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float64__functions.c
+[7.953s] -- Installing: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int16_multi_array__type_support.c
+[7.953s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float64__struct.h
+[7.953s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/multi_array_dimension__struct.h
+[7.954s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/byte_multi_array__struct.h
+[7.954s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/string__functions.c
+[7.954s] -- Installing: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int64_multi_array__type_support.c
+[7.954s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int8_multi_array__functions.h
+[7.954s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/multi_array_layout__type_support.h
+[7.954s] -- Installing: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/byte__type_support.c
+[7.954s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int16__type_support.h
+[7.954s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float32_multi_array__description.c
+[7.954s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/multi_array_layout__description.c
+[7.954s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/multi_array_dimension__type_support.h
+[7.955s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/empty__description.c
+[7.955s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/color_rgba__functions.c
+[7.955s] -- Installing: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int16_multi_array__type_support.c
+[7.955s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int32__functions.h
+[7.955s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int32_multi_array__functions.h
+[7.955s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int8_multi_array__functions.h
+[7.955s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int64__type_support.h
+[7.955s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int32__functions.h
+[7.955s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int32_multi_array__type_support.h
+[7.955s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int8__description.c
+[7.955s] -- Installing: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int64__type_support.c
+[7.956s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/char__functions.c
+[7.956s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int16_multi_array__description.c
+[7.956s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int8__functions.h
+[7.956s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int16__struct.h
+[7.956s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/char__struct.h
+[7.956s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int8__functions.c
+[7.956s] -- Installing: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/string__type_support.c
+[7.956s] -- Installing: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/byte_multi_array__type_support.c
+[7.956s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int16_multi_array__struct.h
+[7.957s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int64_multi_array__type_support.h
+[7.957s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/byte__description.c
+[7.957s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int16__description.c
+[7.957s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float32_multi_array__struct.h
+[7.957s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/color_rgba__functions.h
+[7.957s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int64_multi_array__struct.h
+[7.957s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int64_multi_array__type_support.h
+[7.957s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int8__struct.h
+[7.957s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/multi_array_layout__functions.c
+[7.957s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int32_multi_array__functions.c
+[7.958s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int64__functions.c
+[7.958s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int64__description.c
+[7.958s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/char__functions.h
+[7.958s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int64__functions.h
+[7.958s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int8_multi_array__struct.h
+[7.958s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int16_multi_array__functions.c
+[7.958s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float32__type_support.h
+[7.958s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float64__type_support.h
+[7.958s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int64_multi_array__functions.c
+[7.958s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int16_multi_array__description.c
+[7.958s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/empty__type_support.h
+[7.959s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int16_multi_array__functions.h
+[7.959s] -- Installing: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/color_rgba__type_support.c
+[7.959s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int16__struct.h
+[7.959s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/color_rgba__description.c
+[7.959s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int16_multi_array__struct.h
+[7.959s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/bool__description.c
+[7.959s] -- Installing: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float32__type_support.c
+[7.959s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int16_multi_array__type_support.h
+[7.959s] -- Installing: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int16__type_support.c
+[7.959s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/header__functions.h
+[7.960s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int16__type_support.h
+[7.960s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int16_multi_array__type_support.h
+[7.960s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/empty__struct.h
+[7.960s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int32__functions.c
+[7.960s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/byte__functions.h
+[7.960s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int32__description.c
+[7.960s] -- Installing: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float32_multi_array__type_support.c
+[7.960s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int64_multi_array__description.c
+[7.960s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int16__functions.h
+[7.960s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float32_multi_array__type_support.h
+[7.961s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float32__functions.h
+[7.961s] -- Installing: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/empty__type_support.c
+[7.961s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int64__struct.h
+[7.961s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float64_multi_array__description.c
+[7.961s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/byte_multi_array__functions.c
+[7.961s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/char__description.c
+[7.961s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int64__type_support.h
+[7.961s] -- Installing: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/multi_array_layout__type_support.c
+[7.961s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int64__description.c
+[7.961s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int64__functions.h
+[7.962s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/color_rgba__type_support.h
+[7.962s] -- Installing: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int32_multi_array__type_support.c
+[7.962s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int8_multi_array__functions.c
+[7.962s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int16__functions.h
+[7.962s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/char__type_support.h
+[7.962s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/rosidl_generator_c__visibility_control.h
+[7.962s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/u_int32.h
+[7.962s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/int8.h
+[7.962s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/multi_array_layout.h
+[7.962s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/environment/library_path.sh
+[7.962s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/environment/library_path.dsv
+[7.962s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/lib/libstd_msgs__rosidl_generator_c.so
+[7.962s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs
+[7.962s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg
+[7.963s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.963s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail
+[7.963s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int64_multi_array__rosidl_typesupport_fastrtps_c.h
+[7.963s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float32_multi_array__rosidl_typesupport_fastrtps_c.h
+[7.963s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/multi_array_layout__rosidl_typesupport_fastrtps_c.h
+[7.963s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int16__rosidl_typesupport_fastrtps_c.h
+[7.963s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/multi_array_dimension__rosidl_typesupport_fastrtps_c.h
+[7.963s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int32_multi_array__rosidl_typesupport_fastrtps_c.h
+[7.963s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/char__rosidl_typesupport_fastrtps_c.h
+[7.963s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int64__rosidl_typesupport_fastrtps_c.h
+[7.963s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int8_multi_array__rosidl_typesupport_fastrtps_c.h
+[7.963s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int8_multi_array__rosidl_typesupport_fastrtps_c.h
+[7.963s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int32__rosidl_typesupport_fastrtps_c.h
+[7.963s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float64_multi_array__rosidl_typesupport_fastrtps_c.h
+[7.963s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/byte_multi_array__rosidl_typesupport_fastrtps_c.h
+[7.963s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float32__rosidl_typesupport_fastrtps_c.h
+[7.963s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int64__rosidl_typesupport_fastrtps_c.h
+[7.963s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int64_multi_array__rosidl_typesupport_fastrtps_c.h
+[7.964s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int16__rosidl_typesupport_fastrtps_c.h
+[7.964s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/string__rosidl_typesupport_fastrtps_c.h
+[7.964s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int32__rosidl_typesupport_fastrtps_c.h
+[7.964s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/empty__rosidl_typesupport_fastrtps_c.h
+[7.964s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/bool__rosidl_typesupport_fastrtps_c.h
+[7.964s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float64__rosidl_typesupport_fastrtps_c.h
+[7.964s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/byte__rosidl_typesupport_fastrtps_c.h
+[7.964s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int16_multi_array__rosidl_typesupport_fastrtps_c.h
+[7.964s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/header__rosidl_typesupport_fastrtps_c.h
+[7.964s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/color_rgba__rosidl_typesupport_fastrtps_c.h
+[7.964s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int8__rosidl_typesupport_fastrtps_c.h
+[7.964s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int8__rosidl_typesupport_fastrtps_c.h
+[7.964s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int32_multi_array__rosidl_typesupport_fastrtps_c.h
+[7.964s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int16_multi_array__rosidl_typesupport_fastrtps_c.h
+[7.964s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
+[7.964s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs
+[7.964s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg
+[7.965s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/float64_multi_array.hpp
+[7.965s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[7.965s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/char.hpp
+[7.965s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/float64.hpp
+[7.965s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/color_rgba.hpp
+[7.965s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/int32.hpp
+[7.965s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/byte_multi_array.hpp
+[7.965s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/int16_multi_array.hpp
+[7.965s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/multi_array_dimension.hpp
+[7.965s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/u_int8_multi_array.hpp
+[7.965s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/int64_multi_array.hpp
+[7.965s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/string.hpp
+[7.965s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/u_int8.hpp
+[7.965s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/u_int16_multi_array.hpp
+[7.965s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/u_int32_multi_array.hpp
+[7.965s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/u_int64_multi_array.hpp
+[7.965s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/header.hpp
+[7.965s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/bool.hpp
+[7.965s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/u_int32.hpp
+[7.966s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/float32_multi_array.hpp
+[7.966s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/multi_array_layout.hpp
+[7.966s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/int32_multi_array.hpp
+[7.966s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/int64.hpp
+[7.966s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/int8.hpp
+[7.966s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/int16.hpp
+[7.966s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/int8_multi_array.hpp
+[7.966s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail
+[7.966s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int8_multi_array__builder.hpp
+[7.966s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/byte__traits.hpp
+[7.966s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int64__builder.hpp
+[7.966s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/byte_multi_array__builder.hpp
+[7.966s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int64__struct.hpp
+[7.966s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float32__struct.hpp
+[7.966s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int32__struct.hpp
+[7.966s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/byte_multi_array__type_support.hpp
+[7.967s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float64__type_support.hpp
+[7.967s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int16_multi_array__struct.hpp
+[7.967s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int16__traits.hpp
+[7.967s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/bool__traits.hpp
+[7.967s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int16_multi_array__builder.hpp
+[7.967s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/byte__builder.hpp
+[7.967s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int8_multi_array__traits.hpp
+[7.967s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float64_multi_array__builder.hpp
+[7.967s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float32_multi_array__builder.hpp
+[7.967s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/char__struct.hpp
+[7.967s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int64_multi_array__traits.hpp
+[7.967s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int8__builder.hpp
+[7.967s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int16_multi_array__builder.hpp
+[7.967s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int32_multi_array__builder.hpp
+[7.967s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int32__traits.hpp
+[7.967s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float32__traits.hpp
+[7.967s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/byte_multi_array__struct.hpp
+[7.967s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float32_multi_array__struct.hpp
+[7.968s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/multi_array_dimension__builder.hpp
+[7.968s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int16_multi_array__struct.hpp
+[7.968s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/header__traits.hpp
+[7.968s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float64__traits.hpp
+[7.968s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int64_multi_array__traits.hpp
+[7.968s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int64__type_support.hpp
+[7.968s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/multi_array_dimension__type_support.hpp
+[7.968s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int8_multi_array__struct.hpp
+[7.968s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int64__type_support.hpp
+[7.968s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float64_multi_array__traits.hpp
+[7.968s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int16__traits.hpp
+[7.968s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/empty__traits.hpp
+[7.968s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int8__traits.hpp
+[7.968s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int8__type_support.hpp
+[7.968s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int8_multi_array__traits.hpp
+[7.968s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int32__type_support.hpp
+[7.968s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/bool__type_support.hpp
+[7.968s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int64_multi_array__builder.hpp
+[7.968s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/char__traits.hpp
+[7.968s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int8__builder.hpp
+[7.968s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int64__builder.hpp
+[7.969s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float64__builder.hpp
+[7.969s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int16__type_support.hpp
+[7.969s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/header__struct.hpp
+[7.969s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int16_multi_array__traits.hpp
+[7.969s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int32_multi_array__type_support.hpp
+[7.969s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/bool__struct.hpp
+[7.969s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/byte_multi_array__traits.hpp
+[7.969s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int16_multi_array__type_support.hpp
+[7.969s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int8__type_support.hpp
+[7.969s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/multi_array_layout__builder.hpp
+[7.969s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int16__struct.hpp
+[7.969s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int16__struct.hpp
+[7.969s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int16_multi_array__type_support.hpp
+[7.969s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int32_multi_array__type_support.hpp
+[7.969s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int32__builder.hpp
+[7.969s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int16_multi_array__traits.hpp
+[7.969s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/char__builder.hpp
+[7.969s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int16__builder.hpp
+[7.969s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/char__type_support.hpp
+[7.969s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int64_multi_array__struct.hpp
+[7.969s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float64_multi_array__struct.hpp
+[7.970s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float32_multi_array__type_support.hpp
+[7.970s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/bool__builder.hpp
+[7.970s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/empty__struct.hpp
+[7.970s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int8_multi_array__struct.hpp
+[7.970s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float64_multi_array__type_support.hpp
+[7.970s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/color_rgba__traits.hpp
+[7.970s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/multi_array_layout__struct.hpp
+[7.970s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/header__builder.hpp
+[7.970s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int8__struct.hpp
+[7.970s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/byte__struct.hpp
+[7.970s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float32__type_support.hpp
+[7.970s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/multi_array_layout__type_support.hpp
+[7.970s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/color_rgba__struct.hpp
+[7.970s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/empty__type_support.hpp
+[7.970s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float32__builder.hpp
+[7.970s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int32_multi_array__builder.hpp
+[7.970s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/header__type_support.hpp
+[7.970s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int8_multi_array__type_support.hpp
+[7.970s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/string__struct.hpp
+[7.970s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int64__struct.hpp
+[7.970s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/string__traits.hpp
+[7.971s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/string__builder.hpp
+[7.971s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int64__traits.hpp
+[7.971s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/string__type_support.hpp
+[7.971s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int32_multi_array__traits.hpp
+[7.971s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int16__builder.hpp
+[7.971s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int32__type_support.hpp
+[7.971s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int32__builder.hpp
+[7.971s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/byte__type_support.hpp
+[7.971s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int32__traits.hpp
+[7.971s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int32_multi_array__struct.hpp
+[7.971s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float32_multi_array__traits.hpp
+[7.971s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/empty__builder.hpp
+[7.971s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int64_multi_array__type_support.hpp
+[7.971s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int32_multi_array__traits.hpp
+[7.971s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp
+[7.971s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int32__struct.hpp
+[7.971s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/multi_array_dimension__struct.hpp
+[7.971s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int64_multi_array__type_support.hpp
+[7.971s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int32_multi_array__struct.hpp
+[7.971s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int8_multi_array__type_support.hpp
+[7.972s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int64__traits.hpp
+[7.972s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int16__type_support.hpp
+[7.972s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/multi_array_layout__traits.hpp
+[7.972s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/color_rgba__type_support.hpp
+[7.972s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float64__struct.hpp
+[7.972s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int64_multi_array__builder.hpp
+[7.972s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/multi_array_dimension__traits.hpp
+[7.972s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int64_multi_array__struct.hpp
+[7.972s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int8__traits.hpp
+[7.972s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int8_multi_array__builder.hpp
+[7.972s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/color_rgba__builder.hpp
+[7.972s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/float32.hpp
+[7.972s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/byte.hpp
+[7.972s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/u_int16.hpp
+[7.972s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/empty.hpp
+[7.972s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/u_int64.hpp
+[7.972s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs
+[7.972s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg
+[7.972s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.972s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail
+[7.973s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/multi_array_layout__rosidl_typesupport_fastrtps_cpp.hpp
+[7.973s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int64_multi_array__rosidl_typesupport_fastrtps_cpp.hpp
+[7.973s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int8_multi_array__rosidl_typesupport_fastrtps_cpp.hpp
+[7.973s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int64_multi_array__rosidl_typesupport_fastrtps_cpp.hpp
+[7.973s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int16__rosidl_typesupport_fastrtps_cpp.hpp
+[7.973s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int32__rosidl_typesupport_fastrtps_cpp.hpp
+[7.973s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int16_multi_array__rosidl_typesupport_fastrtps_cpp.hpp
+[7.973s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int32__rosidl_typesupport_fastrtps_cpp.hpp
+[7.973s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/byte_multi_array__rosidl_typesupport_fastrtps_cpp.hpp
+[7.973s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int8__rosidl_typesupport_fastrtps_cpp.hpp
+[7.973s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int64__rosidl_typesupport_fastrtps_cpp.hpp
+[7.973s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int32_multi_array__rosidl_typesupport_fastrtps_cpp.hpp
+[7.973s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int16_multi_array__rosidl_typesupport_fastrtps_cpp.hpp
+[7.973s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/bool__rosidl_typesupport_fastrtps_cpp.hpp
+[7.973s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int8__rosidl_typesupport_fastrtps_cpp.hpp
+[7.973s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int64__rosidl_typesupport_fastrtps_cpp.hpp
+[7.973s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/header__rosidl_typesupport_fastrtps_cpp.hpp
+[7.973s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/multi_array_dimension__rosidl_typesupport_fastrtps_cpp.hpp
+[7.973s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/color_rgba__rosidl_typesupport_fastrtps_cpp.hpp
+[7.973s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float32__rosidl_typesupport_fastrtps_cpp.hpp
+[7.973s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float64_multi_array__rosidl_typesupport_fastrtps_cpp.hpp
+[7.974s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float64__rosidl_typesupport_fastrtps_cpp.hpp
+[7.974s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int32_multi_array__rosidl_typesupport_fastrtps_cpp.hpp
+[7.974s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/char__rosidl_typesupport_fastrtps_cpp.hpp
+[7.974s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/dds_fastrtps
+[7.974s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/string__rosidl_typesupport_fastrtps_cpp.hpp
+[7.974s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/empty__rosidl_typesupport_fastrtps_cpp.hpp
+[7.974s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int8_multi_array__rosidl_typesupport_fastrtps_cpp.hpp
+[7.974s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float32_multi_array__rosidl_typesupport_fastrtps_cpp.hpp
+[7.974s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int16__rosidl_typesupport_fastrtps_cpp.hpp
+[7.974s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/byte__rosidl_typesupport_fastrtps_cpp.hpp
+[7.974s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
+[7.974s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs
+[7.974s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg
+[7.974s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.974s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail
+[7.974s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float64_multi_array__rosidl_typesupport_introspection_c.h
+[7.974s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int16__rosidl_typesupport_introspection_c.h
+[7.974s] -- Installing: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float64__type_support.c
+[7.975s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int64_multi_array__rosidl_typesupport_introspection_c.h
+[7.975s] -- Installing: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float64_multi_array__type_support.c
+[7.975s] -- Installing: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int32_multi_array__type_support.c
+[7.975s] -- Installing: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/bool__type_support.c
+[7.975s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int8_multi_array__rosidl_typesupport_introspection_c.h
+[7.975s] -- Installing: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int8_multi_array__type_support.c
+[7.975s] -- Installing: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/multi_array_dimension__type_support.c
+[7.975s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int16_multi_array__rosidl_typesupport_introspection_c.h
+[7.975s] -- Installing: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/header__type_support.c
+[7.975s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/bool__rosidl_typesupport_introspection_c.h
+[7.975s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int8_multi_array__rosidl_typesupport_introspection_c.h
+[7.975s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int32_multi_array__rosidl_typesupport_introspection_c.h
+[7.975s] -- Installing: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int32__type_support.c
+[7.975s] -- Installing: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int64_multi_array__type_support.c
+[7.975s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/header__rosidl_typesupport_introspection_c.h
+[7.975s] -- Installing: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int8__type_support.c
+[7.975s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/byte__rosidl_typesupport_introspection_c.h
+[7.975s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float32__rosidl_typesupport_introspection_c.h
+[7.975s] -- Installing: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/char__type_support.c
+[7.976s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/char__rosidl_typesupport_introspection_c.h
+[7.976s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/empty__rosidl_typesupport_introspection_c.h
+[7.976s] -- Installing: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int32__type_support.c
+[7.976s] -- Installing: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int16__type_support.c
+[7.976s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int8__rosidl_typesupport_introspection_c.h
+[7.976s] -- Installing: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int8_multi_array__type_support.c
+[7.976s] -- Installing: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int8__type_support.c
+[7.976s] -- Installing: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int64__type_support.c
+[7.976s] -- Installing: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int16_multi_array__type_support.c
+[7.976s] -- Installing: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int64_multi_array__type_support.c
+[7.976s] -- Installing: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/byte__type_support.c
+[7.976s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int8__rosidl_typesupport_introspection_c.h
+[7.976s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float32_multi_array__rosidl_typesupport_introspection_c.h
+[7.976s] -- Installing: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int16_multi_array__type_support.c
+[7.976s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/byte_multi_array__rosidl_typesupport_introspection_c.h
+[7.976s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/string__rosidl_typesupport_introspection_c.h
+[7.976s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int32_multi_array__rosidl_typesupport_introspection_c.h
+[7.976s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int32__rosidl_typesupport_introspection_c.h
+[7.976s] -- Installing: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int64__type_support.c
+[7.976s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int32__rosidl_typesupport_introspection_c.h
+[7.977s] -- Installing: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/string__type_support.c
+[7.977s] -- Installing: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/byte_multi_array__type_support.c
+[7.977s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int16_multi_array__rosidl_typesupport_introspection_c.h
+[7.977s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int16__rosidl_typesupport_introspection_c.h
+[7.977s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int64_multi_array__rosidl_typesupport_introspection_c.h
+[7.977s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/color_rgba__rosidl_typesupport_introspection_c.h
+[7.977s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/multi_array_dimension__rosidl_typesupport_introspection_c.h
+[7.977s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float64__rosidl_typesupport_introspection_c.h
+[7.977s] -- Installing: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/color_rgba__type_support.c
+[7.977s] -- Installing: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float32__type_support.c
+[7.977s] -- Installing: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int16__type_support.c
+[7.977s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/multi_array_layout__rosidl_typesupport_introspection_c.h
+[7.977s] -- Installing: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float32_multi_array__type_support.c
+[7.977s] -- Installing: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/empty__type_support.c
+[7.977s] -- Installing: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/multi_array_layout__type_support.c
+[7.977s] -- Installing: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int32_multi_array__type_support.c
+[7.977s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int64__rosidl_typesupport_introspection_c.h
+[7.977s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int64__rosidl_typesupport_introspection_c.h
+[7.977s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
+[7.977s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/libstd_msgs__rosidl_typesupport_c.so
+[7.978s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/std_msgs/lib/libstd_msgs__rosidl_typesupport_c.so" to ""
+[7.978s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs
+[7.978s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg
+[7.978s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail
+[7.978s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int32__rosidl_typesupport_introspection_cpp.hpp
+[7.978s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float64_multi_array__rosidl_typesupport_introspection_cpp.hpp
+[7.978s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int64_multi_array__type_support.cpp
+[7.978s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float64__rosidl_typesupport_introspection_cpp.hpp
+[7.978s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/byte__type_support.cpp
+[7.978s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/color_rgba__rosidl_typesupport_introspection_cpp.hpp
+[7.978s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/multi_array_layout__type_support.cpp
+[7.978s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int32_multi_array__type_support.cpp
+[7.978s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int8__type_support.cpp
+[7.978s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/byte_multi_array__rosidl_typesupport_introspection_cpp.hpp
+[7.978s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int64__rosidl_typesupport_introspection_cpp.hpp
+[7.978s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int32__type_support.cpp
+[7.978s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float32__rosidl_typesupport_introspection_cpp.hpp
+[7.978s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/byte__rosidl_typesupport_introspection_cpp.hpp
+[7.978s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int16_multi_array__rosidl_typesupport_introspection_cpp.hpp
+[7.979s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/byte_multi_array__type_support.cpp
+[7.979s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int32_multi_array__type_support.cpp
+[7.979s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int8__type_support.cpp
+[7.979s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/char__rosidl_typesupport_introspection_cpp.hpp
+[7.979s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/multi_array_dimension__rosidl_typesupport_introspection_cpp.hpp
+[7.979s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float32__type_support.cpp
+[7.979s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int16__type_support.cpp
+[7.979s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/header__type_support.cpp
+[7.979s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float64__type_support.cpp
+[7.979s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/bool__rosidl_typesupport_introspection_cpp.hpp
+[7.979s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int32__rosidl_typesupport_introspection_cpp.hpp
+[7.979s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/bool__type_support.cpp
+[7.979s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/char__type_support.cpp
+[7.979s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/string__type_support.cpp
+[7.979s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int64_multi_array__rosidl_typesupport_introspection_cpp.hpp
+[7.979s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int8__rosidl_typesupport_introspection_cpp.hpp
+[7.979s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/header__rosidl_typesupport_introspection_cpp.hpp
+[7.979s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int64__rosidl_typesupport_introspection_cpp.hpp
+[7.979s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/multi_array_layout__rosidl_typesupport_introspection_cpp.hpp
+[7.979s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int64_multi_array__rosidl_typesupport_introspection_cpp.hpp
+[7.979s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int32_multi_array__rosidl_typesupport_introspection_cpp.hpp
+[7.979s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/string__rosidl_typesupport_introspection_cpp.hpp
+[7.980s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int8_multi_array__type_support.cpp
+[7.980s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int64__type_support.cpp
+[7.980s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int8_multi_array__type_support.cpp
+[7.980s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int16__type_support.cpp
+[7.980s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int32_multi_array__rosidl_typesupport_introspection_cpp.hpp
+[7.980s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float32_multi_array__rosidl_typesupport_introspection_cpp.hpp
+[7.980s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/empty__rosidl_typesupport_introspection_cpp.hpp
+[7.980s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int64_multi_array__type_support.cpp
+[7.980s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int16_multi_array__type_support.cpp
+[7.980s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int16_multi_array__type_support.cpp
+[7.980s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/empty__type_support.cpp
+[7.980s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int8__rosidl_typesupport_introspection_cpp.hpp
+[7.980s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int16__rosidl_typesupport_introspection_cpp.hpp
+[7.980s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int64__type_support.cpp
+[7.980s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/multi_array_dimension__type_support.cpp
+[7.980s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int16_multi_array__rosidl_typesupport_introspection_cpp.hpp
+[7.980s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int16__rosidl_typesupport_introspection_cpp.hpp
+[7.980s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int8_multi_array__rosidl_typesupport_introspection_cpp.hpp
+[7.980s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/int8_multi_array__rosidl_typesupport_introspection_cpp.hpp
+[7.980s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/color_rgba__type_support.cpp
+[7.980s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float32_multi_array__type_support.cpp
+[7.981s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/float64_multi_array__type_support.cpp
+[7.981s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/include/std_msgs/std_msgs/msg/detail/u_int32__type_support.cpp
+[7.981s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
+[7.981s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/libstd_msgs__rosidl_typesupport_cpp.so
+[7.981s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/std_msgs/lib/libstd_msgs__rosidl_typesupport_cpp.so" to ""
+[7.981s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/environment/pythonpath.sh
+[7.981s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/environment/pythonpath.dsv
+[7.981s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs-5.3.5-py3.12.egg-info
+[7.981s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs-5.3.5-py3.12.egg-info/top_level.txt
+[7.981s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs-5.3.5-py3.12.egg-info/PKG-INFO
+[7.981s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs-5.3.5-py3.12.egg-info/dependency_links.txt
+[7.981s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs-5.3.5-py3.12.egg-info/SOURCES.txt
+[7.981s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs
+[7.981s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/_std_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.981s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/_std_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c
+[7.981s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/std_msgs_s__rosidl_typesupport_introspection_c.so
+[7.981s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/_std_msgs_s.ep.rosidl_typesupport_c.c
+[7.981s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/_std_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[7.981s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/std_msgs_s__rosidl_typesupport_fastrtps_c.so
+[7.982s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/std_msgs_s__rosidl_typesupport_microxrcedds_c.so
+[7.982s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/std_msgs_s__rosidl_typesupport_c.so
+[7.982s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg
+[7.982s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_int32_multi_array.py
+[7.982s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_u_int16_multi_array.py
+[7.982s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_int64.py
+[7.982s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_color_rgba.py
+[7.982s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_multi_array_layout.py
+[7.982s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_empty.py
+[7.982s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_float64_multi_array_s.c
+[7.982s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_bool_s.c
+[7.982s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_float64_multi_array.py
+[7.982s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_char_s.c
+[7.982s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_u_int64_multi_array_s.c
+[7.982s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_u_int64_multi_array.py
+[7.982s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_char.py
+[7.982s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_u_int8_s.c
+[7.982s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_u_int8_multi_array.py
+[7.982s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_u_int16.py
+[7.982s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_header_s.c
+[7.983s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_float64.py
+[7.983s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_multi_array_dimension_s.c
+[7.983s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_int16_s.c
+[7.983s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_u_int32.py
+[7.983s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_multi_array_dimension.py
+[7.983s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_u_int8.py
+[7.983s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_u_int32_multi_array.py
+[7.983s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_int32_s.c
+[7.983s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_u_int64.py
+[7.983s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_bool.py
+[7.983s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_byte_s.c
+[7.983s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_int8.py
+[7.983s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_color_rgba_s.c
+[7.983s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_u_int64_s.c
+[7.983s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_u_int32_multi_array_s.c
+[7.983s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_string_s.c
+[7.983s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_float32.py
+[7.983s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_multi_array_layout_s.c
+[7.983s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_int8_s.c
+[7.984s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_int32_multi_array_s.c
+[7.984s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_int8_multi_array_s.c
+[7.984s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_int32.py
+[7.984s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_float32_multi_array.py
+[7.984s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_byte_multi_array.py
+[7.985s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_string.py
+[7.985s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_byte_multi_array_s.c
+[7.985s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_empty_s.c
+[7.985s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_int16_multi_array_s.c
+[7.985s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_int64_multi_array_s.c
+[7.985s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_header.py
+[7.985s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_float64_s.c
+[7.985s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_int16.py
+[7.985s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_int8_multi_array.py
+[7.985s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_int16_multi_array.py
+[7.985s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_int64_multi_array.py
+[7.985s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_float32_s.c
+[7.985s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_u_int16_s.c
+[7.985s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_int64_s.c
+[7.985s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_u_int16_multi_array_s.c
+[7.985s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_u_int32_s.c
+[7.985s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_byte.py
+[7.986s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_float32_multi_array_s.c
+[7.986s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/__init__.py
+[7.986s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_u_int8_multi_array_s.c
+[7.986s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/__init__.py
+[8.032s] Listing '/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs'...
+[8.032s] Compiling '/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/__init__.py'...
+[8.032s] Listing '/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg'...
+[8.032s] Compiling '/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/__init__.py'...
+[8.032s] Compiling '/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_bool.py'...
+[8.032s] Compiling '/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_byte.py'...
+[8.032s] Compiling '/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_byte_multi_array.py'...
+[8.032s] Compiling '/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_char.py'...
+[8.032s] Compiling '/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_color_rgba.py'...
+[8.032s] Compiling '/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_empty.py'...
+[8.032s] Compiling '/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_float32.py'...
+[8.032s] Compiling '/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_float32_multi_array.py'...
+[8.032s] Compiling '/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_float64.py'...
+[8.033s] Compiling '/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_float64_multi_array.py'...
+[8.033s] Compiling '/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_header.py'...
+[8.033s] Compiling '/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_int16.py'...
+[8.033s] Compiling '/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_int16_multi_array.py'...
+[8.033s] Compiling '/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_int32.py'...
+[8.033s] Compiling '/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_int32_multi_array.py'...
+[8.033s] Compiling '/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_int64.py'...
+[8.033s] Compiling '/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_int64_multi_array.py'...
+[8.033s] Compiling '/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_int8.py'...
+[8.033s] Compiling '/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_int8_multi_array.py'...
+[8.033s] Compiling '/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_multi_array_dimension.py'...
+[8.033s] Compiling '/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_multi_array_layout.py'...
+[8.033s] Compiling '/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_string.py'...
+[8.033s] Compiling '/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_u_int16.py'...
+[8.033s] Compiling '/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_u_int16_multi_array.py'...
+[8.033s] Compiling '/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_u_int32.py'...
+[8.033s] Compiling '/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_u_int32_multi_array.py'...
+[8.033s] Compiling '/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_u_int64.py'...
+[8.033s] Compiling '/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_u_int64_multi_array.py'...
+[8.033s] Compiling '/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_u_int8.py'...
+[8.033s] Compiling '/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/msg/_u_int8_multi_array.py'...
+[8.036s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/std_msgs_s__rosidl_typesupport_fastrtps_c.so
+[8.037s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/std_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[8.037s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/std_msgs_s__rosidl_typesupport_introspection_c.so
+[8.037s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/std_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[8.037s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/std_msgs_s__rosidl_typesupport_c.so
+[8.037s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages/std_msgs/std_msgs_s__rosidl_typesupport_c.so" to ""
+[8.038s] -- Installing: /home/rassito/microros_ws/install/std_msgs/lib/libstd_msgs__rosidl_generator_py.so
+[8.038s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/std_msgs/lib/libstd_msgs__rosidl_generator_py.so" to ""
+[8.038s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/Bool.idl
+[8.038s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/Byte.idl
+[8.038s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/ByteMultiArray.idl
+[8.038s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/Char.idl
+[8.038s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/ColorRGBA.idl
+[8.039s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/Empty.idl
+[8.039s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/Float32.idl
+[8.039s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/Float32MultiArray.idl
+[8.039s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/Float64.idl
+[8.039s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/Float64MultiArray.idl
+[8.039s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/Header.idl
+[8.039s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/Int16.idl
+[8.039s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/Int16MultiArray.idl
+[8.039s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/Int32.idl
+[8.039s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/Int32MultiArray.idl
+[8.039s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/Int64.idl
+[8.039s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/Int64MultiArray.idl
+[8.039s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/Int8.idl
+[8.039s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/Int8MultiArray.idl
+[8.039s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/MultiArrayDimension.idl
+[8.039s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/MultiArrayLayout.idl
+[8.039s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/String.idl
+[8.039s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/UInt16.idl
+[8.040s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/UInt16MultiArray.idl
+[8.040s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/UInt32.idl
+[8.040s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/UInt32MultiArray.idl
+[8.040s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/UInt64.idl
+[8.040s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/UInt64MultiArray.idl
+[8.040s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/UInt8.idl
+[8.040s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/UInt8MultiArray.idl
+[8.040s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/Bool.msg
+[8.040s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/Byte.msg
+[8.041s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/ByteMultiArray.msg
+[8.041s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/Char.msg
+[8.041s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/ColorRGBA.msg
+[8.041s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/Empty.msg
+[8.041s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/Float32.msg
+[8.041s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/Float32MultiArray.msg
+[8.041s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/Float64.msg
+[8.041s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/Float64MultiArray.msg
+[8.041s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/Header.msg
+[8.041s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/Int16.msg
+[8.041s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/Int16MultiArray.msg
+[8.042s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/Int32.msg
+[8.042s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/Int32MultiArray.msg
+[8.042s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/Int64.msg
+[8.042s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/Int64MultiArray.msg
+[8.042s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/Int8.msg
+[8.042s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/Int8MultiArray.msg
+[8.042s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/MultiArrayDimension.msg
+[8.042s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/MultiArrayLayout.msg
+[8.042s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/String.msg
+[8.042s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/UInt16.msg
+[8.042s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/UInt16MultiArray.msg
+[8.042s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/UInt32.msg
+[8.043s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/UInt32MultiArray.msg
+[8.043s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/UInt64.msg
+[8.043s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/UInt64MultiArray.msg
+[8.043s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/UInt8.msg
+[8.043s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/msg/UInt8MultiArray.msg
+[8.043s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/ament_index/resource_index/package_run_dependencies/std_msgs
+[8.043s] -- Installing: /home/rassito/microros_ws/install/std_msgs/share/ament_index/resource_index/parent_prefix_path/std_msgs
+[8.043s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/environment/ament_prefix_path.sh
+[8.043s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/environment/ament_prefix_path.dsv
+[8.043s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/environment/path.sh
+[8.044s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/environment/path.dsv
+[8.044s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/local_setup.bash
+[8.044s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/local_setup.sh
+[8.044s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/local_setup.zsh
+[8.044s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/local_setup.dsv
+[8.044s] -- Installing: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/package.dsv
+[8.044s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/ament_index/resource_index/packages/std_msgs
+[8.044s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/cmake/export_std_msgs__rosidl_generator_cExport.cmake
+[8.044s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/cmake/export_std_msgs__rosidl_generator_cExport-noconfig.cmake
+[8.044s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/cmake/export_std_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[8.045s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/cmake/export_std_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[8.045s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/cmake/export_std_msgs__rosidl_generator_cppExport.cmake
+[8.045s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/cmake/export_std_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[8.045s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/cmake/export_std_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[8.045s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/cmake/std_msgs__rosidl_typesupport_introspection_cExport.cmake
+[8.045s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/cmake/std_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[8.045s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/cmake/std_msgs__rosidl_typesupport_cExport.cmake
+[8.046s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/cmake/std_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[8.046s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/cmake/std_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[8.046s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/cmake/std_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[8.046s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/cmake/std_msgs__rosidl_typesupport_cppExport.cmake
+[8.046s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/cmake/std_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[8.046s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/cmake/export_std_msgs__rosidl_generator_pyExport.cmake
+[8.047s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/cmake/export_std_msgs__rosidl_generator_pyExport-noconfig.cmake
+[8.047s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/cmake/rosidl_cmake-extras.cmake
+[8.047s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.047s] -- Installing: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.047s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[8.047s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[8.047s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[8.047s] -- Installing: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[8.047s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/cmake/std_msgsConfig.cmake
+[8.047s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/cmake/std_msgsConfig-version.cmake
+[8.048s] -- Up-to-date: /home/rassito/microros_ws/install/std_msgs/share/std_msgs/package.xml
+[8.050s] Invoked command in '/home/rassito/microros_ws/build/std_msgs' returned '0': AMENT_PREFIX_PATH=/home/rassito/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/builtin_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rassito/microros_ws/build/std_msgs

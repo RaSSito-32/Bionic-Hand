@@ -1,0 +1,260 @@
+[0.014s] Invoking command in '/home/rassito/microros_ws/build/shape_msgs': AMENT_PREFIX_PATH=/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/geometry_msgs/lib:/home/rassito/microros_ws/install/std_msgs/lib:/home/rassito/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rassito/microros_ws/src/ros2/common_interfaces/shape_msgs -DCMAKE_INSTALL_PREFIX=/home/rassito/microros_ws/install/shape_msgs
+[0.023s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.042s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.099s] -- Found geometry_msgs: 5.3.5 (/home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake)
+[0.117s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.123s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.132s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.141s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.169s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.174s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.408s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.679s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.761s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.762s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[0.949s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[0.986s] -- Configuring done (1.0s)
+[1.045s] -- Generating done (0.1s)
+[1.054s] -- Build files have been written to: /home/rassito/microros_ws/build/shape_msgs
+[1.060s] Invoked command in '/home/rassito/microros_ws/build/shape_msgs' returned '0': AMENT_PREFIX_PATH=/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/geometry_msgs/lib:/home/rassito/microros_ws/install/std_msgs/lib:/home/rassito/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rassito/microros_ws/src/ros2/common_interfaces/shape_msgs -DCMAKE_INSTALL_PREFIX=/home/rassito/microros_ws/install/shape_msgs
+[1.061s] Invoking command in '/home/rassito/microros_ws/build/shape_msgs': AMENT_PREFIX_PATH=/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/geometry_msgs/lib:/home/rassito/microros_ws/install/std_msgs/lib:/home/rassito/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rassito/microros_ws/build/shape_msgs -- -j16 -l16
+[1.095s] [  1%] Built target shape_msgs__rosidl_generator_type_description
+[1.108s] [  1%] Built target ament_cmake_python_copy_shape_msgs
+[1.111s] [  3%] Built target shape_msgs__cpp
+[1.119s] [ 25%] Built target shape_msgs__rosidl_generator_c
+[1.126s] [ 26%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.128s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.147s] [ 37%] Built target shape_msgs__rosidl_typesupport_introspection_c
+[1.147s] [ 64%] Built target shape_msgs__rosidl_typesupport_fastrtps_cpp
+[1.148s] [ 64%] Built target shape_msgs__rosidl_typesupport_introspection_cpp
+[1.148s] [ 65%] Built target shape_msgs__rosidl_typesupport_fastrtps_c
+[1.321s] running egg_info
+[1.348s] writing shape_msgs.egg-info/PKG-INFO
+[1.348s] writing dependency_links to shape_msgs.egg-info/dependency_links.txt
+[1.348s] writing top-level names to shape_msgs.egg-info/top_level.txt
+[1.426s] reading manifest file 'shape_msgs.egg-info/SOURCES.txt'
+[1.427s] writing manifest file 'shape_msgs.egg-info/SOURCES.txt'
+[1.461s] [ 65%] Built target ament_cmake_python_build_shape_msgs_egg
+[1.572s] [ 67%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/shape_msgs/msg/mesh__type_support.cpp.o[0m
+[1.575s] [ 68%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/shape_msgs/msg/mesh_triangle__type_support.cpp.o[0m
+[1.575s] [ 70%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/shape_msgs/msg/plane__type_support.cpp.o[0m
+[1.592s] [ 71%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/shape_msgs/msg/solid_primitive__type_support.cpp.o[0m
+[1.648s] [ 73%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/shape_msgs/msg/solid_primitive__type_support.cpp.o[0m
+[1.648s] [ 75%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/shape_msgs/msg/mesh_triangle__type_support.cpp.o[0m
+[1.650s] [ 76%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/shape_msgs/msg/mesh__type_support.cpp.o[0m
+[1.652s] [ 78%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/shape_msgs/msg/plane__type_support.cpp.o[0m
+[1.675s] [ 79%] [32m[1mLinking CXX shared library libshape_msgs__rosidl_typesupport_c.so[0m
+[1.769s] [ 79%] Built target shape_msgs__rosidl_typesupport_c
+[2.061s] [ 81%] [32m[1mLinking CXX shared library libshape_msgs__rosidl_typesupport_cpp.so[0m
+[2.091s] [ 81%] Built target shape_msgs__rosidl_typesupport_cpp
+[2.106s] [ 81%] Built target shape_msgs
+[2.122s] [ 82%] Built target shape_msgs__py
+[2.139s] [ 84%] [32m[1mLinking C shared library libshape_msgs__rosidl_generator_py.so[0m
+[2.172s] [ 90%] Built target shape_msgs__rosidl_generator_py
+[2.189s] [ 92%] [32m[1mLinking C shared module rosidl_generator_py/shape_msgs/shape_msgs_s__rosidl_typesupport_c.so[0m
+[2.191s] [ 93%] [32m[1mLinking C shared module rosidl_generator_py/shape_msgs/shape_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[2.192s] [ 95%] [32m[1mLinking C shared module rosidl_generator_py/shape_msgs/shape_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[2.220s] [ 96%] Built target shape_msgs_s__rosidl_typesupport_c
+[2.234s] [ 98%] Built target shape_msgs_s__rosidl_typesupport_introspection_c
+[2.234s] [100%] Built target shape_msgs_s__rosidl_typesupport_fastrtps_c
+[2.249s] Invoked command in '/home/rassito/microros_ws/build/shape_msgs' returned '0': AMENT_PREFIX_PATH=/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/geometry_msgs/lib:/home/rassito/microros_ws/install/std_msgs/lib:/home/rassito/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rassito/microros_ws/build/shape_msgs -- -j16 -l16
+[2.250s] Invoking command in '/home/rassito/microros_ws/build/shape_msgs': AMENT_PREFIX_PATH=/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/geometry_msgs/lib:/home/rassito/microros_ws/install/std_msgs/lib:/home/rassito/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rassito/microros_ws/build/shape_msgs
+[2.272s] -- Install configuration: ""
+[2.273s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/share/ament_index/resource_index/rosidl_interfaces/shape_msgs
+[2.273s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/share/shape_msgs/msg/Mesh.json
+[2.273s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/share/shape_msgs/msg/MeshTriangle.json
+[2.273s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/share/shape_msgs/msg/Plane.json
+[2.273s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/share/shape_msgs/msg/SolidPrimitive.json
+[2.273s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs
+[2.274s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg
+[2.274s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/mesh.h
+[2.277s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/plane.h
+[2.277s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/solid_primitive.h
+[2.277s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail
+[2.277s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__type_support.h
+[2.277s] -- Installing: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__type_support.c
+[2.277s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__functions.h
+[2.277s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__type_support.h
+[2.278s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__description.c
+[2.278s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__functions.c
+[2.278s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__functions.h
+[2.278s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__description.c
+[2.278s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__functions.h
+[2.278s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__struct.h
+[2.278s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__description.c
+[2.278s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__type_support.h
+[2.278s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__functions.c
+[2.278s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__functions.c
+[2.278s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__struct.h
+[2.278s] -- Installing: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__type_support.c
+[2.278s] -- Installing: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__type_support.c
+[2.279s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__functions.c
+[2.279s] -- Installing: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__type_support.c
+[2.279s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__struct.h
+[2.279s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__struct.h
+[2.279s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__type_support.h
+[2.279s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__functions.h
+[2.279s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__description.c
+[2.280s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/mesh_triangle.h
+[2.280s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.280s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/share/shape_msgs/environment/library_path.sh
+[2.280s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/share/shape_msgs/environment/library_path.dsv
+[2.280s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_generator_c.so
+[2.284s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs
+[2.284s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg
+[2.284s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.284s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail
+[2.284s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__rosidl_typesupport_fastrtps_c.h
+[2.284s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__rosidl_typesupport_fastrtps_c.h
+[2.284s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__rosidl_typesupport_fastrtps_c.h
+[2.284s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__rosidl_typesupport_fastrtps_c.h
+[2.285s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_fastrtps_c.so
+[2.285s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs
+[2.285s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg
+[2.285s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/mesh_triangle.hpp
+[2.285s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.285s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/plane.hpp
+[2.285s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/solid_primitive.hpp
+[2.285s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/mesh.hpp
+[2.285s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail
+[2.285s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__type_support.hpp
+[2.285s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__builder.hpp
+[2.285s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__traits.hpp
+[2.285s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__type_support.hpp
+[2.286s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__struct.hpp
+[2.286s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__builder.hpp
+[2.286s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__struct.hpp
+[2.286s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__traits.hpp
+[2.286s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__traits.hpp
+[2.286s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__builder.hpp
+[2.286s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__type_support.hpp
+[2.286s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__builder.hpp
+[2.286s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__struct.hpp
+[2.286s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__struct.hpp
+[2.287s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__traits.hpp
+[2.287s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__type_support.hpp
+[2.287s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs
+[2.287s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg
+[2.287s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.287s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail
+[2.287s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__rosidl_typesupport_fastrtps_cpp.hpp
+[2.287s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__rosidl_typesupport_fastrtps_cpp.hpp
+[2.287s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__rosidl_typesupport_fastrtps_cpp.hpp
+[2.288s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__rosidl_typesupport_fastrtps_cpp.hpp
+[2.288s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/dds_fastrtps
+[2.292s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.292s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs
+[2.292s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg
+[2.292s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.292s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail
+[2.292s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__rosidl_typesupport_introspection_c.h
+[2.292s] -- Installing: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__type_support.c
+[2.292s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__rosidl_typesupport_introspection_c.h
+[2.293s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__rosidl_typesupport_introspection_c.h
+[2.293s] -- Installing: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__type_support.c
+[2.293s] -- Installing: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__type_support.c
+[2.293s] -- Installing: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__type_support.c
+[2.293s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__rosidl_typesupport_introspection_c.h
+[2.293s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_introspection_c.so
+[2.293s] -- Installing: /home/rassito/microros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_c.so
+[2.293s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_c.so" to ""
+[2.293s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs
+[2.294s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg
+[2.294s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail
+[2.294s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__rosidl_typesupport_introspection_cpp.hpp
+[2.294s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__rosidl_typesupport_introspection_cpp.hpp
+[2.294s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__type_support.cpp
+[2.294s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__rosidl_typesupport_introspection_cpp.hpp
+[2.294s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__type_support.cpp
+[2.294s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__type_support.cpp
+[2.294s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__rosidl_typesupport_introspection_cpp.hpp
+[2.294s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__type_support.cpp
+[2.294s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_introspection_cpp.so
+[2.301s] -- Installing: /home/rassito/microros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_cpp.so
+[2.301s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_cpp.so" to ""
+[2.301s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/share/shape_msgs/environment/pythonpath.sh
+[2.302s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/share/shape_msgs/environment/pythonpath.dsv
+[2.302s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs-5.3.5-py3.12.egg-info
+[2.302s] -- Installing: /home/rassito/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs-5.3.5-py3.12.egg-info/top_level.txt
+[2.302s] -- Installing: /home/rassito/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs-5.3.5-py3.12.egg-info/PKG-INFO
+[2.302s] -- Installing: /home/rassito/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs-5.3.5-py3.12.egg-info/dependency_links.txt
+[2.302s] -- Installing: /home/rassito/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs-5.3.5-py3.12.egg-info/SOURCES.txt
+[2.303s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs
+[2.303s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/_shape_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[2.303s] -- Installing: /home/rassito/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_fastrtps_c.so
+[2.303s] -- Installing: /home/rassito/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_introspection_c.so
+[2.303s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_microxrcedds_c.so
+[2.303s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/_shape_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c
+[2.303s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/_shape_msgs_s.ep.rosidl_typesupport_c.c
+[2.303s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/_shape_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.304s] -- Installing: /home/rassito/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_c.so
+[2.304s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/msg
+[2.307s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/msg/_mesh_triangle_s.c
+[2.307s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/msg/_solid_primitive.py
+[2.307s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/msg/_plane_s.c
+[2.307s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/msg/_solid_primitive_s.c
+[2.307s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/msg/_mesh_s.c
+[2.307s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/msg/_plane.py
+[2.307s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/msg/_mesh_triangle.py
+[2.307s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/msg/__init__.py
+[2.308s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/msg/_mesh.py
+[2.308s] -- Installing: /home/rassito/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/__init__.py
+[2.375s] Listing '/home/rassito/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs'...
+[2.375s] Compiling '/home/rassito/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/__init__.py'...
+[2.375s] Listing '/home/rassito/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/msg'...
+[2.377s] -- Installing: /home/rassito/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_fastrtps_c.so
+[2.377s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[2.377s] -- Installing: /home/rassito/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_introspection_c.so
+[2.378s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[2.379s] -- Installing: /home/rassito/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_c.so
+[2.379s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_c.so" to ""
+[2.380s] -- Installing: /home/rassito/microros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_generator_py.so
+[2.382s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_generator_py.so" to ""
+[2.382s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/share/shape_msgs/msg/Mesh.idl
+[2.385s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/share/shape_msgs/msg/MeshTriangle.idl
+[2.386s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/share/shape_msgs/msg/Plane.idl
+[2.386s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/share/shape_msgs/msg/SolidPrimitive.idl
+[2.388s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/share/shape_msgs/msg/Mesh.msg
+[2.388s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/share/shape_msgs/msg/MeshTriangle.msg
+[2.389s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/share/shape_msgs/msg/Plane.msg
+[2.389s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/share/shape_msgs/msg/SolidPrimitive.msg
+[2.389s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/share/ament_index/resource_index/package_run_dependencies/shape_msgs
+[2.389s] -- Installing: /home/rassito/microros_ws/install/shape_msgs/share/ament_index/resource_index/parent_prefix_path/shape_msgs
+[2.390s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/share/shape_msgs/environment/ament_prefix_path.sh
+[2.390s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/share/shape_msgs/environment/ament_prefix_path.dsv
+[2.390s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/share/shape_msgs/environment/path.sh
+[2.390s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/share/shape_msgs/environment/path.dsv
+[2.391s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/share/shape_msgs/local_setup.bash
+[2.391s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/share/shape_msgs/local_setup.sh
+[2.391s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/share/shape_msgs/local_setup.zsh
+[2.391s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/share/shape_msgs/local_setup.dsv
+[2.391s] -- Installing: /home/rassito/microros_ws/install/shape_msgs/share/shape_msgs/package.dsv
+[2.391s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/share/ament_index/resource_index/packages/shape_msgs
+[2.391s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_generator_cExport.cmake
+[2.391s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_generator_cExport-noconfig.cmake
+[2.391s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.391s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.392s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_generator_cppExport.cmake
+[2.392s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.392s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.392s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.392s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.393s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_cExport.cmake
+[2.393s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[2.393s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.394s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.394s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_cppExport.cmake
+[2.395s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.396s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_generator_pyExport.cmake
+[2.396s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_generator_pyExport-noconfig.cmake
+[2.396s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/share/shape_msgs/cmake/rosidl_cmake-extras.cmake
+[2.396s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/share/shape_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.397s] -- Installing: /home/rassito/microros_ws/install/shape_msgs/share/shape_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.397s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/share/shape_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.397s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/share/shape_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.397s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/share/shape_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.398s] -- Installing: /home/rassito/microros_ws/install/shape_msgs/share/shape_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.398s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/share/shape_msgs/cmake/shape_msgsConfig.cmake
+[2.398s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/share/shape_msgs/cmake/shape_msgsConfig-version.cmake
+[2.398s] -- Up-to-date: /home/rassito/microros_ws/install/shape_msgs/share/shape_msgs/package.xml
+[2.403s] Invoked command in '/home/rassito/microros_ws/build/shape_msgs' returned '0': AMENT_PREFIX_PATH=/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/geometry_msgs/lib:/home/rassito/microros_ws/install/std_msgs/lib:/home/rassito/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rassito/microros_ws/build/shape_msgs

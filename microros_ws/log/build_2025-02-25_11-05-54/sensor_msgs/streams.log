@@ -1,0 +1,888 @@
+[0.015s] Invoking command in '/home/rassito/microros_ws/build/sensor_msgs': AMENT_PREFIX_PATH=/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/geometry_msgs/lib:/home/rassito/microros_ws/install/std_msgs/lib:/home/rassito/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rassito/microros_ws/src/ros2/common_interfaces/sensor_msgs -DCMAKE_INSTALL_PREFIX=/home/rassito/microros_ws/install/sensor_msgs
+[0.025s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.044s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.105s] -- Found builtin_interfaces: 2.0.2 (/home/rassito/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake)
+[0.130s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.141s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.155s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.163s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.171s] -- Found geometry_msgs: 5.3.5 (/home/rassito/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake)
+[0.192s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.198s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.529s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.747s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.836s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.837s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[1.033s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[1.105s] -- Configuring done (1.1s)
+[1.263s] -- Generating done (0.1s)
+[1.286s] -- Build files have been written to: /home/rassito/microros_ws/build/sensor_msgs
+[1.297s] Invoked command in '/home/rassito/microros_ws/build/sensor_msgs' returned '0': AMENT_PREFIX_PATH=/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/geometry_msgs/lib:/home/rassito/microros_ws/install/std_msgs/lib:/home/rassito/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rassito/microros_ws/src/ros2/common_interfaces/sensor_msgs -DCMAKE_INSTALL_PREFIX=/home/rassito/microros_ws/install/sensor_msgs
+[1.298s] Invoking command in '/home/rassito/microros_ws/build/sensor_msgs': AMENT_PREFIX_PATH=/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/geometry_msgs/lib:/home/rassito/microros_ws/install/std_msgs/lib:/home/rassito/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rassito/microros_ws/build/sensor_msgs -- -j16 -l16
+[1.366s] [  0%] Built target sensor_msgs__rosidl_generator_type_description
+[1.393s] [  0%] Built target ament_cmake_python_copy_sensor_msgs
+[1.394s] [  0%] Built target sensor_msgs__cpp
+[1.444s] [ 28%] Built target sensor_msgs__rosidl_generator_c
+[1.458s] [ 30%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.458s] [ 30%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.505s] [ 40%] Built target sensor_msgs__rosidl_typesupport_introspection_c
+[1.521s] [ 50%] Built target sensor_msgs__rosidl_typesupport_fastrtps_cpp
+[1.526s] [ 60%] Built target sensor_msgs__rosidl_typesupport_fastrtps_c
+[1.528s] [ 70%] Built target sensor_msgs__rosidl_typesupport_introspection_cpp
+[1.682s] running egg_info
+[1.711s] writing sensor_msgs.egg-info/PKG-INFO
+[1.712s] writing dependency_links to sensor_msgs.egg-info/dependency_links.txt
+[1.712s] writing top-level names to sensor_msgs.egg-info/top_level.txt
+[1.811s] reading manifest file 'sensor_msgs.egg-info/SOURCES.txt'
+[1.814s] writing manifest file 'sensor_msgs.egg-info/SOURCES.txt'
+[1.889s] [ 70%] Built target ament_cmake_python_build_sensor_msgs_egg
+[3.887s] [ 71%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/camera_info__type_support.cpp.o[0m
+[3.887s] [ 71%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/fluid_pressure__type_support.cpp.o[0m
+[3.887s] [ 71%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/compressed_image__type_support.cpp.o[0m
+[3.887s] [ 71%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/battery_state__type_support.cpp.o[0m
+[3.887s] [ 71%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/channel_float32__type_support.cpp.o[0m
+[3.887s] [ 71%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/illuminance__type_support.cpp.o[0m
+[3.887s] [ 72%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/image__type_support.cpp.o[0m
+[3.887s] [ 72%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/imu__type_support.cpp.o[0m
+[3.888s] [ 72%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/joint_state__type_support.cpp.o[0m
+[3.888s] [ 73%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/joy__type_support.cpp.o[0m
+[3.888s] [ 73%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/joy_feedback__type_support.cpp.o[0m
+[3.888s] [ 73%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/laser_scan__type_support.cpp.o[0m
+[3.888s] [ 73%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/joy_feedback_array__type_support.cpp.o[0m
+[3.888s] [ 73%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/magnetic_field__type_support.cpp.o[0m
+[3.890s] [ 74%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/laser_echo__type_support.cpp.o[0m
+[4.220s] [ 75%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/multi_dof_joint_state__type_support.cpp.o[0m
+[4.227s] [ 75%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/multi_echo_laser_scan__type_support.cpp.o[0m
+[4.227s] [ 75%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/nav_sat_fix__type_support.cpp.o[0m
+[4.230s] [ 76%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/nav_sat_status__type_support.cpp.o[0m
+[4.230s] [ 76%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/point_cloud__type_support.cpp.o[0m
+[4.231s] [ 76%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/point_cloud2__type_support.cpp.o[0m
+[4.231s] [ 77%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/point_field__type_support.cpp.o[0m
+[4.234s] [ 77%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/range__type_support.cpp.o[0m
+[4.234s] [ 77%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/region_of_interest__type_support.cpp.o[0m
+[4.234s] [ 78%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/relative_humidity__type_support.cpp.o[0m
+[4.234s] [ 78%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/time_reference__type_support.cpp.o[0m
+[4.234s] [ 78%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/temperature__type_support.cpp.o[0m
+[4.234s] [ 79%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/srv/set_camera_info__type_support.cpp.o[0m
+[4.241s] [ 79%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/camera_info__type_support.cpp.o[0m
+[4.241s] [ 79%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/battery_state__type_support.cpp.o[0m
+[4.241s] [ 80%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/channel_float32__type_support.cpp.o[0m
+[4.287s] [ 80%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/compressed_image__type_support.cpp.o[0m
+[4.287s] [ 80%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/fluid_pressure__type_support.cpp.o[0m
+[4.287s] [ 81%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/illuminance__type_support.cpp.o[0m
+[4.337s] [ 81%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/image__type_support.cpp.o[0m
+[4.337s] [ 82%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/joint_state__type_support.cpp.o[0m
+[4.338s] [ 81%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/imu__type_support.cpp.o[0m
+[4.389s] [ 83%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/joy__type_support.cpp.o[0m
+[4.389s] [ 83%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/joy_feedback__type_support.cpp.o[0m
+[4.389s] [ 83%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/joy_feedback_array__type_support.cpp.o[0m
+[4.439s] [ 84%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/laser_echo__type_support.cpp.o[0m
+[4.440s] [ 84%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/laser_scan__type_support.cpp.o[0m
+[4.440s] [ 84%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/magnetic_field__type_support.cpp.o[0m
+[4.490s] [ 85%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/multi_dof_joint_state__type_support.cpp.o[0m
+[4.490s] [ 85%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/multi_echo_laser_scan__type_support.cpp.o[0m
+[4.490s] [ 85%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/nav_sat_fix__type_support.cpp.o[0m
+[4.540s] [ 86%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/nav_sat_status__type_support.cpp.o[0m
+[4.540s] [ 86%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/point_cloud2__type_support.cpp.o[0m
+[4.540s] [ 86%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/point_cloud__type_support.cpp.o[0m
+[4.579s] [ 86%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/point_field__type_support.cpp.o[0m
+[4.581s] [ 86%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/range__type_support.cpp.o[0m
+[4.582s] [ 87%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/region_of_interest__type_support.cpp.o[0m
+[4.583s] [ 87%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/temperature__type_support.cpp.o[0m
+[4.583s] [ 87%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/relative_humidity__type_support.cpp.o[0m
+[4.584s] [ 87%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/srv/set_camera_info__type_support.cpp.o[0m
+[4.584s] [ 88%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/time_reference__type_support.cpp.o[0m
+[4.628s] [ 88%] [32m[1mLinking CXX shared library libsensor_msgs__rosidl_typesupport_c.so[0m
+[4.656s] [ 88%] Built target sensor_msgs__rosidl_typesupport_c
+[4.669s] [ 88%] [32m[1mLinking CXX shared library libsensor_msgs__rosidl_typesupport_cpp.so[0m
+[4.718s] [ 88%] Built target sensor_msgs__rosidl_typesupport_cpp
+[4.730s] [ 88%] Built target sensor_msgs
+[4.762s] [ 88%] Built target sensor_msgs__py
+[4.814s] [ 88%] [32m[1mLinking C shared library libsensor_msgs__rosidl_generator_py.so[0m
+[4.859s] [ 98%] Built target sensor_msgs__rosidl_generator_py
+[4.879s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/sensor_msgs/sensor_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[4.879s] [ 99%] [32m[1mLinking C shared module rosidl_generator_py/sensor_msgs/sensor_msgs_s__rosidl_typesupport_c.so[0m
+[4.879s] [ 99%] [32m[1mLinking C shared module rosidl_generator_py/sensor_msgs/sensor_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[4.902s] [ 99%] Built target sensor_msgs_s__rosidl_typesupport_c
+[4.903s] [ 99%] Built target sensor_msgs_s__rosidl_typesupport_introspection_c
+[4.903s] [100%] Built target sensor_msgs_s__rosidl_typesupport_fastrtps_c
+[4.911s] Invoked command in '/home/rassito/microros_ws/build/sensor_msgs' returned '0': AMENT_PREFIX_PATH=/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/geometry_msgs/lib:/home/rassito/microros_ws/install/std_msgs/lib:/home/rassito/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rassito/microros_ws/build/sensor_msgs -- -j16 -l16
+[4.912s] Invoking command in '/home/rassito/microros_ws/build/sensor_msgs': AMENT_PREFIX_PATH=/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/geometry_msgs/lib:/home/rassito/microros_ws/install/std_msgs/lib:/home/rassito/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rassito/microros_ws/build/sensor_msgs
+[4.917s] -- Install configuration: ""
+[4.918s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/ament_index/resource_index/rosidl_interfaces/sensor_msgs
+[4.918s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/BatteryState.json
+[4.918s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/CameraInfo.json
+[4.918s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/ChannelFloat32.json
+[4.918s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/CompressedImage.json
+[4.918s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/FluidPressure.json
+[4.918s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/Illuminance.json
+[4.918s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/Image.json
+[4.918s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/Imu.json
+[4.918s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/JointState.json
+[4.918s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/Joy.json
+[4.918s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/JoyFeedback.json
+[4.918s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/JoyFeedbackArray.json
+[4.918s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/LaserEcho.json
+[4.918s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/LaserScan.json
+[4.919s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/MagneticField.json
+[4.919s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/MultiDOFJointState.json
+[4.919s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/MultiEchoLaserScan.json
+[4.919s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/NavSatFix.json
+[4.919s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/NavSatStatus.json
+[4.919s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/PointCloud.json
+[4.919s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/PointCloud2.json
+[4.919s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/PointField.json
+[4.919s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/Range.json
+[4.919s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/RegionOfInterest.json
+[4.919s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/RelativeHumidity.json
+[4.919s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/Temperature.json
+[4.919s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/TimeReference.json
+[4.919s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/srv/SetCameraInfo.json
+[4.919s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs
+[4.919s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv
+[4.919s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/set_camera_info.h
+[4.919s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail
+[4.919s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__description.c
+[4.919s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__type_support.h
+[4.919s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__functions.h
+[4.920s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__struct.h
+[4.920s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__type_support.c
+[4.920s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__functions.c
+[4.920s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg
+[4.920s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/camera_info.h
+[4.920s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/laser_scan.h
+[4.920s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/temperature.h
+[4.920s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/fluid_pressure.h
+[4.920s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/point_cloud.h
+[4.920s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/channel_float32.h
+[4.920s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/compressed_image.h
+[4.920s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/battery_state.h
+[4.920s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/laser_echo.h
+[4.920s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/point_cloud2.h
+[4.920s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/range.h
+[4.920s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/region_of_interest.h
+[4.920s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joy_feedback.h
+[4.920s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joy.h
+[4.920s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/relative_humidity.h
+[4.920s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/illuminance.h
+[4.920s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/nav_sat_status.h
+[4.921s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joy_feedback_array.h
+[4.921s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/image.h
+[4.921s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/multi_dof_joint_state.h
+[4.921s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/time_reference.h
+[4.921s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/nav_sat_fix.h
+[4.921s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/multi_echo_laser_scan.h
+[4.921s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/point_field.h
+[4.921s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joint_state.h
+[4.921s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail
+[4.921s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__functions.h
+[4.921s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__struct.h
+[4.921s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__type_support.h
+[4.921s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__functions.h
+[4.921s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__description.c
+[4.921s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__description.c
+[4.921s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__functions.h
+[4.921s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__functions.h
+[4.921s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__description.c
+[4.921s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__type_support.h
+[4.921s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__type_support.h
+[4.921s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__functions.c
+[4.922s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__type_support.h
+[4.922s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__functions.h
+[4.922s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__struct.h
+[4.922s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__functions.c
+[4.922s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__type_support.h
+[4.922s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__functions.c
+[4.922s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__type_support.c
+[4.922s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__functions.c
+[4.922s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__struct.h
+[4.922s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__type_support.c
+[4.922s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__type_support.c
+[4.922s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__type_support.h
+[4.922s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__type_support.c
+[4.922s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__type_support.h
+[4.922s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__type_support.h
+[4.922s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__functions.c
+[4.922s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__type_support.c
+[4.922s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__functions.h
+[4.922s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__description.c
+[4.922s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__type_support.c
+[4.922s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__functions.c
+[4.923s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__functions.c
+[4.923s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__functions.h
+[4.923s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.h
+[4.923s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__type_support.c
+[4.923s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__functions.c
+[4.923s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__type_support.h
+[4.923s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__struct.h
+[4.923s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__struct.h
+[4.923s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__functions.h
+[4.923s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__struct.h
+[4.923s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__struct.h
+[4.923s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__description.c
+[4.923s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__type_support.c
+[4.923s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__type_support.c
+[4.923s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__type_support.c
+[4.923s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__functions.c
+[4.923s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__functions.h
+[4.923s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__description.c
+[4.923s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__struct.h
+[4.923s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__type_support.h
+[4.923s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__type_support.h
+[4.923s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__struct.h
+[4.924s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__functions.c
+[4.924s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__description.c
+[4.924s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__description.c
+[4.924s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__description.c
+[4.924s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__type_support.h
+[4.924s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__functions.c
+[4.924s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.h
+[4.924s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__type_support.h
+[4.924s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__description.c
+[4.924s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__functions.h
+[4.924s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__functions.c
+[4.924s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__functions.h
+[4.924s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__functions.c
+[4.924s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__type_support.h
+[4.924s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__struct.h
+[4.924s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__struct.h
+[4.924s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__type_support.c
+[4.924s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__description.c
+[4.924s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__description.c
+[4.924s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__functions.c
+[4.924s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__functions.c
+[4.924s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__functions.c
+[4.925s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__functions.h
+[4.925s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__functions.c
+[4.925s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__description.c
+[4.925s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__description.c
+[4.925s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__description.c
+[4.925s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__type_support.h
+[4.925s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__functions.h
+[4.925s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__description.c
+[4.925s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__type_support.h
+[4.925s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__type_support.h
+[4.925s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__functions.h
+[4.925s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__description.c
+[4.925s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__functions.h
+[4.925s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__functions.h
+[4.925s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__type_support.h
+[4.925s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__description.c
+[4.925s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__struct.h
+[4.925s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__functions.h
+[4.925s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__functions.c
+[4.925s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__struct.h
+[4.925s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__functions.c
+[4.925s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__struct.h
+[4.925s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__type_support.h
+[4.926s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__type_support.c
+[4.926s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__type_support.c
+[4.926s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__functions.c
+[4.926s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__struct.h
+[4.926s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__type_support.c
+[4.926s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__struct.h
+[4.926s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__type_support.c
+[4.926s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__type_support.h
+[4.926s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__struct.h
+[4.926s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__functions.c
+[4.926s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__functions.h
+[4.926s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__description.c
+[4.926s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__type_support.c
+[4.926s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__type_support.c
+[4.926s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__type_support.h
+[4.926s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__struct.h
+[4.926s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__struct.h
+[4.926s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__description.c
+[4.926s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__functions.h
+[4.926s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__type_support.c
+[4.926s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__type_support.c
+[4.926s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__type_support.h
+[4.926s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__struct.h
+[4.927s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__functions.h
+[4.927s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__type_support.c
+[4.927s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__functions.h
+[4.927s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__functions.h
+[4.927s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__description.c
+[4.927s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__type_support.c
+[4.927s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__functions.h
+[4.927s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__struct.h
+[4.927s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__description.c
+[4.927s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__struct.h
+[4.927s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__description.c
+[4.927s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__type_support.c
+[4.927s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__type_support.h
+[4.927s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__description.c
+[4.927s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__functions.c
+[4.927s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__functions.c
+[4.927s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__struct.h
+[4.927s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__type_support.c
+[4.927s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__functions.c
+[4.927s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__type_support.c
+[4.927s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__type_support.c
+[4.927s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__functions.h
+[4.927s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__description.c
+[4.928s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__functions.h
+[4.928s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__type_support.c
+[4.928s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__description.c
+[4.928s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.h
+[4.928s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__type_support.h
+[4.928s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__functions.h
+[4.928s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__type_support.h
+[4.928s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__description.c
+[4.928s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__type_support.h
+[4.928s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__functions.h
+[4.928s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__functions.c
+[4.928s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__functions.c
+[4.928s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.h
+[4.928s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__type_support.c
+[4.928s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__type_support.h
+[4.928s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__functions.c
+[4.928s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/imu.h
+[4.928s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/rosidl_generator_c__visibility_control.h
+[4.928s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/magnetic_field.h
+[4.928s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/environment/library_path.sh
+[4.928s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/environment/library_path.dsv
+[4.928s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/libsensor_msgs__rosidl_generator_c.so
+[4.929s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs
+[4.929s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv
+[4.929s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail
+[4.929s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__rosidl_typesupport_fastrtps_c.h
+[4.929s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg
+[4.929s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.929s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail
+[4.929s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__rosidl_typesupport_fastrtps_c.h
+[4.929s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__rosidl_typesupport_fastrtps_c.h
+[4.929s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__rosidl_typesupport_fastrtps_c.h
+[4.929s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__rosidl_typesupport_fastrtps_c.h
+[4.929s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__rosidl_typesupport_fastrtps_c.h
+[4.929s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__rosidl_typesupport_fastrtps_c.h
+[4.929s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__rosidl_typesupport_fastrtps_c.h
+[4.929s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__rosidl_typesupport_fastrtps_c.h
+[4.929s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__rosidl_typesupport_fastrtps_c.h
+[4.929s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__rosidl_typesupport_fastrtps_c.h
+[4.929s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__rosidl_typesupport_fastrtps_c.h
+[4.929s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__rosidl_typesupport_fastrtps_c.h
+[4.929s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__rosidl_typesupport_fastrtps_c.h
+[4.929s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__rosidl_typesupport_fastrtps_c.h
+[4.929s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__rosidl_typesupport_fastrtps_c.h
+[4.929s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__rosidl_typesupport_fastrtps_c.h
+[4.930s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__rosidl_typesupport_fastrtps_c.h
+[4.930s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__rosidl_typesupport_fastrtps_c.h
+[4.930s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__rosidl_typesupport_fastrtps_c.h
+[4.930s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__rosidl_typesupport_fastrtps_c.h
+[4.930s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__rosidl_typesupport_fastrtps_c.h
+[4.930s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__rosidl_typesupport_fastrtps_c.h
+[4.930s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__rosidl_typesupport_fastrtps_c.h
+[4.930s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__rosidl_typesupport_fastrtps_c.h
+[4.930s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__rosidl_typesupport_fastrtps_c.h
+[4.930s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__rosidl_typesupport_fastrtps_c.h
+[4.930s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__rosidl_typesupport_fastrtps_c.h
+[4.930s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
+[4.930s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs
+[4.930s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv
+[4.930s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/set_camera_info.hpp
+[4.930s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail
+[4.930s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__struct.hpp
+[4.930s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__type_support.hpp
+[4.930s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__traits.hpp
+[4.930s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__builder.hpp
+[4.930s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg
+[4.930s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/range.hpp
+[4.931s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/relative_humidity.hpp
+[4.931s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.931s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/imu.hpp
+[4.931s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/battery_state.hpp
+[4.931s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/multi_echo_laser_scan.hpp
+[4.931s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joint_state.hpp
+[4.931s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/point_field.hpp
+[4.931s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joy_feedback_array.hpp
+[4.931s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/illuminance.hpp
+[4.931s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/nav_sat_status.hpp
+[4.931s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/laser_scan.hpp
+[4.931s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/magnetic_field.hpp
+[4.931s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joy_feedback.hpp
+[4.931s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/multi_dof_joint_state.hpp
+[4.931s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/point_cloud2.hpp
+[4.931s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/fluid_pressure.hpp
+[4.931s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/compressed_image.hpp
+[4.931s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/image.hpp
+[4.931s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joy.hpp
+[4.931s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/region_of_interest.hpp
+[4.932s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/point_cloud.hpp
+[4.932s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/channel_float32.hpp
+[4.932s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/camera_info.hpp
+[4.932s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/nav_sat_fix.hpp
+[4.932s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail
+[4.932s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__builder.hpp
+[4.932s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__type_support.hpp
+[4.932s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp
+[4.932s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__traits.hpp
+[4.932s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__traits.hpp
+[4.932s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__struct.hpp
+[4.932s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__builder.hpp
+[4.932s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__builder.hpp
+[4.932s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__builder.hpp
+[4.932s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__builder.hpp
+[4.932s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__type_support.hpp
+[4.932s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__builder.hpp
+[4.932s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__traits.hpp
+[4.932s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__builder.hpp
+[4.932s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__builder.hpp
+[4.932s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__traits.hpp
+[4.932s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__traits.hpp
+[4.932s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__traits.hpp
+[4.932s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__type_support.hpp
+[4.933s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__traits.hpp
+[4.933s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__type_support.hpp
+[4.933s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__traits.hpp
+[4.933s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__type_support.hpp
+[4.933s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__type_support.hpp
+[4.933s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__builder.hpp
+[4.933s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__type_support.hpp
+[4.933s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__type_support.hpp
+[4.933s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__struct.hpp
+[4.933s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__traits.hpp
+[4.933s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__traits.hpp
+[4.933s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__type_support.hpp
+[4.933s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__type_support.hpp
+[4.933s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__builder.hpp
+[4.933s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__struct.hpp
+[4.933s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__traits.hpp
+[4.933s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__type_support.hpp
+[4.933s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__traits.hpp
+[4.933s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__struct.hpp
+[4.933s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__type_support.hpp
+[4.933s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__builder.hpp
+[4.933s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__traits.hpp
+[4.933s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__builder.hpp
+[4.934s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp
+[4.934s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__builder.hpp
+[4.934s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__struct.hpp
+[4.934s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__traits.hpp
+[4.934s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__builder.hpp
+[4.934s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp
+[4.934s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__builder.hpp
+[4.934s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__struct.hpp
+[4.934s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__type_support.hpp
+[4.934s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__traits.hpp
+[4.934s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__traits.hpp
+[4.934s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__builder.hpp
+[4.934s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__struct.hpp
+[4.934s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__traits.hpp
+[4.934s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__type_support.hpp
+[4.934s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__traits.hpp
+[4.934s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__traits.hpp
+[4.934s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__struct.hpp
+[4.934s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__builder.hpp
+[4.934s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__struct.hpp
+[4.934s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__struct.hpp
+[4.934s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__traits.hpp
+[4.934s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__builder.hpp
+[4.935s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__struct.hpp
+[4.935s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__struct.hpp
+[4.935s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp
+[4.935s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__type_support.hpp
+[4.935s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__type_support.hpp
+[4.935s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__builder.hpp
+[4.935s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__struct.hpp
+[4.935s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__type_support.hpp
+[4.935s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__traits.hpp
+[4.935s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__type_support.hpp
+[4.935s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp
+[4.935s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__type_support.hpp
+[4.935s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__builder.hpp
+[4.935s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__struct.hpp
+[4.935s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__builder.hpp
+[4.935s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__struct.hpp
+[4.935s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__struct.hpp
+[4.935s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__builder.hpp
+[4.935s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__type_support.hpp
+[4.935s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__builder.hpp
+[4.935s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__traits.hpp
+[4.935s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__traits.hpp
+[4.935s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__struct.hpp
+[4.935s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__type_support.hpp
+[4.936s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__type_support.hpp
+[4.936s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__type_support.hpp
+[4.936s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__type_support.hpp
+[4.936s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__builder.hpp
+[4.936s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__traits.hpp
+[4.936s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__struct.hpp
+[4.936s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__builder.hpp
+[4.936s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__struct.hpp
+[4.936s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__struct.hpp
+[4.936s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__type_support.hpp
+[4.936s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__struct.hpp
+[4.936s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__struct.hpp
+[4.936s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__type_support.hpp
+[4.936s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__traits.hpp
+[4.936s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__traits.hpp
+[4.936s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__builder.hpp
+[4.936s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__builder.hpp
+[4.936s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__struct.hpp
+[4.936s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__type_support.hpp
+[4.936s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/temperature.hpp
+[4.936s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/laser_echo.hpp
+[4.936s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/time_reference.hpp
+[4.936s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs
+[4.936s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv
+[4.937s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail
+[4.937s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__rosidl_typesupport_fastrtps_cpp.hpp
+[4.937s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/dds_fastrtps
+[4.937s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg
+[4.937s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.937s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail
+[4.937s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__rosidl_typesupport_fastrtps_cpp.hpp
+[4.937s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__rosidl_typesupport_fastrtps_cpp.hpp
+[4.937s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__rosidl_typesupport_fastrtps_cpp.hpp
+[4.937s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__rosidl_typesupport_fastrtps_cpp.hpp
+[4.937s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__rosidl_typesupport_fastrtps_cpp.hpp
+[4.937s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__rosidl_typesupport_fastrtps_cpp.hpp
+[4.937s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__rosidl_typesupport_fastrtps_cpp.hpp
+[4.937s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__rosidl_typesupport_fastrtps_cpp.hpp
+[4.937s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__rosidl_typesupport_fastrtps_cpp.hpp
+[4.937s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__rosidl_typesupport_fastrtps_cpp.hpp
+[4.937s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__rosidl_typesupport_fastrtps_cpp.hpp
+[4.937s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__rosidl_typesupport_fastrtps_cpp.hpp
+[4.937s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__rosidl_typesupport_fastrtps_cpp.hpp
+[4.937s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__rosidl_typesupport_fastrtps_cpp.hpp
+[4.937s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__rosidl_typesupport_fastrtps_cpp.hpp
+[4.937s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__rosidl_typesupport_fastrtps_cpp.hpp
+[4.937s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__rosidl_typesupport_fastrtps_cpp.hpp
+[4.937s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__rosidl_typesupport_fastrtps_cpp.hpp
+[4.937s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__rosidl_typesupport_fastrtps_cpp.hpp
+[4.938s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__rosidl_typesupport_fastrtps_cpp.hpp
+[4.938s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__rosidl_typesupport_fastrtps_cpp.hpp
+[4.938s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__rosidl_typesupport_fastrtps_cpp.hpp
+[4.938s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/dds_fastrtps
+[4.938s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__rosidl_typesupport_fastrtps_cpp.hpp
+[4.938s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__rosidl_typesupport_fastrtps_cpp.hpp
+[4.938s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__rosidl_typesupport_fastrtps_cpp.hpp
+[4.938s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__rosidl_typesupport_fastrtps_cpp.hpp
+[4.938s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__rosidl_typesupport_fastrtps_cpp.hpp
+[4.938s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
+[4.938s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs
+[4.938s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv
+[4.938s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail
+[4.938s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__rosidl_typesupport_introspection_c.h
+[4.938s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__type_support.c
+[4.938s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg
+[4.938s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.938s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail
+[4.938s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__rosidl_typesupport_introspection_c.h
+[4.938s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__rosidl_typesupport_introspection_c.h
+[4.938s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__rosidl_typesupport_introspection_c.h
+[4.938s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__rosidl_typesupport_introspection_c.h
+[4.938s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__type_support.c
+[4.938s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__rosidl_typesupport_introspection_c.h
+[4.939s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__type_support.c
+[4.939s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__rosidl_typesupport_introspection_c.h
+[4.939s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__type_support.c
+[4.939s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__type_support.c
+[4.939s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__type_support.c
+[4.939s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__rosidl_typesupport_introspection_c.h
+[4.939s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__rosidl_typesupport_introspection_c.h
+[4.939s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__type_support.c
+[4.939s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__rosidl_typesupport_introspection_c.h
+[4.939s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__rosidl_typesupport_introspection_c.h
+[4.939s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__rosidl_typesupport_introspection_c.h
+[4.939s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__type_support.c
+[4.939s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__type_support.c
+[4.939s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__type_support.c
+[4.939s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__type_support.c
+[4.939s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__rosidl_typesupport_introspection_c.h
+[4.939s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__rosidl_typesupport_introspection_c.h
+[4.939s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__rosidl_typesupport_introspection_c.h
+[4.939s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__type_support.c
+[4.939s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__rosidl_typesupport_introspection_c.h
+[4.939s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__rosidl_typesupport_introspection_c.h
+[4.939s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__type_support.c
+[4.940s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__type_support.c
+[4.940s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__type_support.c
+[4.940s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__type_support.c
+[4.940s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__rosidl_typesupport_introspection_c.h
+[4.940s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__type_support.c
+[4.940s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__rosidl_typesupport_introspection_c.h
+[4.940s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__type_support.c
+[4.940s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__rosidl_typesupport_introspection_c.h
+[4.940s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__type_support.c
+[4.940s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__type_support.c
+[4.940s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__rosidl_typesupport_introspection_c.h
+[4.940s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__rosidl_typesupport_introspection_c.h
+[4.940s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__type_support.c
+[4.940s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__rosidl_typesupport_introspection_c.h
+[4.940s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__type_support.c
+[4.940s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__rosidl_typesupport_introspection_c.h
+[4.940s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__type_support.c
+[4.940s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__type_support.c
+[4.940s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__type_support.c
+[4.940s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__type_support.c
+[4.940s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__rosidl_typesupport_introspection_c.h
+[4.940s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__rosidl_typesupport_introspection_c.h
+[4.940s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__type_support.c
+[4.940s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__rosidl_typesupport_introspection_c.h
+[4.940s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__rosidl_typesupport_introspection_c.h
+[4.941s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__type_support.c
+[4.941s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
+[4.941s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_c.so
+[4.941s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_c.so" to ""
+[4.941s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs
+[4.941s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv
+[4.941s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail
+[4.941s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__type_support.cpp
+[4.941s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__rosidl_typesupport_introspection_cpp.hpp
+[4.941s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg
+[4.941s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail
+[4.941s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__type_support.cpp
+[4.941s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__type_support.cpp
+[4.941s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__type_support.cpp
+[4.941s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__rosidl_typesupport_introspection_cpp.hpp
+[4.941s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__rosidl_typesupport_introspection_cpp.hpp
+[4.941s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__type_support.cpp
+[4.941s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__rosidl_typesupport_introspection_cpp.hpp
+[4.941s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__type_support.cpp
+[4.941s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__type_support.cpp
+[4.941s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__rosidl_typesupport_introspection_cpp.hpp
+[4.941s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__type_support.cpp
+[4.941s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__type_support.cpp
+[4.942s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__rosidl_typesupport_introspection_cpp.hpp
+[4.942s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__rosidl_typesupport_introspection_cpp.hpp
+[4.942s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__rosidl_typesupport_introspection_cpp.hpp
+[4.942s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__type_support.cpp
+[4.942s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__rosidl_typesupport_introspection_cpp.hpp
+[4.942s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__type_support.cpp
+[4.942s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__rosidl_typesupport_introspection_cpp.hpp
+[4.942s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__rosidl_typesupport_introspection_cpp.hpp
+[4.942s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__type_support.cpp
+[4.942s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__rosidl_typesupport_introspection_cpp.hpp
+[4.942s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__type_support.cpp
+[4.942s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__rosidl_typesupport_introspection_cpp.hpp
+[4.942s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__type_support.cpp
+[4.942s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__type_support.cpp
+[4.942s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__rosidl_typesupport_introspection_cpp.hpp
+[4.942s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__rosidl_typesupport_introspection_cpp.hpp
+[4.942s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__rosidl_typesupport_introspection_cpp.hpp
+[4.942s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__rosidl_typesupport_introspection_cpp.hpp
+[4.942s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__rosidl_typesupport_introspection_cpp.hpp
+[4.942s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__rosidl_typesupport_introspection_cpp.hpp
+[4.942s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__type_support.cpp
+[4.942s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__rosidl_typesupport_introspection_cpp.hpp
+[4.942s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__rosidl_typesupport_introspection_cpp.hpp
+[4.942s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__type_support.cpp
+[4.943s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__type_support.cpp
+[4.943s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__type_support.cpp
+[4.943s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__type_support.cpp
+[4.943s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__type_support.cpp
+[4.943s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__type_support.cpp
+[4.943s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__rosidl_typesupport_introspection_cpp.hpp
+[4.943s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__type_support.cpp
+[4.943s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__rosidl_typesupport_introspection_cpp.hpp
+[4.943s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__type_support.cpp
+[4.943s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__rosidl_typesupport_introspection_cpp.hpp
+[4.943s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__type_support.cpp
+[4.943s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__rosidl_typesupport_introspection_cpp.hpp
+[4.943s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__type_support.cpp
+[4.943s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__type_support.cpp
+[4.943s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__rosidl_typesupport_introspection_cpp.hpp
+[4.943s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__rosidl_typesupport_introspection_cpp.hpp
+[4.943s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__type_support.cpp
+[4.943s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__rosidl_typesupport_introspection_cpp.hpp
+[4.943s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so
+[4.943s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_cpp.so
+[4.943s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_cpp.so" to ""
+[4.943s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/environment/pythonpath.sh
+[4.943s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/environment/pythonpath.dsv
+[4.944s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs-5.3.5-py3.12.egg-info
+[4.944s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs-5.3.5-py3.12.egg-info/top_level.txt
+[4.944s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs-5.3.5-py3.12.egg-info/PKG-INFO
+[4.944s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs-5.3.5-py3.12.egg-info/dependency_links.txt
+[4.944s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs-5.3.5-py3.12.egg-info/SOURCES.txt
+[4.944s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs
+[4.944s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/_sensor_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[4.944s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/_sensor_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.944s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/srv
+[4.944s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/srv/_set_camera_info.py
+[4.944s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/srv/_set_camera_info_s.c
+[4.944s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/srv/__init__.py
+[4.944s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_fastrtps_c.so
+[4.944s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/_sensor_msgs_s.ep.rosidl_typesupport_c.c
+[4.944s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_microxrcedds_c.so
+[4.944s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/_sensor_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c
+[4.944s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_introspection_c.so
+[4.944s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_c.so
+[4.944s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg
+[4.944s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_time_reference_s.c
+[4.944s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_joy_feedback_array_s.c
+[4.944s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_fluid_pressure.py
+[4.944s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_point_cloud2.py
+[4.944s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_joint_state.py
+[4.944s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_fluid_pressure_s.c
+[4.945s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_multi_dof_joint_state_s.c
+[4.945s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_point_cloud_s.c
+[4.945s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_joy.py
+[4.945s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_compressed_image.py
+[4.945s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_battery_state.py
+[4.945s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_image_s.c
+[4.945s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_joint_state_s.c
+[4.945s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_nav_sat_fix_s.c
+[4.945s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_nav_sat_status.py
+[4.945s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_compressed_image_s.c
+[4.945s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_point_field_s.c
+[4.945s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_magnetic_field.py
+[4.945s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_laser_echo_s.c
+[4.945s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_channel_float32_s.c
+[4.945s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_magnetic_field_s.c
+[4.945s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_camera_info_s.c
+[4.945s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_temperature.py
+[4.945s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_joy_feedback.py
+[4.945s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_nav_sat_fix.py
+[4.945s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_region_of_interest_s.c
+[4.945s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_channel_float32.py
+[4.945s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_point_cloud2_s.c
+[4.945s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_camera_info.py
+[4.945s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_battery_state_s.c
+[4.945s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_multi_dof_joint_state.py
+[4.945s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_joy_feedback_array.py
+[4.946s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_imu.py
+[4.946s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_temperature_s.c
+[4.946s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_range_s.c
+[4.946s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_image.py
+[4.946s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_laser_scan_s.c
+[4.946s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_range.py
+[4.946s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_imu_s.c
+[4.946s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_point_cloud.py
+[4.946s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_relative_humidity_s.c
+[4.946s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_illuminance_s.c
+[4.946s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_relative_humidity.py
+[4.946s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_laser_scan.py
+[4.946s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_laser_echo.py
+[4.946s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_illuminance.py
+[4.946s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_multi_echo_laser_scan.py
+[4.946s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_point_field.py
+[4.946s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_joy_feedback_s.c
+[4.946s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_nav_sat_status_s.c
+[4.946s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_time_reference.py
+[4.946s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_joy_s.c
+[4.946s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/__init__.py
+[4.946s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_multi_echo_laser_scan_s.c
+[4.946s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_region_of_interest.py
+[4.946s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/__init__.py
+[4.972s] Listing '/home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs'...
+[4.972s] Compiling '/home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/__init__.py'...
+[4.972s] Listing '/home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg'...
+[4.972s] Listing '/home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/srv'...
+[4.975s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_fastrtps_c.so
+[4.975s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[4.975s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_introspection_c.so
+[4.975s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[4.975s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_c.so
+[4.976s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_c.so" to ""
+[4.976s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/lib/libsensor_msgs__rosidl_generator_py.so
+[4.976s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/sensor_msgs/lib/libsensor_msgs__rosidl_generator_py.so" to ""
+[4.976s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/BatteryState.idl
+[4.976s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/CameraInfo.idl
+[4.976s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/ChannelFloat32.idl
+[4.977s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/CompressedImage.idl
+[4.977s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/FluidPressure.idl
+[4.977s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/Illuminance.idl
+[4.977s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/Image.idl
+[4.977s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/Imu.idl
+[4.977s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/JointState.idl
+[4.977s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/Joy.idl
+[4.977s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/JoyFeedback.idl
+[4.977s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/JoyFeedbackArray.idl
+[4.977s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/LaserEcho.idl
+[4.977s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/LaserScan.idl
+[4.977s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/MagneticField.idl
+[4.977s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/MultiDOFJointState.idl
+[4.977s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/MultiEchoLaserScan.idl
+[4.977s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/NavSatFix.idl
+[4.977s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/NavSatStatus.idl
+[4.977s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/PointCloud.idl
+[4.977s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/PointCloud2.idl
+[4.977s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/PointField.idl
+[4.977s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/Range.idl
+[4.977s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/RegionOfInterest.idl
+[4.978s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/RelativeHumidity.idl
+[4.978s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/Temperature.idl
+[4.978s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/TimeReference.idl
+[4.978s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/srv/SetCameraInfo.idl
+[4.978s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/BatteryState.msg
+[4.978s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/CameraInfo.msg
+[4.978s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/ChannelFloat32.msg
+[4.978s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/CompressedImage.msg
+[4.978s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/FluidPressure.msg
+[4.978s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/Illuminance.msg
+[4.978s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/Image.msg
+[4.978s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/Imu.msg
+[4.978s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/JointState.msg
+[4.978s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/Joy.msg
+[4.978s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/JoyFeedback.msg
+[4.978s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/JoyFeedbackArray.msg
+[4.978s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/LaserEcho.msg
+[4.978s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/LaserScan.msg
+[4.978s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/MagneticField.msg
+[4.978s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/MultiDOFJointState.msg
+[4.978s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/MultiEchoLaserScan.msg
+[4.979s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/NavSatFix.msg
+[4.979s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/NavSatStatus.msg
+[4.979s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/PointCloud.msg
+[4.979s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/PointCloud2.msg
+[4.979s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/PointField.msg
+[4.979s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/Range.msg
+[4.979s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/RegionOfInterest.msg
+[4.979s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/RelativeHumidity.msg
+[4.979s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/Temperature.msg
+[4.979s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/TimeReference.msg
+[4.979s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/srv/SetCameraInfo.srv
+[4.979s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs
+[4.979s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs
+[4.979s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/point_cloud_conversion.hpp
+[4.979s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/fill_image.hpp
+[4.979s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/point_field_conversion.hpp
+[4.979s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/point_cloud2_iterator.hpp
+[4.979s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/image_encodings.hpp
+[4.979s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/impl
+[4.979s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/impl/point_cloud2_iterator.hpp
+[4.979s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/distortion_models.hpp
+[4.980s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/ament_index/resource_index/package_run_dependencies/sensor_msgs
+[4.980s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/share/ament_index/resource_index/parent_prefix_path/sensor_msgs
+[4.980s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/environment/ament_prefix_path.sh
+[4.980s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/environment/ament_prefix_path.dsv
+[4.980s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/environment/path.sh
+[4.980s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/environment/path.dsv
+[4.980s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/local_setup.bash
+[4.980s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/local_setup.sh
+[4.980s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/local_setup.zsh
+[4.980s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/local_setup.dsv
+[4.980s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/package.dsv
+[4.980s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/ament_index/resource_index/packages/sensor_msgs
+[4.981s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_generator_cExport.cmake
+[4.981s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_generator_cExport-noconfig.cmake
+[4.981s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[4.981s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.981s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_generator_cppExport.cmake
+[4.981s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.981s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.982s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_introspection_cExport.cmake
+[4.982s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.982s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_cExport.cmake
+[4.982s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[4.982s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[4.982s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.982s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_cppExport.cmake
+[4.982s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[4.983s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_generator_pyExport.cmake
+[4.983s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_generator_pyExport-noconfig.cmake
+[4.983s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgsExport.cmake
+[4.983s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/cmake/rosidl_cmake-extras.cmake
+[4.983s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.983s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.983s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[4.983s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[4.983s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.983s] -- Installing: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.983s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgsConfig.cmake
+[4.983s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgsConfig-version.cmake
+[4.983s] -- Up-to-date: /home/rassito/microros_ws/install/sensor_msgs/share/sensor_msgs/package.xml
+[4.985s] Invoked command in '/home/rassito/microros_ws/build/sensor_msgs' returned '0': AMENT_PREFIX_PATH=/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/builtin_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/geometry_msgs/lib:/home/rassito/microros_ws/install/std_msgs/lib:/home/rassito/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rassito/microros_ws/build/sensor_msgs

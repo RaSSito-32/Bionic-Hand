@@ -1,0 +1,12 @@
+{
+  "package_name": "type_description_interfaces",
+  "non_idl_tuples": [
+    "/home/rassito/microros_ws/src/ros2/rcl_interfaces/type_description_interfaces:msg/Field.msg",
+    "/home/rassito/microros_ws/src/ros2/rcl_interfaces/type_description_interfaces:msg/FieldType.msg",
+    "/home/rassito/microros_ws/src/ros2/rcl_interfaces/type_description_interfaces:msg/IndividualTypeDescription.msg",
+    "/home/rassito/microros_ws/src/ros2/rcl_interfaces/type_description_interfaces:msg/KeyValue.msg",
+    "/home/rassito/microros_ws/src/ros2/rcl_interfaces/type_description_interfaces:msg/TypeDescription.msg",
+    "/home/rassito/microros_ws/src/ros2/rcl_interfaces/type_description_interfaces:msg/TypeSource.msg",
+    "/home/rassito/microros_ws/src/ros2/rcl_interfaces/type_description_interfaces:srv/GetTypeDescription.srv"
+  ]
+}

@@ -1,1 +1,1 @@
-geometry_msgs:rclpy:webots_ros2_driver~
+example_interfaces:rclpy:webots_ros2_driver~

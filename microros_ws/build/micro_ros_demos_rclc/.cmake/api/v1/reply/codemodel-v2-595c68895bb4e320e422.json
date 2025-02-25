@@ -1,0 +1,313 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-441565b8075bf53825a1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "micro_ros_demos_rclc",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "addtwoints_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-addtwoints_client-49e7dcfd094c2ccc3e67.json",
+					"name" : "addtwoints_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "addtwoints_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-addtwoints_server-cdfd6b786c8be63f03c9.json",
+					"name" : "addtwoints_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autodiscover_agent::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autodiscover_agent-74e5a9ab8dd5b69bb3cb.json",
+					"name" : "autodiscover_agent",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "complex_msg_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-complex_msg_publisher-eccef1eee3a8c9cde472.json",
+					"name" : "complex_msg_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "complex_msg_subscriber::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-complex_msg_subscriber-7786401042f87a6a34b7.json",
+					"name" : "complex_msg_subscriber",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "configured_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-configured_publisher-65ee21851f10602d6063.json",
+					"name" : "configured_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "configured_subscriber::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-configured_subscriber-72cfaf7776808d1a44f5.json",
+					"name" : "configured_subscriber",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "epoch_synchronization::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-epoch_synchronization-10d0124472fe42a967d2.json",
+					"name" : "epoch_synchronization",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fibonacci_action_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fibonacci_action_client-2072bb9575aafaf6c50d.json",
+					"name" : "fibonacci_action_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fibonacci_action_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fibonacci_action_server-a9d5752496e03d499087.json",
+					"name" : "fibonacci_action_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fragmented_publication::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fragmented_publication-0ec26c28354d1cd4f6bd.json",
+					"name" : "fragmented_publication",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fragmented_subscription::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fragmented_subscription-f59aabf0e21549d9b32f.json",
+					"name" : "fragmented_subscription",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "graph_visualizer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-graph_visualizer-f632237f042791d67f67.json",
+					"name" : "graph_visualizer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "int32_multinode::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-int32_multinode-9d5cc9a682d3bad27736.json",
+					"name" : "int32_multinode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "int32_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-int32_publisher-a66805b236721bb581fe.json",
+					"name" : "int32_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "int32_publisher_subscriber::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-int32_publisher_subscriber-95067fba456f727f98b7.json",
+					"name" : "int32_publisher_subscriber",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "int32_subscriber::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-int32_subscriber-632fbc0f9484c2e3e761.json",
+					"name" : "int32_subscriber",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "micro_ros_demos_rclc_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-micro_ros_demos_rclc_uninstall-5163305d1ba826f7287d.json",
+					"name" : "micro_ros_demos_rclc_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multithread_publisher_subscriber::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multithread_publisher_subscriber-fa78139028ce151483eb.json",
+					"name" : "multithread_publisher_subscriber",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "parameter_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-parameter_server-73f8beac62105162453c.json",
+					"name" : "parameter_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ping_pong::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ping_pong-7763cb8716a58e40e728.json",
+					"name" : "ping_pong",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ping_uros_agent::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ping_uros_agent-db3512206bfb5decc4d9.json",
+					"name" : "ping_uros_agent",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "publisher_count::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-publisher_count-3eca6d49d8df98e1a97d.json",
+					"name" : "publisher_count",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "static_type_handling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-static_type_handling-01165ce6ef16e01e46ad.json",
+					"name" : "static_type_handling",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "string_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-string_publisher-ec2179542e88e65db8bf.json",
+					"name" : "string_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "string_subscriber::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-string_subscriber-f6c632319ad3941229a5.json",
+					"name" : "string_subscriber",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "subscription_count::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-subscription_count-192a0bfce47c42c2bf86.json",
+					"name" : "subscription_count",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "timer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-timer-9cdfef66b9563369efe8.json",
+					"name" : "timer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-21cab40c430d683918be.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rassito/microros_ws/build/micro_ros_demos_rclc",
+		"source" : "/home/rassito/microros_ws/src/uros/micro-ROS-demos/rclc"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

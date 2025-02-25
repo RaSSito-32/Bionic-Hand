@@ -1,0 +1,238 @@
+[0.026s] Invoking command in '/home/rassito/microros_ws/build/std_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rassito/microros_ws/src/ros2/common_interfaces/std_srvs -DCMAKE_INSTALL_PREFIX=/home/rassito/microros_ws/install/std_srvs
+[0.050s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.063s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.148s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.152s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.189s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.219s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.464s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.543s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.641s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.642s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[0.838s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[0.857s] -- Configuring done (0.8s)
+[0.917s] -- Generating done (0.1s)
+[0.927s] -- Build files have been written to: /home/rassito/microros_ws/build/std_srvs
+[0.933s] Invoked command in '/home/rassito/microros_ws/build/std_srvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rassito/microros_ws/src/ros2/common_interfaces/std_srvs -DCMAKE_INSTALL_PREFIX=/home/rassito/microros_ws/install/std_srvs
+[0.934s] Invoking command in '/home/rassito/microros_ws/build/std_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rassito/microros_ws/build/std_srvs -- -j16 -l16
+[0.985s] [  1%] Built target std_srvs__rosidl_generator_type_description
+[1.007s] [  1%] Built target ament_cmake_python_copy_std_srvs
+[1.010s] [  3%] Built target std_srvs__cpp
+[1.019s] [ 24%] Built target std_srvs__rosidl_generator_c
+[1.032s] [ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.045s] [ 27%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.056s] [ 37%] Built target std_srvs__rosidl_typesupport_introspection_cpp
+[1.056s] [ 46%] Built target std_srvs__rosidl_typesupport_introspection_c
+[1.059s] [ 55%] Built target std_srvs__rosidl_typesupport_fastrtps_c
+[1.060s] [ 64%] Built target std_srvs__rosidl_typesupport_fastrtps_cpp
+[1.308s] running egg_info
+[1.335s] writing std_srvs.egg-info/PKG-INFO
+[1.335s] writing dependency_links to std_srvs.egg-info/dependency_links.txt
+[1.335s] writing top-level names to std_srvs.egg-info/top_level.txt
+[1.416s] reading manifest file 'std_srvs.egg-info/SOURCES.txt'
+[1.419s] writing manifest file 'std_srvs.egg-info/SOURCES.txt'
+[1.449s] [ 64%] Built target ament_cmake_python_build_std_srvs_egg
+[1.509s] [ 66%] [32mBuilding CXX object CMakeFiles/std_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_srvs/srv/set_bool__type_support.cpp.o[0m
+[1.509s] [ 68%] [32mBuilding CXX object CMakeFiles/std_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_srvs/srv/empty__type_support.cpp.o[0m
+[1.510s] [ 70%] [32mBuilding CXX object CMakeFiles/std_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_srvs/srv/trigger__type_support.cpp.o[0m
+[1.519s] [ 72%] [32mBuilding CXX object CMakeFiles/std_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_srvs/srv/empty__type_support.cpp.o[0m
+[1.520s] [ 74%] [32mBuilding CXX object CMakeFiles/std_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_srvs/srv/set_bool__type_support.cpp.o[0m
+[1.524s] [ 75%] [32mBuilding CXX object CMakeFiles/std_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_srvs/srv/trigger__type_support.cpp.o[0m
+[1.572s] [ 77%] [32m[1mLinking CXX shared library libstd_srvs__rosidl_typesupport_c.so[0m
+[1.625s] [ 77%] Built target std_srvs__rosidl_typesupport_c
+[1.982s] [ 79%] [32m[1mLinking CXX shared library libstd_srvs__rosidl_typesupport_cpp.so[0m
+[2.044s] [ 79%] Built target std_srvs__rosidl_typesupport_cpp
+[2.058s] [ 79%] Built target std_srvs
+[2.078s] [ 81%] Built target std_srvs__py
+[2.097s] [ 83%] [32m[1mLinking C shared library libstd_srvs__rosidl_generator_py.so[0m
+[2.132s] [ 88%] Built target std_srvs__rosidl_generator_py
+[2.158s] [ 90%] [32m[1mLinking C shared module rosidl_generator_py/std_srvs/std_srvs_s__rosidl_typesupport_introspection_c.so[0m
+[2.166s] [ 92%] [32mBuilding C object CMakeFiles/std_srvs_s__rosidl_typesupport_c.dir/rosidl_generator_py/std_srvs/_std_srvs_s.ep.rosidl_typesupport_c.c.o[0m
+[2.169s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/std_srvs/std_srvs_s__rosidl_typesupport_fastrtps_c.so[0m
+[2.203s] [ 96%] Built target std_srvs_s__rosidl_typesupport_introspection_c
+[2.222s] [ 98%] Built target std_srvs_s__rosidl_typesupport_fastrtps_c
+[2.314s] [100%] [32m[1mLinking C shared module rosidl_generator_py/std_srvs/std_srvs_s__rosidl_typesupport_c.so[0m
+[2.349s] [100%] Built target std_srvs_s__rosidl_typesupport_c
+[2.384s] Invoked command in '/home/rassito/microros_ws/build/std_srvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rassito/microros_ws/build/std_srvs -- -j16 -l16
+[2.385s] Invoking command in '/home/rassito/microros_ws/build/std_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rassito/microros_ws/build/std_srvs
+[2.933s] -- Install configuration: ""
+[2.933s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/share/ament_index/resource_index/rosidl_interfaces/std_srvs
+[2.933s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/share/std_srvs/srv/Empty.json
+[2.933s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/share/std_srvs/srv/SetBool.json
+[2.934s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/share/std_srvs/srv/Trigger.json
+[2.934s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs
+[2.934s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv
+[2.934s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/trigger.h
+[2.934s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/empty.h
+[2.934s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/set_bool.h
+[2.934s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail
+[2.934s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__functions.c
+[2.934s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__struct.h
+[2.934s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__type_support.h
+[2.934s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__functions.h
+[2.935s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__functions.h
+[2.935s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__struct.h
+[2.935s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__description.c
+[2.935s] -- Installing: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__type_support.c
+[2.935s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__type_support.h
+[2.935s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__description.c
+[2.935s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__functions.c
+[2.935s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__type_support.h
+[2.935s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__functions.c
+[2.935s] -- Installing: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__type_support.c
+[2.935s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__struct.h
+[2.936s] -- Installing: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__type_support.c
+[2.936s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__functions.h
+[2.936s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__description.c
+[2.936s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/msg
+[2.936s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/msg/rosidl_generator_c__visibility_control.h
+[2.936s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/share/std_srvs/environment/library_path.sh
+[2.936s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/share/std_srvs/environment/library_path.dsv
+[2.936s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/lib/libstd_srvs__rosidl_generator_c.so
+[2.936s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs
+[2.936s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv
+[2.937s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail
+[2.937s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__rosidl_typesupport_fastrtps_c.h
+[2.937s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__rosidl_typesupport_fastrtps_c.h
+[2.938s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__rosidl_typesupport_fastrtps_c.h
+[2.938s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/msg
+[2.938s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.938s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_fastrtps_c.so
+[2.938s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs
+[2.938s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv
+[2.938s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail
+[2.938s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__rosidl_typesupport_introspection_c.h
+[2.938s] -- Installing: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__type_support.c
+[2.938s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__rosidl_typesupport_introspection_c.h
+[2.939s] -- Installing: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__type_support.c
+[2.939s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__rosidl_typesupport_introspection_c.h
+[2.939s] -- Installing: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__type_support.c
+[2.939s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/msg
+[2.939s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.939s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_introspection_c.so
+[2.939s] -- Installing: /home/rassito/microros_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_c.so
+[2.939s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_c.so" to ""
+[2.939s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs
+[2.939s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv
+[2.939s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/set_bool.hpp
+[2.940s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/trigger.hpp
+[2.940s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail
+[2.940s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__traits.hpp
+[2.940s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__type_support.hpp
+[2.940s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__type_support.hpp
+[2.940s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__traits.hpp
+[2.940s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__traits.hpp
+[2.940s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__builder.hpp
+[2.940s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__struct.hpp
+[2.940s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__builder.hpp
+[2.940s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__type_support.hpp
+[2.941s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__struct.hpp
+[2.941s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__builder.hpp
+[2.941s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__struct.hpp
+[2.941s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/empty.hpp
+[2.941s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/msg
+[2.941s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.941s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs
+[2.941s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv
+[2.941s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail
+[2.941s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__rosidl_typesupport_fastrtps_cpp.hpp
+[2.942s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__rosidl_typesupport_fastrtps_cpp.hpp
+[2.942s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/dds_fastrtps
+[2.942s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__rosidl_typesupport_fastrtps_cpp.hpp
+[2.942s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/msg
+[2.942s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.942s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_fastrtps_cpp.so
+[2.942s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs
+[2.942s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv
+[2.942s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail
+[2.942s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__rosidl_typesupport_introspection_cpp.hpp
+[2.942s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__type_support.cpp
+[2.943s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__rosidl_typesupport_introspection_cpp.hpp
+[2.943s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__type_support.cpp
+[2.943s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__rosidl_typesupport_introspection_cpp.hpp
+[2.943s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__type_support.cpp
+[2.943s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_introspection_cpp.so
+[2.943s] -- Installing: /home/rassito/microros_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_cpp.so
+[2.943s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_cpp.so" to ""
+[2.943s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/share/std_srvs/environment/pythonpath.sh
+[2.943s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/share/std_srvs/environment/pythonpath.dsv
+[2.943s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs-5.3.5-py3.12.egg-info
+[2.943s] -- Installing: /home/rassito/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs-5.3.5-py3.12.egg-info/top_level.txt
+[2.944s] -- Installing: /home/rassito/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs-5.3.5-py3.12.egg-info/PKG-INFO
+[2.944s] -- Installing: /home/rassito/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs-5.3.5-py3.12.egg-info/dependency_links.txt
+[2.944s] -- Installing: /home/rassito/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs-5.3.5-py3.12.egg-info/SOURCES.txt
+[2.944s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs
+[2.944s] -- Installing: /home/rassito/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs/std_srvs_s__rosidl_typesupport_c.so
+[2.944s] -- Installing: /home/rassito/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs/std_srvs_s__rosidl_typesupport_fastrtps_c.so
+[2.944s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs/std_srvs_s__rosidl_typesupport_microxrcedds_c.so
+[2.944s] -- Installing: /home/rassito/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs/_std_srvs_s.ep.rosidl_typesupport_c.c
+[2.944s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs/srv
+[2.944s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs/srv/_trigger.py
+[2.945s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs/srv/_empty.py
+[2.945s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs/srv/_set_bool.py
+[2.945s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs/srv/_trigger_s.c
+[2.945s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs/srv/_empty_s.c
+[2.945s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs/srv/_set_bool_s.c
+[2.945s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs/srv/__init__.py
+[2.945s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs/_std_srvs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.945s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs/_std_srvs_s.ep.rosidl_typesupport_microxrcedds_c.c
+[2.945s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs/_std_srvs_s.ep.rosidl_typesupport_introspection_c.c
+[2.945s] -- Installing: /home/rassito/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs/std_srvs_s__rosidl_typesupport_introspection_c.so
+[2.945s] -- Installing: /home/rassito/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs/__init__.py
+[2.946s] Listing '/home/rassito/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs'...
+[2.946s] Compiling '/home/rassito/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs/__init__.py'...
+[2.946s] Listing '/home/rassito/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs/srv'...
+[2.946s] -- Installing: /home/rassito/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs/std_srvs_s__rosidl_typesupport_fastrtps_c.so
+[2.946s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs/std_srvs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[2.946s] -- Installing: /home/rassito/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs/std_srvs_s__rosidl_typesupport_introspection_c.so
+[2.946s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs/std_srvs_s__rosidl_typesupport_introspection_c.so" to ""
+[2.946s] -- Installing: /home/rassito/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs/std_srvs_s__rosidl_typesupport_c.so
+[2.946s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs/std_srvs_s__rosidl_typesupport_c.so" to ""
+[2.946s] -- Installing: /home/rassito/microros_ws/install/std_srvs/lib/libstd_srvs__rosidl_generator_py.so
+[2.947s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/std_srvs/lib/libstd_srvs__rosidl_generator_py.so" to ""
+[2.947s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/share/std_srvs/srv/Empty.idl
+[2.947s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/share/std_srvs/srv/SetBool.idl
+[2.947s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/share/std_srvs/srv/Trigger.idl
+[2.947s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/share/std_srvs/srv/Empty.srv
+[2.947s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/share/std_srvs/srv/SetBool.srv
+[2.947s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/share/std_srvs/srv/Trigger.srv
+[2.947s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/share/ament_index/resource_index/package_run_dependencies/std_srvs
+[2.947s] -- Installing: /home/rassito/microros_ws/install/std_srvs/share/ament_index/resource_index/parent_prefix_path/std_srvs
+[2.947s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/share/std_srvs/environment/ament_prefix_path.sh
+[2.947s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/share/std_srvs/environment/ament_prefix_path.dsv
+[2.947s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/share/std_srvs/environment/path.sh
+[2.948s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/share/std_srvs/environment/path.dsv
+[2.948s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/share/std_srvs/local_setup.bash
+[2.948s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/share/std_srvs/local_setup.sh
+[2.948s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/share/std_srvs/local_setup.zsh
+[2.948s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/share/std_srvs/local_setup.dsv
+[2.948s] -- Installing: /home/rassito/microros_ws/install/std_srvs/share/std_srvs/package.dsv
+[2.948s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/share/ament_index/resource_index/packages/std_srvs
+[2.948s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_generator_cExport.cmake
+[2.948s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_generator_cExport-noconfig.cmake
+[2.948s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.948s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.949s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_introspection_cExport.cmake
+[2.949s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.949s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_cExport.cmake
+[2.949s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_cExport-noconfig.cmake
+[2.949s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_generator_cppExport.cmake
+[2.949s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.949s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.949s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_introspection_cppExport.cmake
+[2.949s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.949s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_cppExport.cmake
+[2.949s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.949s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_generator_pyExport.cmake
+[2.950s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_generator_pyExport-noconfig.cmake
+[2.950s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/share/std_srvs/cmake/rosidl_cmake-extras.cmake
+[2.950s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/share/std_srvs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.950s] -- Installing: /home/rassito/microros_ws/install/std_srvs/share/std_srvs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.950s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/share/std_srvs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.950s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/share/std_srvs/cmake/ament_cmake_export_targets-extras.cmake
+[2.950s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/share/std_srvs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.950s] -- Installing: /home/rassito/microros_ws/install/std_srvs/share/std_srvs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.950s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/share/std_srvs/cmake/std_srvsConfig.cmake
+[2.950s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/share/std_srvs/cmake/std_srvsConfig-version.cmake
+[2.950s] -- Up-to-date: /home/rassito/microros_ws/install/std_srvs/share/std_srvs/package.xml
+[2.971s] Invoked command in '/home/rassito/microros_ws/build/std_srvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rassito/microros_ws/build/std_srvs

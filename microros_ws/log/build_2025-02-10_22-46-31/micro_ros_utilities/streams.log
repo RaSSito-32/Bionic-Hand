@@ -1,0 +1,56 @@
+[0.021s] Invoking command in '/home/rassito/microros_ws/build/micro_ros_utilities': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rassito/microros_ws/src/uros/micro_ros_utilities -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/rassito/microros_ws/install/micro_ros_utilities
+[0.063s] -- The C compiler identification is GNU 13.3.0
+[0.110s] -- The CXX compiler identification is GNU 13.3.0
+[0.121s] -- Detecting C compiler ABI info
+[0.185s] -- Detecting C compiler ABI info - done
+[0.197s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.197s] -- Detecting C compile features
+[0.198s] -- Detecting C compile features - done
+[0.206s] -- Detecting CXX compiler ABI info
+[0.276s] -- Detecting CXX compiler ABI info - done
+[0.287s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.288s] -- Detecting CXX compile features
+[0.288s] -- Detecting CXX compile features - done
+[0.291s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.465s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.604s] -- Found rosidl_typesupport_introspection_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_typesupport_introspection_c/cmake)
+[0.722s] -- Configuring done (0.7s)
+[0.725s] -- Generating done (0.0s)
+[0.726s] -- Build files have been written to: /home/rassito/microros_ws/build/micro_ros_utilities
+[0.731s] Invoked command in '/home/rassito/microros_ws/build/micro_ros_utilities' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rassito/microros_ws/src/uros/micro_ros_utilities -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/rassito/microros_ws/install/micro_ros_utilities
+[0.732s] Invoking command in '/home/rassito/microros_ws/build/micro_ros_utilities': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rassito/microros_ws/build/micro_ros_utilities -- -j16 -l16
+[0.764s] [ 33%] [32mBuilding C object CMakeFiles/micro_ros_utilities.dir/src/string_utilities.c.o[0m
+[0.764s] [ 66%] [32mBuilding C object CMakeFiles/micro_ros_utilities.dir/src/type_utilities.c.o[0m
+[0.819s] [100%] [32m[1mLinking C shared library libmicro_ros_utilities.so[0m
+[0.843s] [100%] Built target micro_ros_utilities
+[0.851s] Invoked command in '/home/rassito/microros_ws/build/micro_ros_utilities' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rassito/microros_ws/build/micro_ros_utilities -- -j16 -l16
+[0.853s] Invoking command in '/home/rassito/microros_ws/build/micro_ros_utilities': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rassito/microros_ws/build/micro_ros_utilities
+[0.858s] -- Install configuration: ""
+[0.858s] -- Installing: /home/rassito/microros_ws/install/micro_ros_utilities/include
+[0.858s] -- Installing: /home/rassito/microros_ws/install/micro_ros_utilities/include/micro_ros_utilities
+[0.858s] -- Installing: /home/rassito/microros_ws/install/micro_ros_utilities/include/micro_ros_utilities/string_utilities.h
+[0.858s] -- Installing: /home/rassito/microros_ws/install/micro_ros_utilities/include/micro_ros_utilities/visibility_control.h
+[0.858s] -- Installing: /home/rassito/microros_ws/install/micro_ros_utilities/include/micro_ros_utilities/type_utilities.h
+[0.858s] -- Installing: /home/rassito/microros_ws/install/micro_ros_utilities/lib/libmicro_ros_utilities.so
+[0.858s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/micro_ros_utilities/lib/libmicro_ros_utilities.so" to ""
+[0.858s] -- Installing: /home/rassito/microros_ws/install/micro_ros_utilities/share/micro_ros_utilities/environment/library_path.sh
+[0.859s] -- Installing: /home/rassito/microros_ws/install/micro_ros_utilities/share/micro_ros_utilities/environment/library_path.dsv
+[0.859s] -- Installing: /home/rassito/microros_ws/install/micro_ros_utilities/share/ament_index/resource_index/package_run_dependencies/micro_ros_utilities
+[0.859s] -- Installing: /home/rassito/microros_ws/install/micro_ros_utilities/share/ament_index/resource_index/parent_prefix_path/micro_ros_utilities
+[0.859s] -- Installing: /home/rassito/microros_ws/install/micro_ros_utilities/share/micro_ros_utilities/environment/ament_prefix_path.sh
+[0.859s] -- Installing: /home/rassito/microros_ws/install/micro_ros_utilities/share/micro_ros_utilities/environment/ament_prefix_path.dsv
+[0.859s] -- Installing: /home/rassito/microros_ws/install/micro_ros_utilities/share/micro_ros_utilities/environment/path.sh
+[0.859s] -- Installing: /home/rassito/microros_ws/install/micro_ros_utilities/share/micro_ros_utilities/environment/path.dsv
+[0.859s] -- Installing: /home/rassito/microros_ws/install/micro_ros_utilities/share/micro_ros_utilities/local_setup.bash
+[0.859s] -- Installing: /home/rassito/microros_ws/install/micro_ros_utilities/share/micro_ros_utilities/local_setup.sh
+[0.859s] -- Installing: /home/rassito/microros_ws/install/micro_ros_utilities/share/micro_ros_utilities/local_setup.zsh
+[0.859s] -- Installing: /home/rassito/microros_ws/install/micro_ros_utilities/share/micro_ros_utilities/local_setup.dsv
+[0.860s] -- Installing: /home/rassito/microros_ws/install/micro_ros_utilities/share/micro_ros_utilities/package.dsv
+[0.860s] -- Installing: /home/rassito/microros_ws/install/micro_ros_utilities/share/ament_index/resource_index/packages/micro_ros_utilities
+[0.860s] -- Installing: /home/rassito/microros_ws/install/micro_ros_utilities/share/micro_ros_utilities/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.860s] -- Installing: /home/rassito/microros_ws/install/micro_ros_utilities/share/micro_ros_utilities/cmake/ament_cmake_export_libraries-extras.cmake
+[0.860s] -- Installing: /home/rassito/microros_ws/install/micro_ros_utilities/share/micro_ros_utilities/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.860s] -- Installing: /home/rassito/microros_ws/install/micro_ros_utilities/share/micro_ros_utilities/cmake/micro_ros_utilitiesConfig.cmake
+[0.860s] -- Installing: /home/rassito/microros_ws/install/micro_ros_utilities/share/micro_ros_utilities/cmake/micro_ros_utilitiesConfig-version.cmake
+[0.860s] -- Installing: /home/rassito/microros_ws/install/micro_ros_utilities/share/micro_ros_utilities/package.xml
+[0.861s] Invoked command in '/home/rassito/microros_ws/build/micro_ros_utilities' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rassito/microros_ws/build/micro_ros_utilities

@@ -1,0 +1,389 @@
+[0.044s] Invoking command in '/home/rassito/microros_ws/build/lifecycle_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rassito/microros_ws/install/sensor_msgs_py:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rassito/microros_ws/src/ros2/rcl_interfaces/lifecycle_msgs -DCMAKE_INSTALL_PREFIX=/home/rassito/microros_ws/install/lifecycle_msgs
+[0.059s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.101s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.209s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.224s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.268s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.306s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.733s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.909s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.116s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.117s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[1.423s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[1.452s] -- Configuring done (1.4s)
+[1.545s] -- Generating done (0.1s)
+[1.562s] -- Build files have been written to: /home/rassito/microros_ws/build/lifecycle_msgs
+[1.570s] Invoked command in '/home/rassito/microros_ws/build/lifecycle_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rassito/microros_ws/install/sensor_msgs_py:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rassito/microros_ws/src/ros2/rcl_interfaces/lifecycle_msgs -DCMAKE_INSTALL_PREFIX=/home/rassito/microros_ws/install/lifecycle_msgs
+[1.572s] Invoking command in '/home/rassito/microros_ws/build/lifecycle_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rassito/microros_ws/install/sensor_msgs_py:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rassito/microros_ws/build/lifecycle_msgs -- -j16 -l16
+[1.646s] [  1%] Built target lifecycle_msgs__rosidl_generator_type_description
+[1.678s] [  1%] Built target ament_cmake_python_copy_lifecycle_msgs
+[1.694s] [  1%] Built target lifecycle_msgs__cpp
+[1.724s] [ 22%] Built target lifecycle_msgs__rosidl_generator_c
+[1.787s] [ 30%] Built target lifecycle_msgs__rosidl_typesupport_microxrcedds_cpp
+[1.801s] [ 38%] Built target lifecycle_msgs__rosidl_typesupport_cpp
+[1.806s] [ 46%] Built target lifecycle_msgs__rosidl_typesupport_c
+[1.806s] [ 54%] Built target lifecycle_msgs__rosidl_typesupport_microxrcedds_c
+[1.819s] [ 69%] Built target lifecycle_msgs__rosidl_typesupport_introspection_c
+[1.823s] [ 70%] Built target lifecycle_msgs__rosidl_typesupport_introspection_cpp
+[1.824s] [ 78%] Built target lifecycle_msgs__rosidl_typesupport_fastrtps_cpp
+[1.830s] [ 85%] Built target lifecycle_msgs__rosidl_typesupport_fastrtps_c
+[1.862s] [ 85%] Built target lifecycle_msgs
+[1.892s] [ 86%] Built target lifecycle_msgs__py
+[1.940s] [ 93%] Built target lifecycle_msgs__rosidl_generator_py
+[1.972s] [ 97%] Built target lifecycle_msgs_s__rosidl_typesupport_microxrcedds_c
+[1.972s] [ 97%] Built target lifecycle_msgs_s__rosidl_typesupport_introspection_c
+[1.976s] [ 99%] Built target lifecycle_msgs_s__rosidl_typesupport_c
+[1.976s] [100%] Built target lifecycle_msgs_s__rosidl_typesupport_fastrtps_c
+[2.069s] running egg_info
+[2.089s] writing lifecycle_msgs.egg-info/PKG-INFO
+[2.090s] writing dependency_links to lifecycle_msgs.egg-info/dependency_links.txt
+[2.090s] writing top-level names to lifecycle_msgs.egg-info/top_level.txt
+[2.155s] reading manifest file 'lifecycle_msgs.egg-info/SOURCES.txt'
+[2.159s] writing manifest file 'lifecycle_msgs.egg-info/SOURCES.txt'
+[2.194s] [100%] Built target ament_cmake_python_build_lifecycle_msgs_egg
+[2.224s] Invoked command in '/home/rassito/microros_ws/build/lifecycle_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rassito/microros_ws/install/sensor_msgs_py:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rassito/microros_ws/build/lifecycle_msgs -- -j16 -l16
+[2.226s] Invoking command in '/home/rassito/microros_ws/build/lifecycle_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rassito/microros_ws/install/sensor_msgs_py:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rassito/microros_ws/build/lifecycle_msgs
+[2.262s] -- Install configuration: ""
+[2.262s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/ament_index/resource_index/rosidl_interfaces/lifecycle_msgs
+[2.262s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/msg/State.json
+[2.263s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/msg/Transition.json
+[2.263s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/msg/TransitionDescription.json
+[2.263s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/msg/TransitionEvent.json
+[2.263s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/ChangeState.json
+[2.263s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetAvailableStates.json
+[2.263s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetAvailableTransitions.json
+[2.263s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetState.json
+[2.263s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs
+[2.264s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv
+[2.264s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/get_available_states.h
+[2.264s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/change_state.h
+[2.264s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/get_state.h
+[2.264s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/get_available_transitions.h
+[2.264s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail
+[2.264s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__functions.h
+[2.264s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__description.c
+[2.264s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__functions.c
+[2.264s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__description.c
+[2.264s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__description.c
+[2.264s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__struct.h
+[2.264s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__type_support.h
+[2.265s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__struct.h
+[2.265s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__struct.h
+[2.265s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__type_support.h
+[2.265s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__functions.h
+[2.265s] -- Installing: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__type_support.c
+[2.265s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__struct.h
+[2.265s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__type_support.h
+[2.265s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__functions.c
+[2.265s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__functions.c
+[2.265s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__description.c
+[2.265s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__functions.c
+[2.265s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__functions.h
+[2.265s] -- Installing: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__type_support.c
+[2.265s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__type_support.h
+[2.266s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__functions.h
+[2.266s] -- Installing: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__type_support.c
+[2.266s] -- Installing: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__type_support.c
+[2.266s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg
+[2.266s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/transition.h
+[2.266s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/transition_description.h
+[2.266s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/state.h
+[2.266s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail
+[2.266s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__functions.c
+[2.266s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__functions.c
+[2.266s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.h
+[2.266s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__functions.h
+[2.266s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__struct.h
+[2.266s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__struct.h
+[2.267s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__type_support.h
+[2.267s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__description.c
+[2.267s] -- Installing: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__type_support.c
+[2.267s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__functions.h
+[2.267s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__functions.c
+[2.267s] -- Installing: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__type_support.c
+[2.267s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__description.c
+[2.267s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__description.c
+[2.267s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__functions.h
+[2.267s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__description.c
+[2.267s] -- Installing: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__type_support.c
+[2.267s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__struct.h
+[2.267s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__type_support.h
+[2.267s] -- Installing: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__type_support.c
+[2.267s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__functions.h
+[2.267s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__type_support.h
+[2.268s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__functions.c
+[2.268s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__type_support.h
+[2.268s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.268s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/transition_event.h
+[2.268s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/environment/library_path.sh
+[2.268s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/environment/library_path.dsv
+[2.268s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_generator_c.so
+[2.268s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs
+[2.268s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv
+[2.268s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail
+[2.268s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/microxrcedds
+[2.268s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/change_state__rosidl_typesupport_microxrcedds_c.h
+[2.268s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/get_state__rosidl_typesupport_microxrcedds_c.h
+[2.268s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/get_available_states__rosidl_typesupport_microxrcedds_c.h
+[2.268s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/get_available_transitions__rosidl_typesupport_microxrcedds_c.h
+[2.268s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg
+[2.269s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail
+[2.269s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/transition_event__rosidl_typesupport_microxrcedds_c.h
+[2.269s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/microxrcedds
+[2.269s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/transition__rosidl_typesupport_microxrcedds_c.h
+[2.269s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/state__rosidl_typesupport_microxrcedds_c.h
+[2.269s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/transition_description__rosidl_typesupport_microxrcedds_c.h
+[2.269s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+[2.269s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_microxrcedds_c.so
+[2.269s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs
+[2.269s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv
+[2.274s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail
+[2.274s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__rosidl_typesupport_fastrtps_c.h
+[2.274s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__rosidl_typesupport_fastrtps_c.h
+[2.274s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__rosidl_typesupport_fastrtps_c.h
+[2.274s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__rosidl_typesupport_fastrtps_c.h
+[2.274s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg
+[2.274s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.274s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail
+[2.274s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__rosidl_typesupport_fastrtps_c.h
+[2.274s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__rosidl_typesupport_fastrtps_c.h
+[2.274s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__rosidl_typesupport_fastrtps_c.h
+[2.274s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__rosidl_typesupport_fastrtps_c.h
+[2.274s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_fastrtps_c.so
+[2.275s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs
+[2.275s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv
+[2.275s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail
+[2.275s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__rosidl_typesupport_introspection_c.h
+[2.275s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__rosidl_typesupport_introspection_c.h
+[2.275s] -- Installing: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__type_support.c
+[2.275s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__rosidl_typesupport_introspection_c.h
+[2.275s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__rosidl_typesupport_introspection_c.h
+[2.275s] -- Installing: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__type_support.c
+[2.275s] -- Installing: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__type_support.c
+[2.275s] -- Installing: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__type_support.c
+[2.275s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg
+[2.275s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.275s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail
+[2.275s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__rosidl_typesupport_introspection_c.h
+[2.275s] -- Installing: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__type_support.c
+[2.276s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__rosidl_typesupport_introspection_c.h
+[2.276s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__rosidl_typesupport_introspection_c.h
+[2.276s] -- Installing: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__type_support.c
+[2.276s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__rosidl_typesupport_introspection_c.h
+[2.276s] -- Installing: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__type_support.c
+[2.276s] -- Installing: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__type_support.c
+[2.276s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_introspection_c.so
+[2.276s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_c.so
+[2.276s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs
+[2.276s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv
+[2.276s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/get_state.hpp
+[2.276s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/change_state.hpp
+[2.276s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail
+[2.276s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__struct.hpp
+[2.276s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__type_support.hpp
+[2.276s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__traits.hpp
+[2.277s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__builder.hpp
+[2.277s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__struct.hpp
+[2.277s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__builder.hpp
+[2.277s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__traits.hpp
+[2.277s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__struct.hpp
+[2.277s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__builder.hpp
+[2.277s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__type_support.hpp
+[2.277s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__type_support.hpp
+[2.277s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__type_support.hpp
+[2.277s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__traits.hpp
+[2.277s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__struct.hpp
+[2.277s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__builder.hpp
+[2.277s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__traits.hpp
+[2.277s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/get_available_states.hpp
+[2.278s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/get_available_transitions.hpp
+[2.278s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg
+[2.278s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/transition_event.hpp
+[2.278s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.278s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/transition_description.hpp
+[2.278s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/state.hpp
+[2.278s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail
+[2.278s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__struct.hpp
+[2.278s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__type_support.hpp
+[2.279s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__type_support.hpp
+[2.279s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__builder.hpp
+[2.279s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__traits.hpp
+[2.279s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.hpp
+[2.279s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__traits.hpp
+[2.279s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__struct.hpp
+[2.279s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__type_support.hpp
+[2.279s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__builder.hpp
+[2.280s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__type_support.hpp
+[2.280s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__builder.hpp
+[2.280s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__struct.hpp
+[2.280s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__builder.hpp
+[2.280s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__traits.hpp
+[2.280s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__traits.hpp
+[2.280s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/transition.hpp
+[2.280s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs
+[2.280s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv
+[2.280s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail
+[2.281s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/change_state__rosidl_typesupport_microxrcedds_cpp.hpp
+[2.281s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/microxrcedds
+[2.281s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/microxrcedds/get_state__type_support_cpp.cpp
+[2.281s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/microxrcedds/get_available_transitions__type_support_cpp.cpp
+[2.281s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/microxrcedds/get_available_states__type_support_cpp.cpp
+[2.281s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/microxrcedds/change_state__type_support_cpp.cpp
+[2.281s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/get_available_transitions__rosidl_typesupport_microxrcedds_cpp.hpp
+[2.281s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/get_state__rosidl_typesupport_microxrcedds_cpp.hpp
+[2.281s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/get_available_states__rosidl_typesupport_microxrcedds_cpp.hpp
+[2.282s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg
+[2.282s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+[2.282s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail
+[2.282s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/microxrcedds
+[2.282s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/microxrcedds/transition__type_support_cpp.cpp
+[2.282s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/microxrcedds/state__type_support_cpp.cpp
+[2.282s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/microxrcedds/transition_description__type_support_cpp.cpp
+[2.282s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/microxrcedds/transition_event__type_support_cpp.cpp
+[2.282s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/transition__rosidl_typesupport_microxrcedds_cpp.hpp
+[2.283s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/transition_event__rosidl_typesupport_microxrcedds_cpp.hpp
+[2.283s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/transition_description__rosidl_typesupport_microxrcedds_cpp.hpp
+[2.283s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/state__rosidl_typesupport_microxrcedds_cpp.hpp
+[2.283s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_microxrcedds_cpp.so
+[2.283s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs
+[2.283s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv
+[2.283s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail
+[2.284s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__rosidl_typesupport_fastrtps_cpp.hpp
+[2.284s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__rosidl_typesupport_fastrtps_cpp.hpp
+[2.284s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__rosidl_typesupport_fastrtps_cpp.hpp
+[2.284s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__rosidl_typesupport_fastrtps_cpp.hpp
+[2.284s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/dds_fastrtps
+[2.284s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg
+[2.285s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.286s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail
+[2.286s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__rosidl_typesupport_fastrtps_cpp.hpp
+[2.286s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__rosidl_typesupport_fastrtps_cpp.hpp
+[2.287s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__rosidl_typesupport_fastrtps_cpp.hpp
+[2.287s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__rosidl_typesupport_fastrtps_cpp.hpp
+[2.287s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/dds_fastrtps
+[2.287s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.287s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs
+[2.287s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv
+[2.288s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail
+[2.288s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__rosidl_typesupport_introspection_cpp.hpp
+[2.288s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__type_support.cpp
+[2.288s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__type_support.cpp
+[2.288s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__rosidl_typesupport_introspection_cpp.hpp
+[2.288s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__type_support.cpp
+[2.288s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__rosidl_typesupport_introspection_cpp.hpp
+[2.288s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__type_support.cpp
+[2.289s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__rosidl_typesupport_introspection_cpp.hpp
+[2.289s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg
+[2.289s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail
+[2.289s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__rosidl_typesupport_introspection_cpp.hpp
+[2.289s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__rosidl_typesupport_introspection_cpp.hpp
+[2.289s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__type_support.cpp
+[2.289s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__type_support.cpp
+[2.289s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__type_support.cpp
+[2.289s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__type_support.cpp
+[2.290s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__rosidl_typesupport_introspection_cpp.hpp
+[2.290s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__rosidl_typesupport_introspection_cpp.hpp
+[2.290s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_introspection_cpp.so
+[2.290s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_cpp.so
+[2.290s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/environment/pythonpath.sh
+[2.290s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/environment/pythonpath.dsv
+[2.290s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs-2.0.2-py3.12.egg-info
+[2.290s] -- Installing: /home/rassito/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs-2.0.2-py3.12.egg-info/top_level.txt
+[2.290s] -- Installing: /home/rassito/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs-2.0.2-py3.12.egg-info/PKG-INFO
+[2.291s] -- Installing: /home/rassito/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs-2.0.2-py3.12.egg-info/dependency_links.txt
+[2.291s] -- Installing: /home/rassito/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs-2.0.2-py3.12.egg-info/SOURCES.txt
+[2.291s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs
+[2.291s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_introspection_c.so
+[2.291s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_fastrtps_c.so
+[2.291s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_c.so
+[2.291s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/_lifecycle_msgs_s.ep.rosidl_typesupport_c.c
+[2.291s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/_lifecycle_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c
+[2.291s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/srv
+[2.294s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/srv/_change_state_s.c
+[2.295s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/srv/_get_state.py
+[2.295s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/srv/_get_available_states_s.c
+[2.295s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/srv/_get_available_states.py
+[2.295s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/srv/_get_state_s.c
+[2.295s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/srv/_change_state.py
+[2.295s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/srv/_get_available_transitions.py
+[2.295s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/srv/__init__.py
+[2.295s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/srv/_get_available_transitions_s.c
+[2.295s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/_lifecycle_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[2.295s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/_lifecycle_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.296s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_microxrcedds_c.so
+[2.296s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/msg
+[2.296s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/msg/_transition_s.c
+[2.296s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/msg/_transition_event_s.c
+[2.296s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/msg/_state_s.c
+[2.296s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/msg/_transition_description_s.c
+[2.296s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/msg/_transition.py
+[2.296s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/msg/_transition_description.py
+[2.296s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/msg/_state.py
+[2.296s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/msg/_transition_event.py
+[2.297s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/msg/__init__.py
+[2.297s] -- Installing: /home/rassito/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/__init__.py
+[2.333s] Listing '/home/rassito/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs'...
+[2.333s] Compiling '/home/rassito/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/__init__.py'...
+[2.333s] Listing '/home/rassito/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/msg'...
+[2.333s] Listing '/home/rassito/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/srv'...
+[2.342s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_microxrcedds_c.so
+[2.342s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_fastrtps_c.so
+[2.343s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_introspection_c.so
+[2.343s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_c.so
+[2.343s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_generator_py.so
+[2.344s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/msg/State.idl
+[2.344s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/msg/Transition.idl
+[2.344s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/msg/TransitionDescription.idl
+[2.344s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/msg/TransitionEvent.idl
+[2.344s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/ChangeState.idl
+[2.344s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetAvailableStates.idl
+[2.344s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetAvailableTransitions.idl
+[2.344s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetState.idl
+[2.345s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/msg/State.msg
+[2.345s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/msg/Transition.msg
+[2.345s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/msg/TransitionDescription.msg
+[2.345s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/msg/TransitionEvent.msg
+[2.345s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/ChangeState.srv
+[2.345s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetAvailableStates.srv
+[2.345s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetAvailableTransitions.srv
+[2.345s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetState.srv
+[2.345s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/ament_index/resource_index/package_run_dependencies/lifecycle_msgs
+[2.346s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/ament_index/resource_index/parent_prefix_path/lifecycle_msgs
+[2.346s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/environment/ament_prefix_path.sh
+[2.346s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/environment/ament_prefix_path.dsv
+[2.346s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/environment/path.sh
+[2.347s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/environment/path.dsv
+[2.347s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/local_setup.bash
+[2.347s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/local_setup.sh
+[2.347s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/local_setup.zsh
+[2.347s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/local_setup.dsv
+[2.347s] -- Installing: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/package.dsv
+[2.347s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/ament_index/resource_index/packages/lifecycle_msgs
+[2.347s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/export_lifecycle_msgs__rosidl_generator_cExport.cmake
+[2.347s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/export_lifecycle_msgs__rosidl_generator_cExport-noconfig.cmake
+[2.348s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/export_lifecycle_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.348s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/export_lifecycle_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.348s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.348s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.348s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgs__rosidl_typesupport_cExport.cmake
+[2.348s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[2.348s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/export_lifecycle_msgs__rosidl_generator_cppExport.cmake
+[2.348s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/export_lifecycle_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.349s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/export_lifecycle_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.349s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.349s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.349s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgs__rosidl_typesupport_cppExport.cmake
+[2.349s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.349s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/export_lifecycle_msgs__rosidl_generator_pyExport.cmake
+[2.349s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/export_lifecycle_msgs__rosidl_generator_pyExport-noconfig.cmake
+[2.349s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/rosidl_cmake-extras.cmake
+[2.349s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.350s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.350s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.350s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.350s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.350s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.350s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgsConfig.cmake
+[2.350s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgsConfig-version.cmake
+[2.350s] -- Up-to-date: /home/rassito/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/package.xml
+[2.409s] Invoked command in '/home/rassito/microros_ws/build/lifecycle_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rassito/microros_ws/install/sensor_msgs_py:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rassito/microros_ws/build/lifecycle_msgs

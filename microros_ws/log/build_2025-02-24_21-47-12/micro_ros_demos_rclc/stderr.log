@@ -1,0 +1,9 @@
+[01m[K/home/rassito/microros_ws/src/uros/micro-ROS-demos/rclc/static_type_handling/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[K/home/rassito/microros_ws/src/uros/micro-ROS-demos/rclc/static_type_handling/main.c:61:3:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   61 |   [01;35m[KRCCHECK[m[K(rclc_timer_init_default(
+      |   [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/rassito/microros_ws/install/rclc/include/rclc/rclc.h:32[m[K,
+                 from [01m[K/home/rassito/microros_ws/src/uros/micro-ROS-demos/rclc/static_type_handling/main.c:5[m[K:
+[01m[K/home/rassito/microros_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+   63 | [01;36m[Krclc_timer_init_default[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K

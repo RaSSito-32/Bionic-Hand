@@ -1,0 +1,938 @@
+[0.042s] Invoking command in '/home/rassito/microros_ws/build/micro_ros_demos_rclc': CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/visualization_msgs:/home/rassito/microros_ws/install/sensor_msgs:/home/rassito/microros_ws/install/rmw_microxrcedds:/home/rassito/microros_ws/install/rclc_parameter:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/rassito/microros_ws/install/rclc:/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/test_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/rassito/microros_ws/install/rcl_interfaces:/home/rassito/microros_ws/install/microxrcedds_client:/home/rassito/microros_ws/install/complex_msgs:/home/rassito/microros_ws/install/test_interface_files:/home/rassito/microros_ws/install/microcdr:/home/rassito/microros_ws/install/micro_ros_utilities:/home/rassito/microros_ws/install/micro_ros_msgs:/home/rassito/microros_ws/install/example_interfaces:/home/rassito/microros_ws/install/builtin_interfaces:/home/rassito/microros_ws/install/micro_ros_demos_rclc:/home/rassito/microros_ws/install/common_interfaces:/home/rassito/microros_ws/install/action_msgs:/home/rassito/microros_ws/install/unique_identifier_msgs:/home/rassito/microros_ws/install/type_description_interfaces:/home/rassito/microros_ws/install/trajectory_msgs:/home/rassito/microros_ws/install/stereo_msgs:/home/rassito/microros_ws/install/std_srvs:/home/rassito/microros_ws/install/shape_msgs:/home/rassito/microros_ws/install/nav_msgs:/home/rassito/microros_ws/install/diagnostic_msgs:/home/rassito/microros_ws/install/drive_base_msgs:/home/rassito/microros_ws/install/actionlib_msgs:/home/rassito/microros_ws/install/statistics_msgs:/home/rassito/microros_ws/install/service_msgs:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/rassito/microros_ws/install/rosgraph_msgs:/home/rassito/microros_ws/install/composition_interfaces:/home/rassito/microros_ws/install/micro_ros_setup:/home/rassito/microros_ws/install/micro_ros_agent:/home/rassito/microros_ws/install/lifecycle_msgs:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/microros_ws/install/sensor_msgs_py:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/visualization_msgs/lib:/home/rassito/microros_ws/install/sensor_msgs/lib:/home/rassito/microros_ws/install/rmw_microxrcedds/lib:/home/rassito/microros_ws/install/rclc_parameter/lib:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/rassito/microros_ws/install/rclc/lib:/home/rassito/microros_ws/install/geometry_msgs/lib:/home/rassito/microros_ws/install/test_msgs/lib:/home/rassito/microros_ws/install/std_msgs/lib:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/rassito/microros_ws/install/rcl_interfaces/lib:/home/rassito/microros_ws/install/microxrcedds_client/lib:/home/rassito/microros_ws/install/complex_msgs/lib:/home/rassito/microros_ws/install/microcdr/lib:/home/rassito/microros_ws/install/micro_ros_utilities/lib:/home/rassito/microros_ws/install/micro_ros_msgs/lib:/home/rassito/microros_ws/install/example_interfaces/lib:/home/rassito/microros_ws/install/builtin_interfaces/lib:/home/rassito/microros_ws/install/action_msgs/lib:/home/rassito/microros_ws/install/unique_identifier_msgs/lib:/home/rassito/microros_ws/install/type_description_interfaces/lib:/home/rassito/microros_ws/install/trajectory_msgs/lib:/home/rassito/microros_ws/install/stereo_msgs/lib:/home/rassito/microros_ws/install/std_srvs/lib:/home/rassito/microros_ws/install/shape_msgs/lib:/home/rassito/microros_ws/install/nav_msgs/lib:/home/rassito/microros_ws/install/diagnostic_msgs/lib:/home/rassito/microros_ws/install/drive_base_msgs/lib:/home/rassito/microros_ws/install/actionlib_msgs/lib:/home/rassito/microros_ws/install/statistics_msgs/lib:/home/rassito/microros_ws/install/service_msgs/lib:/home/rassito/microros_ws/install/rosgraph_msgs/lib:/home/rassito/microros_ws/install/composition_interfaces/lib:/home/rassito/microros_ws/install/micro_ros_agent/lib:/home/rassito/microros_ws/install/lifecycle_msgs/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/rassito/microros_ws/install/visualization_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.12/site-packages:/home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/test_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.12/site-packages:/home/rassito/microros_ws/install/rcl_interfaces/lib/python3.12/site-packages:/home/rassito/microros_ws/install/complex_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/example_interfaces/lib/python3.12/site-packages:/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:/home/rassito/microros_ws/install/action_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/type_description_interfaces/lib/python3.12/site-packages:/home/rassito/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/stereo_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/std_srvs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/shape_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/sensor_msgs_py/lib/python3.12/site-packages:/home/rassito/microros_ws/install/nav_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/diagnostic_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/drive_base_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/actionlib_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/statistics_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/service_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/rosgraph_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/composition_interfaces/lib/python3.12/site-packages:/home/rassito/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages:/home/rassito/ros_ws/build/super_pkg:/home/rassito/ros_ws/install/super_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake /home/rassito/microros_ws/src/uros/micro-ROS-demos/rclc -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/rassito/microros_ws/install/micro_ros_demos_rclc
+[0.051s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.434s] -- Configuring done (0.4s)
+[0.453s] -- Generating done (0.0s)
+[0.457s] -- Build files have been written to: /home/rassito/microros_ws/build/micro_ros_demos_rclc
+[0.462s] Invoked command in '/home/rassito/microros_ws/build/micro_ros_demos_rclc' returned '0': CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/visualization_msgs:/home/rassito/microros_ws/install/sensor_msgs:/home/rassito/microros_ws/install/rmw_microxrcedds:/home/rassito/microros_ws/install/rclc_parameter:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/rassito/microros_ws/install/rclc:/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/test_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/rassito/microros_ws/install/rcl_interfaces:/home/rassito/microros_ws/install/microxrcedds_client:/home/rassito/microros_ws/install/complex_msgs:/home/rassito/microros_ws/install/test_interface_files:/home/rassito/microros_ws/install/microcdr:/home/rassito/microros_ws/install/micro_ros_utilities:/home/rassito/microros_ws/install/micro_ros_msgs:/home/rassito/microros_ws/install/example_interfaces:/home/rassito/microros_ws/install/builtin_interfaces:/home/rassito/microros_ws/install/micro_ros_demos_rclc:/home/rassito/microros_ws/install/common_interfaces:/home/rassito/microros_ws/install/action_msgs:/home/rassito/microros_ws/install/unique_identifier_msgs:/home/rassito/microros_ws/install/type_description_interfaces:/home/rassito/microros_ws/install/trajectory_msgs:/home/rassito/microros_ws/install/stereo_msgs:/home/rassito/microros_ws/install/std_srvs:/home/rassito/microros_ws/install/shape_msgs:/home/rassito/microros_ws/install/nav_msgs:/home/rassito/microros_ws/install/diagnostic_msgs:/home/rassito/microros_ws/install/drive_base_msgs:/home/rassito/microros_ws/install/actionlib_msgs:/home/rassito/microros_ws/install/statistics_msgs:/home/rassito/microros_ws/install/service_msgs:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/rassito/microros_ws/install/rosgraph_msgs:/home/rassito/microros_ws/install/composition_interfaces:/home/rassito/microros_ws/install/micro_ros_setup:/home/rassito/microros_ws/install/micro_ros_agent:/home/rassito/microros_ws/install/lifecycle_msgs:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/microros_ws/install/sensor_msgs_py:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/visualization_msgs/lib:/home/rassito/microros_ws/install/sensor_msgs/lib:/home/rassito/microros_ws/install/rmw_microxrcedds/lib:/home/rassito/microros_ws/install/rclc_parameter/lib:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/rassito/microros_ws/install/rclc/lib:/home/rassito/microros_ws/install/geometry_msgs/lib:/home/rassito/microros_ws/install/test_msgs/lib:/home/rassito/microros_ws/install/std_msgs/lib:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/rassito/microros_ws/install/rcl_interfaces/lib:/home/rassito/microros_ws/install/microxrcedds_client/lib:/home/rassito/microros_ws/install/complex_msgs/lib:/home/rassito/microros_ws/install/microcdr/lib:/home/rassito/microros_ws/install/micro_ros_utilities/lib:/home/rassito/microros_ws/install/micro_ros_msgs/lib:/home/rassito/microros_ws/install/example_interfaces/lib:/home/rassito/microros_ws/install/builtin_interfaces/lib:/home/rassito/microros_ws/install/action_msgs/lib:/home/rassito/microros_ws/install/unique_identifier_msgs/lib:/home/rassito/microros_ws/install/type_description_interfaces/lib:/home/rassito/microros_ws/install/trajectory_msgs/lib:/home/rassito/microros_ws/install/stereo_msgs/lib:/home/rassito/microros_ws/install/std_srvs/lib:/home/rassito/microros_ws/install/shape_msgs/lib:/home/rassito/microros_ws/install/nav_msgs/lib:/home/rassito/microros_ws/install/diagnostic_msgs/lib:/home/rassito/microros_ws/install/drive_base_msgs/lib:/home/rassito/microros_ws/install/actionlib_msgs/lib:/home/rassito/microros_ws/install/statistics_msgs/lib:/home/rassito/microros_ws/install/service_msgs/lib:/home/rassito/microros_ws/install/rosgraph_msgs/lib:/home/rassito/microros_ws/install/composition_interfaces/lib:/home/rassito/microros_ws/install/micro_ros_agent/lib:/home/rassito/microros_ws/install/lifecycle_msgs/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/rassito/microros_ws/install/visualization_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.12/site-packages:/home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/test_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.12/site-packages:/home/rassito/microros_ws/install/rcl_interfaces/lib/python3.12/site-packages:/home/rassito/microros_ws/install/complex_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/example_interfaces/lib/python3.12/site-packages:/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:/home/rassito/microros_ws/install/action_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/type_description_interfaces/lib/python3.12/site-packages:/home/rassito/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/stereo_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/std_srvs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/shape_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/sensor_msgs_py/lib/python3.12/site-packages:/home/rassito/microros_ws/install/nav_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/diagnostic_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/drive_base_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/actionlib_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/statistics_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/service_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/rosgraph_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/composition_interfaces/lib/python3.12/site-packages:/home/rassito/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages:/home/rassito/ros_ws/build/super_pkg:/home/rassito/ros_ws/install/super_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake /home/rassito/microros_ws/src/uros/micro-ROS-demos/rclc -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/rassito/microros_ws/install/micro_ros_demos_rclc
+[0.463s] Invoking command in '/home/rassito/microros_ws/build/micro_ros_demos_rclc': CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/visualization_msgs:/home/rassito/microros_ws/install/sensor_msgs:/home/rassito/microros_ws/install/rmw_microxrcedds:/home/rassito/microros_ws/install/rclc_parameter:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/rassito/microros_ws/install/rclc:/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/test_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/rassito/microros_ws/install/rcl_interfaces:/home/rassito/microros_ws/install/microxrcedds_client:/home/rassito/microros_ws/install/complex_msgs:/home/rassito/microros_ws/install/test_interface_files:/home/rassito/microros_ws/install/microcdr:/home/rassito/microros_ws/install/micro_ros_utilities:/home/rassito/microros_ws/install/micro_ros_msgs:/home/rassito/microros_ws/install/example_interfaces:/home/rassito/microros_ws/install/builtin_interfaces:/home/rassito/microros_ws/install/micro_ros_demos_rclc:/home/rassito/microros_ws/install/common_interfaces:/home/rassito/microros_ws/install/action_msgs:/home/rassito/microros_ws/install/unique_identifier_msgs:/home/rassito/microros_ws/install/type_description_interfaces:/home/rassito/microros_ws/install/trajectory_msgs:/home/rassito/microros_ws/install/stereo_msgs:/home/rassito/microros_ws/install/std_srvs:/home/rassito/microros_ws/install/shape_msgs:/home/rassito/microros_ws/install/nav_msgs:/home/rassito/microros_ws/install/diagnostic_msgs:/home/rassito/microros_ws/install/drive_base_msgs:/home/rassito/microros_ws/install/actionlib_msgs:/home/rassito/microros_ws/install/statistics_msgs:/home/rassito/microros_ws/install/service_msgs:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/rassito/microros_ws/install/rosgraph_msgs:/home/rassito/microros_ws/install/composition_interfaces:/home/rassito/microros_ws/install/micro_ros_setup:/home/rassito/microros_ws/install/micro_ros_agent:/home/rassito/microros_ws/install/lifecycle_msgs:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/microros_ws/install/sensor_msgs_py:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/visualization_msgs/lib:/home/rassito/microros_ws/install/sensor_msgs/lib:/home/rassito/microros_ws/install/rmw_microxrcedds/lib:/home/rassito/microros_ws/install/rclc_parameter/lib:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/rassito/microros_ws/install/rclc/lib:/home/rassito/microros_ws/install/geometry_msgs/lib:/home/rassito/microros_ws/install/test_msgs/lib:/home/rassito/microros_ws/install/std_msgs/lib:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/rassito/microros_ws/install/rcl_interfaces/lib:/home/rassito/microros_ws/install/microxrcedds_client/lib:/home/rassito/microros_ws/install/complex_msgs/lib:/home/rassito/microros_ws/install/microcdr/lib:/home/rassito/microros_ws/install/micro_ros_utilities/lib:/home/rassito/microros_ws/install/micro_ros_msgs/lib:/home/rassito/microros_ws/install/example_interfaces/lib:/home/rassito/microros_ws/install/builtin_interfaces/lib:/home/rassito/microros_ws/install/action_msgs/lib:/home/rassito/microros_ws/install/unique_identifier_msgs/lib:/home/rassito/microros_ws/install/type_description_interfaces/lib:/home/rassito/microros_ws/install/trajectory_msgs/lib:/home/rassito/microros_ws/install/stereo_msgs/lib:/home/rassito/microros_ws/install/std_srvs/lib:/home/rassito/microros_ws/install/shape_msgs/lib:/home/rassito/microros_ws/install/nav_msgs/lib:/home/rassito/microros_ws/install/diagnostic_msgs/lib:/home/rassito/microros_ws/install/drive_base_msgs/lib:/home/rassito/microros_ws/install/actionlib_msgs/lib:/home/rassito/microros_ws/install/statistics_msgs/lib:/home/rassito/microros_ws/install/service_msgs/lib:/home/rassito/microros_ws/install/rosgraph_msgs/lib:/home/rassito/microros_ws/install/composition_interfaces/lib:/home/rassito/microros_ws/install/micro_ros_agent/lib:/home/rassito/microros_ws/install/lifecycle_msgs/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/rassito/microros_ws/install/visualization_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.12/site-packages:/home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/test_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.12/site-packages:/home/rassito/microros_ws/install/rcl_interfaces/lib/python3.12/site-packages:/home/rassito/microros_ws/install/complex_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/example_interfaces/lib/python3.12/site-packages:/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:/home/rassito/microros_ws/install/action_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/type_description_interfaces/lib/python3.12/site-packages:/home/rassito/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/stereo_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/std_srvs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/shape_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/sensor_msgs_py/lib/python3.12/site-packages:/home/rassito/microros_ws/install/nav_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/diagnostic_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/drive_base_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/actionlib_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/statistics_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/service_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/rosgraph_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/composition_interfaces/lib/python3.12/site-packages:/home/rassito/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages:/home/rassito/ros_ws/build/super_pkg:/home/rassito/ros_ws/install/super_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/rassito/microros_ws/build/micro_ros_demos_rclc -- -j16 -l16
+[0.507s] [  0%] [34m[1mPerforming build step for 'publisher_count'[0m
+[0.507s] [  0%] [34m[1mPerforming build step for 'int32_publisher'[0m
+[0.507s] [  2%] [34m[1mPerforming build step for 'graph_visualizer'[0m
+[0.507s] [  2%] [34m[1mPerforming build step for 'int32_subscriber'[0m
+[0.507s] [  3%] [34m[1mPerforming build step for 'int32_publisher_subscriber'[0m
+[0.508s] [  5%] [34m[1mPerforming build step for 'configured_subscriber'[0m
+[0.508s] [  5%] [34m[1mPerforming build step for 'configured_publisher'[0m
+[0.508s] [  5%] [34m[1mPerforming build step for 'int32_multinode'[0m
+[0.508s] [  5%] [34m[1mPerforming build step for 'addtwoints_server'[0m
+[0.509s] [  3%] [34m[1mPerforming build step for 'subscription_count'[0m
+[0.509s] [  3%] [34m[1mPerforming build step for 'addtwoints_client'[0m
+[0.509s] [  5%] [34m[1mPerforming build step for 'fibonacci_action_client'[0m
+[0.509s] [  6%] [34m[1mPerforming build step for 'ping_pong'[0m
+[0.509s] [  7%] [34m[1mPerforming build step for 'fibonacci_action_server'[0m
+[0.509s] [  8%] [34m[1mPerforming build step for 'ping_uros_agent'[0m
+[0.511s] [  8%] [34m[1mPerforming build step for 'fragmented_publication'[0m
+[0.523s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.523s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.528s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.528s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.528s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.528s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.529s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.530s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.530s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.530s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.530s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.530s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.530s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.530s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.534s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.538s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.849s] -- Found rcl: 9.2.4 (/opt/ros/jazzy/share/rcl/cmake)
+[0.849s] -- Found rcl: 9.2.4 (/opt/ros/jazzy/share/rcl/cmake)
+[0.849s] -- Found rcl: 9.2.4 (/opt/ros/jazzy/share/rcl/cmake)
+[0.850s] -- Found rcl: 9.2.4 (/opt/ros/jazzy/share/rcl/cmake)
+[0.850s] -- Found rcl: 9.2.4 (/opt/ros/jazzy/share/rcl/cmake)
+[0.850s] -- Found rcl: 9.2.4 (/opt/ros/jazzy/share/rcl/cmake)
+[0.850s] -- Found rcl: 9.2.4 (/opt/ros/jazzy/share/rcl/cmake)
+[0.850s] -- Found rcl: 9.2.4 (/opt/ros/jazzy/share/rcl/cmake)
+[0.850s] -- Found rcl: 9.2.4 (/opt/ros/jazzy/share/rcl/cmake)
+[0.851s] -- Found rcl: 9.2.4 (/opt/ros/jazzy/share/rcl/cmake)
+[0.852s] -- Found rcl: 9.2.4 (/opt/ros/jazzy/share/rcl/cmake)
+[0.853s] -- Found rcl: 9.2.4 (/opt/ros/jazzy/share/rcl/cmake)
+[0.855s] -- Found rcl: 9.2.4 (/opt/ros/jazzy/share/rcl/cmake)
+[0.856s] -- Found rcl: 9.2.4 (/opt/ros/jazzy/share/rcl/cmake)
+[0.856s] -- Found rcl: 9.2.4 (/opt/ros/jazzy/share/rcl/cmake)
+[0.869s] -- Found rcl: 9.2.4 (/opt/ros/jazzy/share/rcl/cmake)
+[0.881s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.884s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.884s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.884s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.884s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.884s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.885s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.885s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.885s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.889s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.890s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.891s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.892s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.893s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.893s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.894s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.896s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.896s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.896s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.896s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.897s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.897s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.898s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.898s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.902s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.903s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.904s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.905s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.909s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.909s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.910s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.912s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.913s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.913s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.914s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.914s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.914s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.915s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.916s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.916s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.917s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.917s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.917s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.919s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.919s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.919s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.919s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.920s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.920s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.922s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.922s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.922s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.923s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.923s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.924s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.924s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.926s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.926s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.930s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.930s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.930s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.930s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.942s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.942s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.946s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.946s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.946s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.946s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.947s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.947s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.947s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.947s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.949s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.951s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.952s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.952s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.953s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.953s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.954s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.979s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.033s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.033s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.033s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.034s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.034s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.034s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.034s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.034s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.034s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.034s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.034s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.035s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.035s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.036s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.037s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.037s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.037s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.037s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.040s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.040s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.040s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.040s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.041s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.041s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.042s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.044s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.044s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.045s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.045s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.046s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.070s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.073s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.120s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.120s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.121s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.121s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.121s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.122s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.123s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.123s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.124s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.130s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.130s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.130s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.131s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.132s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.133s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.145s] -- Found rclc: 6.1.0 (/home/rassito/microros_ws/install/rclc/share/rclc/cmake)
+[1.146s] -- Found rclc: 6.1.0 (/home/rassito/microros_ws/install/rclc/share/rclc/cmake)
+[1.146s] -- Found rclc: 6.1.0 (/home/rassito/microros_ws/install/rclc/share/rclc/cmake)
+[1.146s] -- Found rclc: 6.1.0 (/home/rassito/microros_ws/install/rclc/share/rclc/cmake)
+[1.146s] -- Found rclc: 6.1.0 (/home/rassito/microros_ws/install/rclc/share/rclc/cmake)
+[1.147s] -- Found rclc: 6.1.0 (/home/rassito/microros_ws/install/rclc/share/rclc/cmake)
+[1.147s] -- Found rclc: 6.1.0 (/home/rassito/microros_ws/install/rclc/share/rclc/cmake)
+[1.149s] -- Found rclc: 6.1.0 (/home/rassito/microros_ws/install/rclc/share/rclc/cmake)
+[1.150s] -- Found rclc: 6.1.0 (/home/rassito/microros_ws/install/rclc/share/rclc/cmake)
+[1.152s] -- Found rclc: 6.1.0 (/home/rassito/microros_ws/install/rclc/share/rclc/cmake)
+[1.154s] -- Found rclc: 6.1.0 (/home/rassito/microros_ws/install/rclc/share/rclc/cmake)
+[1.155s] -- Found rclc: 6.1.0 (/home/rassito/microros_ws/install/rclc/share/rclc/cmake)
+[1.156s] -- Found rclc: 6.1.0 (/home/rassito/microros_ws/install/rclc/share/rclc/cmake)
+[1.157s] -- Found rclc: 6.1.0 (/home/rassito/microros_ws/install/rclc/share/rclc/cmake)
+[1.157s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.160s] -- Found rclc: 6.1.0 (/home/rassito/microros_ws/install/rclc/share/rclc/cmake)
+[1.184s] -- Found rclc: 6.1.0 (/home/rassito/microros_ws/install/rclc/share/rclc/cmake)
+[1.199s] -- Found std_msgs: 5.3.5 (/home/rassito/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[1.199s] -- Found example_interfaces: 0.12.0 (/home/rassito/microros_ws/install/example_interfaces/share/example_interfaces/cmake)
+[1.201s] -- Found std_msgs: 5.3.5 (/home/rassito/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[1.203s] -- Found std_msgs: 5.3.5 (/home/rassito/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[1.203s] -- Found example_interfaces: 0.12.0 (/home/rassito/microros_ws/install/example_interfaces/share/example_interfaces/cmake)
+[1.203s] -- Found std_msgs: 5.3.5 (/home/rassito/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[1.203s] -- Found example_interfaces: 0.12.0 (/home/rassito/microros_ws/install/example_interfaces/share/example_interfaces/cmake)
+[1.203s] -- Found std_msgs: 5.3.5 (/home/rassito/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[1.207s] -- Found rmw_microxrcedds: 5.0.1 (/home/rassito/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[1.207s] -- Found rmw_microxrcedds: 5.0.1 (/home/rassito/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[1.208s] -- Found std_msgs: 5.3.5 (/home/rassito/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[1.208s] -- Found std_msgs: 5.3.5 (/home/rassito/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[1.211s] -- Found rmw_microxrcedds: 5.0.1 (/home/rassito/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[1.211s] -- Found example_interfaces: 0.12.0 (/home/rassito/microros_ws/install/example_interfaces/share/example_interfaces/cmake)
+[1.215s] -- Found std_msgs: 5.3.5 (/home/rassito/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[1.215s] -- Found std_msgs: 5.3.5 (/home/rassito/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[1.220s] -- Found rmw_microxrcedds: 5.0.1 (/home/rassito/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[1.221s] -- Found rmw_microxrcedds: 5.0.1 (/home/rassito/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[1.224s] -- Found rmw_microxrcedds: 5.0.1 (/home/rassito/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[1.224s] -- Found rmw_microxrcedds: 5.0.1 (/home/rassito/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[1.229s] -- Configuring done (0.7s)
+[1.229s] -- Found rmw_microxrcedds: 5.0.1 (/home/rassito/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[1.229s] -- Found rmw_microxrcedds: 5.0.1 (/home/rassito/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[1.230s] -- Configuring done (0.7s)
+[1.234s] -- Configuring done (0.7s)
+[1.235s] -- Found rmw_microxrcedds: 5.0.1 (/home/rassito/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[1.236s] -- Configuring done (0.7s)
+[1.237s] -- Found std_msgs: 5.3.5 (/home/rassito/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[1.240s] -- Configuring done (0.7s)
+[1.240s] -- Configuring done (0.7s)
+[1.240s] -- Generating done (0.0s)
+[1.241s] -- Generating done (0.0s)
+[1.241s] -- Configuring done (0.7s)
+[1.242s] -- Configuring done (0.7s)
+[1.242s] -- Generating done (0.0s)
+[1.243s] -- Build files have been written to: /home/rassito/microros_ws/build/micro_ros_demos_rclc/graph_introspection/publisher_count/src/publisher_count-build
+[1.243s] -- Configuring done (0.7s)
+[1.243s] -- Build files have been written to: /home/rassito/microros_ws/build/micro_ros_demos_rclc/int32_multinode/src/int32_multinode-build
+[1.244s] -- Configuring done (0.7s)
+[1.244s] -- Build files have been written to: /home/rassito/microros_ws/build/micro_ros_demos_rclc/graph_introspection/subscription_count/src/subscription_count-build
+[1.247s] -- Generating done (0.0s)
+[1.247s] -- Configuring done (0.7s)
+[1.251s] -- Build files have been written to: /home/rassito/microros_ws/build/micro_ros_demos_rclc/addtwoints_client/src/addtwoints_client-build
+[1.251s] -- Configuring done (0.7s)
+[1.251s] -- Generating done (0.0s)
+[1.256s] -- Generating done (0.0s)
+[1.256s] -- Configuring done (0.7s)
+[1.256s] -- Generating done (0.0s)
+[1.256s] -- Build files have been written to: /home/rassito/microros_ws/build/micro_ros_demos_rclc/fibonacci_action_client/src/fibonacci_action_client-build
+[1.256s] -- Build files have been written to: /home/rassito/microros_ws/build/micro_ros_demos_rclc/fibonacci_action_server/src/fibonacci_action_server-build
+[1.256s] -- Build files have been written to: /home/rassito/microros_ws/build/micro_ros_demos_rclc/int32_subscriber/src/int32_subscriber-build
+[1.256s] -- Generating done (0.0s)
+[1.260s] -- Generating done (0.0s)
+[1.260s] -- Generating done (0.0s)
+[1.261s] -- Configuring done (0.7s)
+[1.261s] -- Configuring done (0.7s)
+[1.261s] -- Build files have been written to: /home/rassito/microros_ws/build/micro_ros_demos_rclc/configuration_example/configured_subscriber/src/configured_subscriber-build
+[1.261s] -- Build files have been written to: /home/rassito/microros_ws/build/micro_ros_demos_rclc/configuration_example/configured_publisher/src/configured_publisher-build
+[1.261s] -- Build files have been written to: /home/rassito/microros_ws/build/micro_ros_demos_rclc/int32_publisher/src/int32_publisher-build
+[1.261s] -- Found rmw_microxrcedds: 5.0.1 (/home/rassito/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[1.261s] -- Generating done (0.0s)
+[1.262s] -- Build files have been written to: /home/rassito/microros_ws/build/micro_ros_demos_rclc/addtwoints_server/src/addtwoints_server-build
+[1.262s] -- Generating done (0.0s)
+[1.266s] -- Build files have been written to: /home/rassito/microros_ws/build/micro_ros_demos_rclc/fragmented_publication/src/fragmented_publication-build
+[1.266s] -- Generating done (0.0s)
+[1.266s] -- Build files have been written to: /home/rassito/microros_ws/build/micro_ros_demos_rclc/ping_pong/src/ping_pong-build
+[1.271s] -- Generating done (0.0s)
+[1.272s] -- Generating done (0.0s)
+[1.273s] -- Build files have been written to: /home/rassito/microros_ws/build/micro_ros_demos_rclc/graph_introspection/graph_visualizer/src/graph_visualizer-build
+[1.274s] -- Build files have been written to: /home/rassito/microros_ws/build/micro_ros_demos_rclc/ping_uros_agent/src/ping_uros_agent-build
+[1.278s] -- Configuring done (0.7s)
+[1.293s] -- Generating done (0.0s)
+[1.293s] [ 50%] [32m[1mLinking C executable subscription_count[0m
+[1.293s] -- Build files have been written to: /home/rassito/microros_ws/build/micro_ros_demos_rclc/int32_publisher_subscriber/src/int32_publisher_subscriber-build
+[1.295s] [ 50%] [32mBuilding C object CMakeFiles/int32_multinode.dir/main.c.o[0m
+[1.295s] [ 50%] [32m[1mLinking C executable publisher_count[0m
+[1.300s] [ 50%] [32m[1mLinking C executable addtwoints_client[0m
+[1.307s] [ 50%] [32mBuilding C object CMakeFiles/configured_subscriber.dir/main.c.o[0m
+[1.307s] [ 50%] [32m[1mLinking C executable fibonacci_action_client[0m
+[1.307s] [ 50%] [32m[1mLinking C executable fibonacci_action_server[0m
+[1.308s] [ 50%] [32mBuilding C object CMakeFiles/int32_subscriber.dir/main.c.o[0m
+[1.309s] [ 50%] [32mBuilding C object CMakeFiles/int32_publisher.dir/main.c.o[0m
+[1.310s] [ 50%] [32m[1mLinking C executable addtwoints_server[0m
+[1.310s] [ 50%] [32mBuilding C object CMakeFiles/configured_publisher.dir/main.c.o[0m
+[1.310s] [ 50%] [32mBuilding C object CMakeFiles/fragmented_publication.dir/main.c.o[0m
+[1.318s] [ 50%] [32mBuilding C object CMakeFiles/ping_pong.dir/main.c.o[0m
+[1.324s] [ 50%] [32mBuilding C object CMakeFiles/graph_visualizer.dir/main.c.o[0m
+[1.324s] [ 50%] [32mBuilding C object CMakeFiles/ping_uros_agent.dir/main.c.o[0m
+[1.337s] [ 50%] [32mBuilding C object CMakeFiles/int32_publisher_subscriber.dir/main.c.o[0m
+[1.375s] [01m[K/home/rassito/microros_ws/src/uros/micro-ROS-demos/rclc/int32_multinode/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[1.375s] [01m[K/home/rassito/microros_ws/src/uros/micro-ROS-demos/rclc/int32_multinode/main.c:85:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[1.376s]    85 |         [01;35m[KRCCHECK[m[K(rclc_timer_init_default(
+[1.376s]       |         [01;35m[K^~~~~~~[m[K
+[1.376s] In file included from [01m[K/home/rassito/microros_ws/install/rclc/include/rclc/rclc.h:32[m[K,
+[1.376s]                  from [01m[K/home/rassito/microros_ws/src/uros/micro-ROS-demos/rclc/int32_multinode/main.c:3[m[K:
+[1.376s] [01m[K/home/rassito/microros_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.376s]    63 | [01;36m[Krclc_timer_init_default[m[K(
+[1.376s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.376s] [01m[K/home/rassito/microros_ws/src/uros/micro-ROS-demos/rclc/int32_multinode/main.c:118:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[1.376s]   118 |         [01;35m[KRCCHECK[m[K(rclc_timer_init_default(
+[1.376s]       |         [01;35m[K^~~~~~~[m[K
+[1.376s] [01m[K/home/rassito/microros_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.376s]    63 | [01;36m[Krclc_timer_init_default[m[K(
+[1.376s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.388s] [01m[K/home/rassito/microros_ws/src/uros/micro-ROS-demos/rclc/configuration_example/configured_publisher/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[1.388s] [01m[K/home/rassito/microros_ws/src/uros/micro-ROS-demos/rclc/configuration_example/configured_publisher/main.c:69:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[1.388s]    69 |         [01;35m[KRCCHECK[m[K(rclc_timer_init_default(
+[1.388s]       |         [01;35m[K^~~~~~~[m[K
+[1.388s] In file included from [01m[K/home/rassito/microros_ws/install/rclc/include/rclc/rclc.h:32[m[K,
+[1.389s]                  from [01m[K/home/rassito/microros_ws/src/uros/micro-ROS-demos/rclc/configuration_example/configured_publisher/main.c:3[m[K:
+[1.389s] [01m[K/home/rassito/microros_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.389s]    63 | [01;36m[Krclc_timer_init_default[m[K(
+[1.389s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.389s] [01m[K/home/rassito/microros_ws/src/uros/micro-ROS-demos/rclc/int32_publisher/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[1.389s] [01m[K/home/rassito/microros_ws/src/uros/micro-ROS-demos/rclc/int32_publisher/main.c:49:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[1.389s]    49 |         [01;35m[KRCCHECK[m[K(rclc_timer_init_default(
+[1.389s]       |         [01;35m[K^~~~~~~[m[K
+[1.389s] In file included from [01m[K/home/rassito/microros_ws/install/rclc/include/rclc/rclc.h:32[m[K,
+[1.389s]                  from [01m[K/home/rassito/microros_ws/src/uros/micro-ROS-demos/rclc/int32_publisher/main.c:3[m[K:
+[1.390s] [01m[K/home/rassito/microros_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.390s]    63 | [01;36m[Krclc_timer_init_default[m[K(
+[1.390s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.390s] [01m[K/home/rassito/microros_ws/src/uros/micro-ROS-demos/rclc/fragmented_publication/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[1.390s] [01m[K/home/rassito/microros_ws/src/uros/micro-ROS-demos/rclc/fragmented_publication/main.c:50:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[1.390s]    50 |         [01;35m[KRCCHECK[m[K(rclc_timer_init_default(
+[1.390s]       |         [01;35m[K^~~~~~~[m[K
+[1.390s] In file included from [01m[K/home/rassito/microros_ws/install/rclc/include/rclc/rclc.h:32[m[K,
+[1.391s]                  from [01m[K/home/rassito/microros_ws/src/uros/micro-ROS-demos/rclc/fragmented_publication/main.c:3[m[K:
+[1.391s] [01m[K/home/rassito/microros_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.391s]    63 | [01;36m[Krclc_timer_init_default[m[K(
+[1.391s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.399s] [100%] Built target subscription_count
+[1.399s] [01m[K/home/rassito/microros_ws/src/uros/micro-ROS-demos/rclc/ping_pong/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[1.399s] [01m[K/home/rassito/microros_ws/src/uros/micro-ROS-demos/rclc/ping_pong/main.c:103:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[1.399s]   103 |         [01;35m[KRCCHECK[m[K(rclc_timer_init_default(&timer, &support, RCL_MS_TO_NS(2000), ping_timer_callback));
+[1.399s]       |         [01;35m[K^~~~~~~[m[K
+[1.400s] In file included from [01m[K/home/rassito/microros_ws/install/rclc/include/rclc/rclc.h:32[m[K,
+[1.400s]                  from [01m[K/home/rassito/microros_ws/src/uros/micro-ROS-demos/rclc/ping_pong/main.c:3[m[K:
+[1.400s] [01m[K/home/rassito/microros_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.400s]    63 | [01;36m[Krclc_timer_init_default[m[K(
+[1.400s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.402s] [01m[K/home/rassito/microros_ws/src/uros/micro-ROS-demos/rclc/int32_publisher_subscriber/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[1.402s] [01m[K/home/rassito/microros_ws/src/uros/micro-ROS-demos/rclc/int32_publisher_subscriber/main.c:63:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[1.402s]    63 |         [01;35m[KRCCHECK[m[K(rclc_timer_init_default(
+[1.402s]       |         [01;35m[K^~~~~~~[m[K
+[1.402s] In file included from [01m[K/home/rassito/microros_ws/install/rclc/include/rclc/rclc.h:32[m[K,
+[1.402s]                  from [01m[K/home/rassito/microros_ws/src/uros/micro-ROS-demos/rclc/int32_publisher_subscriber/main.c:3[m[K:
+[1.403s] [01m[K/home/rassito/microros_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.403s]    63 | [01;36m[Krclc_timer_init_default[m[K(
+[1.403s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.405s] [100%] Built target publisher_count
+[1.406s] [100%] [32m[1mLinking C executable int32_multinode[0m
+[1.410s] [01m[K/home/rassito/microros_ws/src/uros/micro-ROS-demos/rclc/ping_uros_agent/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[1.410s] [01m[K/home/rassito/microros_ws/src/uros/micro-ROS-demos/rclc/ping_uros_agent/main.c:131:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[1.410s]   131 |         [01;35m[KRCCHECK[m[K(rclc_timer_init_default(
+[1.411s]       |         [01;35m[K^~~~~~~[m[K
+[1.411s] In file included from [01m[K/home/rassito/microros_ws/install/rclc/include/rclc/rclc.h:32[m[K,
+[1.411s]                  from [01m[K/home/rassito/microros_ws/src/uros/micro-ROS-demos/rclc/ping_uros_agent/main.c:3[m[K:
+[1.411s] [01m[K/home/rassito/microros_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.411s]    63 | [01;36m[Krclc_timer_init_default[m[K(
+[1.411s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.415s] [100%] [32m[1mLinking C executable configured_subscriber[0m
+[1.415s] [100%] [32m[1mLinking C executable int32_subscriber[0m
+[1.415s] [100%] [32m[1mLinking C executable configured_publisher[0m
+[1.416s] [100%] [32m[1mLinking C executable int32_publisher[0m
+[1.417s] [100%] [32m[1mLinking C executable fragmented_publication[0m
+[1.424s] [  8%] [34m[1mPerforming install step for 'subscription_count'[0m
+[1.424s] [100%] [32m[1mLinking C executable graph_visualizer[0m
+[1.427s] [  9%] [34m[1mPerforming install step for 'publisher_count'[0m
+[1.427s] [100%] Built target fibonacci_action_client
+[1.428s] [100%] [32m[1mLinking C executable int32_publisher_subscriber[0m
+[1.429s] [100%] Built target addtwoints_server
+[1.432s] [100%] [32m[1mLinking C executable ping_pong[0m
+[1.436s] [100%] [32m[1mLinking C executable ping_uros_agent[0m
+[1.444s] [100%] Built target addtwoints_client
+[1.447s] [100%] Built target fibonacci_action_server
+[1.448s] [  9%] [34m[1mPerforming install step for 'fibonacci_action_client'[0m
+[1.454s] [ 10%] [34m[1mPerforming install step for 'addtwoints_server'[0m
+[1.470s] [ 11%] [34m[1mPerforming install step for 'addtwoints_client'[0m
+[1.481s] [100%] Built target subscription_count
+[1.481s] [ 11%] [34m[1mPerforming install step for 'fibonacci_action_server'[0m
+[1.490s] [100%] Built target publisher_count
+[1.512s] [36mInstall the project...[0m
+[1.514s] [100%] Built target fibonacci_action_client
+[1.514s] [36mInstall the project...[0m
+[1.526s] -- Install configuration: ""
+[1.526s] -- Installing: /home/rassito/microros_ws/build/micro_ros_demos_rclc/temp_install/subscription_count/subscription_count
+[1.526s] [100%] Built target addtwoints_server
+[1.526s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/build/micro_ros_demos_rclc/temp_install/subscription_count/subscription_count" to ""
+[1.526s] -- Install configuration: ""
+[1.526s] -- Installing: /home/rassito/microros_ws/build/micro_ros_demos_rclc/temp_install/publisher_count/publisher_count
+[1.526s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/build/micro_ros_demos_rclc/temp_install/publisher_count/publisher_count" to ""
+[1.531s] [100%] Built target addtwoints_client
+[1.538s] [ 12%] [34m[1mCompleted 'subscription_count'[0m
+[1.538s] [ 13%] [34m[1mCompleted 'publisher_count'[0m
+[1.539s] [36mInstall the project...[0m
+[1.548s] [100%] Built target int32_publisher
+[1.548s] [100%] Built target int32_multinode
+[1.549s] -- Install configuration: ""
+[1.549s] -- Installing: /home/rassito/microros_ws/build/micro_ros_demos_rclc/temp_install/fibonacci_action_client/fibonacci_action_client
+[1.549s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/build/micro_ros_demos_rclc/temp_install/fibonacci_action_client/fibonacci_action_client" to ""
+[1.550s] [100%] Built target int32_subscriber
+[1.551s] [100%] Built target configured_subscriber
+[1.551s] [100%] Built target fragmented_publication
+[1.551s] [100%] Built target fibonacci_action_server
+[1.551s] [36mInstall the project...[0m
+[1.552s] [36mInstall the project...[0m
+[1.557s] [100%] Built target configured_publisher
+[1.560s] [100%] Built target graph_visualizer
+[1.561s] [100%] Built target int32_publisher_subscriber
+[1.563s] -- Install configuration: ""
+[1.563s] [ 14%] [34m[1mCompleted 'fibonacci_action_client'[0m
+[1.563s] -- Installing: /home/rassito/microros_ws/build/micro_ros_demos_rclc/temp_install/addtwoints_server/addtwoints_server
+[1.563s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/build/micro_ros_demos_rclc/temp_install/addtwoints_server/addtwoints_server" to ""
+[1.564s] [100%] Built target ping_pong
+[1.564s] -- Install configuration: ""
+[1.564s] -- Installing: /home/rassito/microros_ws/build/micro_ros_demos_rclc/temp_install/addtwoints_client/addtwoints_client
+[1.565s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/build/micro_ros_demos_rclc/temp_install/addtwoints_client/addtwoints_client" to ""
+[1.568s] [100%] Built target ping_uros_agent
+[1.569s] [ 15%] [34m[1mPerforming install step for 'int32_publisher'[0m
+[1.571s] [ 15%] [34m[1mPerforming install step for 'int32_multinode'[0m
+[1.572s] [ 15%] [34m[1mPerforming install step for 'configured_subscriber'[0m
+[1.572s] [ 15%] [34m[1mPerforming install step for 'int32_subscriber'[0m
+[1.573s] [ 16%] [34m[1mPerforming install step for 'fragmented_publication'[0m
+[1.576s] [ 17%] [34m[1mCompleted 'addtwoints_server'[0m
+[1.576s] [36mInstall the project...[0m
+[1.576s] [ 17%] [34m[1mCompleted 'addtwoints_client'[0m
+[1.580s] [ 19%] Built target publisher_count
+[1.580s] [ 19%] [34m[1mPerforming install step for 'configured_publisher'[0m
+[1.582s] [ 22%] Built target subscription_count
+[1.583s] [ 22%] [34m[1mPerforming install step for 'int32_publisher_subscriber'[0m
+[1.584s] [ 22%] [34m[1mPerforming install step for 'graph_visualizer'[0m
+[1.586s] -- Install configuration: ""
+[1.586s] -- Installing: /home/rassito/microros_ws/build/micro_ros_demos_rclc/temp_install/fibonacci_action_server/fibonacci_action_server
+[1.586s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/build/micro_ros_demos_rclc/temp_install/fibonacci_action_server/fibonacci_action_server" to ""
+[1.587s] [ 22%] [34m[1mPerforming install step for 'ping_pong'[0m
+[1.590s] [ 23%] [34m[1mPerforming install step for 'ping_uros_agent'[0m
+[1.602s] [ 23%] [34m[1mCompleted 'fibonacci_action_server'[0m
+[1.603s] [ 26%] Built target fibonacci_action_client
+[1.606s] [ 26%] [34m[1mPerforming build step for 'fragmented_subscription'[0m
+[1.610s] [ 27%] [34m[1mPerforming build step for 'complex_msg_publisher'[0m
+[1.617s] [ 29%] Built target addtwoints_server
+[1.621s] [ 31%] Built target addtwoints_client
+[1.627s] [100%] Built target int32_publisher
+[1.627s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.629s] [ 31%] [34m[1mPerforming build step for 'complex_msg_subscriber'[0m
+[1.629s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.629s] [100%] Built target int32_subscriber
+[1.632s] [100%] Built target fragmented_publication
+[1.632s] [100%] Built target int32_multinode
+[1.633s] [100%] Built target configured_subscriber
+[1.642s] [100%] Built target configured_publisher
+[1.642s] [100%] Built target int32_publisher_subscriber
+[1.642s] [100%] Built target graph_visualizer
+[1.644s] [ 34%] Built target fibonacci_action_server
+[1.644s] [ 35%] [34m[1mPerforming build step for 'timer'[0m
+[1.646s] [100%] Built target ping_pong
+[1.647s] [ 36%] [34m[1mPerforming build step for 'string_publisher'[0m
+[1.651s] [100%] Built target ping_uros_agent
+[1.651s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.651s] [36mInstall the project...[0m
+[1.652s] [36mInstall the project...[0m
+[1.655s] [36mInstall the project...[0m
+[1.655s] [36mInstall the project...[0m
+[1.658s] [36mInstall the project...[0m
+[1.662s] [36mInstall the project...[0m
+[1.663s] -- Install configuration: ""
+[1.663s] -- Install configuration: ""
+[1.663s] -- Installing: /home/rassito/microros_ws/build/micro_ros_demos_rclc/temp_install/int32_publisher/int32_publisher
+[1.663s] -- Installing: /home/rassito/microros_ws/build/micro_ros_demos_rclc/temp_install/int32_subscriber/int32_subscriber
+[1.663s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/build/micro_ros_demos_rclc/temp_install/int32_publisher/int32_publisher" to ""
+[1.664s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/build/micro_ros_demos_rclc/temp_install/int32_subscriber/int32_subscriber" to ""
+[1.665s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.666s] [36mInstall the project...[0m
+[1.666s] [36mInstall the project...[0m
+[1.667s] -- Install configuration: ""
+[1.667s] -- Install configuration: ""
+[1.667s] -- Installing: /home/rassito/microros_ws/build/micro_ros_demos_rclc/temp_install/fragmented_publication/fragmented_publication
+[1.667s] -- Installing: /home/rassito/microros_ws/build/micro_ros_demos_rclc/temp_install/int32_multinode/int32_multinode
+[1.667s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/build/micro_ros_demos_rclc/temp_install/fragmented_publication/fragmented_publication" to ""
+[1.667s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/build/micro_ros_demos_rclc/temp_install/int32_multinode/int32_multinode" to ""
+[1.667s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.668s] -- Install configuration: ""
+[1.669s] -- Installing: /home/rassito/microros_ws/build/micro_ros_demos_rclc/temp_install/configured_subscriber/configured_subscriber
+[1.669s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/build/micro_ros_demos_rclc/temp_install/configured_subscriber/configured_subscriber" to ""
+[1.673s] [36mInstall the project...[0m
+[1.674s] [ 36%] [34m[1mPerforming build step for 'string_subscriber'[0m
+[1.674s] [36mInstall the project...[0m
+[1.675s] -- Install configuration: ""
+[1.676s] [ 36%] [34m[1mCompleted 'int32_subscriber'[0m
+[1.676s] -- Installing: /home/rassito/microros_ws/build/micro_ros_demos_rclc/temp_install/configured_publisher/configured_publisher
+[1.676s] -- Install configuration: ""
+[1.676s] -- Installing: /home/rassito/microros_ws/build/micro_ros_demos_rclc/temp_install/int32_publisher_subscriber/int32_publisher_subscriber
+[1.676s] -- Install configuration: ""
+[1.677s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/build/micro_ros_demos_rclc/temp_install/int32_publisher_subscriber/int32_publisher_subscriber" to ""
+[1.677s] -- Installing: /home/rassito/microros_ws/build/micro_ros_demos_rclc/temp_install/graph_visualizer/graph_visualizer
+[1.677s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/build/micro_ros_demos_rclc/temp_install/graph_visualizer/graph_visualizer" to ""
+[1.678s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/build/micro_ros_demos_rclc/temp_install/configured_publisher/configured_publisher" to ""
+[1.679s] [ 37%] [34m[1mCompleted 'fragmented_publication'[0m
+[1.679s] [ 37%] [34m[1mCompleted 'int32_publisher'[0m
+[1.680s] [ 37%] [34m[1mCompleted 'int32_multinode'[0m
+[1.681s] [ 37%] [34m[1mCompleted 'configured_subscriber'[0m
+[1.684s] -- Install configuration: ""
+[1.685s] -- Installing: /home/rassito/microros_ws/build/micro_ros_demos_rclc/temp_install/ping_pong/ping_pong
+[1.685s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/build/micro_ros_demos_rclc/temp_install/ping_pong/ping_pong" to ""
+[1.686s] -- Install configuration: ""
+[1.686s] -- Installing: /home/rassito/microros_ws/build/micro_ros_demos_rclc/temp_install/ping_uros_agent/ping_uros_agent
+[1.686s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/build/micro_ros_demos_rclc/temp_install/ping_uros_agent/ping_uros_agent" to ""
+[1.689s] [ 38%] [34m[1mCompleted 'int32_publisher_subscriber'[0m
+[1.689s] [ 38%] [34m[1mCompleted 'graph_visualizer'[0m
+[1.692s] [ 38%] [34m[1mCompleted 'configured_publisher'[0m
+[1.697s] [ 38%] [34m[1mCompleted 'ping_pong'[0m
+[1.697s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.699s] [ 38%] [34m[1mCompleted 'ping_uros_agent'[0m
+[1.721s] [ 40%] Built target int32_subscriber
+[1.721s] [ 42%] Built target fragmented_publication
+[1.721s] [ 44%] Built target int32_multinode
+[1.722s] [ 46%] Built target int32_publisher
+[1.724s] [ 48%] Built target configured_subscriber
+[1.733s] [ 51%] Built target graph_visualizer
+[1.734s] [ 54%] Built target int32_publisher_subscriber
+[1.735s] [ 57%] Built target ping_pong
+[1.737s] [ 60%] Built target configured_publisher
+[1.744s] [ 61%] Built target ping_uros_agent
+[1.745s] [ 61%] [34m[1mPerforming build step for 'parameter_server'[0m
+[1.746s] [ 62%] [34m[1mPerforming build step for 'static_type_handling'[0m
+[1.746s] [ 63%] [34m[1mPerforming build step for 'autodiscover_agent'[0m
+[1.747s] [ 63%] [34m[1mPerforming build step for 'epoch_synchronization'[0m
+[1.748s] [ 63%] [34m[1mPerforming build step for 'multithread_publisher_subscriber'[0m
+[1.760s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.761s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.761s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.765s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.767s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.886s] -- Found rcl: 9.2.4 (/opt/ros/jazzy/share/rcl/cmake)
+[1.886s] -- Found rcl: 9.2.4 (/opt/ros/jazzy/share/rcl/cmake)
+[1.909s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.915s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.919s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.924s] -- Found rcl: 9.2.4 (/opt/ros/jazzy/share/rcl/cmake)
+[1.926s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.926s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.929s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.932s] -- Found rcl: 9.2.4 (/opt/ros/jazzy/share/rcl/cmake)
+[1.936s] -- Found rcl: 9.2.4 (/opt/ros/jazzy/share/rcl/cmake)
+[1.940s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.943s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.944s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.957s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.966s] -- Found rcl: 9.2.4 (/opt/ros/jazzy/share/rcl/cmake)
+[1.967s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.968s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.969s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.971s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.981s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.985s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.988s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.989s] -- Found rcl: 9.2.4 (/opt/ros/jazzy/share/rcl/cmake)
+[1.993s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.994s] -- Found rcl: 9.2.4 (/opt/ros/jazzy/share/rcl/cmake)
+[1.994s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.998s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.998s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.000s] -- Found rcl: 9.2.4 (/opt/ros/jazzy/share/rcl/cmake)
+[2.002s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.003s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.004s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.008s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.013s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.017s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.018s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.020s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.028s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.030s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.031s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.032s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.032s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.033s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.034s] -- Found rcl: 9.2.4 (/opt/ros/jazzy/share/rcl/cmake)
+[2.034s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.036s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.044s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.047s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.048s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.048s] -- Found rcl: 9.2.4 (/opt/ros/jazzy/share/rcl/cmake)
+[2.048s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.055s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.056s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.059s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.061s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.063s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.063s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.065s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.067s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.072s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.073s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.076s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.078s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.079s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.080s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.082s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.089s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.089s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.090s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.090s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.092s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.097s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.099s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.099s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.101s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.106s] -- Found rclc: 6.1.0 (/home/rassito/microros_ws/install/rclc/share/rclc/cmake)
+[2.107s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.114s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.114s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.117s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.118s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.132s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.139s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.139s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.141s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.146s] -- Found rclc: 6.1.0 (/home/rassito/microros_ws/install/rclc/share/rclc/cmake)
+[2.152s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.155s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.155s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.157s] -- Found std_msgs: 5.3.5 (/home/rassito/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[2.157s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.161s] -- Found rclc: 6.1.0 (/home/rassito/microros_ws/install/rclc/share/rclc/cmake)
+[2.168s] -- Found rclc: 6.1.0 (/home/rassito/microros_ws/install/rclc/share/rclc/cmake)
+[2.171s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.171s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.175s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.175s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.176s] -- Found std_msgs: 5.3.5 (/home/rassito/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[2.176s] -- Found rmw_microxrcedds: 5.0.1 (/home/rassito/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[2.179s] -- Found rclc: 6.1.0 (/home/rassito/microros_ws/install/rclc/share/rclc/cmake)
+[2.187s] -- Found rmw_microxrcedds: 5.0.1 (/home/rassito/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[2.193s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.193s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.195s] -- Configuring done (0.6s)
+[2.197s] -- Configuring done (0.5s)
+[2.198s] -- Found std_msgs: 5.3.5 (/home/rassito/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[2.204s] -- Generating done (0.0s)
+[2.205s] -- Build files have been written to: /home/rassito/microros_ws/build/micro_ros_demos_rclc/fragmented_subscription/src/fragmented_subscription-build
+[2.206s] -- Generating done (0.0s)
+[2.207s] -- Found complex_msgs: 5.0.1 (/home/rassito/microros_ws/install/complex_msgs/share/complex_msgs/cmake)
+[2.207s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.207s] -- Build files have been written to: /home/rassito/microros_ws/build/micro_ros_demos_rclc/timer/src/timer-build
+[2.210s] -- Found rmw_microxrcedds: 5.0.1 (/home/rassito/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[2.213s] -- Found micro_ros_utilities: 5.0.1 (/home/rassito/microros_ws/install/micro_ros_utilities/share/micro_ros_utilities/cmake)
+[2.214s] -- Found rclc: 6.1.0 (/home/rassito/microros_ws/install/rclc/share/rclc/cmake)
+[2.214s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.216s] -- Found rclc: 6.1.0 (/home/rassito/microros_ws/install/rclc/share/rclc/cmake)
+[2.222s] -- Found rclc: 6.1.0 (/home/rassito/microros_ws/install/rclc/share/rclc/cmake)
+[2.225s] -- Configuring done (0.5s)
+[2.226s] -- Found std_msgs: 5.3.5 (/home/rassito/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[2.227s] -- Found rmw_microxrcedds: 5.0.1 (/home/rassito/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[2.233s] -- Generating done (0.0s)
+[2.234s] -- Build files have been written to: /home/rassito/microros_ws/build/micro_ros_demos_rclc/multithread_publisher_subscriber/src/multithread_publisher_subscriber-build
+[2.236s] [ 50%] [32mBuilding C object CMakeFiles/fragmented_subscription.dir/main.c.o[0m
+[2.238s] -- Found rclc: 6.1.0 (/home/rassito/microros_ws/install/rclc/share/rclc/cmake)
+[2.239s] [ 50%] [32mBuilding C object CMakeFiles/timer.dir/main.c.o[0m
+[2.240s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.244s] -- Found rmw_microxrcedds: 5.0.1 (/home/rassito/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[2.246s] -- Configuring done (0.6s)
+[2.253s] -- Found visualization_msgs: 5.3.5 (/home/rassito/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake)
+[2.253s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.255s] -- Found rclc: 6.1.0 (/home/rassito/microros_ws/install/rclc/share/rclc/cmake)
+[2.258s] -- Generating done (0.0s)
+[2.260s] -- Build files have been written to: /home/rassito/microros_ws/build/micro_ros_demos_rclc/complex_msg_publisher/src/complex_msg_publisher-build
+[2.262s] -- Configuring done (0.6s)
+[2.265s] -- Found std_msgs: 5.3.5 (/home/rassito/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[2.267s] -- Found complex_msgs: 5.0.1 (/home/rassito/microros_ws/install/complex_msgs/share/complex_msgs/cmake)
+[2.267s] [ 50%] [32mBuilding C object CMakeFiles/multithread_publisher_subscriber.dir/main.c.o[0m
+[2.274s] -- Generating done (0.0s)
+[2.276s] -- Build files have been written to: /home/rassito/microros_ws/build/micro_ros_demos_rclc/string_subscriber/src/string_subscriber-build
+[2.277s] -- Found rclc: 6.1.0 (/home/rassito/microros_ws/install/rclc/share/rclc/cmake)
+[2.279s] -- Found rmw_microxrcedds: 5.0.1 (/home/rassito/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[2.285s] -- Found rmw_microxrcedds: 5.0.1 (/home/rassito/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[2.286s] [01m[K/home/rassito/microros_ws/src/uros/micro-ROS-demos/rclc/timer/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[2.286s] [01m[K/home/rassito/microros_ws/src/uros/micro-ROS-demos/rclc/timer/main.c:34:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.286s]    34 |         [01;35m[KRCCHECK[m[K(rclc_timer_init_default(
+[2.286s]       |         [01;35m[K^~~~~~~[m[K
+[2.286s] In file included from [01m[K/home/rassito/microros_ws/install/rclc/include/rclc/rclc.h:32[m[K,
+[2.286s]                  from [01m[K/home/rassito/microros_ws/src/uros/micro-ROS-demos/rclc/timer/main.c:3[m[K:
+[2.286s] [01m[K/home/rassito/microros_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.286s]    63 | [01;36m[Krclc_timer_init_default[m[K(
+[2.286s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.290s] -- Found std_msgs: 5.3.5 (/home/rassito/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[2.291s] -- Found std_msgs: 5.3.5 (/home/rassito/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[2.291s] -- Configuring done (0.6s)
+[2.298s] -- Generating done (0.0s)
+[2.299s] -- Build files have been written to: /home/rassito/microros_ws/build/micro_ros_demos_rclc/complex_msg_subscriber/src/complex_msg_subscriber-build
+[2.302s] [100%] [32m[1mLinking C executable timer[0m
+[2.304s] -- Configuring done (0.6s)
+[2.304s] [100%] [32m[1mLinking C executable fragmented_subscription[0m
+[2.306s] -- Found rmw_microxrcedds: 5.0.1 (/home/rassito/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[2.307s] [ 50%] [32m[1mLinking C executable complex_msg_publisher[0m
+[2.311s] -- Found std_msgs: 5.3.5 (/home/rassito/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[2.311s] -- Found rmw_microxrcedds: 5.0.1 (/home/rassito/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[2.313s] [ 50%] [32mBuilding C object CMakeFiles/string_subscriber.dir/main.c.o[0m
+[2.315s] -- Generating done (0.0s)
+[2.317s] -- Build files have been written to: /home/rassito/microros_ws/build/micro_ros_demos_rclc/string_publisher/src/string_publisher-build
+[2.317s] -- Configuring done (0.6s)
+[2.325s] -- Generating done (0.0s)
+[2.326s] -- Build files have been written to: /home/rassito/microros_ws/build/micro_ros_demos_rclc/epoch_synchronization/src/epoch_synchronization-build
+[2.327s] -- Configuring done (0.6s)
+[2.329s] -- Found rclc_parameter: 6.1.0 (/home/rassito/microros_ws/install/rclc_parameter/share/rclc_parameter/cmake)
+[2.334s] -- Found rmw_microxrcedds: 5.0.1 (/home/rassito/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[2.334s] -- Found rmw_microxrcedds: 5.0.1 (/home/rassito/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[2.335s] -- Generating done (0.0s)
+[2.336s] -- Build files have been written to: /home/rassito/microros_ws/build/micro_ros_demos_rclc/autodiscover_agent/src/autodiscover_agent-build
+[2.336s] -- Found micro_ros_utilities: 5.0.1 (/home/rassito/microros_ws/install/micro_ros_utilities/share/micro_ros_utilities/cmake)
+[2.337s] [100%] [32m[1mLinking C executable multithread_publisher_subscriber[0m
+[2.341s] [ 50%] [32m[1mLinking C executable complex_msg_subscriber[0m
+[2.349s] -- Configuring done (0.6s)
+[2.353s] -- Configuring done (0.6s)
+[2.359s] -- Generating done (0.0s)
+[2.360s] -- Build files have been written to: /home/rassito/microros_ws/build/micro_ros_demos_rclc/static_type_handling/src/static_type_handling-build
+[2.365s] [ 50%] [32mBuilding C object CMakeFiles/string_publisher.dir/main.c.o[0m
+[2.365s] [ 50%] [32mBuilding C object CMakeFiles/epoch_synchronization.dir/main.c.o[0m
+[2.365s] -- Generating done (0.0s)
+[2.367s] -- Build files have been written to: /home/rassito/microros_ws/build/micro_ros_demos_rclc/parameter_server/src/parameter_server-build
+[2.374s] [ 50%] [32mBuilding C object CMakeFiles/autodiscover_agent.dir/main.c.o[0m
+[2.376s] [100%] Built target complex_msg_publisher
+[2.383s] [100%] [32m[1mLinking C executable string_subscriber[0m
+[2.388s] [100%] Built target fragmented_subscription
+[2.393s] [ 64%] [34m[1mPerforming install step for 'complex_msg_publisher'[0m
+[2.402s] [100%] Built target timer
+[2.406s] [ 50%] [32m[1mLinking C executable static_type_handling[0m
+[2.406s] [ 65%] [34m[1mPerforming install step for 'fragmented_subscription'[0m
+[2.413s] [ 50%] [32mBuilding C object CMakeFiles/parameter_server.dir/main.c.o[0m
+[2.419s] [100%] Built target complex_msg_subscriber
+[2.419s] [ 65%] [34m[1mPerforming install step for 'timer'[0m
+[2.419s] [100%] Built target multithread_publisher_subscriber
+[2.423s] [01m[K/home/rassito/microros_ws/src/uros/micro-ROS-demos/rclc/string_publisher/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[2.423s] [01m[K/home/rassito/microros_ws/src/uros/micro-ROS-demos/rclc/string_publisher/main.c:54:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.423s]    54 |         [01;35m[KRCCHECK[m[K(rclc_timer_init_default(
+[2.423s]       |         [01;35m[K^~~~~~~[m[K
+[2.423s] In file included from [01m[K/home/rassito/microros_ws/install/rclc/include/rclc/rclc.h:32[m[K,
+[2.423s]                  from [01m[K/home/rassito/microros_ws/src/uros/micro-ROS-demos/rclc/string_publisher/main.c:3[m[K:
+[2.423s] [01m[K/home/rassito/microros_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.423s]    63 | [01;36m[Krclc_timer_init_default[m[K(
+[2.423s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.433s] [01m[K/home/rassito/microros_ws/src/uros/micro-ROS-demos/rclc/autodiscover_agent/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[2.433s] [01m[K/home/rassito/microros_ws/src/uros/micro-ROS-demos/rclc/autodiscover_agent/main.c:61:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.433s]    61 |         [01;35m[KRCCHECK[m[K(rclc_timer_init_default(
+[2.433s]       |         [01;35m[K^~~~~~~[m[K
+[2.433s] In file included from [01m[K/home/rassito/microros_ws/install/rclc/include/rclc/rclc.h:32[m[K,
+[2.433s]                  from [01m[K/home/rassito/microros_ws/src/uros/micro-ROS-demos/rclc/autodiscover_agent/main.c:3[m[K:
+[2.434s] [01m[K/home/rassito/microros_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.434s]    63 | [01;36m[Krclc_timer_init_default[m[K(
+[2.434s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.435s] [01m[K/home/rassito/microros_ws/src/uros/micro-ROS-demos/rclc/epoch_synchronization/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[2.435s] [01m[K/home/rassito/microros_ws/src/uros/micro-ROS-demos/rclc/epoch_synchronization/main.c:53:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.435s]    53 |         [01;35m[KRCCHECK[m[K(rclc_timer_init_default(
+[2.435s]       |         [01;35m[K^~~~~~~[m[K
+[2.435s] In file included from [01m[K/home/rassito/microros_ws/install/rclc/include/rclc/rclc.h:32[m[K,
+[2.435s]                  from [01m[K/home/rassito/microros_ws/src/uros/micro-ROS-demos/rclc/epoch_synchronization/main.c:3[m[K:
+[2.435s] [01m[K/home/rassito/microros_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.435s]    63 | [01;36m[Krclc_timer_init_default[m[K(
+[2.435s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.437s] [100%] Built target complex_msg_publisher
+[2.438s] [ 66%] [34m[1mPerforming install step for 'complex_msg_subscriber'[0m
+[2.440s] [ 67%] [34m[1mPerforming install step for 'multithread_publisher_subscriber'[0m
+[2.444s] [100%] [32m[1mLinking C executable string_publisher[0m
+[2.451s] [100%] Built target fragmented_subscription
+[2.452s] [100%] [32m[1mLinking C executable autodiscover_agent[0m
+[2.454s] [36mInstall the project...[0m
+[2.458s] [100%] [32m[1mLinking C executable epoch_synchronization[0m
+[2.460s] [100%] Built target timer
+[2.462s] -- Install configuration: ""
+[2.462s] -- Installing: /home/rassito/microros_ws/build/micro_ros_demos_rclc/temp_install/complex_msg_publisher/complex_msg_publisher
+[2.463s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/build/micro_ros_demos_rclc/temp_install/complex_msg_publisher/complex_msg_publisher" to ""
+[2.471s] [36mInstall the project...[0m
+[2.473s] [ 67%] [34m[1mCompleted 'complex_msg_publisher'[0m
+[2.475s] [100%] Built target string_subscriber
+[2.477s] [36mInstall the project...[0m
+[2.479s] [100%] Built target complex_msg_subscriber
+[2.480s] [01m[K/home/rassito/microros_ws/src/uros/micro-ROS-demos/rclc/parameter_server/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[2.480s] [01m[K/home/rassito/microros_ws/src/uros/micro-ROS-demos/rclc/parameter_server/main.c:91:3:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.480s]    91 |   [01;35m[KRCCHECK[m[K(
+[2.480s]       |   [01;35m[K^~~~~~~[m[K
+[2.480s] In file included from [01m[K/home/rassito/microros_ws/install/rclc/include/rclc/rclc.h:32[m[K,
+[2.480s]                  from [01m[K/home/rassito/microros_ws/src/uros/micro-ROS-demos/rclc/parameter_server/main.c:3[m[K:
+[2.480s] [01m[K/home/rassito/microros_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.480s]    63 | [01;36m[Krclc_timer_init_default[m[K(
+[2.480s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.480s] -- Install configuration: ""
+[2.480s] -- Installing: /home/rassito/microros_ws/build/micro_ros_demos_rclc/temp_install/fragmented_subscription/fragmented_subscription
+[2.481s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/build/micro_ros_demos_rclc/temp_install/fragmented_subscription/fragmented_subscription" to ""
+[2.483s] [100%] Built target multithread_publisher_subscriber
+[2.486s] -- Install configuration: ""
+[2.486s] -- Installing: /home/rassito/microros_ws/build/micro_ros_demos_rclc/temp_install/timer/timer
+[2.486s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/build/micro_ros_demos_rclc/temp_install/timer/timer" to ""
+[2.490s] [ 68%] [34m[1mPerforming install step for 'string_subscriber'[0m
+[2.492s] [ 69%] [34m[1mCompleted 'fragmented_subscription'[0m
+[2.497s] [ 69%] [34m[1mCompleted 'timer'[0m
+[2.497s] [36mInstall the project...[0m
+[2.499s] [100%] Built target static_type_handling
+[2.503s] [36mInstall the project...[0m
+[2.505s] [100%] [32m[1mLinking C executable parameter_server[0m
+[2.508s] -- Install configuration: ""
+[2.508s] -- Installing: /home/rassito/microros_ws/build/micro_ros_demos_rclc/temp_install/complex_msg_subscriber/complex_msg_subscriber
+[2.508s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/build/micro_ros_demos_rclc/temp_install/complex_msg_subscriber/complex_msg_subscriber" to ""
+[2.510s] [ 70%] Built target complex_msg_publisher
+[2.513s] -- Install configuration: ""
+[2.513s] -- Installing: /home/rassito/microros_ws/build/micro_ros_demos_rclc/temp_install/multithread_publisher_subscriber/multithread_publisher_subscriber
+[2.514s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/build/micro_ros_demos_rclc/temp_install/multithread_publisher_subscriber/multithread_publisher_subscriber" to ""
+[2.517s] [ 71%] [34m[1mCompleted 'complex_msg_subscriber'[0m
+[2.517s] [ 71%] [34m[1mPerforming install step for 'static_type_handling'[0m
+[2.525s] [ 72%] [34m[1mCompleted 'multithread_publisher_subscriber'[0m
+[2.526s] [ 74%] Built target fragmented_subscription
+[2.530s] [100%] Built target string_subscriber
+[2.533s] [ 77%] Built target timer
+[2.536s] [100%] Built target autodiscover_agent
+[2.537s] [100%] Built target epoch_synchronization
+[2.543s] [100%] Built target string_publisher
+[2.544s] [ 79%] Built target complex_msg_subscriber
+[2.544s] [36mInstall the project...[0m
+[2.550s] [ 79%] [34m[1mPerforming install step for 'autodiscover_agent'[0m
+[2.550s] [ 80%] [34m[1mPerforming install step for 'epoch_synchronization'[0m
+[2.551s] -- Install configuration: ""
+[2.551s] [ 82%] Built target multithread_publisher_subscriber
+[2.551s] -- Installing: /home/rassito/microros_ws/build/micro_ros_demos_rclc/temp_install/string_subscriber/string_subscriber
+[2.551s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/build/micro_ros_demos_rclc/temp_install/string_subscriber/string_subscriber" to ""
+[2.554s] [100%] Built target static_type_handling
+[2.558s] [ 82%] [34m[1mPerforming install step for 'string_publisher'[0m
+[2.559s] [ 83%] [34m[1mCompleted 'string_subscriber'[0m
+[2.568s] [36mInstall the project...[0m
+[2.572s] [100%] Built target parameter_server
+[2.574s] -- Install configuration: ""
+[2.574s] -- Installing: /home/rassito/microros_ws/build/micro_ros_demos_rclc/temp_install/static_type_handling/static_type_handling
+[2.575s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/build/micro_ros_demos_rclc/temp_install/static_type_handling/static_type_handling" to ""
+[2.582s] [ 83%] [34m[1mCompleted 'static_type_handling'[0m
+[2.585s] [ 85%] Built target string_subscriber
+[2.585s] [100%] Built target epoch_synchronization
+[2.585s] [ 85%] [34m[1mPerforming install step for 'parameter_server'[0m
+[2.585s] [100%] Built target autodiscover_agent
+[2.592s] [100%] Built target string_publisher
+[2.599s] [36mInstall the project...[0m
+[2.599s] [36mInstall the project...[0m
+[2.605s] -- Install configuration: ""
+[2.605s] -- Install configuration: ""
+[2.605s] -- Installing: /home/rassito/microros_ws/build/micro_ros_demos_rclc/temp_install/epoch_synchronization/epoch_synchronization
+[2.605s] -- Installing: /home/rassito/microros_ws/build/micro_ros_demos_rclc/temp_install/autodiscover_agent/autodiscover_agent
+[2.605s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/build/micro_ros_demos_rclc/temp_install/epoch_synchronization/epoch_synchronization" to ""
+[2.605s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/build/micro_ros_demos_rclc/temp_install/autodiscover_agent/autodiscover_agent" to ""
+[2.605s] [ 88%] Built target static_type_handling
+[2.606s] [36mInstall the project...[0m
+[2.612s] -- Install configuration: ""
+[2.613s] [ 88%] [34m[1mCompleted 'autodiscover_agent'[0m
+[2.613s] -- Installing: /home/rassito/microros_ws/build/micro_ros_demos_rclc/temp_install/string_publisher/string_publisher
+[2.613s] [ 89%] [34m[1mCompleted 'epoch_synchronization'[0m
+[2.613s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/build/micro_ros_demos_rclc/temp_install/string_publisher/string_publisher" to ""
+[2.619s] [100%] Built target parameter_server
+[2.619s] [ 89%] [34m[1mCompleted 'string_publisher'[0m
+[2.632s] [36mInstall the project...[0m
+[2.637s] [ 91%] Built target epoch_synchronization
+[2.637s] [ 94%] Built target autodiscover_agent
+[2.638s] -- Install configuration: ""
+[2.638s] -- Installing: /home/rassito/microros_ws/build/micro_ros_demos_rclc/temp_install/parameter_server/parameter_server
+[2.638s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/build/micro_ros_demos_rclc/temp_install/parameter_server/parameter_server" to ""
+[2.643s] [ 96%] Built target string_publisher
+[2.645s] [ 97%] [34m[1mCompleted 'parameter_server'[0m
+[2.676s] [100%] Built target parameter_server
+[2.687s] Invoked command in '/home/rassito/microros_ws/build/micro_ros_demos_rclc' returned '0': CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/visualization_msgs:/home/rassito/microros_ws/install/sensor_msgs:/home/rassito/microros_ws/install/rmw_microxrcedds:/home/rassito/microros_ws/install/rclc_parameter:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/rassito/microros_ws/install/rclc:/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/test_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/rassito/microros_ws/install/rcl_interfaces:/home/rassito/microros_ws/install/microxrcedds_client:/home/rassito/microros_ws/install/complex_msgs:/home/rassito/microros_ws/install/test_interface_files:/home/rassito/microros_ws/install/microcdr:/home/rassito/microros_ws/install/micro_ros_utilities:/home/rassito/microros_ws/install/micro_ros_msgs:/home/rassito/microros_ws/install/example_interfaces:/home/rassito/microros_ws/install/builtin_interfaces:/home/rassito/microros_ws/install/micro_ros_demos_rclc:/home/rassito/microros_ws/install/common_interfaces:/home/rassito/microros_ws/install/action_msgs:/home/rassito/microros_ws/install/unique_identifier_msgs:/home/rassito/microros_ws/install/type_description_interfaces:/home/rassito/microros_ws/install/trajectory_msgs:/home/rassito/microros_ws/install/stereo_msgs:/home/rassito/microros_ws/install/std_srvs:/home/rassito/microros_ws/install/shape_msgs:/home/rassito/microros_ws/install/nav_msgs:/home/rassito/microros_ws/install/diagnostic_msgs:/home/rassito/microros_ws/install/drive_base_msgs:/home/rassito/microros_ws/install/actionlib_msgs:/home/rassito/microros_ws/install/statistics_msgs:/home/rassito/microros_ws/install/service_msgs:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/rassito/microros_ws/install/rosgraph_msgs:/home/rassito/microros_ws/install/composition_interfaces:/home/rassito/microros_ws/install/micro_ros_setup:/home/rassito/microros_ws/install/micro_ros_agent:/home/rassito/microros_ws/install/lifecycle_msgs:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/microros_ws/install/sensor_msgs_py:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/visualization_msgs/lib:/home/rassito/microros_ws/install/sensor_msgs/lib:/home/rassito/microros_ws/install/rmw_microxrcedds/lib:/home/rassito/microros_ws/install/rclc_parameter/lib:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/rassito/microros_ws/install/rclc/lib:/home/rassito/microros_ws/install/geometry_msgs/lib:/home/rassito/microros_ws/install/test_msgs/lib:/home/rassito/microros_ws/install/std_msgs/lib:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/rassito/microros_ws/install/rcl_interfaces/lib:/home/rassito/microros_ws/install/microxrcedds_client/lib:/home/rassito/microros_ws/install/complex_msgs/lib:/home/rassito/microros_ws/install/microcdr/lib:/home/rassito/microros_ws/install/micro_ros_utilities/lib:/home/rassito/microros_ws/install/micro_ros_msgs/lib:/home/rassito/microros_ws/install/example_interfaces/lib:/home/rassito/microros_ws/install/builtin_interfaces/lib:/home/rassito/microros_ws/install/action_msgs/lib:/home/rassito/microros_ws/install/unique_identifier_msgs/lib:/home/rassito/microros_ws/install/type_description_interfaces/lib:/home/rassito/microros_ws/install/trajectory_msgs/lib:/home/rassito/microros_ws/install/stereo_msgs/lib:/home/rassito/microros_ws/install/std_srvs/lib:/home/rassito/microros_ws/install/shape_msgs/lib:/home/rassito/microros_ws/install/nav_msgs/lib:/home/rassito/microros_ws/install/diagnostic_msgs/lib:/home/rassito/microros_ws/install/drive_base_msgs/lib:/home/rassito/microros_ws/install/actionlib_msgs/lib:/home/rassito/microros_ws/install/statistics_msgs/lib:/home/rassito/microros_ws/install/service_msgs/lib:/home/rassito/microros_ws/install/rosgraph_msgs/lib:/home/rassito/microros_ws/install/composition_interfaces/lib:/home/rassito/microros_ws/install/micro_ros_agent/lib:/home/rassito/microros_ws/install/lifecycle_msgs/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/rassito/microros_ws/install/visualization_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.12/site-packages:/home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/test_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.12/site-packages:/home/rassito/microros_ws/install/rcl_interfaces/lib/python3.12/site-packages:/home/rassito/microros_ws/install/complex_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/example_interfaces/lib/python3.12/site-packages:/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:/home/rassito/microros_ws/install/action_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/type_description_interfaces/lib/python3.12/site-packages:/home/rassito/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/stereo_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/std_srvs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/shape_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/sensor_msgs_py/lib/python3.12/site-packages:/home/rassito/microros_ws/install/nav_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/diagnostic_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/drive_base_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/actionlib_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/statistics_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/service_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/rosgraph_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/composition_interfaces/lib/python3.12/site-packages:/home/rassito/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages:/home/rassito/ros_ws/build/super_pkg:/home/rassito/ros_ws/install/super_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/rassito/microros_ws/build/micro_ros_demos_rclc -- -j16 -l16
+[2.688s] Invoking command in '/home/rassito/microros_ws/build/micro_ros_demos_rclc': CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/visualization_msgs:/home/rassito/microros_ws/install/sensor_msgs:/home/rassito/microros_ws/install/rmw_microxrcedds:/home/rassito/microros_ws/install/rclc_parameter:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/rassito/microros_ws/install/rclc:/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/test_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/rassito/microros_ws/install/rcl_interfaces:/home/rassito/microros_ws/install/microxrcedds_client:/home/rassito/microros_ws/install/complex_msgs:/home/rassito/microros_ws/install/test_interface_files:/home/rassito/microros_ws/install/microcdr:/home/rassito/microros_ws/install/micro_ros_utilities:/home/rassito/microros_ws/install/micro_ros_msgs:/home/rassito/microros_ws/install/example_interfaces:/home/rassito/microros_ws/install/builtin_interfaces:/home/rassito/microros_ws/install/micro_ros_demos_rclc:/home/rassito/microros_ws/install/common_interfaces:/home/rassito/microros_ws/install/action_msgs:/home/rassito/microros_ws/install/unique_identifier_msgs:/home/rassito/microros_ws/install/type_description_interfaces:/home/rassito/microros_ws/install/trajectory_msgs:/home/rassito/microros_ws/install/stereo_msgs:/home/rassito/microros_ws/install/std_srvs:/home/rassito/microros_ws/install/shape_msgs:/home/rassito/microros_ws/install/nav_msgs:/home/rassito/microros_ws/install/diagnostic_msgs:/home/rassito/microros_ws/install/drive_base_msgs:/home/rassito/microros_ws/install/actionlib_msgs:/home/rassito/microros_ws/install/statistics_msgs:/home/rassito/microros_ws/install/service_msgs:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/rassito/microros_ws/install/rosgraph_msgs:/home/rassito/microros_ws/install/composition_interfaces:/home/rassito/microros_ws/install/micro_ros_setup:/home/rassito/microros_ws/install/micro_ros_agent:/home/rassito/microros_ws/install/lifecycle_msgs:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/microros_ws/install/sensor_msgs_py:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/visualization_msgs/lib:/home/rassito/microros_ws/install/sensor_msgs/lib:/home/rassito/microros_ws/install/rmw_microxrcedds/lib:/home/rassito/microros_ws/install/rclc_parameter/lib:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/rassito/microros_ws/install/rclc/lib:/home/rassito/microros_ws/install/geometry_msgs/lib:/home/rassito/microros_ws/install/test_msgs/lib:/home/rassito/microros_ws/install/std_msgs/lib:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/rassito/microros_ws/install/rcl_interfaces/lib:/home/rassito/microros_ws/install/microxrcedds_client/lib:/home/rassito/microros_ws/install/complex_msgs/lib:/home/rassito/microros_ws/install/microcdr/lib:/home/rassito/microros_ws/install/micro_ros_utilities/lib:/home/rassito/microros_ws/install/micro_ros_msgs/lib:/home/rassito/microros_ws/install/example_interfaces/lib:/home/rassito/microros_ws/install/builtin_interfaces/lib:/home/rassito/microros_ws/install/action_msgs/lib:/home/rassito/microros_ws/install/unique_identifier_msgs/lib:/home/rassito/microros_ws/install/type_description_interfaces/lib:/home/rassito/microros_ws/install/trajectory_msgs/lib:/home/rassito/microros_ws/install/stereo_msgs/lib:/home/rassito/microros_ws/install/std_srvs/lib:/home/rassito/microros_ws/install/shape_msgs/lib:/home/rassito/microros_ws/install/nav_msgs/lib:/home/rassito/microros_ws/install/diagnostic_msgs/lib:/home/rassito/microros_ws/install/drive_base_msgs/lib:/home/rassito/microros_ws/install/actionlib_msgs/lib:/home/rassito/microros_ws/install/statistics_msgs/lib:/home/rassito/microros_ws/install/service_msgs/lib:/home/rassito/microros_ws/install/rosgraph_msgs/lib:/home/rassito/microros_ws/install/composition_interfaces/lib:/home/rassito/microros_ws/install/micro_ros_agent/lib:/home/rassito/microros_ws/install/lifecycle_msgs/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/rassito/microros_ws/install/visualization_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.12/site-packages:/home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/test_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.12/site-packages:/home/rassito/microros_ws/install/rcl_interfaces/lib/python3.12/site-packages:/home/rassito/microros_ws/install/complex_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/example_interfaces/lib/python3.12/site-packages:/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:/home/rassito/microros_ws/install/action_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/type_description_interfaces/lib/python3.12/site-packages:/home/rassito/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/stereo_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/std_srvs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/shape_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/sensor_msgs_py/lib/python3.12/site-packages:/home/rassito/microros_ws/install/nav_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/diagnostic_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/drive_base_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/actionlib_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/statistics_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/service_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/rosgraph_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/composition_interfaces/lib/python3.12/site-packages:/home/rassito/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages:/home/rassito/ros_ws/build/super_pkg:/home/rassito/ros_ws/install/super_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/rassito/microros_ws/build/micro_ros_demos_rclc
+[2.693s] -- Install configuration: ""
+[2.693s] -- Up-to-date: /home/rassito/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc
+[2.693s] -- Up-to-date: /home/rassito/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/parameter_server
+[2.693s] -- Installing: /home/rassito/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/parameter_server/parameter_server
+[2.693s] -- Up-to-date: /home/rassito/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fragmented_publication
+[2.693s] -- Installing: /home/rassito/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fragmented_publication/fragmented_publication
+[2.693s] -- Up-to-date: /home/rassito/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_publisher
+[2.693s] -- Installing: /home/rassito/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_publisher/int32_publisher
+[2.694s] -- Up-to-date: /home/rassito/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/ping_pong
+[2.694s] -- Installing: /home/rassito/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/ping_pong/ping_pong
+[2.694s] -- Up-to-date: /home/rassito/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/complex_msg_publisher
+[2.694s] -- Installing: /home/rassito/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/complex_msg_publisher/complex_msg_publisher
+[2.694s] -- Up-to-date: /home/rassito/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/configured_publisher
+[2.694s] -- Installing: /home/rassito/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/configured_publisher/configured_publisher
+[2.694s] -- Up-to-date: /home/rassito/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/epoch_synchronization
+[2.694s] -- Installing: /home/rassito/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/epoch_synchronization/epoch_synchronization
+[2.694s] -- Up-to-date: /home/rassito/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_subscriber
+[2.694s] -- Installing: /home/rassito/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_subscriber/int32_subscriber
+[2.694s] -- Up-to-date: /home/rassito/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/graph_visualizer
+[2.694s] -- Installing: /home/rassito/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/graph_visualizer/graph_visualizer
+[2.694s] -- Up-to-date: /home/rassito/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/timer
+[2.694s] -- Installing: /home/rassito/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/timer/timer
+[2.694s] -- Up-to-date: /home/rassito/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/static_type_handling
+[2.694s] -- Installing: /home/rassito/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/static_type_handling/static_type_handling
+[2.694s] -- Up-to-date: /home/rassito/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/subscription_count
+[2.694s] -- Installing: /home/rassito/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/subscription_count/subscription_count
+[2.695s] -- Up-to-date: /home/rassito/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/string_publisher
+[2.695s] -- Installing: /home/rassito/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/string_publisher/string_publisher
+[2.695s] -- Up-to-date: /home/rassito/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_multinode
+[2.695s] -- Installing: /home/rassito/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_multinode/int32_multinode
+[2.695s] -- Up-to-date: /home/rassito/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fragmented_subscription
+[2.695s] -- Installing: /home/rassito/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fragmented_subscription/fragmented_subscription
+[2.695s] -- Up-to-date: /home/rassito/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/ping_uros_agent
+[2.695s] -- Installing: /home/rassito/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/ping_uros_agent/ping_uros_agent
+[2.695s] -- Up-to-date: /home/rassito/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_publisher_subscriber
+[2.695s] -- Installing: /home/rassito/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_publisher_subscriber/int32_publisher_subscriber
+[2.695s] -- Up-to-date: /home/rassito/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/complex_msg_subscriber
+[2.695s] -- Installing: /home/rassito/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/complex_msg_subscriber/complex_msg_subscriber
+[2.695s] -- Up-to-date: /home/rassito/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fibonacci_action_client
+[2.695s] -- Installing: /home/rassito/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fibonacci_action_client/fibonacci_action_client
+[2.695s] -- Up-to-date: /home/rassito/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/addtwoints_server
+[2.695s] -- Installing: /home/rassito/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/addtwoints_server/addtwoints_server
+[2.695s] -- Up-to-date: /home/rassito/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/autodiscover_agent
+[2.695s] -- Installing: /home/rassito/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/autodiscover_agent/autodiscover_agent
+[2.696s] -- Up-to-date: /home/rassito/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/publisher_count
+[2.696s] -- Installing: /home/rassito/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/publisher_count/publisher_count
+[2.696s] -- Up-to-date: /home/rassito/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/addtwoints_client
+[2.696s] -- Installing: /home/rassito/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/addtwoints_client/addtwoints_client
+[2.696s] -- Up-to-date: /home/rassito/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/string_subscriber
+[2.696s] -- Installing: /home/rassito/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/string_subscriber/string_subscriber
+[2.696s] -- Up-to-date: /home/rassito/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/multithread_publisher_subscriber
+[2.696s] -- Installing: /home/rassito/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/multithread_publisher_subscriber/multithread_publisher_subscriber
+[2.696s] -- Up-to-date: /home/rassito/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/configured_subscriber
+[2.696s] -- Installing: /home/rassito/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/configured_subscriber/configured_subscriber
+[2.696s] -- Up-to-date: /home/rassito/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fibonacci_action_server
+[2.696s] -- Installing: /home/rassito/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fibonacci_action_server/fibonacci_action_server
+[2.696s] -- Up-to-date: /home/rassito/microros_ws/install/micro_ros_demos_rclc/share/ament_index/resource_index/package_run_dependencies/micro_ros_demos_rclc
+[2.696s] -- Installing: /home/rassito/microros_ws/install/micro_ros_demos_rclc/share/ament_index/resource_index/parent_prefix_path/micro_ros_demos_rclc
+[2.696s] -- Up-to-date: /home/rassito/microros_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/environment/ament_prefix_path.sh
+[2.696s] -- Up-to-date: /home/rassito/microros_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/environment/ament_prefix_path.dsv
+[2.696s] -- Up-to-date: /home/rassito/microros_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/environment/path.sh
+[2.696s] -- Up-to-date: /home/rassito/microros_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/environment/path.dsv
+[2.696s] -- Up-to-date: /home/rassito/microros_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/local_setup.bash
+[2.696s] -- Up-to-date: /home/rassito/microros_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/local_setup.sh
+[2.697s] -- Up-to-date: /home/rassito/microros_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/local_setup.zsh
+[2.697s] -- Up-to-date: /home/rassito/microros_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/local_setup.dsv
+[2.697s] -- Installing: /home/rassito/microros_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/package.dsv
+[2.697s] -- Up-to-date: /home/rassito/microros_ws/install/micro_ros_demos_rclc/share/ament_index/resource_index/packages/micro_ros_demos_rclc
+[2.697s] -- Up-to-date: /home/rassito/microros_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/cmake/micro_ros_demos_rclcConfig.cmake
+[2.697s] -- Up-to-date: /home/rassito/microros_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/cmake/micro_ros_demos_rclcConfig-version.cmake
+[2.697s] -- Up-to-date: /home/rassito/microros_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/package.xml
+[2.698s] Invoked command in '/home/rassito/microros_ws/build/micro_ros_demos_rclc' returned '0': CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/visualization_msgs:/home/rassito/microros_ws/install/sensor_msgs:/home/rassito/microros_ws/install/rmw_microxrcedds:/home/rassito/microros_ws/install/rclc_parameter:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/rassito/microros_ws/install/rclc:/home/rassito/microros_ws/install/geometry_msgs:/home/rassito/microros_ws/install/test_msgs:/home/rassito/microros_ws/install/std_msgs:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/rassito/microros_ws/install/rcl_interfaces:/home/rassito/microros_ws/install/microxrcedds_client:/home/rassito/microros_ws/install/complex_msgs:/home/rassito/microros_ws/install/test_interface_files:/home/rassito/microros_ws/install/microcdr:/home/rassito/microros_ws/install/micro_ros_utilities:/home/rassito/microros_ws/install/micro_ros_msgs:/home/rassito/microros_ws/install/example_interfaces:/home/rassito/microros_ws/install/builtin_interfaces:/home/rassito/microros_ws/install/micro_ros_demos_rclc:/home/rassito/microros_ws/install/common_interfaces:/home/rassito/microros_ws/install/action_msgs:/home/rassito/microros_ws/install/unique_identifier_msgs:/home/rassito/microros_ws/install/type_description_interfaces:/home/rassito/microros_ws/install/trajectory_msgs:/home/rassito/microros_ws/install/stereo_msgs:/home/rassito/microros_ws/install/std_srvs:/home/rassito/microros_ws/install/shape_msgs:/home/rassito/microros_ws/install/nav_msgs:/home/rassito/microros_ws/install/diagnostic_msgs:/home/rassito/microros_ws/install/drive_base_msgs:/home/rassito/microros_ws/install/actionlib_msgs:/home/rassito/microros_ws/install/statistics_msgs:/home/rassito/microros_ws/install/service_msgs:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/rassito/microros_ws/install/rosgraph_msgs:/home/rassito/microros_ws/install/composition_interfaces:/home/rassito/microros_ws/install/micro_ros_setup:/home/rassito/microros_ws/install/micro_ros_agent:/home/rassito/microros_ws/install/lifecycle_msgs:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/microros_ws/install/sensor_msgs_py:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/visualization_msgs/lib:/home/rassito/microros_ws/install/sensor_msgs/lib:/home/rassito/microros_ws/install/rmw_microxrcedds/lib:/home/rassito/microros_ws/install/rclc_parameter/lib:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/rassito/microros_ws/install/rclc/lib:/home/rassito/microros_ws/install/geometry_msgs/lib:/home/rassito/microros_ws/install/test_msgs/lib:/home/rassito/microros_ws/install/std_msgs/lib:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/rassito/microros_ws/install/rcl_interfaces/lib:/home/rassito/microros_ws/install/microxrcedds_client/lib:/home/rassito/microros_ws/install/complex_msgs/lib:/home/rassito/microros_ws/install/microcdr/lib:/home/rassito/microros_ws/install/micro_ros_utilities/lib:/home/rassito/microros_ws/install/micro_ros_msgs/lib:/home/rassito/microros_ws/install/example_interfaces/lib:/home/rassito/microros_ws/install/builtin_interfaces/lib:/home/rassito/microros_ws/install/action_msgs/lib:/home/rassito/microros_ws/install/unique_identifier_msgs/lib:/home/rassito/microros_ws/install/type_description_interfaces/lib:/home/rassito/microros_ws/install/trajectory_msgs/lib:/home/rassito/microros_ws/install/stereo_msgs/lib:/home/rassito/microros_ws/install/std_srvs/lib:/home/rassito/microros_ws/install/shape_msgs/lib:/home/rassito/microros_ws/install/nav_msgs/lib:/home/rassito/microros_ws/install/diagnostic_msgs/lib:/home/rassito/microros_ws/install/drive_base_msgs/lib:/home/rassito/microros_ws/install/actionlib_msgs/lib:/home/rassito/microros_ws/install/statistics_msgs/lib:/home/rassito/microros_ws/install/service_msgs/lib:/home/rassito/microros_ws/install/rosgraph_msgs/lib:/home/rassito/microros_ws/install/composition_interfaces/lib:/home/rassito/microros_ws/install/micro_ros_agent/lib:/home/rassito/microros_ws/install/lifecycle_msgs/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/rassito/microros_ws/install/visualization_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/sensor_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.12/site-packages:/home/rassito/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/test_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.12/site-packages:/home/rassito/microros_ws/install/rcl_interfaces/lib/python3.12/site-packages:/home/rassito/microros_ws/install/complex_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/example_interfaces/lib/python3.12/site-packages:/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:/home/rassito/microros_ws/install/action_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/type_description_interfaces/lib/python3.12/site-packages:/home/rassito/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/stereo_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/std_srvs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/shape_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/sensor_msgs_py/lib/python3.12/site-packages:/home/rassito/microros_ws/install/nav_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/diagnostic_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/drive_base_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/actionlib_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/statistics_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/service_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/rosgraph_msgs/lib/python3.12/site-packages:/home/rassito/microros_ws/install/composition_interfaces/lib/python3.12/site-packages:/home/rassito/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages:/home/rassito/ros_ws/build/super_pkg:/home/rassito/ros_ws/install/super_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/rassito/microros_ws/build/micro_ros_demos_rclc

@@ -1,0 +1,238 @@
+[0.012s] Invoking command in '/home/rassito/microros_ws/build/composition_interfaces': AMENT_PREFIX_PATH=/home/rassito/microros_ws/install/rcl_interfaces:/home/rassito/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/rcl_interfaces:/home/rassito/microros_ws/install/builtin_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/rcl_interfaces/lib:/home/rassito/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rassito/microros_ws/install/rcl_interfaces/lib/python3.12/site-packages:/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rassito/microros_ws/src/ros2/rcl_interfaces/composition_interfaces -DCMAKE_INSTALL_PREFIX=/home/rassito/microros_ws/install/composition_interfaces
+[0.022s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.051s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.107s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.110s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.137s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.161s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.163s] -- Found rcl_interfaces: 2.0.2 (/home/rassito/microros_ws/install/rcl_interfaces/share/rcl_interfaces/cmake)
+[0.540s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.662s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.791s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.792s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[0.995s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[1.017s] -- Configuring done (1.0s)
+[1.064s] -- Generating done (0.0s)
+[1.073s] -- Build files have been written to: /home/rassito/microros_ws/build/composition_interfaces
+[1.079s] Invoked command in '/home/rassito/microros_ws/build/composition_interfaces' returned '0': AMENT_PREFIX_PATH=/home/rassito/microros_ws/install/rcl_interfaces:/home/rassito/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/rcl_interfaces:/home/rassito/microros_ws/install/builtin_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/rcl_interfaces/lib:/home/rassito/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rassito/microros_ws/install/rcl_interfaces/lib/python3.12/site-packages:/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rassito/microros_ws/src/ros2/rcl_interfaces/composition_interfaces -DCMAKE_INSTALL_PREFIX=/home/rassito/microros_ws/install/composition_interfaces
+[1.080s] Invoking command in '/home/rassito/microros_ws/build/composition_interfaces': AMENT_PREFIX_PATH=/home/rassito/microros_ws/install/rcl_interfaces:/home/rassito/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/rcl_interfaces:/home/rassito/microros_ws/install/builtin_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/rcl_interfaces/lib:/home/rassito/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rassito/microros_ws/install/rcl_interfaces/lib/python3.12/site-packages:/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rassito/microros_ws/build/composition_interfaces -- -j16 -l16
+[1.113s] [  1%] Built target composition_interfaces__rosidl_generator_type_description
+[1.123s] [  1%] Built target ament_cmake_python_copy_composition_interfaces
+[1.127s] [  3%] Built target composition_interfaces__cpp
+[1.131s] [ 24%] Built target composition_interfaces__rosidl_generator_c
+[1.138s] [ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.138s] [ 27%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.147s] [ 37%] Built target composition_interfaces__rosidl_typesupport_introspection_c
+[1.153s] [ 46%] Built target composition_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.153s] [ 55%] Built target composition_interfaces__rosidl_typesupport_introspection_cpp
+[1.155s] [ 64%] Built target composition_interfaces__rosidl_typesupport_fastrtps_c
+[1.286s] running egg_info
+[1.302s] writing composition_interfaces.egg-info/PKG-INFO
+[1.302s] writing dependency_links to composition_interfaces.egg-info/dependency_links.txt
+[1.302s] writing top-level names to composition_interfaces.egg-info/top_level.txt
+[1.368s] reading manifest file 'composition_interfaces.egg-info/SOURCES.txt'
+[1.369s] writing manifest file 'composition_interfaces.egg-info/SOURCES.txt'
+[1.405s] [ 64%] Built target ament_cmake_python_build_composition_interfaces_egg
+[1.503s] [ 66%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/composition_interfaces/srv/list_nodes__type_support.cpp.o[0m
+[1.505s] [ 68%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/composition_interfaces/srv/load_node__type_support.cpp.o[0m
+[1.505s] [ 70%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/composition_interfaces/srv/unload_node__type_support.cpp.o[0m
+[1.562s] [ 72%] [32m[1mLinking CXX shared library libcomposition_interfaces__rosidl_typesupport_c.so[0m
+[1.609s] [ 72%] Built target composition_interfaces__rosidl_typesupport_c
+[1.662s] [ 74%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/composition_interfaces/srv/load_node__type_support.cpp.o[0m
+[1.662s] [ 75%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/composition_interfaces/srv/list_nodes__type_support.cpp.o[0m
+[1.662s] [ 77%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/composition_interfaces/srv/unload_node__type_support.cpp.o[0m
+[2.206s] [ 79%] [32m[1mLinking CXX shared library libcomposition_interfaces__rosidl_typesupport_cpp.so[0m
+[2.267s] [ 79%] Built target composition_interfaces__rosidl_typesupport_cpp
+[2.282s] [ 79%] Built target composition_interfaces
+[2.297s] [ 81%] Built target composition_interfaces__py
+[2.315s] [ 83%] [32m[1mLinking C shared library libcomposition_interfaces__rosidl_generator_py.so[0m
+[2.352s] [ 88%] Built target composition_interfaces__rosidl_generator_py
+[2.368s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/composition_interfaces/composition_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[2.368s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/composition_interfaces/composition_interfaces_s__rosidl_typesupport_c.so[0m
+[2.368s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/composition_interfaces/composition_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[2.392s] [ 96%] Built target composition_interfaces_s__rosidl_typesupport_c
+[2.393s] [ 98%] Built target composition_interfaces_s__rosidl_typesupport_introspection_c
+[2.396s] [100%] Built target composition_interfaces_s__rosidl_typesupport_fastrtps_c
+[2.404s] Invoked command in '/home/rassito/microros_ws/build/composition_interfaces' returned '0': AMENT_PREFIX_PATH=/home/rassito/microros_ws/install/rcl_interfaces:/home/rassito/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/rcl_interfaces:/home/rassito/microros_ws/install/builtin_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/rcl_interfaces/lib:/home/rassito/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rassito/microros_ws/install/rcl_interfaces/lib/python3.12/site-packages:/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rassito/microros_ws/build/composition_interfaces -- -j16 -l16
+[2.405s] Invoking command in '/home/rassito/microros_ws/build/composition_interfaces': AMENT_PREFIX_PATH=/home/rassito/microros_ws/install/rcl_interfaces:/home/rassito/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/rcl_interfaces:/home/rassito/microros_ws/install/builtin_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/rcl_interfaces/lib:/home/rassito/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rassito/microros_ws/install/rcl_interfaces/lib/python3.12/site-packages:/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rassito/microros_ws/build/composition_interfaces
+[2.411s] -- Install configuration: ""
+[2.412s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/share/ament_index/resource_index/rosidl_interfaces/composition_interfaces
+[2.412s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/share/composition_interfaces/srv/LoadNode.json
+[2.412s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/share/composition_interfaces/srv/ListNodes.json
+[2.412s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/share/composition_interfaces/srv/UnloadNode.json
+[2.412s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces
+[2.412s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv
+[2.412s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/unload_node.h
+[2.412s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/load_node.h
+[2.412s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail
+[2.412s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__type_support.h
+[2.413s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__type_support.h
+[2.413s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__functions.c
+[2.413s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__functions.c
+[2.413s] -- Installing: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__type_support.c
+[2.413s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__functions.h
+[2.413s] -- Installing: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__type_support.c
+[2.413s] -- Installing: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__type_support.c
+[2.413s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__functions.c
+[2.413s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__description.c
+[2.413s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__functions.h
+[2.413s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__struct.h
+[2.413s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__struct.h
+[2.414s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__struct.h
+[2.414s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__description.c
+[2.414s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__description.c
+[2.414s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__functions.h
+[2.414s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__type_support.h
+[2.414s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/list_nodes.h
+[2.414s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg
+[2.414s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.414s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/share/composition_interfaces/environment/library_path.sh
+[2.414s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/share/composition_interfaces/environment/library_path.dsv
+[2.414s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_generator_c.so
+[2.414s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces
+[2.415s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv
+[2.415s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail
+[2.415s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__rosidl_typesupport_fastrtps_c.h
+[2.415s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__rosidl_typesupport_fastrtps_c.h
+[2.415s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__rosidl_typesupport_fastrtps_c.h
+[2.415s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg
+[2.415s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.415s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.415s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces
+[2.415s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv
+[2.415s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail
+[2.415s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__rosidl_typesupport_introspection_c.h
+[2.415s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__rosidl_typesupport_introspection_c.h
+[2.415s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__rosidl_typesupport_introspection_c.h
+[2.415s] -- Installing: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__type_support.c
+[2.416s] -- Installing: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__type_support.c
+[2.416s] -- Installing: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__type_support.c
+[2.416s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg
+[2.416s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.417s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_introspection_c.so
+[2.417s] -- Installing: /home/rassito/microros_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_c.so
+[2.418s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_c.so" to ""
+[2.418s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces
+[2.418s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv
+[2.418s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/list_nodes.hpp
+[2.418s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/load_node.hpp
+[2.418s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/unload_node.hpp
+[2.418s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail
+[2.418s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__traits.hpp
+[2.418s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__builder.hpp
+[2.418s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__struct.hpp
+[2.418s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__struct.hpp
+[2.418s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__traits.hpp
+[2.418s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__type_support.hpp
+[2.418s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__type_support.hpp
+[2.418s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__type_support.hpp
+[2.418s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__builder.hpp
+[2.419s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__struct.hpp
+[2.419s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__traits.hpp
+[2.419s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__builder.hpp
+[2.419s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg
+[2.419s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.419s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces
+[2.419s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv
+[2.419s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail
+[2.419s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__rosidl_typesupport_fastrtps_cpp.hpp
+[2.419s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__rosidl_typesupport_fastrtps_cpp.hpp
+[2.419s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__rosidl_typesupport_fastrtps_cpp.hpp
+[2.419s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/dds_fastrtps
+[2.419s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg
+[2.419s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.419s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.419s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces
+[2.419s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv
+[2.419s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail
+[2.419s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__type_support.cpp
+[2.419s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__type_support.cpp
+[2.420s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__rosidl_typesupport_introspection_cpp.hpp
+[2.420s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__rosidl_typesupport_introspection_cpp.hpp
+[2.420s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__type_support.cpp
+[2.420s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__rosidl_typesupport_introspection_cpp.hpp
+[2.420s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.423s] -- Installing: /home/rassito/microros_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_cpp.so
+[2.424s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_cpp.so" to ""
+[2.424s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/share/composition_interfaces/environment/pythonpath.sh
+[2.424s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/share/composition_interfaces/environment/pythonpath.dsv
+[2.424s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces-2.0.2-py3.12.egg-info
+[2.424s] -- Installing: /home/rassito/microros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces-2.0.2-py3.12.egg-info/top_level.txt
+[2.424s] -- Installing: /home/rassito/microros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces-2.0.2-py3.12.egg-info/PKG-INFO
+[2.424s] -- Installing: /home/rassito/microros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces-2.0.2-py3.12.egg-info/dependency_links.txt
+[2.424s] -- Installing: /home/rassito/microros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces-2.0.2-py3.12.egg-info/SOURCES.txt
+[2.424s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces
+[2.424s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_microxrcedds_c.so
+[2.424s] -- Installing: /home/rassito/microros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[2.424s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/_composition_interfaces_s.ep.rosidl_typesupport_c.c
+[2.424s] -- Installing: /home/rassito/microros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_c.so
+[2.425s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/srv
+[2.425s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/srv/_unload_node_s.c
+[2.425s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/srv/_load_node.py
+[2.425s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/srv/_load_node_s.c
+[2.425s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/srv/_list_nodes.py
+[2.425s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/srv/_unload_node.py
+[2.425s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/srv/_list_nodes_s.c
+[2.425s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/srv/__init__.py
+[2.425s] -- Installing: /home/rassito/microros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_introspection_c.so
+[2.425s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/_composition_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.425s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/_composition_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.425s] -- Installing: /home/rassito/microros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/__init__.py
+[2.425s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/_composition_interfaces_s.ep.rosidl_typesupport_microxrcedds_c.c
+[2.454s] Listing '/home/rassito/microros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces'...
+[2.454s] Compiling '/home/rassito/microros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/__init__.py'...
+[2.454s] Listing '/home/rassito/microros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/srv'...
+[2.458s] -- Installing: /home/rassito/microros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[2.458s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[2.458s] -- Installing: /home/rassito/microros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_introspection_c.so
+[2.458s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[2.458s] -- Installing: /home/rassito/microros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_c.so
+[2.458s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_c.so" to ""
+[2.459s] -- Installing: /home/rassito/microros_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_generator_py.so
+[2.459s] -- Set non-toolchain portion of runtime path of "/home/rassito/microros_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_generator_py.so" to ""
+[2.459s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/share/composition_interfaces/srv/LoadNode.idl
+[2.459s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/share/composition_interfaces/srv/ListNodes.idl
+[2.459s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/share/composition_interfaces/srv/UnloadNode.idl
+[2.459s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/share/composition_interfaces/srv/LoadNode.srv
+[2.459s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/share/composition_interfaces/srv/ListNodes.srv
+[2.459s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/share/composition_interfaces/srv/UnloadNode.srv
+[2.459s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/share/ament_index/resource_index/package_run_dependencies/composition_interfaces
+[2.460s] -- Installing: /home/rassito/microros_ws/install/composition_interfaces/share/ament_index/resource_index/parent_prefix_path/composition_interfaces
+[2.460s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/share/composition_interfaces/environment/ament_prefix_path.sh
+[2.460s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/share/composition_interfaces/environment/ament_prefix_path.dsv
+[2.460s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/share/composition_interfaces/environment/path.sh
+[2.460s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/share/composition_interfaces/environment/path.dsv
+[2.460s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/share/composition_interfaces/local_setup.bash
+[2.460s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/share/composition_interfaces/local_setup.sh
+[2.460s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/share/composition_interfaces/local_setup.zsh
+[2.460s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/share/composition_interfaces/local_setup.dsv
+[2.460s] -- Installing: /home/rassito/microros_ws/install/composition_interfaces/share/composition_interfaces/package.dsv
+[2.460s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/share/ament_index/resource_index/packages/composition_interfaces
+[2.460s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_generator_cExport.cmake
+[2.460s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.461s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[2.461s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.461s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.461s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.461s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_cExport.cmake
+[2.461s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.461s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_generator_cppExport.cmake
+[2.461s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.461s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.461s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.462s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.462s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_cppExport.cmake
+[2.462s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.462s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_generator_pyExport.cmake
+[2.462s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[2.462s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/share/composition_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.462s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/share/composition_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.462s] -- Installing: /home/rassito/microros_ws/install/composition_interfaces/share/composition_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.462s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/share/composition_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.463s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/share/composition_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.463s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/share/composition_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.463s] -- Installing: /home/rassito/microros_ws/install/composition_interfaces/share/composition_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.463s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfacesConfig.cmake
+[2.463s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfacesConfig-version.cmake
+[2.463s] -- Up-to-date: /home/rassito/microros_ws/install/composition_interfaces/share/composition_interfaces/package.xml
+[2.464s] Invoked command in '/home/rassito/microros_ws/build/composition_interfaces' returned '0': AMENT_PREFIX_PATH=/home/rassito/microros_ws/install/rcl_interfaces:/home/rassito/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rassito/microros_ws/install/rcl_interfaces:/home/rassito/microros_ws/install/builtin_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rassito/ros_ws/install/super_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rassito/microros_ws/install/rcl_interfaces/lib:/home/rassito/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rassito/microros_ws/install/rcl_interfaces/lib/python3.12/site-packages:/home/rassito/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rassito/microros_ws/build/composition_interfaces
