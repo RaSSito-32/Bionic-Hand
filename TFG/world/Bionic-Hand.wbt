@@ -1,4 +1,4 @@
-#VRML_SIM R2025a utf8
+#VRML_SIM R2023b utf8
 
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
@@ -7,8 +7,8 @@ EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/project
 WorldInfo {
 }
 Viewpoint {
-  orientation -0.3173443774586528 0.3390561567803442 0.8856260320500539 1.5425864895378538
-  position -0.30830773776967785 -1.475211120831887 1.245949630809462
+  orientation -0.12192830954197624 0.10369980181603121 0.9871068019396645 1.744844503767214
+  position 0.15425946428969578 -1.2481583865377583 0.5434904722341105
 }
 TexturedBackground {
 }
@@ -17,12 +17,12 @@ TexturedBackgroundLight {
 RectangleArena {
 }
 Robot {
-  translation -0.0005422801236218359 0.0033664922342425503 0.10064497042507979
-  rotation 0.3033870117204683 -0.16489753696552636 -0.9384908755134634 0.0083178382419243
+  translation -0.0005400030099930369 0.0033536019838486556 0.10064923751097592
+  rotation 0.3172267102268766 -0.16145744947457 -0.9345045245090041 0.008353557882818493
   children [
     DEF THUMP HingeJoint {
       jointParameters HingeJointParameters {
-        position 6.215928968381861e-05
+        position 6.2185617238808e-05
         axis 0 1 0
         anchor 0.07 0 0.12
       }
@@ -32,12 +32,12 @@ Robot {
         }
       ]
       endPoint Solid {
-        translation 0.06499834330173665 0.023000000000000003 0.10300031086658581
-        rotation -2.0922145915377953e-06 0.9999999999673194 7.809219254254549e-06 0.5236674664692608
+        translation 0.06499834285417641 0.023 0.10300031099826724
+        rotation -2.09221438596702e-06 0.9999999999673194 7.809218898198278e-06 0.5236674927968189
         children [
           DEF PHALANX_13 HingeJoint {
             jointParameters HingeJointParameters {
-              position 3.616105413200171e-05
+              position 3.6265355790654485e-05
               axis 0 1 0
               anchor 0.004 0.11 0.004
             }
@@ -47,12 +47,12 @@ Robot {
               }
             ]
             endPoint Solid {
-              translation -0.022399171894599904 -0.00039999999999977554 0.026900954636856586
-              rotation 0.25164774253210886 -0.2595288852680236 -0.932372335169824 1.631415922054575
+              translation -0.02239916950599222 -0.0003999999999998588 0.026900957390333883
+              rotation 0.2516476971136266 -0.2595288394923662 -0.9323723601700953 1.6314158949852842
               children [
                 DEF PHALANX_14 HingeJoint {
                   jointParameters HingeJointParameters {
-                    position 0.00013301004935202187
+                    position 0.0001335816464635986
                     axis -1 0 0
                     anchor 1 -0.01 0.01
                   }
@@ -62,12 +62,11 @@ Robot {
                     }
                   ]
                   endPoint Solid {
-                    translation -4.123659995691753e-07 -0.036999068690819675 0.01700359120940106
-                    rotation 0.99999999997445 -3.385787085549693e-06 -6.295762376480249e-06 1.648006989950649
+                    translation -4.123659995691753e-07 -0.03699906468758276 0.017003606641989594
+                    rotation 0.99999999997445 -3.385789780552811e-06 -6.295763074320428e-06 1.6480064183535381
                     children [
                       DEF PHALANX_15 HingeJoint {
                         jointParameters HingeJointParameters {
-                          position -2.1095925599241821e-07
                           axis -1 0 0
                           anchor 1 -0.015 0.01
                         }
@@ -77,8 +76,8 @@ Robot {
                           }
                         ]
                         endPoint Solid {
-                          translation 2.511690022632962e-08 -0.028275102863919335 0.023575697199494552
-                          rotation 0.9999999999999769 -5.7883216188019926e-08 2.070409736830613e-07 1.6481502109592758
+                          translation 2.511690022632962e-08 -0.02827510000000006 0.023575700000000074
+                          rotation 0.9999999999999769 -5.788319999999733e-08 2.070409999999908e-07 1.64815000000002
                           children [
                             DEF FORM Shape {
                               appearance PBRAppearance {
@@ -140,7 +139,7 @@ Robot {
     }
     DEF PHALANX_1 HingeJoint {
       jointParameters HingeJointParameters {
-        position 0.0001250766290086247
+        position 0.00012512760528249345
         axis -1 0 0
         anchor -0.002 0.14 0.11
       }
@@ -150,12 +149,12 @@ Robot {
         }
       ]
       endPoint Solid {
-        translation -0.05999999999999999 0.13216775174711703 0.13200097980329994
-        rotation -1 0 0 0.00012507662972447277
+        translation -0.06 0.13216775286864502 0.13200098020255874
+        rotation -1 0 0 0.00012512760504919797
         children [
           DEF PHALANX_2 HingeJoint {
             jointParameters HingeJointParameters {
-              position 0.0001334620286559171
+              position 0.00013398021258592685
               axis -1 0 0
               anchor 1 -0.01 0.01
             }
@@ -165,12 +164,12 @@ Robot {
               }
             ]
             endPoint Solid {
-              translation 2.3776298041511268e-08 -0.03429576825931519 0.01964610385490715
-              rotation 0.9999999999999983 1.3072143196992278e-08 5.500510072146287e-08 1.5700665379713392
+              translation 2.3776298929689688e-08 -0.034295763260855906 0.019646116444582522
+              rotation 0.9999999999999984 1.3072160837736368e-08 5.500511159636234e-08 1.5700660197874097
               children [
                 DEF PHALANX_3 HingeJoint {
                   jointParameters HingeJointParameters {
-                    position 0.00015165542072754462
+                    position 0.00015184681418056734
                     axis -1 0 0
                     anchor 1 -0.01 0.01
                   }
@@ -180,8 +179,8 @@ Robot {
                     }
                   ]
                   endPoint Solid {
-                    translation 2.3226700118783583e-08 -0.02899865004826651 0.018902881350635593
-                    rotation 0.9999999999999982 1.3072688111751324e-08 5.500516925885022e-08 1.6479983445792759
+                    translation 2.322670000776128e-08 -0.028998648344312962 0.01890288498685267
+                    rotation 0.9999999999999983 1.3072694533544287e-08 5.5005172880190936e-08 1.6479981531858232
                     children [
                       DEF FORM Shape {
                         appearance PBRAppearance {
@@ -227,7 +226,7 @@ Robot {
     }
     DEF PHALANX_4 HingeJoint {
       jointParameters HingeJointParameters {
-        position 0.00012509455917527728
+        position 0.00012512258898000894
         axis -1 0 0
         anchor -0.002 0.14 0.11
       }
@@ -237,12 +236,12 @@ Robot {
         }
       ]
       endPoint Solid {
-        translation -0.029999999999999527 0.1330033776078592 0.1370008754506551
-        rotation -1 0 0 0.00012509455865166667
+        translation -0.029999999999999548 0.13300337836468848 0.13700087564676908
+        rotation -1 0 0 0.00012512259008364644
         children [
           DEF PHALANX_5 HingeJoint {
             jointParameters HingeJointParameters {
-              position 0.00013336386772078157
+              position 0.00013397600439191137
               axis -1 0 0
               anchor 1 -0.01 0.01
             }
@@ -252,12 +251,12 @@ Robot {
               }
             ]
             endPoint Solid {
-              translation -4.413270000558356e-07 -0.040257037186752866 0.020169894963540803
-              rotation 0.9999999999803448 -2.6086542161930698e-06 -5.7013364896560334e-06 1.5700666361322733
+              translation -4.413270000558356e-07 -0.04025703096138156 0.020169913484980918
+              rotation 0.9999999999803448 -2.60865676020169e-06 -5.701337437502216e-06 1.570066023995602
               children [
                 DEF PHALANX_6 HingeJoint {
                   jointParameters HingeJointParameters {
-                    position 0.00015162906796151177
+                    position 0.00015184631576348195
                     axis -1 0 0
                     anchor 1 -0.01 0.01
                   }
@@ -267,8 +266,8 @@ Robot {
                     }
                   ]
                   endPoint Solid {
-                    translation 2.6018200038890882e-08 -0.03019558570214583 0.021560717652346857
-                    rotation 0.9999999999999768 -5.7871563879789445e-08 2.0705991688455152e-07 1.6479983709320556
+                    translation 2.6018200038890882e-08 -0.030195583190604863 0.02156072203979319
+                    rotation 0.9999999999999768 -5.787154720687031e-08 2.0705994398977916e-07 1.647998153684254
                     children [
                       DEF FORM Shape {
                         appearance PBRAppearance {
@@ -315,7 +314,7 @@ Robot {
     }
     DEF PHALANX_7 HingeJoint {
       jointParameters HingeJointParameters {
-        position 0.00012510290559109016
+        position 0.00012512375625717276
         axis -1 0 0
         anchor -0.002 0.14 0.11
       }
@@ -325,12 +324,12 @@ Robot {
         }
       ]
       endPoint Solid {
-        translation -1.2750217548429532e-16 0.13251667845931203 0.13940393641536242
-        rotation -1 0 0 0.0001251029044895495
+        translation -1.2620113287731272e-16 0.1325166790724037 0.13940393657139463
+        rotation -1 0 0 0.00012512375777581366
         children [
           DEF PHALANX_8 HingeJoint {
             jointParameters HingeJointParameters {
-              position 0.0001333864424132494
+              position 0.00013397755771205055
               axis -1 0 0
               anchor 1 -0.01 0.01
             }
@@ -340,12 +339,12 @@ Robot {
               }
             ]
             endPoint Solid {
-              translation -5.133449849648031e-07 -0.03899986039580352 0.018618366972570244
-              rotation 0.9999999999732352 -3.112640633838606e-06 -6.621276441288246e-06 1.5700666135561974
+              translation -5.133449856309369e-07 -0.03899985530134992 0.018618384114829887
+              rotation 0.9999999999732351 -3.112643511444663e-06 -6.621277479721255e-06 1.5700660224408989
               children [
                 DEF PHALANX_9 HingeJoint {
                   jointParameters HingeJointParameters {
-                    position 0.00015164931172084728
+                    position 0.0001518469387884469
                     axis -1 0 0
                     anchor 1 -0.01 0.01
                   }
@@ -355,8 +354,8 @@ Robot {
                     }
                   ]
                   endPoint Solid {
-                    translation 9.645513276979045e-10 -0.02814267215369473 0.01758771685841982
-                    rotation 0.9999999999999973 4.548241573073532e-09 7.184859806853806e-08 1.6479983506882847
+                    translation 9.645511056532996e-10 -0.02814267065415616 0.01758772044390277
+                    rotation 0.9999999999999974 4.548249088692744e-09 7.184860419073861e-08 1.6479981530612176
                     children [
                       DEF FORM Shape {
                         appearance PBRAppearance {
@@ -403,7 +402,7 @@ Robot {
     }
     DEF PHALANX_10 HingeJoint {
       jointParameters HingeJointParameters {
-        position 0.00012509495526269454
+        position 0.00012512523019458932
         axis -1 0 0
         anchor -0.002 0.14 0.11
       }
@@ -413,12 +412,12 @@ Robot {
         }
       ]
       endPoint Solid {
-        translation 0.029999999999999936 0.13200325253142334 0.13600100055620576
-        rotation -1 0 0 0.00012509495625419255
+        translation 0.029999999999999964 0.13200325331860188 0.13600100079830674
+        rotation -1 0 0 0.00012512523068504173
         children [
           DEF PHALANX_11 HingeJoint {
             jointParameters HingeJointParameters {
-              position 0.00013340822115360092
+              position 0.00013397878511489658
               axis -1 0 0
               anchor 1 -0.01 0.01
             }
@@ -428,12 +427,12 @@ Robot {
               }
             ]
             endPoint Solid {
-              translation -4.1735499811679233e-07 -0.035398284666430635 0.019824687195680257
-              rotation 0.9999999999745307 -3.3747547223423073e-06 -6.288834674181804e-06 1.570066591778815
+              translation -4.1735499878292615e-07 -0.03539827906081407 0.01982470168702457
+              rotation 0.9999999999745307 -3.3747574798938314e-06 -6.288835506826233e-06 1.5700660212148536
               children [
                 DEF PHALANX_12 HingeJoint {
                   jointParameters HingeJointParameters {
-                    position 0.00015163606866095281
+                    position 0.00015184665256140484
                     axis -1 0 0
                     anchor 1 -0.01 0.01
                   }
@@ -443,8 +442,8 @@ Robot {
                     }
                   ]
                   endPoint Solid {
-                    translation 2.5116906443578557e-08 -0.028385093071097323 0.019326754674970734
-                    rotation 0.9999999999999768 -5.787156334252026e-08 2.0705991775802926e-07 1.6479983639313625
+                    translation 2.5116906665623162e-08 -0.028385091107032544 0.019326758546575132
+                    rotation 0.9999999999999769 -5.787154718102945e-08 2.0705994403182592e-07 1.6479981533474621
                     children [
                       DEF FORM Shape {
                         appearance PBRAppearance {
@@ -524,70 +523,8 @@ Robot {
       }
     }
   ]
-  name "robo-hand"
   boundingObject USE FORM
   physics Physics {
   }
-  controller "<extern>"
-}
-Solid {
-  translation 0.29 -0.27 0.06
-  rotation -3.3905013482585576e-09 0.7071062811861719 0.7071072811865696 3.14159
-  children [
-    DEF BODY Shape {
-      appearance PBRAppearance {
-        baseColor 0.341176 0.890196 0.537255
-        metalness 0
-      }
-      geometry Cylinder {
-        height 0.1
-        radius 0.025
-      }
-    }
-  ]
-  name "cylinder"
-  boundingObject USE BODY
-  physics Physics {
-    density 10
-    centerOfMass [
-      0 0 0
-    ]
-  }
-}
-Solid {
-  translation 0.19 0 0.11
-  children [
-    DEF BODY Shape {
-      appearance PBRAppearance {
-        baseColor 1 0.470588 0
-        metalness 0
-      }
-      geometry Box {
-        size 0.075 0.075 0.075
-      }
-    }
-  ]
-  name "box"
-  boundingObject USE BODY
-  physics Physics {
-  }
-}
-Solid {
-  translation -0.25 0 0.12
-  children [
-    DEF BODY Shape {
-      appearance PBRAppearance {
-        baseColor 0.207843 0.517647 0.894118
-        metalness 0
-      }
-      geometry Sphere {
-        radius 0.065
-        subdivision 2
-      }
-    }
-  ]
-  name "sphere"
-  boundingObject USE BODY
-  physics Physics {
-  }
+  controller "basic_hand_controller"
 }
